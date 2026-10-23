@@ -1,0 +1,102 @@
+{
+  "label": "urp",
+  "passed": true,
+  "failure": null,
+  "errors": [],
+  "unityVersion": "6000.5.10f1",
+  "pipeline": "UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset",
+  "firstFrame": 839,
+  "lastFrame": 861,
+  "elapsedMilliseconds": 708,
+  "screen": {
+    "width": 720,
+    "height": 1280
+  },
+  "views": [
+    {
+      "screen": "home",
+      "flow": "Home",
+      "frame": 842,
+      "width": 720,
+      "height": 1280,
+      "path": "/Users/xhy/UnityEditorProj/Projects/PortCargo/Docs/Evidence/urp-20261023/urp-home.png",
+      "screenshotSha256": "4c3acc5e30a20af40942de9f7a17a2c0b67983d791effebad37cc5a13805e015",
+      "activeGraphics": 29,
+      "materials": [
+        {
+          "material": "PortCargoUI - Regular Material",
+          "shader": "TextMeshPro/Mobile/Distance Field",
+          "supported": true,
+          "errorShader": false
+        },
+        {
+          "material": "Default UI Material",
+          "shader": "UI/Default",
+          "supported": true,
+          "errorShader": false
+        }
+      ],
+      "missingGlyphs": []
+    },
+    {
+      "screen": "L200",
+      "flow": "Playing",
+      "frame": 845,
+      "width": 720,
+      "height": 1280,
+      "path": "/Users/xhy/UnityEditorProj/Projects/PortCargo/Docs/Evidence/urp-20261023/urp-L200.png",
+      "screenshotSha256": "33780bf76da55c680b8056011bd2745e5874e2e7262c1677fff3e4dfeee8e065",
+      "activeGraphics": 77,
+      "materials": [
+        {
+          "material": "Default UI Material",
+          "shader": "UI/Default",
+          "supported": true,
+          "errorShader": false
+        },
+        {
+          "material": "PortCargoUI - Regular Material",
+          "shader": "TextMeshPro/Mobile/Distance Field",
+          "supported": true,
+          "errorShader": false
+        }
+      ],
+      "missingGlyphs": []
+    }
+  ],
+  "interactions": [
+    {
+      "kind": "cargo",
+      "id": "L200-B1",
+      "x": 71.58002,
+      "y": 737.019958,
+      "raycast": "BoxSlot5",
+      "beforeVersion": 0,
+      "afterVersion": 1,
+      "passed": true
+    },
+    {
+      "kind": "undo",
+      "x": 194.400009,
+      "y": 98.0,
+      "raycast": "UndoButton",
+      "afterVersion": 2,
+      "exactBoardRestored": true,
+      "passed": true
+    }
+  ],
+  "storage": {
+    "isolatedInMemory": true,
+    "physicalDirectory": "/Users/xhy/Library/Application Support/PortCargo/PortCargo/Saves",
+    "hashesBefore": {
+      "portcargo.save.a": "713dee8f100380ff57646516f6352e6fdea732b6d65bdfa657c884371751568f",
+      "portcargo.save.b": "611711e8dc2e14e271c14a84b2a2d33f9dc65d65c25be121ee38caa3e926ed88"
+    },
+    "hashesAfter": {
+      "portcargo.save.a": "713dee8f100380ff57646516f6352e6fdea732b6d65bdfa657c884371751568f",
+      "portcargo.save.b": "611711e8dc2e14e271c14a84b2a2d33f9dc65d65c25be121ee38caa3e926ed88"
+    },
+    "unchanged": true,
+    "note": "Physical save hashes cover this probe only; ordinary Bootstrap boot occurred before the probe. Presenter remains in-memory until Play Mode stops."
+  }
+}

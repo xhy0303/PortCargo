@@ -6,6 +6,8 @@
 
 当前验证使用 Unity CLI `1.0.0-beta.14`；Pipeline `0.8.0-exp.1`；Input System `1.20.0`。完整依赖见 `Packages/manifest.json` 与 `packages-lock.json`。微信 SDK 保持原锁定提交加本地兼容补丁，不追随 main。
 
+2026-10-23 工程已迁移到 **URP 17.5.0 / Universal Renderer（Forward）**，全部画质档位统一使用 `Assets/PortCargo/Settings/Rendering/PortCargoURP.asset`。迁移测试、独立构建及平台验收边界见 [URP-Migration.md](URP-Migration.md)。
+
 ## 制作与启动
 
 1. 打开工程，等待编译完成，打开 `Assets/PortCargo/Scenes/Bootstrap.unity`。
@@ -16,7 +18,7 @@
 
 构建菜单通过 Editor update 消费 `Temp/portcargo-build-request.txt`，保证控制请求先返回，实际构建在 Editor 主线程执行。文件内容为 `preview` 或 `validation`。播放、编译或导入时暂不执行；退出 Play Mode 后执行。不要同时提交两个构建请求。
 
-本轮没有 Git 仓库提交，清单的 gitCommit 为 null。已有 `.gitignore`，忽略 Library、Temp、Builds 及测试工具 bin/obj，保留工具 csproj。后续建库时应提交 Assets、Packages、ProjectSettings、Tools、Docs。
+历史构建清单的 gitCommit 为 null。2026-10-23 已建立 GitHub 备份；仓库提交 Assets、Packages、ProjectSettings、Tools、Docs，忽略 Library、Temp、Builds 及测试工具 bin/obj，保留工具 csproj。
 
 ## 存档
 

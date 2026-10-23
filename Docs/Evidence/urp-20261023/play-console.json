@@ -1,0 +1,159 @@
+{
+  "success": true,
+  "command": "command console",
+  "data": {
+    "command": "console",
+    "parameters": {
+      "level": "warn",
+      "tail": "100"
+    },
+    "result": {
+      "entries": [
+        {
+          "seq": 49,
+          "timestampUtc": "2026-10-23T10:51:58.101707Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Ignoring depth surface load action as it is memoryless",
+          "stackTrace": "\n",
+          "seeded": true
+        },
+        {
+          "seq": 50,
+          "timestampUtc": "2026-10-23T10:51:58.101707Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Ignoring depth surface store action as it is memoryless",
+          "stackTrace": "\n",
+          "seeded": true
+        },
+        {
+          "seq": 51,
+          "timestampUtc": "2026-10-23T10:54:28.646983Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Packages/com.qq.weixin.minigame/Editor/WXEditorSettingHelper.cs(1195,36): warning CS0618: 'PlayerSettings.GetScriptingDefineSymbolsForGroup(BuildTargetGroup)' is obsolete: 'Use GetScriptingDefineSymbols(NamedBuildTarget buildTarget) instead'",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 52,
+          "timestampUtc": "2026-10-23T10:54:28.647895Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Packages/com.qq.weixin.minigame/Editor/WXEditorSettingHelper.cs(1213,21): warning CS0618: 'PlayerSettings.SetScriptingDefineSymbolsForGroup(BuildTargetGroup, string)' is obsolete: 'Use SetScriptingDefineSymbols(NamedBuildTarget buildTarget, string defines) instead'",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 53,
+          "timestampUtc": "2026-10-23T10:54:28.647926Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Packages/com.qq.weixin.minigame/Editor/WXEditorSettingHelper.cs(1222,21): warning CS0618: 'PlayerSettings.SetScriptingDefineSymbolsForGroup(BuildTargetGroup, string)' is obsolete: 'Use SetScriptingDefineSymbols(NamedBuildTarget buildTarget, string defines) instead'",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 54,
+          "timestampUtc": "2026-10-23T10:54:28.647974Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Packages/com.qq.weixin.minigame/Editor/WXConvertCore.cs(783,94): warning CS0618: 'GraphicsDeviceType.OpenGLES2' is obsolete: 'OpenGL ES 2.0 is no longer supported in Unity 2023.1'",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 55,
+          "timestampUtc": "2026-10-23T10:54:28.648005Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Packages/com.qq.weixin.minigame/Editor/WXConvertCore.cs(903,36): warning CS0618: 'PlayerSettings.GetScriptingDefineSymbolsForGroup(BuildTargetGroup)' is obsolete: 'Use GetScriptingDefineSymbols(NamedBuildTarget buildTarget) instead'",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 56,
+          "timestampUtc": "2026-10-23T10:54:28.64812Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Packages/com.qq.weixin.minigame/Editor/Playable/WXPlayableEditorSettingHelper.cs(19,29): warning CS0414: The field 'WXPlayableSettingsHelper.m_EnablePerfTool' is assigned but its value is never used",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 57,
+          "timestampUtc": "2026-10-23T10:54:28.648141Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Packages/com.qq.weixin.minigame/Editor/WXEditorSettingHelper.cs(1222,21): warning CS0618: 'PlayerSettings.SetScriptingDefineSymbolsForGroup(BuildTargetGroup, string)' is obsolete: 'Use SetScriptingDefineSymbols(NamedBuildTarget buildTarget, string defines) instead'",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 58,
+          "timestampUtc": "2026-10-23T10:54:28.64816Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Packages/com.qq.weixin.minigame/Editor/WXConvertCore.cs(783,94): warning CS0618: 'GraphicsDeviceType.OpenGLES2' is obsolete: 'OpenGL ES 2.0 is no longer supported in Unity 2023.1'",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 59,
+          "timestampUtc": "2026-10-23T10:54:28.648173Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Packages/com.qq.weixin.minigame/Editor/WXConvertCore.cs(903,36): warning CS0618: 'PlayerSettings.GetScriptingDefineSymbolsForGroup(BuildTargetGroup)' is obsolete: 'Use GetScriptingDefineSymbols(NamedBuildTarget buildTarget) instead'",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 60,
+          "timestampUtc": "2026-10-23T10:54:28.648189Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Packages/com.qq.weixin.minigame/Editor/Playable/WXPlayableEditorSettingHelper.cs(19,29): warning CS0414: The field 'WXPlayableSettingsHelper.m_EnablePerfTool' is assigned but its value is never used",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 61,
+          "timestampUtc": "2026-10-23T10:54:40.191786Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "URP Global Settings Asset has been created for you. If you want to modify it, go to Project Settings > Graphics > URP Global Settings Asset",
+          "stackTrace": "UnityEditor.AssetPostprocessingInternal:PostprocessAllAssets (string[],string[],string[],string[],string[],bool) (at /Users/bokken/build/output/unity/unity/Editor/Mono/AssetPostprocessor.cs:399)\n",
+          "seeded": false
+        }
+      ],
+      "cursor": 61,
+      "session": "811d7161f9d54a6a94efd4c1902d4db9",
+      "returned": 13,
+      "dropped": false,
+      "reset": false,
+      "counts": {
+        "error": 0,
+        "warn": 13,
+        "log": 0
+      },
+      "groundTruth": {
+        "sampledUtc": "2026-10-23T11:00:45.308067Z",
+        "ageMs": 82,
+        "compilationFailed": false,
+        "compiling": false,
+        "consoleErrors": 0,
+        "consoleWarnings": 2,
+        "consoleLogs": 0,
+        "seeded": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Users/xhy/UnityEditorProj/Projects/PortCargo"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

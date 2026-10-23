@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "unity": "6000.5.10f1",
+  "graphics": "Assets/PortCargo/Settings/Rendering/PortCargoURP.asset",
+  "renderer": "Assets/PortCargo/Settings/Rendering/PortCargoRenderer.asset",
+  "activePipeline": "UnityEngine.Rendering.Universal.UniversalRenderPipeline",
+  "globalSettings": "Assets/UniversalRenderPipelineGlobalSettings.asset",
+  "defaultVolumeProfile": "Assets/DefaultVolumeProfile.asset",
+  "defaultVolumeComponentCount": 19,
+  "rendererMode": "Forward",
+  "defaultRendererIndex": 0,
+  "quality": [
+    {
+      "name": "Very Low",
+      "path": "Assets/PortCargo/Settings/Rendering/PortCargoURP.asset"
+    },
+    {
+      "name": "Low",
+      "path": "Assets/PortCargo/Settings/Rendering/PortCargoURP.asset"
+    },
+    {
+      "name": "Medium",
+      "path": "Assets/PortCargo/Settings/Rendering/PortCargoURP.asset"
+    },
+    {
+      "name": "High",
+      "path": "Assets/PortCargo/Settings/Rendering/PortCargoURP.asset"
+    },
+    {
+      "name": "Very High",
+      "path": "Assets/PortCargo/Settings/Rendering/PortCargoURP.asset"
+    },
+    {
+      "name": "Ultra",
+      "path": "Assets/PortCargo/Settings/Rendering/PortCargoURP.asset"
+    }
+  ],
+  "intermediateTexture": "Auto",
+  "rendererFeatures": 0,
+  "depthPriming": "Disabled",
+  "hdr": false,
+  "msaa": 1,
+  "renderScale": 1.0,
+  "depthTexture": false,
+  "opaqueTexture": false,
+  "mainLights": "Disabled",
+  "additionalLights": "Disabled",
+  "srpBatcher": true,
+  "colorSpace": "Gamma",
+  "macOSBuildSupported": true,
+  "webGLBuildSupported": true
+}

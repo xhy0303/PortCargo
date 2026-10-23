@@ -1,0 +1,11 @@
+{
+  "beforeMaterialCount": 7,
+  "afterMaterialCount": 11,
+  "preexistingMaterialChanges": [],
+  "newImportedAssets": [
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph",
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph",
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph",
+    "Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph"
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "buildId": "build_7e844e91c878",
+  "result": "Succeeded",
+  "platform": "StandaloneOSX",
+  "totalSizeBytes": 338644671,
+  "buildTimeMs": 170075,
+  "totalWarnings": 42,
+  "totalErrors": 0,
+  "warnings": [
+    {
+      "message": "Pipeline: RuntimePipelineConfig found, but enableInBuilds = false. Pipeline will be disabled in Player builds."
+    },
+    {
+      "message": "warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentFlowChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentFlowChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentFlowChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentFlowChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentFlowChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentMusicChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentMusicChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentMusicChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentMusicChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentMusicChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentTechnicalChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentTechnicalChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentTechnicalChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentTechnicalChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentTechnicalChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentTechnicalChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentTechnicalChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentTechnicalChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentTechnicalChecks.cs"
+    },
+    {
+      "message": "warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+      "file": "Assets/PortCargo/Scripts/Runtime/DevelopmentTechnicalChecks.cs"
+    }
+  ],
+  "errors": []
+}

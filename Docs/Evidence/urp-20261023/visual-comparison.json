@@ -1,0 +1,14 @@
+[
+  {
+    "view": "home",
+    "builtinSha256": "4c3acc5e30a20af40942de9f7a17a2c0b67983d791effebad37cc5a13805e015",
+    "urpSha256": "4c3acc5e30a20af40942de9f7a17a2c0b67983d791effebad37cc5a13805e015",
+    "identicalPng": true
+  },
+  {
+    "view": "L200",
+    "builtinSha256": "33780bf76da55c680b8056011bd2745e5874e2e7262c1677fff3e4dfeee8e065",
+    "urpSha256": "33780bf76da55c680b8056011bd2745e5874e2e7262c1677fff3e4dfeee8e065",
+    "identicalPng": true
+  }
+]

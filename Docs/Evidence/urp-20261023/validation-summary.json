@@ -1,0 +1,17 @@
+{
+  "unity": "6000.5.10f1",
+  "urp": "17.5.0",
+  "baselineCommit": "a4d72061a84281bff34ae4f4de5868475e546ef2",
+  "graphicsAndAllQualityVerified": true,
+  "visualPngPairsIdentical": true,
+  "playPointerAndUndoPassed": true,
+  "campaignSolutions": 200,
+  "ruleCheckRecords": 212,
+  "macOSBuild": "Succeeded",
+  "buildErrors": 0,
+  "buildWarnings": 42,
+  "playerWriteExitCode": 0,
+  "playerReadExitCode": 0,
+  "wechatExportRetested": false,
+  "mobileDeviceRetested": false
+}
