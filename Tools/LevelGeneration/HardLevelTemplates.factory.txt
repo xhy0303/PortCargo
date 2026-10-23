@@ -1,0 +1,36 @@
+        public static int Count => Encoded.Length;
+        public static GeneratedLevel Create(int seed, int round)
+        {
+            uint state=unchecked((uint)seed ^ (uint)round*0x9E3779B9u ^ 0xB5297A4Du);
+            if(state==0)state=1;
+            // Coprime stride visits all 50 templates before repeating for one fixed seed.
+            int tier=round<20?0:round<50?1:2;
+            int offset=(int)((uint)seed%50);
+            int index=tier*50+(int)(((long)round*17+offset)%50);
+            var parts=Encoded[index].Split('|');
+            var sources=parts[0].Split('/');var orders=parts[1].Split('/');
+            var palette=new[]{"R","B","G","Y"};var slots=new[]{0,1,2,3,4,5};
+            for(int i=3;i>0;i--){int j=Next(ref state,i+1);var c=palette[i];palette[i]=palette[j];palette[j]=c;}
+            for(int i=5;i>0;i--){int j=Next(ref state,i+1);var s=slots[i];slots[i]=slots[j];slots[j]=s;}
+            var data=new LevelData{id="E01",schemaVersion=1,revision=EndlessGenerator.Version,bufferCapacity=3,
+                stacks=new StackData[6],ships=new ShipData[orders.Length]};
+            const string types="RBGY";
+            for(int s=0;s<6;s++)
+            {
+                var boxes=new BoxData[sources[s].Length];
+                for(int b=0;b<boxes.Length;b++)boxes[b]=new BoxData{id="E01-B"+s+"-"+b,type=palette[types.IndexOf(sources[s][b])]};
+                data.stacks[slots[s]]=new StackData{id="S"+(slots[s]+1),boxes=boxes};
+            }
+            for(int i=0;i<orders.Length;i++)data.ships[i]=new ShipData{id="E01-V"+(i+1),type=palette[types.IndexOf(orders[i][0])],capacity=orders[i][1]-'0'};
+            var level=new LevelDefinition(data);var board=GameRules.Initial(level);var solution=new string[parts[2].Length];
+            for(int i=0;i<solution.Length;i++)
+            {
+                solution[i]=GameRules.Top(level,board,slots[parts[2][i]-'0']);
+                var move=GameRules.Apply(level,board,3,solution[i]);
+                if(!move.Accepted)throw new System.InvalidOperationException("Hard template witness rejected");
+                board=move.Board;
+            }
+            if(GameRules.Status(level,board,3)!=BoardStatus.Completed)throw new System.InvalidOperationException("Hard template incomplete");
+            return new GeneratedLevel{Data=data,Seed=seed,GeneratorVersion=EndlessGenerator.Version,Solution=solution};
+        }
+        static int Next(ref uint state,int count){state^=state<<13;state^=state>>17;state^=state<<5;return (int)(state%(uint)count);}

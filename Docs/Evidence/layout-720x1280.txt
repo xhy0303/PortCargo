@@ -1,0 +1,6 @@
+HintButton 260.0x100.0 PASS
+SettingsButton 112.0x100.0 PASS
+QueueButton 108.0x100.0 PASS
+UndoButton 260.0x100.0 PASS
+U02 runtime viewport=720x1280; active controls in bounds; no missing visible glyphs
+RESULT PASS

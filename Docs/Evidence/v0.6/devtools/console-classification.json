@@ -1,0 +1,107 @@
+{
+  "final-primary-console": {
+    "errorLevelEntries": [
+      [
+        "[error]",
+        "[PLUGIN ERROR 16:28.25.839] ",
+        "[开发阶段提示 不影响线上版本]请使用自定义上报能力 WX.ReportGameStart, 便于分析数据做启动优化, 文档: \nhttps://github.com/wechat-miniprogram/minigame-unity-webgl-transform/blob/main/Design/ReportStartupStat.md"
+      ]
+    ],
+    "warningEntries": [
+      [
+        "[warn]",
+        "[PLUGIN WARN 16:27.24.238] ",
+        "[仅开发版/体验版生效]已开启最佳实践检测, 请前往github查阅说明文档:\nhttps://github.com/wechat-miniprogram/minigame-unity-webgl-transform/blob/main/Design/PerformanceMonitor.md"
+      ],
+      [
+        "[warn]",
+        "navigator.mediaDevices not supported by this browser. Webcam access will not be available. Try hosting the page over HTTPS, because some browsers disable webcam access when insecure HTTP is being used."
+      ],
+      [
+        "[warn]",
+        "[PLUGIN WARN 16:27.25.631] ",
+        "IndexedDB is not available. Data will not persist in cache and PlayerPrefs will not be saved."
+      ],
+      [
+        "[warn]",
+        "不建议使用WX.SetPreferredFramesPerSecond()，建议用Application.targetFrameRate代替。\n"
+      ],
+      [
+        "[warn]",
+        "[PLUGIN MONITOR] ",
+        "[monitor-report]",
+        "检测报告: ",
+        "[String] wasm下载耗时: 617ms\nwasm包大小: 5.48MB\n资源包下载耗时: 0ms\n资源包大小: 17.94MB\n资源包是否压缩: false\n引擎初始化耗时: 201ms\n引擎初始化完成耗时: 1622ms\n预下载配置个数: 0\n总预下载完成个数: 0\n总预下载完成大小: 0.00MB\n引擎初始化完成时预载个数: 0\n引擎初始化完成时预载大小: 0.00MB\n网络时长: 0ms\n网络时长占比: 0.0%\n距首个网络请求开始时长: 0ms\n总请求个数(含命中本地缓存): 0\n实际网络请求个数(未命中本地缓存): 0\n自动缓存资源个数: 0\n未自动缓存资源个数: 0\n自动缓存资源网络个数: 0\n纹理个数: 0\n总资源大小(含预载): 0.00MB\n总资源大小(不含预载): 0.00MB\n自动缓存资源大小: 0.00MB\n未自动缓存资源大小: 0.00MB\n自动缓存资源网络大小: 0.00MB\n纹理大小: 0.00MB\n是否缓存纹理: true\n平均并发数: 1\n最大并发数: 0\n平均请求阻塞时长: 0ms\nTOP5请求阻塞时长: []\n平均读缓存耗时: 0ms\nTOP5读缓存耗时:... (length=873)"
+      ]
+    ],
+    "pluginInfo": {
+      "pluginVersion": "1.3.14",
+      "unityVersion": "6000.3.25f1",
+      "loadDataPackageFromSubpackage": true,
+      "adSpaceType": 0,
+      "adType": 0,
+      "materialType": 0,
+      "abTest": "wasmsplit_1,filequota_1,wasmpatch_1,wxfont_1,paralleldownload_2022102802,wasmsplit.reportInterval_60000,wasmsplit.delayFuncInitTime_0,wasmsplit.delayInitTime_10000,wasmsplit.reportStrategy_3",
+      "maxAllowSize": 204472320,
+      "useWasmSplit": false,
+      "canUseHighPerformance": false,
+      "assetsLoadType": 0,
+      "instanceId": "",
+      "canUseCommonPackage": false,
+      "codeMd5": "bea47d7caa9d7a26",
+      "usedTextureCompression": false,
+      "usedAutoStreaming": false,
+      "dataMd5": "275262996d4bae26",
+      "contextType": "webgl2"
+    },
+    "fatalGameExceptions": []
+  },
+  "pixel9-console": {
+    "errorLevelEntries": [],
+    "warningEntries": [
+      [
+        "[warn]",
+        "小程序基础库从 3.7.0 起正式支持 HarmonyOS 平台，开发者可通过 wx.getDeviceInfo() 判断平台进行兼容处理，让小程序在 HarmonyOS 也获得最佳体验，查看指引[https://developers.weixin.qq.com/community/develop/doc/00008e041106f0259bb33530164409]"
+      ],
+      [
+        "[warn]",
+        "[PLUGIN WARN 16:29.14.078] ",
+        "[仅开发版/体验版生效]已开启最佳实践检测, 请前往github查阅说明文档:\nhttps://github.com/wechat-miniprogram/minigame-unity-webgl-transform/blob/main/Design/PerformanceMonitor.md"
+      ],
+      [
+        "[warn]",
+        "navigator.mediaDevices not supported by this browser. Webcam access will not be available. Try hosting the page over HTTPS, because some browsers disable webcam access when insecure HTTP is being used."
+      ],
+      [
+        "[warn]",
+        "[PLUGIN WARN 16:29.15.456] ",
+        "IndexedDB is not available. Data will not persist in cache and PlayerPrefs will not be saved."
+      ],
+      [
+        "[warn]",
+        "不建议使用WX.SetPreferredFramesPerSecond()，建议用Application.targetFrameRate代替。\n"
+      ]
+    ],
+    "pluginInfo": {
+      "pluginVersion": "1.3.14",
+      "unityVersion": "6000.3.25f1",
+      "loadDataPackageFromSubpackage": true,
+      "adSpaceType": 0,
+      "adType": 0,
+      "materialType": 0,
+      "abTest": "wasmsplit_1,filequota_1,wasmpatch_1,wxfont_1,paralleldownload_2022102802,wasmsplit.reportInterval_60000,wasmsplit.delayFuncInitTime_0,wasmsplit.delayInitTime_10000,wasmsplit.reportStrategy_3",
+      "maxAllowSize": 204472320,
+      "useWasmSplit": false,
+      "canUseHighPerformance": false,
+      "assetsLoadType": 0,
+      "instanceId": "",
+      "canUseCommonPackage": false,
+      "codeMd5": "bea47d7caa9d7a26",
+      "usedTextureCompression": false,
+      "usedAutoStreaming": false,
+      "dataMd5": "275262996d4bae26",
+      "contextType": "webgl2"
+    },
+    "fatalGameExceptions": []
+  }
+}

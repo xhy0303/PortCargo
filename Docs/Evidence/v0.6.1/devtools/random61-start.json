@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "tool": "simulator_screenshot",
+  "clientName": "Codex",
+  "result": {
+    "success": true,
+    "path": "/Users/xhy/UnityEditorProj/Projects/PortCargo/Docs/Evidence/v0.6.1/devtools/random61-start.jpg",
+    "imageWidth": 591,
+    "imageHeight": 1280
+  }
+}

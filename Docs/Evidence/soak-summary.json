@@ -1,0 +1,21 @@
+{
+  "buildId": "20261015-mvp-validation",
+  "status": "incomplete",
+  "lastSampleSeconds": 572.1,
+  "completedRoundsAtLastSample": 136,
+  "transforms": [
+    163
+  ],
+  "audioSources": [
+    7
+  ],
+  "unityAllocatedMinMaxBytes": [
+    58638593,
+    58641345
+  ],
+  "managedMinMaxBytes": [
+    2400256,
+    2502656
+  ],
+  "note": "Process exited without final RESULT marker during the interrupted turn; full 600-second acceptance is not claimed."
+}

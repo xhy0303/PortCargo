@@ -1,0 +1,19 @@
+{
+  "result": "PASS",
+  "elapsedSeconds": 602.1,
+  "loops": 106,
+  "transforms": 352,
+  "audioSources": 7,
+  "warmedUnityDeltaBytes": 5096,
+  "runtimeErrors": 0,
+  "musicNaturalTransitions": 6,
+  "musicOutputCycles": 2,
+  "musicOutputElapsedSeconds": 282.5762,
+  "limitations": [
+    "Current Apple Silicon Mac only",
+    "Lifecycle focus tests use simulated callbacks",
+    "No subjective device listening verdict",
+    "WeChat and phone verification deferred",
+    "Known Unity exit ComputeBuffer cleanup warning persists"
+  ]
+}

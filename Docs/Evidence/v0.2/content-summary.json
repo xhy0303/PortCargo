@@ -1,0 +1,13 @@
+{
+  "originalTenPreserved": true,
+  "levelCount": 50,
+  "newLevelCount": 40,
+  "minimumBufferCounts": {
+    "1": 13,
+    "2": 14,
+    "3": 13
+  },
+  "originalSha256": "ea7abe6c39785e94c4df78d53cd8aca0e0404e55388675cc17c3f16da1287aa2",
+  "catalogSha256": "fc245f4f5b12c80071d6d0e246519f88f643c763cb0d88443630886ab323e253",
+  "fontSha256": "574b2ece2c4df535e2c4cbdfc1ebdf2e60fe62b65ccd0b257859a953d1f8e90f"
+}

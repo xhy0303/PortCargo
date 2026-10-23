@@ -1,0 +1,12 @@
+MUSIC PASS first interaction, independent music/SFX toggles, retained cursor, home/settings, hidden/shown and simulated focus callback ordering
+MUSIC transition=1 track=lantern_current elapsed=45.99
+MUSIC transition=2 track=morning_tide elapsed=96.53
+MUSIC transition=3 track=night_harbor elapsed=140.23
+MUSIC transition=4 track=lantern_current elapsed=188.30
+MUSIC transition=5 track=morning_tide elapsed=238.87
+MUSIC transition=6 track=night_harbor elapsed=282.58
+MUSIC OUTPUT night_harbor peak=0.1408352 audibleFrames=2806
+MUSIC OUTPUT lantern_current peak=0.1466636 audibleFrames=3021
+MUSIC OUTPUT morning_tide peak=0.1462459 audibleFrames=2609
+MUSIC PASS two natural playlist cycles, six transitions, elapsed=282.5762s maxGap=0 sources=7; output samples measured, not a subjective listening verdict
+RESULT PASS

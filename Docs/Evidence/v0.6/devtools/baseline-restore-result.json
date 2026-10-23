@@ -1,0 +1,12 @@
+{
+  "PASS": true,
+  "exactOriginalPayload": true,
+  "originalPayloadChecksum": "2fc04ea308e52a29209b68499306fb4d71661c3893df91cbb6e17fa9401d3dc6",
+  "restoredPayloadChecksum": "2fc04ea308e52a29209b68499306fb4d71661c3893df91cbb6e17fa9401d3dc6",
+  "restoredRunId": "874ad73feb02427f9a3502afeaa150da",
+  "restoredLevel": "L01",
+  "frameworkBytesRestored": true,
+  "entryBytesRestored": true,
+  "originalSimulatorDeviceRestored": true,
+  "method": "IDE stopped; only two test-project simulator storage records restored from captured raw values; clean IDE process confirms original payload"
+}

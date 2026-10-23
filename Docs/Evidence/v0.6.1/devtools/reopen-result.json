@@ -1,0 +1,18 @@
+{
+  "PASS": true,
+  "newWindow": {
+    "ok": true,
+    "tool": "open_project_window",
+    "clientName": "Codex",
+    "result": {
+      "success": true,
+      "type": "newopen",
+      "winId": "s1"
+    }
+  },
+  "beforeRevision": 1047,
+  "afterRevision": 1049,
+  "exactCampaignRunAndUndo": true,
+  "exactEndlessRunAndUndo": true,
+  "exactProfile": true
+}

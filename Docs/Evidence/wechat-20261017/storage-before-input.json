@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "tool": "automation_evaluate",
+  "clientName": "Codex",
+  "result": {
+    "success": true,
+    "result": {
+      "a": "{\"saveSchema\":1,\"revision\":1,\"payload\":\"{\\\"profile\\\":{\\\"unlockedCount\\\":1,\\\"completed\\\":[],\\\"sound\\\":true,\\\"music\\\":true,\\\"reducedMotion\\\":false,\\\"tutorialCompleted\\\":false},\\\"activeRun\\\":{\\\"runId\\\":\\\"c22c2120f3c842d39b3b3a4d55652525\\\",\\\"levelId\\\":\\\"L01\\\",\\\"levelRevision\\\":1,\\\"stateVersion\\\":0,\\\"board\\\":{\\\"heights\\\":[1,1,1],\\\"buffer\\\":[],\\\"shipIndex\\\":0,\\\"shipLoad\\\":0},\\\"undo\\\":[],\\\"expanded\\\":false,\\\"freeHintUsed\\\":false,\\\"adHintUsed\\\":false,\\\"moveCount\\\":0,\\\"undoCount\\\":0,\\\"hintCount\\\":0},\\\"mode\\\":\\\"campaign\\\"}\",\"checksum\":\"5447c12624eff386c9c6038d5e3f0768dff0e1fad6f3734acf9a6ded3bdc7253\"}",
+      "b": "{\"saveSchema\":1,\"revision\":2,\"payload\":\"{\\\"profile\\\":{\\\"unlockedCount\\\":1,\\\"completed\\\":[],\\\"sound\\\":true,\\\"music\\\":true,\\\"reducedMotion\\\":false,\\\"tutorialCompleted\\\":false},\\\"activeRun\\\":{\\\"runId\\\":\\\"c22c2120f3c842d39b3b3a4d55652525\\\",\\\"levelId\\\":\\\"L01\\\",\\\"levelRevision\\\":1,\\\"stateVersion\\\":0,\\\"board\\\":{\\\"heights\\\":[1,1,1],\\\"buffer\\\":[],\\\"shipIndex\\\":0,\\\"shipLoad\\\":0},\\\"undo\\\":[],\\\"expanded\\\":false,\\\"freeHintUsed\\\":false,\\\"adHintUsed\\\":false,\\\"moveCount\\\":0,\\\"undoCount\\\":0,\\\"hintCount\\\":0},\\\"mode\\\":\\\"campaign\\\"}\",\"checksum\":\"5447c12624eff386c9c6038d5e3f0768dff0e1fad6f3734acf9a6ded3bdc7253\"}"
+    }
+  }
+}

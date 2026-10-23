@@ -1,0 +1,4 @@
+U08 PASS changed level revision restarts active run; unlock retained
+U08 PASS damaged newest slot recovers older valid snapshot in live presenter
+U08 PASS both corrupt slots reset safely to L01
+RESULT PASS

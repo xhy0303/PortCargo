@@ -1,0 +1,3 @@
+# Normalize project text on checkout while preserving vendored SDK bytes.
+* text=auto
+/Packages/com.qq.weixin.minigame/** -text

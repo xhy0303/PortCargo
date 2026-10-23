@@ -1,0 +1,189 @@
+{
+  "result": "PASS",
+  "ordinaryExecutableSha256": "3d3327cd4ad93f737b9821518357f8610e7b0e5b7020dd50708df6f611c1c0eb",
+  "distinctProcessIds": [
+    43952,
+    43996
+  ],
+  "homeQuitConfirmed": true,
+  "nativeWindowCloseConfirmed": true,
+  "cancelReturnsHome": true,
+  "twoNormalExitCodes": [
+    0,
+    0
+  ],
+  "separateProcessSaveRestore": true,
+  "realProgressPreserved": true,
+  "saveRevisionBefore": 436,
+  "saveRevisionAfter": 446,
+  "events": [
+    {
+      "action": "window",
+      "contentHeight": 400,
+      "contentWidth": 180,
+      "height": 428,
+      "pid": 43952,
+      "title": "PortCargo",
+      "titlebar": 28,
+      "width": 180,
+      "x": 1205,
+      "y": 368
+    },
+    {
+      "action": "startup-preserved",
+      "pid": 43952,
+      "revision": 438
+    },
+    {
+      "action": "click",
+      "details": {
+        "action": "click",
+        "contentHeight": 400,
+        "contentWidth": 180,
+        "pid": 43952,
+        "title": "PortCargo",
+        "x": 1334.6,
+        "y": 766
+      }
+    },
+    {
+      "action": "click",
+      "details": {
+        "action": "click",
+        "contentHeight": 400,
+        "contentWidth": 180,
+        "pid": 43952,
+        "title": "PortCargo",
+        "x": 1295,
+        "y": 633.732
+      }
+    },
+    {
+      "action": "click",
+      "details": {
+        "action": "click",
+        "contentHeight": 400,
+        "contentWidth": 180,
+        "pid": 43952,
+        "title": "PortCargo",
+        "x": 1295,
+        "y": 603.548
+      }
+    },
+    {
+      "action": "cancel-preserved",
+      "pid": 43952,
+      "revision": 439
+    },
+    {
+      "action": "click",
+      "details": {
+        "action": "click",
+        "contentHeight": 400,
+        "contentWidth": 180,
+        "pid": 43952,
+        "title": "PortCargo",
+        "x": 1334.6,
+        "y": 766
+      }
+    },
+    {
+      "action": "click",
+      "details": {
+        "action": "click",
+        "contentHeight": 400,
+        "contentWidth": 180,
+        "pid": 43952,
+        "title": "PortCargo",
+        "x": 1295,
+        "y": 603.548
+      }
+    },
+    {
+      "action": "normal-exit",
+      "pid": 43952,
+      "exitCode": 0,
+      "revision": 441
+    },
+    {
+      "action": "window",
+      "contentHeight": 400,
+      "contentWidth": 180,
+      "height": 428,
+      "pid": 43996,
+      "title": "PortCargo",
+      "titlebar": 28,
+      "width": 180,
+      "x": 1205,
+      "y": 368
+    },
+    {
+      "action": "startup-preserved",
+      "pid": 43996,
+      "revision": 443
+    },
+    {
+      "action": "close",
+      "details": {
+        "action": "native-window-close",
+        "pid": 43996,
+        "result": 0
+      }
+    },
+    {
+      "action": "click",
+      "details": {
+        "action": "click",
+        "contentHeight": 400,
+        "contentWidth": 180,
+        "pid": 43996,
+        "title": "PortCargo",
+        "x": 1295,
+        "y": 633.732
+      }
+    },
+    {
+      "action": "click",
+      "details": {
+        "action": "click",
+        "contentHeight": 400,
+        "contentWidth": 180,
+        "pid": 43996,
+        "title": "PortCargo",
+        "x": 1295,
+        "y": 603.548
+      }
+    },
+    {
+      "action": "cancel-preserved",
+      "pid": 43996,
+      "revision": 444
+    },
+    {
+      "action": "close",
+      "details": {
+        "action": "native-window-close",
+        "pid": 43996,
+        "result": 0
+      }
+    },
+    {
+      "action": "click",
+      "details": {
+        "action": "click",
+        "contentHeight": 400,
+        "contentWidth": 180,
+        "pid": 43996,
+        "title": "PortCargo",
+        "x": 1295,
+        "y": 603.548
+      }
+    },
+    {
+      "action": "normal-exit",
+      "pid": 43996,
+      "exitCode": 0,
+      "revision": 446
+    }
+  ]
+}

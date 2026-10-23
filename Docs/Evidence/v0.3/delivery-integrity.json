@@ -1,0 +1,10 @@
+{
+  "archive": "/Users/xhy/UnityEditorProj/Projects/PortCargo/Builds/Delivery/PortCargo-macOS-v0.3.0.zip",
+  "bytes": 44755156,
+  "sha256": "f705a488316549ea7fd5d08ccd0a7d015a8f1a29a27eaa7177426773d6cce589",
+  "entries": 210,
+  "crcPass": true,
+  "utf8GuideAndHandoffPass": true,
+  "executableModePass": true,
+  "executableBytesMatch": true
+}

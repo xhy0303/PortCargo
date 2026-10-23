@@ -1,0 +1,2 @@
+DevelopmentChecks absent; runtime Pipeline absent; Roslyn absent: True
+RESULT PASS

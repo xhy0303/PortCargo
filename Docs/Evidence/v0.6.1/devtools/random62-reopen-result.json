@@ -1,0 +1,554 @@
+{
+  "PASS": true,
+  "exactDefinitionAndRunRestored": true,
+  "historyRestored": true,
+  "campaignUnchanged": true,
+  "realUndoRestoredBoard": true,
+  "hintEntitlementPreserved": true,
+  "input": {
+    "action": "native-game-click",
+    "frameHeight": 760,
+    "frameWidth": 351,
+    "frameX": 1108,
+    "frameY": 119,
+    "pid": 10397,
+    "sourceX": 175,
+    "sourceY": 1140,
+    "x": 1211.9340101522844,
+    "y": 795.875
+  },
+  "after": {
+    "profile": {
+      "unlockedCount": 200,
+      "completed": [
+        "L01",
+        "L02",
+        "L03",
+        "L04",
+        "L05",
+        "L06",
+        "L07",
+        "L08",
+        "L09",
+        "L10",
+        "L11",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16",
+        "L17",
+        "L18",
+        "L19",
+        "L20",
+        "L21",
+        "L22",
+        "L23",
+        "L24",
+        "L25",
+        "L26",
+        "L27",
+        "L28",
+        "L29",
+        "L30",
+        "L31",
+        "L32",
+        "L33",
+        "L34",
+        "L35",
+        "L36",
+        "L37",
+        "L38",
+        "L39",
+        "L40",
+        "L41",
+        "L42",
+        "L43",
+        "L44",
+        "L45",
+        "L46",
+        "L47",
+        "L48",
+        "L49",
+        "L50",
+        "L51",
+        "L52",
+        "L53",
+        "L54",
+        "L55",
+        "L56",
+        "L57",
+        "L58",
+        "L59",
+        "L60",
+        "L61",
+        "L62",
+        "L63",
+        "L64",
+        "L65",
+        "L66",
+        "L67",
+        "L68",
+        "L69",
+        "L70",
+        "L71",
+        "L72",
+        "L73",
+        "L74",
+        "L75",
+        "L76",
+        "L77",
+        "L78",
+        "L79",
+        "L80",
+        "L81",
+        "L82",
+        "L83",
+        "L84",
+        "L85",
+        "L86",
+        "L87",
+        "L88",
+        "L89",
+        "L90",
+        "L91",
+        "L92",
+        "L93",
+        "L94",
+        "L95",
+        "L96",
+        "L97",
+        "L98",
+        "L99",
+        "L100",
+        "L101",
+        "L102",
+        "L103",
+        "L104",
+        "L105",
+        "L106",
+        "L107",
+        "L108",
+        "L109",
+        "L110",
+        "L111",
+        "L112",
+        "L113",
+        "L114",
+        "L115",
+        "L116",
+        "L117",
+        "L118",
+        "L119",
+        "L120",
+        "L121",
+        "L122",
+        "L123",
+        "L124",
+        "L125",
+        "L126",
+        "L127",
+        "L128",
+        "L129",
+        "L130",
+        "L131",
+        "L132",
+        "L133",
+        "L134",
+        "L135",
+        "L136",
+        "L137",
+        "L138",
+        "L139",
+        "L140",
+        "L141",
+        "L142",
+        "L143",
+        "L144",
+        "L145",
+        "L146",
+        "L147",
+        "L148",
+        "L149",
+        "L150",
+        "L151",
+        "L152",
+        "L153",
+        "L154",
+        "L155",
+        "L156",
+        "L157",
+        "L158",
+        "L159",
+        "L160",
+        "L161",
+        "L162",
+        "L163",
+        "L164",
+        "L165",
+        "L166",
+        "L167",
+        "L168",
+        "L169",
+        "L170",
+        "L171",
+        "L172",
+        "L173",
+        "L174",
+        "L175",
+        "L176",
+        "L177",
+        "L178",
+        "L179",
+        "L180",
+        "L181",
+        "L182",
+        "L183",
+        "L184",
+        "L185",
+        "L186",
+        "L187",
+        "L188",
+        "L189",
+        "L190",
+        "L191",
+        "L192",
+        "L193",
+        "L194",
+        "L195",
+        "L196",
+        "L197",
+        "L198",
+        "L199",
+        "L200"
+      ],
+      "sound": true,
+      "music": true,
+      "reducedMotion": false,
+      "tutorialCompleted": true
+    },
+    "activeRun": {
+      "runId": "b097654c815a4fef95b9b55bff6716fe",
+      "levelId": "L200",
+      "levelRevision": 2,
+      "stateVersion": 1,
+      "board": {
+        "heights": [
+          5,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "buffer": [
+          "L200-B1"
+        ],
+        "shipIndex": 0,
+        "shipLoad": 0
+      },
+      "undo": [
+        {
+          "heights": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "buffer": [],
+          "shipIndex": 0,
+          "shipLoad": 0
+        }
+      ],
+      "expanded": false,
+      "freeHintUsed": false,
+      "adHintUsed": false,
+      "moveCount": 1,
+      "undoCount": 0,
+      "hintCount": 0
+    },
+    "mode": "endless",
+    "endless": {
+      "generatorVersion": 3,
+      "seed": 1300810240,
+      "round": 62,
+      "recentLayouts": [
+        "28a084e9ca3f411f59bf76a0161545ae64df1ae244c910586078fc65e74e7459",
+        "5ffa5262239453a46f9bfaf145a42c1847b182a285d752e6d295a6aee61b2517",
+        "918b04e627820878bb94c9c14ff78e9e462bb29aa34b8b6dc9ea4d9df39b56fe"
+      ],
+      "level": {
+        "schemaVersion": 1,
+        "revision": 3,
+        "bufferCapacity": 3,
+        "id": "E01",
+        "stacks": [
+          {
+            "id": "S1",
+            "boxes": [
+              {
+                "id": "E01-B22",
+                "type": "G"
+              },
+              {
+                "id": "E01-B21",
+                "type": "G"
+              },
+              {
+                "id": "E01-B20",
+                "type": "R"
+              },
+              {
+                "id": "E01-B19",
+                "type": "B"
+              },
+              {
+                "id": "E01-B18",
+                "type": "R"
+              },
+              {
+                "id": "E01-B14",
+                "type": "G"
+              }
+            ]
+          },
+          {
+            "id": "S2",
+            "boxes": [
+              {
+                "id": "E01-B36",
+                "type": "G"
+              },
+              {
+                "id": "E01-B35",
+                "type": "R"
+              },
+              {
+                "id": "E01-B34",
+                "type": "R"
+              },
+              {
+                "id": "E01-B5",
+                "type": "R"
+              },
+              {
+                "id": "E01-B4",
+                "type": "R"
+              },
+              {
+                "id": "E01-B3",
+                "type": "B"
+              }
+            ]
+          },
+          {
+            "id": "S3",
+            "boxes": [
+              {
+                "id": "E01-B10",
+                "type": "Y"
+              },
+              {
+                "id": "E01-B9",
+                "type": "B"
+              },
+              {
+                "id": "E01-B8",
+                "type": "Y"
+              },
+              {
+                "id": "E01-B7",
+                "type": "R"
+              },
+              {
+                "id": "E01-B6",
+                "type": "R"
+              },
+              {
+                "id": "E01-B1",
+                "type": "B"
+              }
+            ]
+          },
+          {
+            "id": "S4",
+            "boxes": [
+              {
+                "id": "E01-B28",
+                "type": "Y"
+              },
+              {
+                "id": "E01-B26",
+                "type": "R"
+              },
+              {
+                "id": "E01-B17",
+                "type": "G"
+              },
+              {
+                "id": "E01-B16",
+                "type": "B"
+              },
+              {
+                "id": "E01-B15",
+                "type": "G"
+              },
+              {
+                "id": "E01-B11",
+                "type": "B"
+              }
+            ]
+          },
+          {
+            "id": "S5",
+            "boxes": [
+              {
+                "id": "E01-B32",
+                "type": "Y"
+              },
+              {
+                "id": "E01-B31",
+                "type": "G"
+              },
+              {
+                "id": "E01-B27",
+                "type": "G"
+              },
+              {
+                "id": "E01-B23",
+                "type": "B"
+              },
+              {
+                "id": "E01-B12",
+                "type": "B"
+              },
+              {
+                "id": "E01-B2",
+                "type": "Y"
+              }
+            ]
+          },
+          {
+            "id": "S6",
+            "boxes": [
+              {
+                "id": "E01-B33",
+                "type": "Y"
+              },
+              {
+                "id": "E01-B30",
+                "type": "G"
+              },
+              {
+                "id": "E01-B29",
+                "type": "Y"
+              },
+              {
+                "id": "E01-B25",
+                "type": "G"
+              },
+              {
+                "id": "E01-B24",
+                "type": "R"
+              },
+              {
+                "id": "E01-B13",
+                "type": "B"
+              }
+            ]
+          }
+        ],
+        "ships": [
+          {
+            "id": "E01-V1",
+            "type": "R",
+            "capacity": 4
+          },
+          {
+            "id": "E01-V2",
+            "type": "Y",
+            "capacity": 3
+          },
+          {
+            "id": "E01-V3",
+            "type": "B",
+            "capacity": 3
+          },
+          {
+            "id": "E01-V4",
+            "type": "G",
+            "capacity": 2
+          },
+          {
+            "id": "E01-V5",
+            "type": "B",
+            "capacity": 4
+          },
+          {
+            "id": "E01-V6",
+            "type": "G",
+            "capacity": 2
+          },
+          {
+            "id": "E01-V7",
+            "type": "B",
+            "capacity": 2
+          },
+          {
+            "id": "E01-V8",
+            "type": "R",
+            "capacity": 3
+          },
+          {
+            "id": "E01-V9",
+            "type": "G",
+            "capacity": 3
+          },
+          {
+            "id": "E01-V10",
+            "type": "Y",
+            "capacity": 4
+          },
+          {
+            "id": "E01-V11",
+            "type": "R",
+            "capacity": 3
+          },
+          {
+            "id": "E01-V12",
+            "type": "G",
+            "capacity": 3
+          }
+        ]
+      },
+      "run": {
+        "runId": "20ff88db13c04d96b0c879842ce93300",
+        "levelId": "E01",
+        "levelRevision": 3,
+        "stateVersion": 2,
+        "board": {
+          "heights": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "buffer": [],
+          "shipIndex": 0,
+          "shipLoad": 0
+        },
+        "undo": [],
+        "expanded": false,
+        "freeHintUsed": true,
+        "adHintUsed": false,
+        "moveCount": 1,
+        "undoCount": 1,
+        "hintCount": 1
+      }
+    }
+  }
+}

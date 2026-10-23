@@ -1,0 +1,5 @@
+HintButton 115.5x44.4 PASS
+SettingsButton 49.7x44.4 PASS
+QueueButton 48.0x44.4 PASS
+UndoButton 115.5x44.4 PASS
+viewport 1599x984 RESULT PASS

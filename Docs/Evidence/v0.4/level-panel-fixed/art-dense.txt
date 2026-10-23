@@ -1,0 +1,68 @@
+FIXTURE isolated save only: all 50 levels unlocked, guide completed, music off, sound and motion on
+SettingsButton 53.3x44.4 PASS
+QueueButton 53.3x44.4 PASS
+UndoButton 115.5x44.4 PASS
+HintButton 115.5x44.4 PASS
+U02 runtime viewport=320x568; active controls in bounds; no missing visible glyphs
+VIEW PASS Playing 320x568 glyphs/44px controls; art-dense.L10-320x568.png
+DENSE PASS L10 320x568 topMin=47.6x47.6; every top raycast/click/undo; no overlaps; modal blocked
+SettingsButton 53.3x44.4 PASS
+QueueButton 53.3x44.4 PASS
+UndoButton 115.5x44.4 PASS
+HintButton 115.5x44.4 PASS
+U02 runtime viewport=320x568; active controls in bounds; no missing visible glyphs
+VIEW PASS Playing 320x568 glyphs/44px controls; art-dense.L50-320x568.png
+DENSE PASS L50 320x568 topMin=47.6x47.6; every top raycast/click/undo; no overlaps; modal blocked
+SettingsButton 67.1x55.9 PASS
+QueueButton 67.1x55.9 PASS
+UndoButton 145.3x55.9 PASS
+HintButton 145.3x55.9 PASS
+U02 runtime viewport=360x800; active controls in bounds; no missing visible glyphs
+VIEW PASS Playing 360x800 glyphs/44px controls; art-dense.L10-360x800.png
+DENSE PASS L10 360x800 topMin=53.6x53.6; every top raycast/click/undo; no overlaps; modal blocked
+SettingsButton 67.1x55.9 PASS
+QueueButton 67.1x55.9 PASS
+UndoButton 145.3x55.9 PASS
+HintButton 145.3x55.9 PASS
+U02 runtime viewport=360x800; active controls in bounds; no missing visible glyphs
+VIEW PASS Playing 360x800 glyphs/44px controls; art-dense.L50-360x800.png
+DENSE PASS L50 360x800 topMin=53.6x53.6; every top raycast/click/undo; no overlaps; modal blocked
+SettingsButton 120.0x100.0 PASS
+QueueButton 120.0x100.0 PASS
+UndoButton 260.0x100.0 PASS
+HintButton 260.0x100.0 PASS
+U02 runtime viewport=720x1280; active controls in bounds; no missing visible glyphs
+VIEW PASS Playing 720x1280 glyphs/44px controls; art-dense.L10-720x1280.png
+DENSE PASS L10 720x1280 topMin=107.2x107.2; every top raycast/click/undo; no overlaps; modal blocked
+SettingsButton 120.0x100.0 PASS
+QueueButton 120.0x100.0 PASS
+UndoButton 260.0x100.0 PASS
+HintButton 260.0x100.0 PASS
+U02 runtime viewport=720x1280; active controls in bounds; no missing visible glyphs
+VIEW PASS Playing 720x1280 glyphs/44px controls; art-dense.L50-720x1280.png
+DENSE PASS L50 720x1280 topMin=107.2x107.2; every top raycast/click/undo; no overlaps; modal blocked
+ART last campaign level PASS real screen pointer replay; moves=21 ruleMs=0.069
+VIEW PASS Completed 320x568 glyphs/44px controls; art-dense.L50-completed.png
+VIEW PASS LevelSelect 320x568 glyphs/44px controls; art-dense.last-page.png
+Option8 79.3x44.4 PASS
+Option5 58.1x58.1 PASS
+Option9 79.3x44.4 PASS
+EndlessButton 266.5x44.4 PASS
+CampaignButton 266.5x48.0 PASS
+Option4 58.1x58.1 PASS
+Option0 58.1x58.1 PASS
+Option3 58.1x58.1 PASS
+LevelsButton 62.6x48.9 PASS
+HelpButton 62.6x48.9 PASS
+Option7 58.1x58.1 PASS
+Option6 58.1x58.1 PASS
+Option1 58.1x58.1 PASS
+HomeSettingsButton 62.6x48.9 PASS
+Option10 79.3x44.4 PASS
+Option2 58.1x58.1 PASS
+QuitButton 62.6x48.9 PASS
+U02 runtime viewport=320x568; active controls in bounds; no missing visible glyphs
+VIEW PASS LevelSelect 320x568 glyphs/44px controls; art-dense.full-page.png
+ART PASS sparse/full level page bounds=(x:22.40, y:145.39, width:275.20, height:277.22); footer remains fixed
+ART PASS dense viewports, final campaign result and last page
+RESULT PASS

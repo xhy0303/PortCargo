@@ -1,0 +1,11 @@
+{
+  "ordinaryPreviewStarted": true,
+  "campaignExactRunPreserved": true,
+  "endlessExactRunPreserved": true,
+  "completedIdsPreserved": true,
+  "settingsPreserved": true,
+  "unlockedNotReduced": true,
+  "saveChecksumValid": true,
+  "revisionAdvanced": true,
+  "limit": "startup and persistent progress only; UI pointer flow verified in validation player"
+}

@@ -1,0 +1,26 @@
+{
+  "result": "FAIL",
+  "error": "{\"error\":\"target game is not frontmost\"}\n",
+  "events": [
+    {
+      "action": "window",
+      "contentHeight": 400,
+      "contentWidth": 180,
+      "height": 428,
+      "pid": 66402,
+      "title": "PortCargo",
+      "titlebar": 28,
+      "width": 180,
+      "x": 768,
+      "y": 32
+    },
+    {
+      "action": "startup-preserved",
+      "pid": 66402,
+      "revision": 449
+    }
+  ],
+  "remainingOwnedPids": [
+    66402
+  ]
+}

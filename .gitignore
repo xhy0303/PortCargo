@@ -107,3 +107,34 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# PortCargo: local backups and SDK texture-conversion scratch data.
+/[Bb]ackups/
+/TextToolDatas/
+/.idea/
+.DS_Store
+
+# Keep SDK-distributed binaries, symbols and tools (including its node_modules).
+!/Packages/com.qq.weixin.minigame/**/*.pdb
+!/Packages/com.qq.weixin.minigame/**/*.pdb.meta
+!/Packages/com.qq.weixin.minigame/**/*.mdb
+!/Packages/com.qq.weixin.minigame/**/*.mdb.meta
+
+# Reproducible CLI projects; ignore only their generated outputs.
+/Tools/**/bin/
+/Tools/**/obj/
+!/Tools/**/*.csproj
+__pycache__/
+*.py[cod]
+
+# Deliberately retain curated validation logs, not Unity's Logs/ directory.
+!/Docs/Evidence/**/*.log
+
+# Local credentials and machine configuration.
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.p12
+*.pfx

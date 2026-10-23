@@ -1,0 +1,1 @@
+Observed Editor Play exit MissingReferenceException in FeedbackPlayer.Cancel when AudioRoot sources were destroyed before presenter OnDisable. Added Unity object lifetime checks before Stop/SetActive. Verified by a fresh Play/Stop cycle and final Console report.

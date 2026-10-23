@@ -1,0 +1,6 @@
+{
+  "name": "PortCargo.Tests.EditMode",
+  "references": ["PortCargo.Core"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

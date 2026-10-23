@@ -1,0 +1,7 @@
+SOAK seconds=6.4 loops=1 transforms=163 audioSources=7 unityAllocated=58637505 managed=2457600
+SOAK seconds=69.3 loops=16 transforms=163 audioSources=7 unityAllocated=58638649 managed=2469888
+SOAK seconds=132.2 loops=31 transforms=163 audioSources=7 unityAllocated=58638617 managed=2469888
+FAIL System.Exception: soak completion
+  at PortCargo.Runtime.DevelopmentChecks+<Soak>d__31.MoveNext () [0x002a3] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs:208 
+  at PortCargo.Runtime.DevelopmentChecks+<Guarded>d__26.MoveNext () [0x0004e] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs:53 
+RESULT FAIL

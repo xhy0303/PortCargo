@@ -1,0 +1,10 @@
+{
+  "archive": "Builds/Delivery/PortCargo-macOS-v0.1.0.zip",
+  "bytes": 44610380,
+  "sha256": "22b90cda6541f3d53a7ec01ca31dbe63ca2c83766662e83937daa84dc74ea3bb",
+  "crcAllPassed": true,
+  "unicodeReadmeUtf8Passed": true,
+  "executableModePreserved": true,
+  "fileCount": 180,
+  "buildId": "20261015-mvp-preview"
+}

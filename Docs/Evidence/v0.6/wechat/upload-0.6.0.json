@@ -1,0 +1,42 @@
+{
+  "recordedAt": "2026-10-18T08:50:21.869238+00:00",
+  "action": "upload development version",
+  "version": "0.6.0",
+  "appId": "wx19e83e7294013864",
+  "project": "/Users/xhy/UnityEditorProj/Projects/PortCargo/Builds/WeChat/20261018-v0.6/minigame",
+  "artifactFingerprint": "7c1b74f4acdae07e5a829dfc5cefe2489409a4c1ea476b981312fe5aa321c962",
+  "desc": "港口装箱0.6.0：扩展至200关；强化后期无尽难度；优化提示求解；船队列表分页。已完成开发者工具关键流程验证，无广告无内购。",
+  "toolResponse": {
+    "ok": true,
+    "tool": "upload",
+    "clientName": "Codex",
+    "result": {
+      "info": {
+        "size": {
+          "total": 18812211,
+          "packages": [
+            {
+              "name": "TOTAL",
+              "size": 18812211
+            },
+            {
+              "name": "main",
+              "size": 1420540
+            },
+            {
+              "name": "/data-package/",
+              "size": 11649565
+            },
+            {
+              "name": "/wasmcode/",
+              "size": 5742106
+            }
+          ]
+        }
+      },
+      "success": true
+    }
+  },
+  "reviewActionsPerformed": [],
+  "backendReviewStatusRechecked": false
+}

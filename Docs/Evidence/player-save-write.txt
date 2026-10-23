@@ -1,0 +1,2 @@
+U07 WRITE PASS actual UI move saved; version=1; undo=1; muted; reducedMotion
+RESULT PASS

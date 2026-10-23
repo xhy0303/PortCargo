@@ -1,0 +1,16 @@
+{
+  "ok": false,
+  "errorType": "MCP_TOOL_ERROR",
+  "message": "project window not found, open the project first",
+  "source": "mcp_business",
+  "detail": {
+    "rawResult": {
+      "success": false,
+      "error": "project window not found, open the project first"
+    }
+  },
+  "reason": "mcp_business_fail",
+  "tool": "get_simulator_console",
+  "clientName": "Codex",
+  "suggestions": "查看该工具完整参数, wechatide -c Codex get_simulator_console -h"
+}

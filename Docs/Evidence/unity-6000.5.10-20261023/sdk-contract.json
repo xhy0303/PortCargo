@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "editor": "6000.5.10f1",
+  "boxedInt32": true,
+  "stable": true,
+  "distinctObjects": true,
+  "nullIsZero": true,
+  "reinitializationStable": true,
+  "sameLow32BitsRemainDistinct": true
+}

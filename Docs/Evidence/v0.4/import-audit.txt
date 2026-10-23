@@ -1,0 +1,1 @@
+PASS: 63 sprite imports Point / FullRect / no mipmaps / uncompressed; manifest borders match

@@ -1,0 +1,26 @@
+{
+  "buildId": "20261015-mvp-preview",
+  "processLaunched": true,
+  "userAuthorizedExistingSave": true,
+  "savesObservedAfterLaunch": [
+    {
+      "slot": "portcargo.save.b",
+      "revision": 256,
+      "level": "L10",
+      "stateVersion": 0
+    },
+    {
+      "slot": "portcargo.save.a",
+      "revision": 257,
+      "level": "L10",
+      "stateVersion": 0
+    }
+  ],
+  "note": "startup inspection only; no release-package full pointer sweep",
+  "appVersion": "0.1.0",
+  "applicationId": "com.portcargo.prototype",
+  "buildUtc": "2026-10-15T13:54:14.2076860Z",
+  "exitCode": 0,
+  "scriptExceptionsFound": false,
+  "engineShutdownNotes": "Mono finalization and ComputeBuffer garbage collection messages retained in log"
+}

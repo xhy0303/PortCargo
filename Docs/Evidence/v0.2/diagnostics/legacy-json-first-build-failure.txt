@@ -1,0 +1,12 @@
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> PortCargo.Core.DataValidationException: SAVE_ENDLESS_VERSION: Generator version and round must be positive
+  at PortCargo.Core.LevelValidator.Require (System.Boolean condition, System.String code, System.String detail) [0x00003] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Core/LevelValidator.cs:76 
+  at PortCargo.Core.ProgressValidator.Validate (PortCargo.Core.PlayerSave save, PortCargo.Core.LevelDefinition[] campaign) [0x001f4] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Core/ProgressValidator.cs:43 
+  at PortCargo.Tests.RegressionSuite.TestProgress (PortCargo.Core.CatalogData catalog, PortCargo.Core.LevelDefinition[] levels, PortCargo.Core.IJsonCodec codec, System.Collections.Generic.List`1[T] result) [0x0009c] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Tests/EditMode/RegressionSuite.cs:149 
+  at PortCargo.Tests.RegressionSuite.Run (PortCargo.Core.CatalogData catalog, PortCargo.Core.IJsonCodec codec) [0x00891] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Tests/EditMode/RegressionSuite.cs:97 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4ac0ee785b7843ea944af6fc649f4ee5>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <4ac0ee785b7843ea944af6fc649f4ee5>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <4ac0ee785b7843ea944af6fc649f4ee5>:0 
+  at PortCargo.Editor.BuildTools.ValidateContent () [0x003c8] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Editor/BuildTools.cs:66 
+  at PortCargo.Editor.BuildTools.BuildMac (System.Boolean development) [0x0002d] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Editor/BuildTools.cs:90 

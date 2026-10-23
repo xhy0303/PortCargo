@@ -1,0 +1,12 @@
+VIEW PASS Home 320x568 glyphs/44px controls; art-flow.home.png
+VIEW PASS LevelSelect 320x568 glyphs/44px controls; art-flow.levels.png
+VIEW PASS Help 320x568 glyphs/44px controls; art-flow.help.png
+VIEW PASS Paused 320x568 glyphs/44px controls; art-flow.pause.png
+VIEW PASS Settings 320x568 glyphs/44px controls; art-flow.settings.png
+F03 L01 PASS real screen pointer replay; moves=3 ruleMs=0.072
+VIEW PASS Completed 320x568 glyphs/44px controls; art-flow.completed.png
+F01-F04 PASS home, locked/paged levels, first-play guide, queue, pause/help/settings/privacy, campaign result and next level; cancelled switch preserves partial L02
+F05 endless round 1 PASS real screen pointer replay; moves=12 ruleMs=0.080
+VIEW PASS Completed 320x568 glyphs/44px controls; art-flow.endless-completed.png
+F05-F08 WRITE PASS endless restart cancel/confirm/result/next, independent campaign progress, home save, quit confirmation cancellation, final two-mode snapshot
+RESULT PASS

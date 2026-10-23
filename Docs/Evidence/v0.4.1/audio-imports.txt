@@ -1,0 +1,3 @@
+Assets/PortCargo/Audio/MusicV041/night_harbor.wav 48s channels=2 load=Streaming format=Vorbis quality=0.8
+Assets/PortCargo/Audio/MusicV041/lantern_current.wav 50.52633s channels=2 load=Streaming format=Vorbis quality=0.8
+Assets/PortCargo/Audio/MusicV041/morning_tide.wav 43.63637s channels=2 load=Streaming format=Vorbis quality=0.8

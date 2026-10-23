@@ -1,0 +1,21 @@
+{
+  "result": "FAIL",
+  "error": "{'contentHeight': 396, 'contentWidth': 180, 'height': 428, 'pid': 42767, 'title': 'PortCargo', 'titlebar': 32, 'width': 180, 'x': 1205, 'y': 368}",
+  "events": [
+    {
+      "action": "window",
+      "contentHeight": 396,
+      "contentWidth": 180,
+      "height": 428,
+      "pid": 42767,
+      "title": "PortCargo",
+      "titlebar": 32,
+      "width": 180,
+      "x": 1205,
+      "y": 368
+    }
+  ],
+  "remainingOwnedPids": [
+    42767
+  ]
+}

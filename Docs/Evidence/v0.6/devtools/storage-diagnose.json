@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "tool": "automation_evaluate",
+  "clientName": "Codex",
+  "result": {
+    "success": true,
+    "result": {
+      "base": "http://usr",
+      "files": [
+        "__GAME_FILE_CACHE",
+        "miniprogramLog"
+      ],
+      "storageKeys": [
+        "portcargo.save.a",
+        "portcargo.save.b"
+      ],
+      "storageGet": "function(...r){r[r.length-2]===Gy&&(t=r[r.length-1],r=r.slice(0,-2));var o=!1,h=r[0],p=h,g=n+a,f={};if(c){c=!1,s=new Map;var m={};Object.keys(e).forEach((function(t){var r=e[t];if(\"object\"==typeof r&&r){var{hookHandlers:o,getState:c,otherDecoratorStates:p}=r;if(o&&Object.keys(o).forEach((e=>{var r=s.get(e);r?r.push({fn:o[e],metaKey:t}):s.set(e,[{fn:o[e],metaKey:t}])})),c){l.push(t);var g=c(),v=Dat",
+      "storageSet": "function(...r){r[r.length-2]===Gy&&(t=r[r.length-1],r=r.slice(0,-2));var o=!1,h=r[0],p=h,g=n+a,f={};if(c){c=!1,s=new Map;var m={};Object.keys(e).forEach((function(t){var r=e[t];if(\"object\"==typeof r&&r){var{hookHandlers:o,getState:c,otherDecoratorStates:p}=r;if(o&&Object.keys(o).forEach((e=>{var r=s.get(e);r?r.push({fn:o[e],metaKey:t}):s.set(e,[{fn:o[e],metaKey:t}])})),c){l.push(t);var g=c(),v=Dat"
+    }
+  }
+}

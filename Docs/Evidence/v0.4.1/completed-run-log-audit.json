@@ -1,0 +1,44 @@
+{
+  "music": {
+    "runtimeFailureLines": [],
+    "knownCleanupLines": [
+      "GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer."
+    ]
+  },
+  "flow": {
+    "runtimeFailureLines": [],
+    "knownCleanupLines": [
+      "GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer."
+    ]
+  },
+  "read": {
+    "runtimeFailureLines": [],
+    "knownCleanupLines": [
+      "GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer."
+    ]
+  },
+  "edges": {
+    "runtimeFailureLines": [],
+    "knownCleanupLines": [
+      "GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer."
+    ]
+  },
+  "dense": {
+    "runtimeFailureLines": [],
+    "knownCleanupLines": [
+      "GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer."
+    ]
+  },
+  "release-native-1": {
+    "runtimeFailureLines": [],
+    "knownCleanupLines": [
+      "GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer."
+    ]
+  },
+  "release-native-2": {
+    "runtimeFailureLines": [],
+    "knownCleanupLines": [
+      "GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer."
+    ]
+  }
+}

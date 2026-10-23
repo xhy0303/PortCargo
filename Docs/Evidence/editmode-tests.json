@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "duration": 1.16,
+  "summary": {
+    "total": 1,
+    "passed": 1,
+    "failed": 0,
+    "skipped": 0,
+    "inconclusive": 0
+  },
+  "results": [
+    {
+      "FullName": "PortCargo.Tests.RulesTests.SpecificationRegression",
+      "Status": "Passed",
+      "Duration": 0.1575712,
+      "Message": null,
+      "StackTrace": null
+    }
+  ]
+}

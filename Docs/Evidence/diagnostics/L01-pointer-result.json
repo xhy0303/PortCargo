@@ -1,0 +1,30 @@
+{
+  "success": true,
+  "command": "command eval",
+  "data": {
+    "command": "eval",
+    "parameters": {
+      "code": "var p=UnityEngine.Object.FindFirstObjectByType<PortCargo.Runtime.GamePresenter>();return new { level=p.Session.Level.Id,status=p.Session.Status.ToString(),moves=p.Session.Export().moveCount,version=p.Session.Version,unlocked=p.Profile.unlockedCount,lastRuleMs=p.LastMoveMilliseconds };"
+    },
+    "result": {
+      "output": null,
+      "diagnostics": [],
+      "success": true,
+      "result": {
+        "level": "L01",
+        "status": "Playing",
+        "moves": 0,
+        "version": 0,
+        "unlocked": 1,
+        "lastRuleMs": 0
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Users/xhy/UnityEditorProj/Projects/PortCargo"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

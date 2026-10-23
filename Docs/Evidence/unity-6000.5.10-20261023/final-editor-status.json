@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "command": "command editor_status",
+  "data": {
+    "command": "editor_status",
+    "parameters": {},
+    "result": {
+      "status": "ready",
+      "compiling": false,
+      "domainReloadInProgress": false,
+      "playMode": "stopped",
+      "lastHeartbeat": "2026-10-23T10:31:33.110111Z",
+      "projectPath": "/Users/xhy/UnityEditorProj/Projects/PortCargo",
+      "unityVersion": "6000.5.10f1"
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Users/xhy/UnityEditorProj/Projects/PortCargo"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "tool": "open_project_window",
+  "clientName": "Codex",
+  "result": {
+    "success": true,
+    "type": "newopen",
+    "winId": "s0"
+  }
+}

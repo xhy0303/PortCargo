@@ -1,0 +1,9 @@
+2.149137 screen=Home mouse=(0.00, 0.00) pressed=False size=360x800
+7.523081 screen=Home mouse=(259.00, 60.00) pressed=True size=360x800
+7.630371 screen=Confirm mouse=(259.00, 60.00) pressed=False size=360x800
+10.83562 screen=Confirm mouse=(180.00, 325.00) pressed=True size=360x800
+10.9375 screen=Home mouse=(180.00, 325.00) pressed=False size=360x800
+14.17046 screen=Home mouse=(180.00, 385.00) pressed=True size=360x800
+17.50193 screen=Home mouse=(259.00, 60.00) pressed=True size=360x800
+17.63599 screen=Confirm mouse=(259.00, 60.00) pressed=False size=360x800
+20.86944 screen=Confirm mouse=(180.00, 385.00) pressed=True size=360x800

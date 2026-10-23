@@ -1,0 +1,20 @@
+{
+  "unity": "6000.3.25f1",
+  "appId": "wx19e83e7294013864",
+  "sdkCommit": "a09d4b29daa1dd8358b09b5b5639554ab08cfdc2",
+  "devtools": "2.02.2610142",
+  "baseLibrary": "3.17.4",
+  "result": "Succeeded",
+  "platform": "WebGL",
+  "options": "None",
+  "bytes": 50698743,
+  "errors": 0,
+  "warnings": 1,
+  "durationSeconds": 52.298491,
+  "diagnostics": [
+    {
+      "type": "Warning",
+      "message": "Pipeline: RuntimePipelineConfig found, but enableInBuilds = false. Pipeline will be disabled in Player builds."
+    }
+  ]
+}

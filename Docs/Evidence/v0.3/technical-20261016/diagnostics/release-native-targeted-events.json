@@ -1,0 +1,50 @@
+{
+  "result": "FAIL",
+  "error": "{\"error\":\"no AX app window\",\"matchingCGWindows\":[{\"kCGWindowAlpha\":1,\"kCGWindowBounds\":{\"Height\":500,\"Width\":500,\"X\":0,\"Y\":580},\"kCGWindowLayer\":0,\"kCGWindowMemoryUsage\":2432,\"kCGWindowNumber\":2960,\"kCGWindowOwnerName\":\"PortCargo\",\"kCGWindowOwnerPID\":42886,\"kCGWindowSharingState\":0,\"kCGWindowStoreType\":1},{\"kCGWindowAlpha\":1,\"kCGWindowBounds\":{\"Height\":30,\"Width\":1920,\"X\":0,\"Y\":0},\"kCGWindowLayer\":0,\"kCGWindowMemoryUsage\":2432,\"kCGWindowNumber\":2959,\"kCGWindowOwnerName\":\"PortCargo\",\"kCGWindowOwnerPID\":42886,\"kCGWindowSharingState\":0,\"kCGWindowStoreType\":1},{\"kCGWindowAlpha\":1,\"kCGWindowBounds\":{\"Height\":30,\"Width\":1920,\"X\":0,\"Y\":0},\"kCGWindowLayer\":0,\"kCGWindowMemoryUsage\":2432,\"kCGWindowNumber\":2958,\"kCGWindowOwnerName\":\"PortCargo\",\"kCGWindowOwnerPID\":42886,\"kCGWindowSharingState\":0,\"kCGWindowStoreType\":1},{\"kCGWindowAlpha\":1,\"kCGWindowBounds\":{\"Height\":428,\"Width\":180,\"X\":1205,\"Y\":368},\"kCGWindowLayer\":0,\"kCGWindowMemoryUsage\":2432,\"kCGWindowNumber\":2954,\"kCGWindowOwnerName\":\"PortCargo\",\"kCGWindowOwnerPID\":42886,\"kCGWindowSharingState\":0,\"kCGWindowStoreType\":1},{\"kCGWindowAlpha\":1,\"kCGWindowBounds\":{\"Height\":30,\"Width\":1920,\"X\":0,\"Y\":0},\"kCGWindowLayer\":0,\"kCGWindowMemoryUsage\":2432,\"kCGWindowNumber\":2957,\"kCGWindowOwnerName\":\"PortCargo\",\"kCGWindowOwnerPID\":42886,\"kCGWindowSharingState\":0,\"kCGWindowStoreType\":1},{\"kCGWindowAlpha\":1,\"kCGWindowBounds\":{\"Height\":30,\"Width\":1920,\"X\":0,\"Y\":0},\"kCGWindowLayer\":0,\"kCGWindowMemoryUsage\":2432,\"kCGWindowNumber\":2956,\"kCGWindowOwnerName\":\"PortCargo\",\"kCGWindowOwnerPID\":42886,\"kCGWindowSharingState\":0,\"kCGWindowStoreType\":1}],\"pid\":42886}\n",
+  "events": [
+    {
+      "action": "window",
+      "contentHeight": 400,
+      "contentWidth": 180,
+      "height": 428,
+      "pid": 42886,
+      "title": "PortCargo",
+      "titlebar": 28,
+      "width": 180,
+      "x": 1205,
+      "y": 368
+    },
+    {
+      "action": "startup-preserved",
+      "pid": 42886,
+      "revision": 432
+    },
+    {
+      "action": "click",
+      "details": {
+        "action": "click",
+        "contentHeight": 400,
+        "contentWidth": 180,
+        "pid": 42886,
+        "title": "PortCargo",
+        "x": 1334.6,
+        "y": 766
+      }
+    },
+    {
+      "action": "click",
+      "details": {
+        "action": "click",
+        "contentHeight": 400,
+        "contentWidth": 180,
+        "pid": 42886,
+        "title": "PortCargo",
+        "x": 1295,
+        "y": 636
+      }
+    }
+  ],
+  "remainingOwnedPids": [
+    42886
+  ]
+}

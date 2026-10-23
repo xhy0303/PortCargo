@@ -1,0 +1,8 @@
+{
+  "result": "FAIL",
+  "error": "{\"error\":\"no app window\"}\n",
+  "events": [],
+  "remainingOwnedPids": [
+    42534
+  ]
+}

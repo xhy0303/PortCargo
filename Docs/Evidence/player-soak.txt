@@ -1,0 +1,10 @@
+SOAK seconds=5.3 loops=1 transforms=163 audioSources=7 unityAllocated=58638593 managed=2400256
+SOAK seconds=68.2 loops=16 transforms=163 audioSources=7 unityAllocated=58639257 managed=2465792
+SOAK seconds=131.1 loops=31 transforms=163 audioSources=7 unityAllocated=58640001 managed=2469888
+SOAK seconds=194.0 loops=46 transforms=163 audioSources=7 unityAllocated=58640609 managed=2461696
+SOAK seconds=256.9 loops=61 transforms=163 audioSources=7 unityAllocated=58640561 managed=2469888
+SOAK seconds=319.8 loops=76 transforms=163 audioSources=7 unityAllocated=58640625 managed=2449408
+SOAK seconds=383.5 loops=91 transforms=163 audioSources=7 unityAllocated=58640913 managed=2502656
+SOAK seconds=446.3 loops=106 transforms=163 audioSources=7 unityAllocated=58640713 managed=2478080
+SOAK seconds=509.2 loops=121 transforms=163 audioSources=7 unityAllocated=58641313 managed=2494464
+SOAK seconds=572.1 loops=136 transforms=163 audioSources=7 unityAllocated=58641345 managed=2486272

@@ -1,0 +1,24 @@
+{
+  "appId": "wx19e83e7294013864",
+  "compileType": "game",
+  "orientation": "portrait",
+  "plugins": {
+    "UnityPlugin": {
+      "version": "1.3.14",
+      "provider": "wxe5a48f1ed5f544b7",
+      "contexts": [
+        {
+          "type": "isolatedContext"
+        }
+      ]
+    }
+  },
+  "totalBytes": 27009541,
+  "subpackages": {
+    "wasmcode": 5961027,
+    "data-package": 11633202
+  },
+  "runtimeTests": "pending",
+  "realDeviceTests": "not run",
+  "adsEnabled": false
+}

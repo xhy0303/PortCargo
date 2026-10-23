@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "tool": "automation_evaluate",
+  "clientName": "Codex",
+  "result": {
+    "success": true,
+    "result": [
+      {
+        "key": "portcargo.save.a",
+        "value": "{\"saveSchema\":1,\"revision\":3,\"payload\":\"{\\\"profile\\\":{\\\"unlockedCount\\\":1,\\\"completed\\\":[],\\\"sound\\\":true,\\\"music\\\":true,\\\"reducedMotion\\\":false,\\\"tutorialCompleted\\\":false},\\\"activeRun\\\":{\\\"runId\\\":\\\"07910e76e5c240ef88b7f4e730e0b631\\\",\\\"levelId\\\":\\\"L01\\\",\\\"levelRevision\\\":1,\\\"stateVersion\\\":0,\\\"board\\\":{\\\"heights\\\":[1,1,1],\\\"buffer\\\":[],\\\"shipIndex\\\":0,\\\"shipLoad\\\":0},\\\"undo\\\":[],\\\"expanded\\\":false,\\\"freeHintUsed\\\":false,\\\"adHintUsed\\\":false,\\\"moveCount\\\":0,\\\"undoCount\\\":0,\\\"hintCount\\\":0},\\\"mode\\\":\\\"campaign\\\"}\",\"checksum\":\"db8976f581f144204e58170662ac74e649adae38ad4ae4b6d3d9eeddab6f35c1\"}"
+      },
+      {
+        "key": "portcargo.save.b",
+        "value": "{\"saveSchema\":1,\"revision\":4,\"payload\":\"{\\\"profile\\\":{\\\"unlockedCount\\\":1,\\\"completed\\\":[],\\\"sound\\\":true,\\\"music\\\":true,\\\"reducedMotion\\\":false,\\\"tutorialCompleted\\\":false},\\\"activeRun\\\":{\\\"runId\\\":\\\"07910e76e5c240ef88b7f4e730e0b631\\\",\\\"levelId\\\":\\\"L01\\\",\\\"levelRevision\\\":1,\\\"stateVersion\\\":0,\\\"board\\\":{\\\"heights\\\":[1,1,1],\\\"buffer\\\":[],\\\"shipIndex\\\":0,\\\"shipLoad\\\":0},\\\"undo\\\":[],\\\"expanded\\\":false,\\\"freeHintUsed\\\":false,\\\"adHintUsed\\\":false,\\\"moveCount\\\":0,\\\"undoCount\\\":0,\\\"hintCount\\\":0},\\\"mode\\\":\\\"campaign\\\"}\",\"checksum\":\"db8976f581f144204e58170662ac74e649adae38ad4ae4b6d3d9eeddab6f35c1\"}"
+      }
+    ]
+  }
+}

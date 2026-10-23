@@ -1,0 +1,1 @@
+function(){const entries=["portcargo.save.a","portcargo.save.b"].map(k=>{try{return JSON.parse(wx.getStorageSync(k))}catch(e){return null}}).filter(Boolean).sort((a,b)=>b.revision-a.revision);const e=entries[0];return e?{revision:e.revision,checksum:e.checksum,payload:JSON.parse(e.payload)}:null;}

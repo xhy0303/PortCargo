@@ -1,0 +1,11 @@
+{
+  "name": "PortCargo.Unity",
+  "rootNamespace": "PortCargo",
+  "references": [
+    "PortCargo.Core",
+    "Unity.TextMeshPro",
+    "Unity.ugui",
+    "Unity.InputSystem",
+    "Wx"
+  ]
+}

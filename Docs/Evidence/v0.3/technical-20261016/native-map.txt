@@ -1,0 +1,4 @@
+VIEW PASS Confirm 360x800 glyphs/44px controls; native-map.png
+NATIVE_MAP 退出游戏 x=0.50000 yFromTop=0.51887 screen=360x800
+NATIVE_MAP 继续游戏 x=0.50000 yFromTop=0.59433 screen=360x800
+RESULT PASS

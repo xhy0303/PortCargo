@@ -1,0 +1,4 @@
+VIEW PASS Deadlocked 360x800 glyphs/44px controls; edges.deadlocked.png
+VIEW PASS Confirm 360x800 glyphs/44px controls; edges.save-failed.png
+F10-F12 PASS isolated in-memory L06 fixture: real pointer deadlock/undo; simulated write failure prevents quit and can retry; boot-error view retry route
+RESULT PASS

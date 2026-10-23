@@ -1,0 +1,15 @@
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> PortCargo.Core.DataValidationException: BOARD_MISSING: L99
+  at PortCargo.Core.LevelValidator.Require (System.Boolean condition, System.String code, System.String detail) [0x00003] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Core/LevelValidator.cs:76 
+  at PortCargo.Core.GameRules.Validate (PortCargo.Core.LevelDefinition level, PortCargo.Core.BoardSnapshot board, System.Int32 capacity) [0x00000] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Core/GameRules.cs:105 
+  at PortCargo.Core.GameSession.Restore (PortCargo.Core.LevelDefinition level, PortCargo.Core.RunData saved) [0x000da] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Core/GameSession.cs:49 
+  at PortCargo.Core.ProgressValidator.Validate (PortCargo.Core.PlayerSave save, PortCargo.Core.LevelDefinition[] campaign) [0x0019a] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Core/ProgressValidator.cs:34 
+  at PortCargo.Tests.RegressionSuite+<>c__DisplayClass2_0.<TestProgress>b__0 (PortCargo.Core.PlayerSave value) [0x00000] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Tests/EditMode/RegressionSuite.cs:164 
+  at PortCargo.Tests.RegressionSuite.TestProgress (PortCargo.Core.CatalogData catalog, PortCargo.Core.LevelDefinition[] levels, PortCargo.Core.IJsonCodec codec, System.Collections.Generic.List`1[T] result) [0x005bf] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Tests/EditMode/RegressionSuite.cs:212 
+  at PortCargo.Tests.RegressionSuite.Run (PortCargo.Core.CatalogData catalog, PortCargo.Core.IJsonCodec codec) [0x00891] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Tests/EditMode/RegressionSuite.cs:97 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <4ac0ee785b7843ea944af6fc649f4ee5>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <4ac0ee785b7843ea944af6fc649f4ee5>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <4ac0ee785b7843ea944af6fc649f4ee5>:0 
+  at PortCargo.Editor.BuildTools.ValidateContent () [0x003d2] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Editor/BuildTools.cs:67 
+  at PortCargo.Editor.BuildTools.BuildMac (System.Boolean development) [0x0002d] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Editor/BuildTools.cs:91 

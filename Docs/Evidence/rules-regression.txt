@@ -1,0 +1,17 @@
+R01/R10 L01 PASS nodes=3 solutionBoxIds=L01-S1-B1,L01-S2-B1,L01-S3-B1
+R01/R10 L02 PASS nodes=4 solutionBoxIds=L02-S1-B1,L02-S2-B1,L02-S3-B1,L02-S4-B1
+R01/R10 L03 PASS nodes=4 solutionBoxIds=L03-S1-B2,L03-S1-B1,L03-S2-B2,L03-S2-B1
+R01/R10 L04 PASS nodes=4 solutionBoxIds=L04-S1-B2,L04-S1-B1,L04-S2-B2,L04-S2-B1
+R01/R10 L05 PASS nodes=6 solutionBoxIds=L05-S1-B2,L05-S1-B1,L05-S2-B2,L05-S2-B1,L05-S3-B2,L05-S3-B1
+R01/R10 L06 PASS nodes=9 solutionBoxIds=L06-S1-B3,L06-S1-B2,L06-S1-B1,L06-S2-B3,L06-S2-B2,L06-S2-B1,L06-S3-B3,L06-S3-B2,L06-S3-B1
+R01/R10 L07 PASS nodes=12 solutionBoxIds=L07-S1-B3,L07-S1-B2,L07-S1-B1,L07-S2-B3,L07-S2-B2,L07-S2-B1,L07-S3-B3,L07-S3-B2,L07-S3-B1,L07-S4-B3,L07-S4-B2,L07-S4-B1
+R01/R10 L08 PASS nodes=21 solutionBoxIds=L08-S1-B4,L08-S1-B3,L08-S1-B2,L08-S2-B4,L08-S2-B3,L08-S2-B2,L08-S4-B4,L08-S1-B1,L08-S3-B4,L08-S4-B3,L08-S4-B2,L08-S2-B1,L08-S3-B3,L08-S3-B2,L08-S3-B1,L08-S4-B1
+R01/R10 L09 PASS nodes=497 solutionBoxIds=L09-S1-B4,L09-S3-B4,L09-S3-B3,L09-S4-B4,L09-S4-B3,L09-S4-B2,L09-S5-B4,L09-S1-B3,L09-S1-B2,L09-S2-B4,L09-S2-B3,L09-S2-B2,L09-S2-B1,L09-S3-B2,L09-S4-B1,L09-S1-B1,L09-S5-B3,L09-S5-B2,L09-S5-B1,L09-S3-B1
+R01/R10 L10 PASS nodes=253 solutionBoxIds=L10-S1-B4,L10-S1-B3,L10-S2-B4,L10-S2-B3,L10-S2-B2,L10-S2-B1,L10-S4-B4,L10-S1-B2,L10-S3-B4,L10-S3-B3,L10-S5-B4,L10-S3-B2,L10-S4-B3,L10-S6-B4,L10-S6-B3,L10-S5-B3,L10-S5-B2,L10-S6-B2,L10-S6-B1,L10-S1-B1,L10-S3-B1,L10-S4-B2,L10-S4-B1,L10-S5-B1
+R02 PASS covered, absent and rejected state unchanged
+R06/R08/R12 PASS atomic two-ship chain, saved snapshot, stale version/run
+R03/R05 PASS full-buffer direct load and earliest matching scan
+R04/R09 PASS deadlock recovery; Unknown differs from Unsolvable
+R07/R08 PASS hint and expansion survive undo, reset on restart, old rewards rejected
+R11 PASS duplicate IDs, cargo mismatch, unknown type, empty stack
+U08/SAVE PASS A/B fallback, both corrupt, failed-write retry and newer-run ordering

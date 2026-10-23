@@ -1,0 +1,58 @@
+{
+  "/tmp/PortCargo-NotoSansSC.ttf": {
+    "bytes": 17772300,
+    "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+  },
+  "Assets/PortCargo/Art/Fonts/PortCargoUI.asset": {
+    "bytes": 2237079,
+    "sha256": "43322b996574f85a68eb9ac6fb4e308dc39c2bae6db22451d738858f4bda9f6e"
+  },
+  "Assets/PortCargo/Art/Fonts/PortCargoUI.ttf": {
+    "bytes": 57948,
+    "sha256": "90ebd7b23ad2d1e4aaf9c4026c19fd9a1e82fdac6fcdf40aee0f04488d6ebb99"
+  },
+  "Assets/PortCargo/Art/Fonts/OFL.txt": {
+    "bytes": 4388,
+    "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+  },
+  "Assets/PortCargo/Art/Fonts/ui-characters.txt": {
+    "bytes": 583,
+    "sha256": "07b551880872f00a5225214cf0bbadc9cfc4dd041f9da719606c8b6e1048aa12"
+  },
+  "Assets/PortCargo/Audio/music.wav": {
+    "bytes": 176444,
+    "sha256": "2765d2ccc609177e6d14ceabb6bfddd79bc33495fbf3d9cd7166d301a2a918ba"
+  },
+  "Assets/PortCargo/Audio/dock.wav": {
+    "bytes": 7982,
+    "sha256": "87932e1a9de2cda95b18e3cf14aaa3eb41a45805d03d9f0d3da107f3e22b963e"
+  },
+  "Assets/PortCargo/Audio/pick.wav": {
+    "bytes": 3350,
+    "sha256": "3e9419d9ad65c0b750608aac31827200abf8e78de25f9393f1af59411b63013e"
+  },
+  "Assets/PortCargo/Audio/complete.wav": {
+    "bytes": 14156,
+    "sha256": "b2866d44dd8a066c7f7e007ba6a355812abeb3c5a165901e08499f8cd8d97ce7"
+  },
+  "Assets/PortCargo/Audio/reject.wav": {
+    "bytes": 3572,
+    "sha256": "2880874d476ef3b750a85faad03dfb76cfe3d17b49898119243b815fe546e8cd"
+  },
+  "Packages/manifest.json": {
+    "bytes": 2151,
+    "sha256": "e15852c6b0552d92a380a9c4a6bc677fce38c58ce8560ab348a2cb59fa6331f9"
+  },
+  "Packages/packages-lock.json": {
+    "bytes": 15579,
+    "sha256": "0137131c1500be7fbc5656957538888431d3789c1ef0758d94fc34ea179fb53f"
+  },
+  "Library/PackageCache/com.qq.weixin.minigame@a09d4b29daa1/package.json": {
+    "bytes": 336,
+    "sha256": "81301b5a1479f2a9b25d53c13075d4233e05c503c3bb26b4e61ff9f2d423d97c"
+  },
+  "Library/PackageCache/com.qq.weixin.minigame@a09d4b29daa1/Editor/WXPluginVersion.cs": {
+    "bytes": 295,
+    "sha256": "8e60192be5e56e49efff9543b76208652e4f3d4ac1cdce718b4f4a7d75546302"
+  }
+}

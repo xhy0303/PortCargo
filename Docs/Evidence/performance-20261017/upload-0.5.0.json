@@ -1,0 +1,31 @@
+{
+  "ok": true,
+  "tool": "upload",
+  "clientName": "Codex",
+  "result": {
+    "info": {
+      "size": {
+        "total": 18545222,
+        "packages": [
+          {
+            "name": "TOTAL",
+            "size": 18545222
+          },
+          {
+            "name": "main",
+            "size": 1195805
+          },
+          {
+            "name": "/data-package/",
+            "size": 11604415
+          },
+          {
+            "name": "/wasmcode/",
+            "size": 5745002
+          }
+        ]
+      }
+    },
+    "success": true
+  }
+}

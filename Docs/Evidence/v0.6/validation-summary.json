@@ -1,0 +1,81 @@
+{
+  "version": "0.6.0",
+  "date": "2026-10-18",
+  "campaignLevels": 200,
+  "original50DataPreserved": true,
+  "newHardLevels": 150,
+  "newLevelsMinimumBuffer": 3,
+  "types": 4,
+  "endlessGeneratorVersion": 2,
+  "endlessTiers": {
+    "1-6": "12/15/18/21/24/24 boxes, 3 types",
+    "7-19": "24 boxes, 4 types",
+    "20-49": "30 boxes, 4 types",
+    "50+": "36 boxes, 4 types"
+  },
+  "endlessBaseStructures": 150,
+  "endlessNote": "offline-screened campaign structures with deterministic type/stack permutations; not unlimited independent structures",
+  "checks": {
+    "sharedProductionCSharpGroups": 211,
+    "campaignSolutionsReplayed": 200,
+    "shuffledHardEndlessSolutionsReplayed": 150,
+    "endlessDeterminismAndResumeSamples": 32,
+    "newCampaignMinBufferProven": 150,
+    "runtimeViewportSizes": [
+      "320x568",
+      "360x800",
+      "720x1280"
+    ],
+    "runtimeDenseLevels": [
+      10,
+      51,
+      100,
+      150,
+      200
+    ],
+    "L200ProductionHintAndRealPointerCompletion": "PASS",
+    "endless60ProductionHintAndRealPointerCompletion": "PASS",
+    "endless61Remains36Boxes": "PASS",
+    "separateProcessCampaignAndEndlessExactRestoreAndUndo": "PASS",
+    "rewardedHintContract": "completed-only, exactly once, stale/replaced rejection, persistence and undo PASS",
+    "nativePlayerLogsErrors": 0,
+    "unityFinalCompileErrors": 0,
+    "unityFinalCompileWarnings": 0,
+    "wechatDevtools": {
+      "keyFlows": "PASS",
+      "campaignL200ActualPicks": 36,
+      "endless60ActualPicks": 36,
+      "endless61Boxes": 36,
+      "bothModeCloseReopenAndUndo": "PASS",
+      "originalSimulatorProgressRestored": "PASS",
+      "sdkStartupReportingReminder": true
+    }
+  },
+  "builds": {
+    "macValidation": "Builds/macOS/20261018-v0.6-validation/PortCargo.app",
+    "wechat": "Builds/WeChat/20261018-v0.6/minigame",
+    "wechatExport": "SUCCEED",
+    "wechatFingerprint": "7c1b74f4acdae07e5a829dfc5cefe2489409a4c1ea476b981312fe5aa321c962",
+    "macValidationPredatesQueuePaginationFix": true
+  },
+  "currentReviewExport": {
+    "path": "Builds/WeChat/20261017-integration/minigame",
+    "latestFileModifiedUtc": "2026-10-17T07:45:32.146199+00:00",
+    "allFileModificationsBeforeThisTaskDate": true
+  },
+  "ads": {
+    "configured": false,
+    "adapterImplemented": false,
+    "interface": "IRewardedHintProvider + RewardedHintTicket + GamePresenter.BindRewardedHints",
+    "realRewardedAdTested": false
+  },
+  "notVerified": [
+    "WeChat iOS/Android hardware performance and storage",
+    "human difficulty or retention/ad-view rates",
+    "real ad SDK playback or rewards"
+  ],
+  "buildDiagnostics": "Native build succeeded; its diagnostic counts include one Pipeline HTTP main-thread timeout from a status query during the build and one expected disabled-runtime-Pipeline warning. Final compiler and both native-player logs have no errors.",
+  "notUploadedOrSubmitted": true,
+  "catalogSha256": "2dbd7b4f361a5958cacbe4748cf9bafb1da6b7f7fac3267ffa96cb5641341bab",
+  "wechatAcceptance": "Docs/WeChat-Devtools-v0.6.md"
+}

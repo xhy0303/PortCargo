@@ -1,0 +1,10 @@
+X01 PASS old ten-level save migrated to unlockedCount=11; actual next-level button opened L11
+FIXTURE isolated save manually unlocked 50 for quick content sampling; sounds disabled and reduced motion enabled
+X02 L11 PASS real screen pointer replay; moves=12 ruleMs=0.041
+X03 L25 PASS real screen pointer replay; moves=18 ruleMs=0.045
+X04 paging PASS last page contains L49/L50 and previous/back controls; no next page
+X04 L50 PASS real screen pointer replay; moves=21 ruleMs=0.067
+X05 endless round 1 PASS real screen pointer replay; moves=12 ruleMs=0.047
+X05 endless round 2 PASS real screen pointer replay; moves=15 ruleMs=0.026
+X06 WRITE PASS endless first two rounds completed through real pointer input; round 3 one move saved; campaign/endless round trip preserved both exact runs
+RESULT PASS

@@ -1,0 +1,8 @@
+missing key is absent PASS
+Unicode snapshot round trip PASS
+independent slots PASS
+quota failure surfaced and old slot retained PASS
+readback mismatch surfaced PASS
+read errors are not empty saves PASS
+non-string corruption surfaced PASS
+Native bridge contract only; wx host is simulated. Real restart must be tested in WeChat.

@@ -1,0 +1,31 @@
+{
+  "campaignCount": 200,
+  "first50DeepEqual": true,
+  "newDifficultyStats": [
+    {
+      "levels": "L51-L100",
+      "count": 50,
+      "minRandomWinProbability": 4.8587106e-06,
+      "maxRandomWinProbability": 0.02991218,
+      "averageRandomWinProbability": 0.0077118186056920005,
+      "minTrapStates": 14
+    },
+    {
+      "levels": "L101-L150",
+      "count": 50,
+      "minRandomWinProbability": 4.3428831e-06,
+      "maxRandomWinProbability": 0.0047875434,
+      "averageRandomWinProbability": 0.0020081644209219993,
+      "minTrapStates": 51
+    },
+    {
+      "levels": "L151-L200",
+      "count": 50,
+      "minRandomWinProbability": 4.8860389e-07,
+      "maxRandomWinProbability": 0.00098732692,
+      "averageRandomWinProbability": 0.00034349126726180006,
+      "minTrapStates": 216
+    }
+  ],
+  "catalogSha256": "2dbd7b4f361a5958cacbe4748cf9bafb1da6b7f7fac3267ffa96cb5641341bab"
+}

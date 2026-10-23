@@ -1,0 +1,610 @@
+[
+  {
+    "step": "campaign-undo-probe",
+    "box": "L200-B1",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1250,
+      "frameY": 134,
+      "pid": 85785,
+      "sourceX": 59,
+      "sourceY": 594,
+      "x": 1285.0406091370558,
+      "y": 486.6875,
+      "name": "campaign-undo-probe"
+    },
+    "beforeVersion": 0,
+    "afterVersion": 1,
+    "board": {
+      "heights": [
+        5,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "buffer": [
+        "L200-B1"
+      ],
+      "shipIndex": 0,
+      "shipLoad": 0
+    },
+    "freeHintUsed": true
+  },
+  {
+    "step": "undo-restores-exact-board-and-hint",
+    "PASS": true
+  },
+  {
+    "step": "campaign-solution-1",
+    "box": "L200-B1",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1250,
+      "frameY": 134,
+      "pid": 85785,
+      "sourceX": 59,
+      "sourceY": 594,
+      "x": 1285.0406091370558,
+      "y": 486.6875,
+      "name": "campaign-solution-1"
+    },
+    "beforeVersion": 2,
+    "afterVersion": 3,
+    "board": {
+      "heights": [
+        5,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "buffer": [
+        "L200-B1"
+      ],
+      "shipIndex": 0,
+      "shipLoad": 0
+    },
+    "freeHintUsed": true
+  },
+  {
+    "step": "campaign-solution-2",
+    "box": "L200-B2",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1250,
+      "frameY": 134,
+      "pid": 85785,
+      "sourceX": 59,
+      "sourceY": 638,
+      "x": 1285.0406091370558,
+      "y": 512.8125,
+      "name": "campaign-solution-2"
+    },
+    "beforeVersion": 3,
+    "afterVersion": 4,
+    "board": {
+      "heights": [
+        4,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "buffer": [
+        "L200-B1"
+      ],
+      "shipIndex": 0,
+      "shipLoad": 1
+    },
+    "freeHintUsed": true
+  },
+  {
+    "step": "campaign-solution-3",
+    "box": "L200-B3",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1250,
+      "frameY": 134,
+      "pid": 85785,
+      "sourceX": 59,
+      "sourceY": 682,
+      "x": 1285.0406091370558,
+      "y": 538.9375,
+      "name": "campaign-solution-3"
+    },
+    "beforeVersion": 4,
+    "afterVersion": 5,
+    "board": {
+      "heights": [
+        3,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "buffer": [
+        "L200-B1",
+        "L200-B3"
+      ],
+      "shipIndex": 0,
+      "shipLoad": 1
+    },
+    "freeHintUsed": true
+  },
+  {
+    "step": "campaign-solution-4",
+    "box": "L200-B4",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1250,
+      "frameY": 134,
+      "pid": 85785,
+      "sourceX": 59,
+      "sourceY": 726,
+      "x": 1285.0406091370558,
+      "y": 565.0625,
+      "name": "campaign-solution-4"
+    },
+    "beforeVersion": 5,
+    "afterVersion": 6,
+    "board": {
+      "heights": [
+        2,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "buffer": [
+        "L200-B1",
+        "L200-B3",
+        "L200-B4"
+      ],
+      "shipIndex": 0,
+      "shipLoad": 1
+    },
+    "freeHintUsed": true
+  },
+  {
+    "step": "campaign-solution-5",
+    "box": "L200-B5",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1250,
+      "frameY": 134,
+      "pid": 85785,
+      "sourceX": 59,
+      "sourceY": 770,
+      "x": 1285.0406091370558,
+      "y": 591.1875,
+      "name": "campaign-solution-5"
+    },
+    "beforeVersion": 6,
+    "afterVersion": 7,
+    "board": {
+      "heights": [
+        1,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "buffer": [
+        "L200-B1",
+        "L200-B3",
+        "L200-B4"
+      ],
+      "shipIndex": 0,
+      "shipLoad": 2
+    },
+    "freeHintUsed": true
+  },
+  {
+    "step": "campaign-solution-6",
+    "box": "L200-B6",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1250,
+      "frameY": 134,
+      "pid": 85785,
+      "sourceX": 59,
+      "sourceY": 814,
+      "x": 1285.0406091370558,
+      "y": 617.3125,
+      "name": "campaign-solution-6"
+    },
+    "beforeVersion": 7,
+    "afterVersion": 8,
+    "board": {
+      "heights": [
+        0,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "buffer": [
+        "L200-B1"
+      ],
+      "shipIndex": 1,
+      "shipLoad": 2
+    },
+    "freeHintUsed": true
+  },
+  {
+    "step": "campaign-solution-7",
+    "box": "L200-B9",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1250,
+      "frameY": 134,
+      "pid": 85785,
+      "sourceX": 154,
+      "sourceY": 594,
+      "x": 1341.46192893401,
+      "y": 486.6875,
+      "name": "campaign-solution-7"
+    },
+    "beforeVersion": 8,
+    "afterVersion": 9,
+    "board": {
+      "heights": [
+        0,
+        5,
+        6,
+        6,
+        6,
+        6
+      ],
+      "buffer": [],
+      "shipIndex": 2,
+      "shipLoad": 1
+    },
+    "freeHintUsed": true
+  },
+  {
+    "step": "campaign-solution-8",
+    "box": "L200-B10",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1250,
+      "frameY": 134,
+      "pid": 85785,
+      "sourceX": 154,
+      "sourceY": 638,
+      "x": 1341.46192893401,
+      "y": 512.8125,
+      "name": "campaign-solution-8"
+    },
+    "beforeVersion": 9,
+    "afterVersion": 10,
+    "board": {
+      "heights": [
+        0,
+        4,
+        6,
+        6,
+        6,
+        6
+      ],
+      "buffer": [
+        "L200-B10"
+      ],
+      "shipIndex": 2,
+      "shipLoad": 1
+    },
+    "freeHintUsed": true
+  },
+  {
+    "step": "campaign-solution-9",
+    "box": "L200-B22",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1250,
+      "frameY": 134,
+      "pid": 85785,
+      "sourceX": 154,
+      "sourceY": 682,
+      "x": 1341.46192893401,
+      "y": 538.9375,
+      "name": "campaign-solution-9"
+    },
+    "beforeVersion": 10,
+    "afterVersion": 11,
+    "board": {
+      "heights": [
+        0,
+        3,
+        6,
+        6,
+        6,
+        6
+      ],
+      "buffer": [
+        "L200-B10"
+      ],
+      "shipIndex": 2,
+      "shipLoad": 2
+    },
+    "freeHintUsed": true
+  },
+  {
+    "step": "campaign-solution-10",
+    "box": "L200-B29",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1250,
+      "frameY": 134,
+      "pid": 85785,
+      "sourceX": 154,
+      "sourceY": 726,
+      "x": 1341.46192893401,
+      "y": 565.0625,
+      "name": "campaign-solution-10"
+    },
+    "beforeVersion": 11,
+    "afterVersion": 12,
+    "board": {
+      "heights": [
+        0,
+        2,
+        6,
+        6,
+        6,
+        6
+      ],
+      "buffer": [
+        "L200-B10",
+        "L200-B29"
+      ],
+      "shipIndex": 2,
+      "shipLoad": 2
+    },
+    "freeHintUsed": true
+  },
+  {
+    "step": "campaign-solution-11",
+    "box": "L200-B31",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1250,
+      "frameY": 134,
+      "pid": 85785,
+      "sourceX": 154,
+      "sourceY": 770,
+      "x": 1341.46192893401,
+      "y": 591.1875,
+      "name": "campaign-solution-11"
+    },
+    "beforeVersion": 12,
+    "afterVersion": 13,
+    "board": {
+      "heights": [
+        0,
+        1,
+        6,
+        6,
+        6,
+        6
+      ],
+      "buffer": [
+        "L200-B10",
+        "L200-B29"
+      ],
+      "shipIndex": 2,
+      "shipLoad": 3
+    },
+    "freeHintUsed": true
+  },
+  {
+    "step": "campaign-solution-12",
+    "box": "L200-B33",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1250,
+      "frameY": 134,
+      "pid": 85785,
+      "sourceX": 154,
+      "sourceY": 814,
+      "x": 1341.46192893401,
+      "y": 617.3125,
+      "name": "campaign-solution-12"
+    },
+    "beforeVersion": 13,
+    "afterVersion": 14,
+    "board": {
+      "heights": [
+        0,
+        0,
+        6,
+        6,
+        6,
+        6
+      ],
+      "buffer": [
+        "L200-B29"
+      ],
+      "shipIndex": 3,
+      "shipLoad": 1
+    },
+    "freeHintUsed": true
+  },
+  {
+    "step": "campaign-solution-13",
+    "box": "L200-B13",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1250,
+      "frameY": 134,
+      "pid": 85785,
+      "sourceX": 249,
+      "sourceY": 594,
+      "x": 1397.8832487309644,
+      "y": 486.6875,
+      "name": "campaign-solution-13"
+    },
+    "beforeVersion": 14,
+    "afterVersion": 15,
+    "board": {
+      "heights": [
+        0,
+        0,
+        5,
+        6,
+        6,
+        6
+      ],
+      "buffer": [
+        "L200-B29"
+      ],
+      "shipIndex": 3,
+      "shipLoad": 2
+    },
+    "freeHintUsed": true
+  },
+  {
+    "step": "campaign-solution-14",
+    "box": "L200-B14",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1250,
+      "frameY": 134,
+      "pid": 85785,
+      "sourceX": 249,
+      "sourceY": 638,
+      "x": 1397.8832487309644,
+      "y": 512.8125,
+      "name": "campaign-solution-14"
+    },
+    "beforeVersion": 15,
+    "afterVersion": 16,
+    "board": {
+      "heights": [
+        0,
+        0,
+        4,
+        6,
+        6,
+        6
+      ],
+      "buffer": [
+        "L200-B29",
+        "L200-B14"
+      ],
+      "shipIndex": 3,
+      "shipLoad": 2
+    },
+    "freeHintUsed": true
+  },
+  {
+    "step": "campaign-solution-15",
+    "box": "L200-B18",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1250,
+      "frameY": 134,
+      "pid": 85785,
+      "sourceX": 439,
+      "sourceY": 594,
+      "x": 1510.725888324873,
+      "y": 486.6875,
+      "name": "campaign-solution-15"
+    },
+    "beforeVersion": 16,
+    "afterVersion": 17,
+    "board": {
+      "heights": [
+        0,
+        0,
+        4,
+        6,
+        5,
+        6
+      ],
+      "buffer": [
+        "L200-B29",
+        "L200-B14"
+      ],
+      "shipIndex": 3,
+      "shipLoad": 3
+    },
+    "freeHintUsed": true
+  },
+  {
+    "step": "campaign-solution-16",
+    "box": "L200-B23",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1250,
+      "frameY": 134,
+      "pid": 85785,
+      "sourceX": 439,
+      "sourceY": 638,
+      "x": 1510.725888324873,
+      "y": 512.8125,
+      "name": "campaign-solution-16"
+    },
+    "beforeVersion": 17,
+    "afterVersion": 18,
+    "board": {
+      "heights": [
+        0,
+        0,
+        4,
+        6,
+        4,
+        6
+      ],
+      "buffer": [
+        "L200-B29",
+        "L200-B14",
+        "L200-B23"
+      ],
+      "shipIndex": 3,
+      "shipLoad": 3
+    },
+    "freeHintUsed": true
+  }
+]

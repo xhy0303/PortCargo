@@ -1,0 +1,19 @@
+{
+  "buildId": "20261015-mvp-validation",
+  "appVersion": "0.1.0",
+  "unity": "6000.3.25f1",
+  "changeset": "e1dba0a9aba4",
+  "cli": "1.0.0-beta.12",
+  "pipeline": "0.8.0-exp.1",
+  "development": true,
+  "adsEnabled": false,
+  "catalogSha256": "ea7abe6c39785e94c4df78d53cd8aca0e0404e55388675cc17c3f16da1287aa2",
+  "tuningSha256": "ad8b6e6b16e560185ab6da724d5ebd8ba19106388f4f892478bb190d143001a0",
+  "buildUtc": "2026-10-15T13:28:42.9002670Z",
+  "result": "Succeeded",
+  "errors": 1,
+  "warnings": 2,
+  "bytes": 333725651,
+  "wechatDeviceAccepted": false,
+  "gitCommit": null
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "file": "night_harbor.wav",
+    "measuredIntegratedLUFS": "-22.50",
+    "measuredTruePeakDbTP": "-13.08",
+    "LRA": "0.60"
+  },
+  {
+    "file": "lantern_current.wav",
+    "measuredIntegratedLUFS": "-22.58",
+    "measuredTruePeakDbTP": "-12.85",
+    "LRA": "1.20"
+  },
+  {
+    "file": "morning_tide.wav",
+    "measuredIntegratedLUFS": "-22.44",
+    "measuredTruePeakDbTP": "-12.73",
+    "LRA": "1.70"
+  }
+]

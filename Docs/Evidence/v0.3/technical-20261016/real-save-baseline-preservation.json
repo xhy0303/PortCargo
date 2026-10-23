@@ -1,0 +1,13 @@
+{
+  "result": "PASS",
+  "baselineRevision": 424,
+  "finalRevision": 446,
+  "unchanged": {
+    "campaign": true,
+    "endless": true,
+    "profile": true,
+    "mode": true
+  },
+  "campaignFingerprint": "a455b6844b59dfa4380f87a2a8036a43be64919727aac8471baf7d8b5b1844e6",
+  "endlessFingerprint": "fc32f7d4a78f4d704dfb5993bfb6a33bbfac7528c537f3d56998ba426ebb834e"
+}

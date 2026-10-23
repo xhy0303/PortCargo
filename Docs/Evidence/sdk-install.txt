@@ -1,0 +1,1 @@
+com.qq.weixin.minigame@https://github.com/wechat-miniprogram/minigame-tuanjie-transform-sdk.git#a09d4b29daa1dd8358b09b5b5639554ab08cfdc2

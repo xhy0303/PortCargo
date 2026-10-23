@@ -1,0 +1,35 @@
+[
+  {
+    "name": "night_harbor",
+    "description": "Original 24-second score, two cycles, normalized; 48 seconds",
+    "seconds": 48.0,
+    "peakDbfs": -13.091462771128404,
+    "rmsDbfs": -24.000265682333467,
+    "clippedSamples": 0,
+    "seamStep": 0.003082275390625,
+    "internalStep": 0.01312255859375,
+    "sha256": "afbf79b916bacf30a6da231ed04df64effa38fecbd25174b6cf182108956a9cf"
+  },
+  {
+    "name": "lantern_current",
+    "description": "Original 16-bar score, 76 BPM, bridge and response, no third-party samples",
+    "seconds": 50.526326530612245,
+    "peakDbfs": -12.854222149740984,
+    "rmsDbfs": -24.000265640815478,
+    "clippedSamples": 0,
+    "seamStep": 0.001922607421875,
+    "internalStep": 0.0147705078125,
+    "sha256": "b7636b058054872189a3bb4e015d1d355e9591974044375195494b5c3e98d4ce"
+  },
+  {
+    "name": "morning_tide",
+    "description": "Original 16-bar score, 88 BPM, bridge and response, no third-party samples",
+    "seconds": 43.636371882086166,
+    "peakDbfs": -12.738562789170228,
+    "rmsDbfs": -24.000265130763225,
+    "clippedSamples": 0,
+    "seamStep": 9.1552734375e-05,
+    "internalStep": 0.0142822265625,
+    "sha256": "7b059a7ffd806ab33660b48ee4b16394a4babfa66c088fc3e14a4e4f8d75344e"
+  }
+]

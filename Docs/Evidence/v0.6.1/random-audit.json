@@ -1,0 +1,45 @@
+{
+  "generatorVersion": 3,
+  "runtime": ".NET 7.0.4",
+  "sampleCount": 3000,
+  "allSolvableWithThree": true,
+  "allUnsolvableWithTwo": true,
+  "rows": [
+    {
+      "round": 7,
+      "samples": 1000,
+      "uniqueCanonicalLayouts": 1000,
+      "randomConstructionFallbacks": 4,
+      "softDifficultyTargetMisses": 5,
+      "meanRandomLegalWinProbability": 0.007349797780084498,
+      "maxRandomLegalWinProbability": 0.3290368767415895,
+      "generationP50Ms": 1.3372,
+      "generationP95Ms": 4.6795,
+      "generationMaxMs": 30.972
+    },
+    {
+      "round": 20,
+      "samples": 1000,
+      "uniqueCanonicalLayouts": 1000,
+      "randomConstructionFallbacks": 7,
+      "softDifficultyTargetMisses": 70,
+      "meanRandomLegalWinProbability": 0.0023629032644086278,
+      "maxRandomLegalWinProbability": 0.09129815866777467,
+      "generationP50Ms": 3.9264,
+      "generationP95Ms": 12.4373,
+      "generationMaxMs": 23.0842
+    },
+    {
+      "round": 50,
+      "samples": 1000,
+      "uniqueCanonicalLayouts": 1000,
+      "randomConstructionFallbacks": 8,
+      "softDifficultyTargetMisses": 308,
+      "meanRandomLegalWinProbability": 0.0018553076673289007,
+      "maxRandomLegalWinProbability": 0.07800660842626635,
+      "generationP50Ms": 15.6076,
+      "generationP95Ms": 42.2089,
+      "generationMaxMs": 77.3998
+    }
+  ]
+}

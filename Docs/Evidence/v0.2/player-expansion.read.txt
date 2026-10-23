@@ -1,0 +1,3 @@
+X07 READ PASS separate player process restored endless round 3, exact board/run/version/history/settings; real UI undo restored starting board
+X08 READ PASS return to campaign restored the completed L50 run without resetting either mode
+RESULT PASS

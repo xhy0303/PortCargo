@@ -1,0 +1,16 @@
+{
+  "name": "PortCargo.Editor",
+  "rootNamespace": "PortCargo.Editor",
+  "references": [
+    "PortCargo.Core",
+    "PortCargo.Unity",
+    "Unity.TextMeshPro",
+    "Unity.ugui",
+    "Unity.InputSystem",
+    "Unity.Newtonsoft.Json",
+    "WxEditor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}

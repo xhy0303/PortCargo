@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "command": "command run_script",
+  "data": {
+    "command": "run_script",
+    "parameters": {
+      "file": "/tmp/portcargo-probe.cs",
+      "entry": "ToolProbe.Main"
+    },
+    "result": {
+      "diagnostics": [],
+      "compileMs": 435,
+      "executeMs": 69,
+      "assemblyName": "PipelineRunScript_portcargo-probe_ced2d956065a4248b5e194e7e9f356d6",
+      "success": true,
+      "result": {
+        "version": "6000.3.25f1",
+        "activeScene": "Assets/Scenes/SampleScene.unity",
+        "web": true,
+        "mac": true,
+        "persistence": "PASS"
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Users/xhy/UnityEditorProj/Projects/PortCargo"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

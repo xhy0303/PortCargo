@@ -1,0 +1,7 @@
+SOAK seconds=2.7 loops=1 transforms=163 audioSources=7 unityAllocated=58586931 managed=2293760
+SOAK seconds=65.6 loops=16 transforms=163 audioSources=7 unityAllocated=58641561 managed=2445312
+SOAK seconds=128.5 loops=31 transforms=163 audioSources=7 unityAllocated=58642537 managed=2461696
+FAIL System.Exception: soak pointer missed L10-S2-B2 before=4 after=6 busy=False screen=720x1280
+  at PortCargo.Runtime.DevelopmentChecks+<Soak>d__32.MoveNext () [0x0027d] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs:208 
+  at PortCargo.Runtime.DevelopmentChecks+<Guarded>d__27.MoveNext () [0x0004e] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs:55 
+RESULT FAIL

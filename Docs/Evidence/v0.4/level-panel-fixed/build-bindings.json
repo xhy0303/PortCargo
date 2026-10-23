@@ -1,0 +1,73 @@
+{
+  "files": {
+    "Assets/PortCargo/Scripts/Runtime/DialogView.cs": "70aed6510e86b97151384550cd37edf0e12d72f33d7fe2d136413a4c838a1f26",
+    "Assets/PortCargo/Scripts/Runtime/DevelopmentTechnicalChecks.cs": "4d997d4b8100b9ab8ce8e290ad26b7ce78b3fcfe1ef4f74c12bb05ae9286e75a"
+  },
+  "validation": {
+    "buildId": "20261016-flat-pixel-validation",
+    "appVersion": "0.4.0",
+    "applicationId": "com.portcargo.prototype",
+    "unity": "6000.3.25f1",
+    "changeset": "e1dba0a9aba4",
+    "cli": "1.0.0-beta.12",
+    "pipeline": "0.8.0-exp.1",
+    "wechatSdkGitSha": "a09d4b29daa1dd8358b09b5b5639554ab08cfdc2",
+    "wechatIntegration": "deferred by user",
+    "development": true,
+    "adsEnabled": false,
+    "catalogSha256": "fc245f4f5b12c80071d6d0e246519f88f643c763cb0d88443630886ab323e253",
+    "tuningSha256": "ad8b6e6b16e560185ab6da724d5ebd8ba19106388f4f892478bb190d143001a0",
+    "buildUtc": "2026-10-16T10:11:59.1777430Z",
+    "result": "Succeeded",
+    "diagnostics": [
+      {
+        "type": "Warning",
+        "message": "Pipeline: RuntimePipelineConfig found, but enableInBuilds = false. Pipeline will be disabled in Player builds."
+      }
+    ],
+    "errors": 0,
+    "warnings": 1,
+    "bytes": 365639614,
+    "wechatDeviceAccepted": false,
+    "gitCommit": null
+  },
+  "preview": {
+    "buildId": "20261016-flat-pixel-preview",
+    "appVersion": "0.4.0",
+    "applicationId": "com.portcargo.prototype",
+    "unity": "6000.3.25f1",
+    "changeset": "e1dba0a9aba4",
+    "cli": "1.0.0-beta.12",
+    "pipeline": "0.8.0-exp.1",
+    "wechatSdkGitSha": "a09d4b29daa1dd8358b09b5b5639554ab08cfdc2",
+    "wechatIntegration": "deferred by user",
+    "development": false,
+    "adsEnabled": false,
+    "catalogSha256": "fc245f4f5b12c80071d6d0e246519f88f643c763cb0d88443630886ab323e253",
+    "tuningSha256": "ad8b6e6b16e560185ab6da724d5ebd8ba19106388f4f892478bb190d143001a0",
+    "buildUtc": "2026-10-16T10:13:03.6611780Z",
+    "result": "Succeeded",
+    "diagnostics": [
+      {
+        "type": "Warning",
+        "message": "Pipeline: RuntimePipelineConfig found, but enableInBuilds = false. Pipeline will be disabled in Player builds."
+      }
+    ],
+    "errors": 0,
+    "warnings": 1,
+    "bytes": 148009769,
+    "wechatDeviceAccepted": false,
+    "gitCommit": null
+  },
+  "delivery": {
+    "archive": "/Users/xhy/UnityEditorProj/Projects/PortCargo/Builds/Delivery/PortCargo-macOS-v0.4.0.zip",
+    "bytes": 57004658,
+    "sha256": "dc866747531c2177174e4e8f3f9a828b8804bea5839584b105acea371caee0ea",
+    "entries": 214,
+    "crcPass": true,
+    "utf8GuideAndHandoffPass": true,
+    "executableModePass": true,
+    "executableBytesMatch": true
+  },
+  "runtimeReport": "art-dense.txt"
+}

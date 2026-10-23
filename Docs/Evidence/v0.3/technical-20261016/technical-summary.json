@@ -1,0 +1,187 @@
+{
+  "result": "PASS",
+  "soakElapsedSeconds": 604.1,
+  "loops": 106,
+  "transforms": 199,
+  "audioSources": 7,
+  "warmedUnityAllocatedDeltaBytes": 1388,
+  "runtimeErrors": 0,
+  "nativeProcessExitCode": 0,
+  "processDurationSeconds": 634.33,
+  "denseLevels": [
+    10,
+    50
+  ],
+  "testedViewports": [
+    [
+      320,
+      568
+    ],
+    [
+      360,
+      800
+    ],
+    [
+      720,
+      1280
+    ]
+  ],
+  "narrowTopMinPixels": [
+    47.6,
+    48.0
+  ],
+  "denseCaseCount": 6,
+  "samples": [
+    {
+      "seconds": 6.8,
+      "loops": 1,
+      "transforms": 199,
+      "audioSources": 7,
+      "unityAllocated": 58730514,
+      "managed": 3088384,
+      "errors": 0
+    },
+    {
+      "seconds": 67.7,
+      "loops": 12,
+      "transforms": 199,
+      "audioSources": 7,
+      "unityAllocated": 58732418,
+      "managed": 3182592,
+      "errors": 0
+    },
+    {
+      "seconds": 131.1,
+      "loops": 23,
+      "transforms": 199,
+      "audioSources": 7,
+      "unityAllocated": 58732962,
+      "managed": 3145728,
+      "errors": 0
+    },
+    {
+      "seconds": 194.6,
+      "loops": 34,
+      "transforms": 199,
+      "audioSources": 7,
+      "unityAllocated": 58733058,
+      "managed": 3207168,
+      "errors": 0
+    },
+    {
+      "seconds": 261.1,
+      "loops": 46,
+      "transforms": 199,
+      "audioSources": 7,
+      "unityAllocated": 58733514,
+      "managed": 3211264,
+      "errors": 0
+    },
+    {
+      "seconds": 323.8,
+      "loops": 57,
+      "transforms": 199,
+      "audioSources": 7,
+      "unityAllocated": 58733430,
+      "managed": 3186688,
+      "errors": 0
+    },
+    {
+      "seconds": 387.6,
+      "loops": 68,
+      "transforms": 199,
+      "audioSources": 7,
+      "unityAllocated": 58733450,
+      "managed": 3252224,
+      "errors": 0
+    },
+    {
+      "seconds": 448.9,
+      "loops": 79,
+      "transforms": 199,
+      "audioSources": 7,
+      "unityAllocated": 58733682,
+      "managed": 3239936,
+      "errors": 0
+    },
+    {
+      "seconds": 511.9,
+      "loops": 90,
+      "transforms": 199,
+      "audioSources": 7,
+      "unityAllocated": 58733538,
+      "managed": 3198976,
+      "errors": 0
+    },
+    {
+      "seconds": 574.4,
+      "loops": 101,
+      "transforms": 199,
+      "audioSources": 7,
+      "unityAllocated": 58734138,
+      "managed": 3231744,
+      "errors": 0
+    },
+    {
+      "seconds": 604.1,
+      "loops": 106,
+      "transforms": 199,
+      "audioSources": 7,
+      "unityAllocated": 58734658,
+      "managed": 3231744,
+      "errors": 0
+    }
+  ],
+  "rssSamples": [
+    {
+      "elapsedSeconds": 0.0,
+      "rssKiB": 32
+    },
+    {
+      "elapsedSeconds": 60.21,
+      "rssKiB": 327424
+    },
+    {
+      "elapsedSeconds": 120.42,
+      "rssKiB": 329312
+    },
+    {
+      "elapsedSeconds": 180.67,
+      "rssKiB": 329200
+    },
+    {
+      "elapsedSeconds": 240.89,
+      "rssKiB": 335136
+    },
+    {
+      "elapsedSeconds": 301.11,
+      "rssKiB": 334912
+    },
+    {
+      "elapsedSeconds": 361.34,
+      "rssKiB": 335088
+    },
+    {
+      "elapsedSeconds": 421.56,
+      "rssKiB": 335248
+    },
+    {
+      "elapsedSeconds": 481.77,
+      "rssKiB": 335040
+    },
+    {
+      "elapsedSeconds": 542.0,
+      "rssKiB": 335248
+    },
+    {
+      "elapsedSeconds": 602.21,
+      "rssKiB": 335072
+    }
+  ],
+  "limits": [
+    "Apple Silicon macOS only",
+    "Unity allocated memory differs from total process RSS",
+    "Automated usability checks do not measure player difficulty",
+    "WeChat device and low-end-phone performance deferred"
+  ]
+}

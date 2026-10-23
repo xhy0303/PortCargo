@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: aa912cdb3dd0142c697646d0f730796c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3399931282955932386
+    second: spr_dock_foreground_0
+  - first:
+      213: -8555218211624062579
+    second: spr_dock_foreground_1
+  - first:
+      213: -8154636324492115981
+    second: spr_dock_foreground_2
+  - first:
+      213: -1738870294346894874
+    second: spr_dock_foreground_3
+  - first:
+      213: -1455852775564204313
+    second: spr_dock_foreground_4
+  - first:
+      213: -7651578565536320684
+    second: spr_dock_foreground_5
+  - first:
+      213: -4773310825764702611
+    second: spr_dock_foreground_6
+  - first:
+      213: -4435445810751400594
+    second: spr_dock_foreground_7
+  - first:
+      213: -8716203132102066303
+    second: spr_dock_foreground_8
+  - first:
+      213: 6100466021211671995
+    second: spr_dock_foreground_9
+  - first:
+      213: 4006507059146335752
+    second: spr_dock_foreground_10
+  - first:
+      213: -5702003061971129254
+    second: spr_dock_foreground_11
+  - first:
+      213: -7175373766186460940
+    second: spr_dock_foreground_12
+  - first:
+      213: -9012179722249236647
+    second: spr_dock_foreground_13
+  - first:
+      213: 3022485460403281662
+    second: spr_dock_foreground_14
+  - first:
+      213: -1851938533568249575
+    second: spr_dock_foreground_15
+  - first:
+      213: 2912406908155882286
+    second: spr_dock_foreground_16
+  - first:
+      213: -5903678715126583641
+    second: spr_dock_foreground_17
+  - first:
+      213: 6237062433765039242
+    second: spr_dock_foreground_18
+  - first:
+      213: 478035697369242660
+    second: spr_dock_foreground_19
+  - first:
+      213: 7891871402402512306
+    second: spr_dock_foreground_20
+  - first:
+      213: -7525695353523089105
+    second: spr_dock_foreground_21
+  - first:
+      213: 6530490834052364780
+    second: spr_dock_foreground_22
+  - first:
+      213: -259266983700813809
+    second: spr_dock_foreground_23
+  - first:
+      213: 3009539461139356315
+    second: spr_dock_foreground_24
+  - first:
+      213: 8692170658797494642
+    second: spr_dock_foreground_25
+  - first:
+      213: 2662598731713296289
+    second: spr_dock_foreground_26
+  - first:
+      213: 2394586183014161611
+    second: spr_dock_foreground_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 9
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_dock_foreground_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 0
+        width: 1888
+        height: 676
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2935dfc7bfe2f20800000000000000
+      internalID: 3399931282955932386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dock_foreground_1
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 654
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81f1303d52c54980800000000000000
+      internalID: -8555218211624062579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dock_foreground_2
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 604
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff762ec779e4de80800000000000000
+      internalID: -8154636324492115981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dock_foreground_3
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 604
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e179f22eaa4ed7e0800000000000000
+      internalID: -1738870294346894874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dock_foreground_4
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 583
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6aa333d95cbcbe0800000000000000
+      internalID: -1455852775564204313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dock_foreground_5
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 132
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453f63e95d120d590800000000000000
+      internalID: -7651578565536320684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dock_foreground_6
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 124
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66b4c3181bc1cdb0800000000000000
+      internalID: -4773310825764702611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dock_foreground_7
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 120
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e651badf8812272c0800000000000000
+      internalID: -4435445810751400594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dock_foreground_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 114
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fb8e88e63d90780800000000000000
+      internalID: -8716203132102066303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dock_foreground_9
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 120
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbd89ae468539a450800000000000000
+      internalID: 6100466021211671995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dock_foreground_10
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 63
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806238261f8f99730800000000000000
+      internalID: 4006507059146335752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dock_foreground_11
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 81
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c6507fc6a6ed0b0800000000000000
+      internalID: -5702003061971129254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dock_foreground_12
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 82
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f89ccf8393fb6c90800000000000000
+      internalID: -7175373766186460940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dock_foreground_13
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 80
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f0b5b8a4e4ee280800000000000000
+      internalID: -9012179722249236647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dock_foreground_14
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 82
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efede1e238602f920800000000000000
+      internalID: 3022485460403281662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dock_foreground_15
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 80
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9118ec837b79c46e0800000000000000
+      internalID: -1851938533568249575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dock_foreground_16
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 80
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b660207a2fa6820800000000000000
+      internalID: 2912406908155882286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dock_foreground_17
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 82
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae68d4dc7be11ea0800000000000000
+      internalID: -5903678715126583641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dock_foreground_18
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 80
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c9f76fc3f7e8650800000000000000
+      internalID: 6237062433765039242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dock_foreground_19
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 78
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c56ab1fe252a600800000000000000
+      internalID: 478035697369242660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dock_foreground_20
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 42
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bdf3414a3f858d60800000000000000
+      internalID: 7891871402402512306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dock_foreground_21
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 63
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21d275e2fb5f8790800000000000000
+      internalID: -7525695353523089105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dock_foreground_22
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 31
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9b2a440d6f0aa50800000000000000
+      internalID: 6530490834052364780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dock_foreground_23
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 31
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08a68e4d06e66cf0800000000000000
+      internalID: -259266983700813809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dock_foreground_24
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 47
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a5bb6d13804c920800000000000000
+      internalID: 3009539461139356315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dock_foreground_25
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 46
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271a2bc392bc0a870800000000000000
+      internalID: 8692170658797494642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dock_foreground_26
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 31
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a73d2f707373f420800000000000000
+      internalID: 2662598731713296289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_dock_foreground_27
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 23
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc1e9642774b3120800000000000000
+      internalID: 2394586183014161611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_dock_foreground_0: 3399931282955932386
+      spr_dock_foreground_1: -8555218211624062579
+      spr_dock_foreground_10: 4006507059146335752
+      spr_dock_foreground_11: -5702003061971129254
+      spr_dock_foreground_12: -7175373766186460940
+      spr_dock_foreground_13: -9012179722249236647
+      spr_dock_foreground_14: 3022485460403281662
+      spr_dock_foreground_15: -1851938533568249575
+      spr_dock_foreground_16: 2912406908155882286
+      spr_dock_foreground_17: -5903678715126583641
+      spr_dock_foreground_18: 6237062433765039242
+      spr_dock_foreground_19: 478035697369242660
+      spr_dock_foreground_2: -8154636324492115981
+      spr_dock_foreground_20: 7891871402402512306
+      spr_dock_foreground_21: -7525695353523089105
+      spr_dock_foreground_22: 6530490834052364780
+      spr_dock_foreground_23: -259266983700813809
+      spr_dock_foreground_24: 3009539461139356315
+      spr_dock_foreground_25: 8692170658797494642
+      spr_dock_foreground_26: 2662598731713296289
+      spr_dock_foreground_27: 2394586183014161611
+      spr_dock_foreground_3: -1738870294346894874
+      spr_dock_foreground_4: -1455852775564204313
+      spr_dock_foreground_5: -7651578565536320684
+      spr_dock_foreground_6: -4773310825764702611
+      spr_dock_foreground_7: -4435445810751400594
+      spr_dock_foreground_8: -8716203132102066303
+      spr_dock_foreground_9: 6100466021211671995
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,6 @@
+{
+  "name": "PortCargo.Core",
+  "rootNamespace": "PortCargo.Core",
+  "references": [],
+  "noEngineReferences": true
+}

@@ -1,0 +1,44 @@
+--- before/Runtime/WXRuntimeExtDef.cs
++++ after/Runtime/WXRuntimeExtDef.cs
+@@ -114,6 +114,25 @@
+             RegisterController();
+         }
+ 
++#if UNITY_6000_5_OR_NEWER
++        // wx-perf.dll unboxes Unity.GetObjectInstanceID as Int32 and only uses it
++        // as a profiling/deduplication key. Keep that ABI without truncating the
++        // 64-bit EntityId or using a hash (which can collide). These are SDK-local
++        // tokens, not Unity instance IDs, and must not be used for object lookup.
++        private static readonly Dictionary<EntityId, int> SdkObjectIds = new Dictionary<EntityId, int>();
++        private static int nextSdkObjectId;
++
++        private static int GetSdkObjectId(EntityId entityId)
++        {
++            if (!SdkObjectIds.TryGetValue(entityId, out var id))
++            {
++                id = checked(++nextSdkObjectId);
++                SdkObjectIds.Add(entityId, id);
++            }
++            return id;
++        }
++#endif
++
+         private static void RegisterController()
+         {
+             // Example: 
+@@ -132,10 +151,14 @@
+ #if UNITY_2021_3_OR_NEWER
+                 if (args is UnityEngine.Object unityObject)
+                 {
++#if UNITY_6000_5_OR_NEWER
++                    return GetSdkObjectId(unityObject.GetEntityId());
++#else
+                     return unityObject.GetInstanceID();
++#endif
+                 }
+ #endif
+-                // unityObject.GetInstanceID() would never return 0. 
++                // Valid Unity objects always receive a nonzero SDK key. 
+                 return 0;
+             });
+         }

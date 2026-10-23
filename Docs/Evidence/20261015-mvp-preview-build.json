@@ -1,0 +1,30 @@
+{
+  "buildId": "20261015-mvp-preview",
+  "appVersion": "0.1.0",
+  "applicationId": "com.portcargo.prototype",
+  "unity": "6000.3.25f1",
+  "changeset": "e1dba0a9aba4",
+  "cli": "1.0.0-beta.12",
+  "pipeline": "0.8.0-exp.1",
+  "wechatSdkGitSha": "a09d4b29daa1dd8358b09b5b5639554ab08cfdc2",
+  "wechatIntegration": "deferred by user",
+  "development": false,
+  "adsEnabled": false,
+  "catalogSha256": "ea7abe6c39785e94c4df78d53cd8aca0e0404e55388675cc17c3f16da1287aa2",
+  "tuningSha256": "ad8b6e6b16e560185ab6da724d5ebd8ba19106388f4f892478bb190d143001a0",
+  "buildUtc": "2026-10-15T13:54:14.2076860Z",
+  "result": "Succeeded",
+  "diagnostics": [
+    {
+      "type": "Warning",
+      "message": "Pipeline: RuntimePipelineConfig found, but enableInBuilds = false. Pipeline will be disabled in Player builds."
+    }
+  ],
+  "errors": 0,
+  "warnings": 1,
+  "bytes": 116173544,
+  "wechatDeviceAccepted": false,
+  "gitCommit": null,
+  "productionAssemblySha256": "81a4b60a96efa9bb3c4dad15ba7a83e8d9d3fc2b6a3e67af1c2ae32ba891b027",
+  "coreAssemblySha256": "38168d8eab78771bb146eea9dc030803804a994ca27173e54b98f803d583a270"
+}

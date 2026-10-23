@@ -1,0 +1,4 @@
+FAIL System.Exception: visible text overflows: Title 港口装箱
+  at PortCargo.Runtime.DevelopmentChecks+<CaptureFlow>d__58.MoveNext () [0x0042a] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Runtime/DevelopmentFlowChecks.cs:177 
+  at PortCargo.Runtime.DevelopmentChecks+<Guarded>d__30.MoveNext () [0x0004e] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs:67 
+RESULT FAIL

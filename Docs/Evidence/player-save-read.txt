@@ -1,0 +1,2 @@
+U07 READ PASS distinct process restored board/settings/history; UI undo persisted
+RESULT PASS

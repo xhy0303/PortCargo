@@ -1,0 +1,11 @@
+U01 L01 PASS screen pointer through InputSystemUIInputModule; moves=3 ruleMs=0.037
+U01 L02 PASS screen pointer through InputSystemUIInputModule; moves=4 ruleMs=0.017
+U01 L03 PASS screen pointer through InputSystemUIInputModule; moves=4 ruleMs=0.014
+U01 L04 PASS screen pointer through InputSystemUIInputModule; moves=4 ruleMs=0.017
+U01 L05 PASS screen pointer through InputSystemUIInputModule; moves=6 ruleMs=0.014
+U01 L06 PASS screen pointer through InputSystemUIInputModule; moves=9 ruleMs=0.019
+U01 L07 PASS screen pointer through InputSystemUIInputModule; moves=12 ruleMs=0.017
+U01 L08 PASS screen pointer through InputSystemUIInputModule; moves=16 ruleMs=0.019
+U01 L09 PASS screen pointer through InputSystemUIInputModule; moves=20 ruleMs=0.025
+U01 L10 PASS screen pointer through InputSystemUIInputModule; moves=24 ruleMs=0.020
+RESULT PASS

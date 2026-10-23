@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "tool": "upload",
+  "clientName": "Codex",
+  "result": {
+    "success": true,
+    "taskId": "confirmation_upload_c1dee6d3-feef-4c12-9a96-0aa3e71a4a2d",
+    "taskType": "confirmation_upload",
+    "status": "pending",
+    "message": "Waiting for user confirmation."
+  }
+}
+
+[wechatide] skill-call: client=Codex tool=upload
+[wechatide] Failed to connect to WechatIDE. Please run `wechatide auth -c <clientName>` to auth and start WechatIDE server.
+[wechatide] toolCall:upload requires toolCall:auth,now running toolCall:auth for client=Codex

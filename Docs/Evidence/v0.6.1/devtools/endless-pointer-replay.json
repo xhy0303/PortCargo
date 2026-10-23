@@ -1,0 +1,1313 @@
+[
+  {
+    "step": "endless-undo-probe",
+    "box": "E01-B18",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 59,
+      "sourceY": 594,
+      "x": 1143.0406091370558,
+      "y": 471.6875,
+      "name": "endless-undo-probe"
+    },
+    "beforeVersion": 0,
+    "afterVersion": 1,
+    "board": {
+      "heights": [
+        5,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "buffer": [
+        "E01-B18"
+      ],
+      "shipIndex": 0,
+      "shipLoad": 0
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "undo-restores-exact-board-and-hint",
+    "PASS": true
+  },
+  {
+    "step": "endless-solution-1",
+    "box": "E01-B18",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 59,
+      "sourceY": 594,
+      "x": 1143.0406091370558,
+      "y": 471.6875,
+      "name": "endless-solution-1"
+    },
+    "beforeVersion": 2,
+    "afterVersion": 3,
+    "board": {
+      "heights": [
+        5,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "buffer": [
+        "E01-B18"
+      ],
+      "shipIndex": 0,
+      "shipLoad": 0
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-2",
+    "box": "E01-B19",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 59,
+      "sourceY": 638,
+      "x": 1143.0406091370558,
+      "y": 497.8125,
+      "name": "endless-solution-2"
+    },
+    "beforeVersion": 3,
+    "afterVersion": 4,
+    "board": {
+      "heights": [
+        4,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "buffer": [
+        "E01-B18",
+        "E01-B19"
+      ],
+      "shipIndex": 0,
+      "shipLoad": 0
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-3",
+    "box": "E01-B21",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 59,
+      "sourceY": 682,
+      "x": 1143.0406091370558,
+      "y": 523.9375,
+      "name": "endless-solution-3"
+    },
+    "beforeVersion": 4,
+    "afterVersion": 5,
+    "board": {
+      "heights": [
+        3,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "buffer": [
+        "E01-B18",
+        "E01-B19"
+      ],
+      "shipIndex": 0,
+      "shipLoad": 1
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-4",
+    "box": "E01-B2",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 439,
+      "sourceY": 594,
+      "x": 1368.725888324873,
+      "y": 471.6875,
+      "name": "endless-solution-4"
+    },
+    "beforeVersion": 5,
+    "afterVersion": 6,
+    "board": {
+      "heights": [
+        3,
+        6,
+        6,
+        6,
+        5,
+        6
+      ],
+      "buffer": [
+        "E01-B18",
+        "E01-B19",
+        "E01-B2"
+      ],
+      "shipIndex": 0,
+      "shipLoad": 1
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-5",
+    "box": "E01-B3",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 439,
+      "sourceY": 638,
+      "x": 1368.725888324873,
+      "y": 497.8125,
+      "name": "endless-solution-5"
+    },
+    "beforeVersion": 6,
+    "afterVersion": 7,
+    "board": {
+      "heights": [
+        3,
+        6,
+        6,
+        6,
+        4,
+        6
+      ],
+      "buffer": [
+        "E01-B18",
+        "E01-B19"
+      ],
+      "shipIndex": 1,
+      "shipLoad": 1
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-6",
+    "box": "E01-B22",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 59,
+      "sourceY": 726,
+      "x": 1143.0406091370558,
+      "y": 550.0625,
+      "name": "endless-solution-6"
+    },
+    "beforeVersion": 7,
+    "afterVersion": 8,
+    "board": {
+      "heights": [
+        2,
+        6,
+        6,
+        6,
+        4,
+        6
+      ],
+      "buffer": [
+        "E01-B18",
+        "E01-B19",
+        "E01-B22"
+      ],
+      "shipIndex": 1,
+      "shipLoad": 1
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-7",
+    "box": "E01-B6",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 249,
+      "sourceY": 594,
+      "x": 1255.8832487309644,
+      "y": 471.6875,
+      "name": "endless-solution-7"
+    },
+    "beforeVersion": 8,
+    "afterVersion": 9,
+    "board": {
+      "heights": [
+        2,
+        6,
+        5,
+        6,
+        4,
+        6
+      ],
+      "buffer": [
+        "E01-B18"
+      ],
+      "shipIndex": 2,
+      "shipLoad": 2
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-8",
+    "box": "E01-B23",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 59,
+      "sourceY": 770,
+      "x": 1143.0406091370558,
+      "y": 576.1875,
+      "name": "endless-solution-8"
+    },
+    "beforeVersion": 9,
+    "afterVersion": 10,
+    "board": {
+      "heights": [
+        1,
+        6,
+        5,
+        6,
+        4,
+        6
+      ],
+      "buffer": [],
+      "shipIndex": 3,
+      "shipLoad": 1
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-9",
+    "box": "E01-B10",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 154,
+      "sourceY": 594,
+      "x": 1199.46192893401,
+      "y": 471.6875,
+      "name": "endless-solution-9"
+    },
+    "beforeVersion": 10,
+    "afterVersion": 11,
+    "board": {
+      "heights": [
+        1,
+        5,
+        5,
+        6,
+        4,
+        6
+      ],
+      "buffer": [],
+      "shipIndex": 4,
+      "shipLoad": 0
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-10",
+    "box": "E01-B25",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 154,
+      "sourceY": 638,
+      "x": 1199.46192893401,
+      "y": 497.8125,
+      "name": "endless-solution-10"
+    },
+    "beforeVersion": 11,
+    "afterVersion": 12,
+    "board": {
+      "heights": [
+        1,
+        4,
+        5,
+        6,
+        4,
+        6
+      ],
+      "buffer": [],
+      "shipIndex": 4,
+      "shipLoad": 1
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-11",
+    "box": "E01-B15",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 249,
+      "sourceY": 638,
+      "x": 1255.8832487309644,
+      "y": 497.8125,
+      "name": "endless-solution-11"
+    },
+    "beforeVersion": 12,
+    "afterVersion": 13,
+    "board": {
+      "heights": [
+        1,
+        4,
+        4,
+        6,
+        4,
+        6
+      ],
+      "buffer": [
+        "E01-B15"
+      ],
+      "shipIndex": 4,
+      "shipLoad": 1
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-12",
+    "box": "E01-B1",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 344,
+      "sourceY": 594,
+      "x": 1312.3045685279187,
+      "y": 471.6875,
+      "name": "endless-solution-12"
+    },
+    "beforeVersion": 13,
+    "afterVersion": 14,
+    "board": {
+      "heights": [
+        1,
+        4,
+        4,
+        5,
+        4,
+        6
+      ],
+      "buffer": [
+        "E01-B15",
+        "E01-B1"
+      ],
+      "shipIndex": 4,
+      "shipLoad": 1
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-13",
+    "box": "E01-B9",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 534,
+      "sourceY": 594,
+      "x": 1425.1472081218274,
+      "y": 471.6875,
+      "name": "endless-solution-13"
+    },
+    "beforeVersion": 14,
+    "afterVersion": 15,
+    "board": {
+      "heights": [
+        1,
+        4,
+        4,
+        5,
+        4,
+        5
+      ],
+      "buffer": [
+        "E01-B15",
+        "E01-B1",
+        "E01-B9"
+      ],
+      "shipIndex": 4,
+      "shipLoad": 1
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-14",
+    "box": "E01-B11",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 534,
+      "sourceY": 638,
+      "x": 1425.1472081218274,
+      "y": 497.8125,
+      "name": "endless-solution-14"
+    },
+    "beforeVersion": 15,
+    "afterVersion": 16,
+    "board": {
+      "heights": [
+        1,
+        4,
+        4,
+        5,
+        4,
+        4
+      ],
+      "buffer": [
+        "E01-B1",
+        "E01-B9"
+      ],
+      "shipIndex": 5,
+      "shipLoad": 1
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-15",
+    "box": "E01-B7",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 344,
+      "sourceY": 638,
+      "x": 1312.3045685279187,
+      "y": 497.8125,
+      "name": "endless-solution-15"
+    },
+    "beforeVersion": 16,
+    "afterVersion": 17,
+    "board": {
+      "heights": [
+        1,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "buffer": [
+        "E01-B1",
+        "E01-B9"
+      ],
+      "shipIndex": 5,
+      "shipLoad": 2
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-16",
+    "box": "E01-B8",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 344,
+      "sourceY": 682,
+      "x": 1312.3045685279187,
+      "y": 523.9375,
+      "name": "endless-solution-16"
+    },
+    "beforeVersion": 17,
+    "afterVersion": 18,
+    "board": {
+      "heights": [
+        1,
+        4,
+        4,
+        3,
+        4,
+        4
+      ],
+      "buffer": [
+        "E01-B1",
+        "E01-B9"
+      ],
+      "shipIndex": 5,
+      "shipLoad": 3
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-17",
+    "box": "E01-B12",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 534,
+      "sourceY": 682,
+      "x": 1425.1472081218274,
+      "y": 523.9375,
+      "name": "endless-solution-17"
+    },
+    "beforeVersion": 18,
+    "afterVersion": 19,
+    "board": {
+      "heights": [
+        1,
+        4,
+        4,
+        3,
+        4,
+        3
+      ],
+      "buffer": [
+        "E01-B1",
+        "E01-B9",
+        "E01-B12"
+      ],
+      "shipIndex": 5,
+      "shipLoad": 3
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-18",
+    "box": "E01-B13",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 534,
+      "sourceY": 726,
+      "x": 1425.1472081218274,
+      "y": 550.0625,
+      "name": "endless-solution-18"
+    },
+    "beforeVersion": 19,
+    "afterVersion": 20,
+    "board": {
+      "heights": [
+        1,
+        4,
+        4,
+        3,
+        4,
+        2
+      ],
+      "buffer": [
+        "E01-B1",
+        "E01-B9"
+      ],
+      "shipIndex": 6,
+      "shipLoad": 1
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-19",
+    "box": "E01-B27",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 154,
+      "sourceY": 682,
+      "x": 1199.46192893401,
+      "y": 523.9375,
+      "name": "endless-solution-19"
+    },
+    "beforeVersion": 20,
+    "afterVersion": 21,
+    "board": {
+      "heights": [
+        1,
+        3,
+        4,
+        3,
+        4,
+        2
+      ],
+      "buffer": [
+        "E01-B1",
+        "E01-B9"
+      ],
+      "shipIndex": 6,
+      "shipLoad": 2
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-20",
+    "box": "E01-B4",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 439,
+      "sourceY": 682,
+      "x": 1368.725888324873,
+      "y": 523.9375,
+      "name": "endless-solution-20"
+    },
+    "beforeVersion": 21,
+    "afterVersion": 22,
+    "board": {
+      "heights": [
+        1,
+        3,
+        4,
+        3,
+        3,
+        2
+      ],
+      "buffer": [
+        "E01-B1",
+        "E01-B9",
+        "E01-B4"
+      ],
+      "shipIndex": 6,
+      "shipLoad": 2
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-21",
+    "box": "E01-B5",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 439,
+      "sourceY": 726,
+      "x": 1368.725888324873,
+      "y": 550.0625,
+      "name": "endless-solution-21"
+    },
+    "beforeVersion": 22,
+    "afterVersion": 23,
+    "board": {
+      "heights": [
+        1,
+        3,
+        4,
+        3,
+        2,
+        2
+      ],
+      "buffer": [
+        "E01-B1",
+        "E01-B9",
+        "E01-B4"
+      ],
+      "shipIndex": 7,
+      "shipLoad": 0
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-22",
+    "box": "E01-B24",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 59,
+      "sourceY": 814,
+      "x": 1143.0406091370558,
+      "y": 602.3125,
+      "name": "endless-solution-22"
+    },
+    "beforeVersion": 23,
+    "afterVersion": 24,
+    "board": {
+      "heights": [
+        0,
+        3,
+        4,
+        3,
+        2,
+        2
+      ],
+      "buffer": [
+        "E01-B1",
+        "E01-B9",
+        "E01-B4"
+      ],
+      "shipIndex": 7,
+      "shipLoad": 1
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-23",
+    "box": "E01-B20",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 344,
+      "sourceY": 726,
+      "x": 1312.3045685279187,
+      "y": 550.0625,
+      "name": "endless-solution-23"
+    },
+    "beforeVersion": 24,
+    "afterVersion": 25,
+    "board": {
+      "heights": [
+        0,
+        3,
+        4,
+        2,
+        2,
+        2
+      ],
+      "buffer": [
+        "E01-B1",
+        "E01-B9",
+        "E01-B4"
+      ],
+      "shipIndex": 7,
+      "shipLoad": 2
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-24",
+    "box": "E01-B17",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 439,
+      "sourceY": 770,
+      "x": 1368.725888324873,
+      "y": 576.1875,
+      "name": "endless-solution-24"
+    },
+    "beforeVersion": 25,
+    "afterVersion": 26,
+    "board": {
+      "heights": [
+        0,
+        3,
+        4,
+        2,
+        1,
+        2
+      ],
+      "buffer": [
+        "E01-B1",
+        "E01-B9",
+        "E01-B4"
+      ],
+      "shipIndex": 7,
+      "shipLoad": 3
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-25",
+    "box": "E01-B14",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 534,
+      "sourceY": 770,
+      "x": 1425.1472081218274,
+      "y": 576.1875,
+      "name": "endless-solution-25"
+    },
+    "beforeVersion": 26,
+    "afterVersion": 27,
+    "board": {
+      "heights": [
+        0,
+        3,
+        4,
+        2,
+        1,
+        1
+      ],
+      "buffer": [],
+      "shipIndex": 9,
+      "shipLoad": 0
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-26",
+    "box": "E01-B30",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 154,
+      "sourceY": 726,
+      "x": 1199.46192893401,
+      "y": 550.0625,
+      "name": "endless-solution-26"
+    },
+    "beforeVersion": 27,
+    "afterVersion": 28,
+    "board": {
+      "heights": [
+        0,
+        2,
+        4,
+        2,
+        1,
+        1
+      ],
+      "buffer": [],
+      "shipIndex": 9,
+      "shipLoad": 1
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-27",
+    "box": "E01-B31",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 154,
+      "sourceY": 770,
+      "x": 1199.46192893401,
+      "y": 576.1875,
+      "name": "endless-solution-27"
+    },
+    "beforeVersion": 28,
+    "afterVersion": 29,
+    "board": {
+      "heights": [
+        0,
+        1,
+        4,
+        2,
+        1,
+        1
+      ],
+      "buffer": [],
+      "shipIndex": 9,
+      "shipLoad": 2
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-28",
+    "box": "E01-B32",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 154,
+      "sourceY": 814,
+      "x": 1199.46192893401,
+      "y": 602.3125,
+      "name": "endless-solution-28"
+    },
+    "beforeVersion": 29,
+    "afterVersion": 30,
+    "board": {
+      "heights": [
+        0,
+        0,
+        4,
+        2,
+        1,
+        1
+      ],
+      "buffer": [],
+      "shipIndex": 9,
+      "shipLoad": 3
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-29",
+    "box": "E01-B33",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 249,
+      "sourceY": 682,
+      "x": 1255.8832487309644,
+      "y": 523.9375,
+      "name": "endless-solution-29"
+    },
+    "beforeVersion": 30,
+    "afterVersion": 31,
+    "board": {
+      "heights": [
+        0,
+        0,
+        3,
+        2,
+        1,
+        1
+      ],
+      "buffer": [],
+      "shipIndex": 9,
+      "shipLoad": 4
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-30",
+    "box": "E01-B34",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 249,
+      "sourceY": 726,
+      "x": 1255.8832487309644,
+      "y": 550.0625,
+      "name": "endless-solution-30"
+    },
+    "beforeVersion": 31,
+    "afterVersion": 32,
+    "board": {
+      "heights": [
+        0,
+        0,
+        2,
+        2,
+        1,
+        1
+      ],
+      "buffer": [
+        "E01-B34"
+      ],
+      "shipIndex": 9,
+      "shipLoad": 4
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-31",
+    "box": "E01-B35",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 249,
+      "sourceY": 770,
+      "x": 1255.8832487309644,
+      "y": 576.1875,
+      "name": "endless-solution-31"
+    },
+    "beforeVersion": 32,
+    "afterVersion": 33,
+    "board": {
+      "heights": [
+        0,
+        0,
+        1,
+        2,
+        1,
+        1
+      ],
+      "buffer": [
+        "E01-B34",
+        "E01-B35"
+      ],
+      "shipIndex": 9,
+      "shipLoad": 4
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-32",
+    "box": "E01-B26",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 344,
+      "sourceY": 770,
+      "x": 1312.3045685279187,
+      "y": 576.1875,
+      "name": "endless-solution-32"
+    },
+    "beforeVersion": 33,
+    "afterVersion": 34,
+    "board": {
+      "heights": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "buffer": [
+        "E01-B34",
+        "E01-B35",
+        "E01-B26"
+      ],
+      "shipIndex": 9,
+      "shipLoad": 4
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-33",
+    "box": "E01-B28",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 344,
+      "sourceY": 814,
+      "x": 1312.3045685279187,
+      "y": 602.3125,
+      "name": "endless-solution-33"
+    },
+    "beforeVersion": 34,
+    "afterVersion": 35,
+    "board": {
+      "heights": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "buffer": [
+        "E01-B34",
+        "E01-B26"
+      ],
+      "shipIndex": 10,
+      "shipLoad": 1
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-34",
+    "box": "E01-B36",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 249,
+      "sourceY": 814,
+      "x": 1255.8832487309644,
+      "y": 602.3125,
+      "name": "endless-solution-34"
+    },
+    "beforeVersion": 35,
+    "afterVersion": 36,
+    "board": {
+      "heights": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "buffer": [
+        "E01-B34",
+        "E01-B26"
+      ],
+      "shipIndex": 10,
+      "shipLoad": 2
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-35",
+    "box": "E01-B29",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 439,
+      "sourceY": 814,
+      "x": 1368.725888324873,
+      "y": 602.3125,
+      "name": "endless-solution-35"
+    },
+    "beforeVersion": 36,
+    "afterVersion": 37,
+    "board": {
+      "heights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "buffer": [],
+      "shipIndex": 11,
+      "shipLoad": 2
+    },
+    "freeHintUsed": false
+  },
+  {
+    "step": "endless-solution-36",
+    "box": "E01-B16",
+    "input": {
+      "action": "native-game-click",
+      "frameHeight": 760,
+      "frameWidth": 351,
+      "frameX": 1108,
+      "frameY": 119,
+      "pid": 93832,
+      "sourceX": 534,
+      "sourceY": 814,
+      "x": 1425.1472081218274,
+      "y": 602.3125,
+      "name": "endless-solution-36"
+    },
+    "beforeVersion": 37,
+    "afterVersion": 38,
+    "board": {
+      "heights": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "buffer": [],
+      "shipIndex": 12,
+      "shipLoad": 0
+    },
+    "freeHintUsed": false
+  }
+]

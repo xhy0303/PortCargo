@@ -1,0 +1,3 @@
+VIEW PASS Home 360x800 glyphs/44px controls; flow.restored-home.png
+F09 READ PASS separate process starts at home; campaign/endless exact runs restored independently, real undo and settings persist
+RESULT PASS

@@ -1,0 +1,50 @@
+{
+  "result": "FAIL",
+  "error": "{\"error\":\"target game is not frontmost\"}\n",
+  "events": [
+    {
+      "action": "window",
+      "contentHeight": 400,
+      "contentWidth": 180,
+      "height": 428,
+      "pid": 43000,
+      "title": "PortCargo",
+      "titlebar": 28,
+      "width": 180,
+      "x": 1205,
+      "y": 368
+    },
+    {
+      "action": "startup-preserved",
+      "pid": 43000,
+      "revision": 436
+    },
+    {
+      "action": "click",
+      "details": {
+        "action": "click",
+        "contentHeight": 400,
+        "contentWidth": 180,
+        "pid": 43000,
+        "title": "PortCargo",
+        "x": 1334.6,
+        "y": 766
+      }
+    },
+    {
+      "action": "click",
+      "details": {
+        "action": "click",
+        "contentHeight": 400,
+        "contentWidth": 180,
+        "pid": 43000,
+        "title": "PortCargo",
+        "x": 1295,
+        "y": 636
+      }
+    }
+  ],
+  "remainingOwnedPids": [
+    43000
+  ]
+}

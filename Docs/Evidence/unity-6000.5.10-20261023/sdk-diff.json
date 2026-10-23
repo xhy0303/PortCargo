@@ -1,0 +1,8 @@
+{
+  "baseCommit": "a09d4b29daa1dd8358b09b5b5639554ab08cfdc2",
+  "embeddedFiles": 650,
+  "patchedSource": "Runtime/WXRuntimeExtDef.cs",
+  "patchedSourceSha256": "1959420caa4736d680ad1e0964f7da720d770294d06a0c59438e3319c305c421",
+  "manifestUnchanged": true,
+  "baselineNote": "Original source reconstructed by reversing the recorded exact patch. Unity removed the old project cache after resolving the embedded package. Remote baseline retrieval timed out; no whole-package hash comparison claimed."
+}

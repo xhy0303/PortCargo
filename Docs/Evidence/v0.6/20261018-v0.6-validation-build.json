@@ -1,0 +1,32 @@
+{
+  "buildId": "20261018-v0.6-validation",
+  "appVersion": "0.6.0",
+  "applicationId": "com.portcargo.prototype",
+  "unity": "6000.3.25f1",
+  "changeset": "e1dba0a9aba4",
+  "cli": "1.0.0-beta.12",
+  "pipeline": "0.8.0-exp.1",
+  "wechatSdkGitSha": "a09d4b29daa1dd8358b09b5b5639554ab08cfdc2",
+  "wechatIntegration": "deferred by user",
+  "development": true,
+  "adsEnabled": false,
+  "catalogSha256": "2dbd7b4f361a5958cacbe4748cf9bafb1da6b7f7fac3267ffa96cb5641341bab",
+  "tuningSha256": "3b96b11a6d09d2795ba0ff2af56d2100e148b517fe88c67ecacf4af65f6957a5",
+  "buildUtc": "2026-10-18T07:58:25.8333560Z",
+  "result": "Succeeded",
+  "diagnostics": [
+    {
+      "type": "Error",
+      "message": "Failed to handle /api/exec request: Main thread operation timed out after 5000ms"
+    },
+    {
+      "type": "Warning",
+      "message": "Pipeline: RuntimePipelineConfig found, but enableInBuilds = false. Pipeline will be disabled in Player builds."
+    }
+  ],
+  "errors": 1,
+  "warnings": 1,
+  "bytes": 364559357,
+  "wechatDeviceAccepted": false,
+  "gitCommit": null
+}

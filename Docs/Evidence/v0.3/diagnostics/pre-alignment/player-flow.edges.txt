@@ -1,0 +1,4 @@
+FAIL System.Exception: L04 deadlock path fixture
+  at PortCargo.Runtime.DevelopmentChecks+<FlowEdges>d__55.MoveNext () [0x002c6] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Runtime/DevelopmentFlowChecks.cs:110 
+  at PortCargo.Runtime.DevelopmentChecks+<Guarded>d__30.MoveNext () [0x0004e] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs:67 
+RESULT FAIL

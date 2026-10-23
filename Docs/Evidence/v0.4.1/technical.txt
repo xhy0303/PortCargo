@@ -1,0 +1,163 @@
+FIXTURE isolated save only: all 50 levels unlocked, guide completed, music off, sound and motion on
+QueueButton 53.3x44.4 PASS
+HintButton 115.5x44.4 PASS
+UndoButton 115.5x44.4 PASS
+SettingsButton 53.3x44.4 PASS
+U02 runtime viewport=320x568; active controls in bounds; no missing visible glyphs
+VIEW PASS Playing 320x568 glyphs/44px controls; technical.L10-320x568.png
+DENSE PASS L10 320x568 topMin=47.6x47.6; every top raycast/click/undo; no overlaps; modal blocked
+QueueButton 53.3x44.4 PASS
+HintButton 115.5x44.4 PASS
+UndoButton 115.5x44.4 PASS
+SettingsButton 53.3x44.4 PASS
+U02 runtime viewport=320x568; active controls in bounds; no missing visible glyphs
+VIEW PASS Playing 320x568 glyphs/44px controls; technical.L50-320x568.png
+DENSE PASS L50 320x568 topMin=47.6x47.6; every top raycast/click/undo; no overlaps; modal blocked
+QueueButton 67.1x55.9 PASS
+HintButton 145.3x55.9 PASS
+UndoButton 145.3x55.9 PASS
+SettingsButton 67.1x55.9 PASS
+U02 runtime viewport=360x800; active controls in bounds; no missing visible glyphs
+VIEW PASS Playing 360x800 glyphs/44px controls; technical.L10-360x800.png
+DENSE PASS L10 360x800 topMin=53.6x53.6; every top raycast/click/undo; no overlaps; modal blocked
+QueueButton 67.1x55.9 PASS
+HintButton 145.3x55.9 PASS
+UndoButton 145.3x55.9 PASS
+SettingsButton 67.1x55.9 PASS
+U02 runtime viewport=360x800; active controls in bounds; no missing visible glyphs
+VIEW PASS Playing 360x800 glyphs/44px controls; technical.L50-360x800.png
+DENSE PASS L50 360x800 topMin=53.6x53.6; every top raycast/click/undo; no overlaps; modal blocked
+QueueButton 120.0x100.0 PASS
+HintButton 260.0x100.0 PASS
+UndoButton 260.0x100.0 PASS
+SettingsButton 120.0x100.0 PASS
+U02 runtime viewport=720x1280; active controls in bounds; no missing visible glyphs
+VIEW PASS Playing 720x1280 glyphs/44px controls; technical.L10-720x1280.png
+DENSE PASS L10 720x1280 topMin=107.2x107.2; every top raycast/click/undo; no overlaps; modal blocked
+QueueButton 120.0x100.0 PASS
+HintButton 260.0x100.0 PASS
+UndoButton 260.0x100.0 PASS
+SettingsButton 120.0x100.0 PASS
+U02 runtime viewport=720x1280; active controls in bounds; no missing visible glyphs
+VIEW PASS Playing 720x1280 glyphs/44px controls; technical.L50-720x1280.png
+DENSE PASS L50 720x1280 topMin=107.2x107.2; every top raycast/click/undo; no overlaps; modal blocked
+SOAK START duration>=600s, real pointers, L10/L50/endless, undo, pause/settings, home switches; UTC=2026-10-16T10:32:01.0559330Z
+SOAK cycle 1 PASS real screen pointer replay; moves=25 ruleMs=0.075
+SOAK seconds=6.7 loops=1 transforms=352 audioSources=7 unityAllocated=59507838 managed=3325952 errors=0
+SOAK cycle 2 PASS real screen pointer replay; moves=22 ruleMs=0.087
+SOAK cycle 3 PASS real screen pointer replay; moves=13 ruleMs=0.071
+SOAK cycle 4 PASS real screen pointer replay; moves=25 ruleMs=0.082
+SOAK cycle 5 PASS real screen pointer replay; moves=22 ruleMs=0.064
+SOAK cycle 6 PASS real screen pointer replay; moves=16 ruleMs=0.047
+SOAK cycle 7 PASS real screen pointer replay; moves=25 ruleMs=0.071
+SOAK cycle 8 PASS real screen pointer replay; moves=22 ruleMs=0.065
+SOAK cycle 9 PASS real screen pointer replay; moves=19 ruleMs=0.053
+SOAK cycle 10 PASS real screen pointer replay; moves=25 ruleMs=0.064
+SOAK cycle 11 PASS real screen pointer replay; moves=22 ruleMs=0.026
+SOAK cycle 12 PASS real screen pointer replay; moves=22 ruleMs=0.066
+SOAK seconds=67.3 loops=12 transforms=352 audioSources=7 unityAllocated=59511410 managed=3366912 errors=0
+SOAK cycle 13 PASS real screen pointer replay; moves=25 ruleMs=0.069
+SOAK cycle 14 PASS real screen pointer replay; moves=22 ruleMs=0.037
+SOAK cycle 15 PASS real screen pointer replay; moves=25 ruleMs=0.028
+SOAK cycle 16 PASS real screen pointer replay; moves=25 ruleMs=0.058
+SOAK cycle 17 PASS real screen pointer replay; moves=22 ruleMs=0.077
+SOAK cycle 18 PASS real screen pointer replay; moves=16 ruleMs=0.028
+SOAK cycle 19 PASS real screen pointer replay; moves=25 ruleMs=0.030
+SOAK cycle 20 PASS real screen pointer replay; moves=22 ruleMs=0.054
+SOAK cycle 21 PASS real screen pointer replay; moves=13 ruleMs=0.062
+SOAK cycle 22 PASS real screen pointer replay; moves=25 ruleMs=0.123
+SOAK cycle 23 PASS real screen pointer replay; moves=22 ruleMs=0.080
+SOAK seconds=130.7 loops=23 transforms=352 audioSources=7 unityAllocated=59511525 managed=3395584 errors=0
+SOAK cycle 24 PASS real screen pointer replay; moves=16 ruleMs=0.076
+SOAK cycle 25 PASS real screen pointer replay; moves=25 ruleMs=0.052
+SOAK cycle 26 PASS real screen pointer replay; moves=22 ruleMs=0.086
+SOAK cycle 27 PASS real screen pointer replay; moves=19 ruleMs=0.085
+SOAK cycle 28 PASS real screen pointer replay; moves=25 ruleMs=0.045
+SOAK cycle 29 PASS real screen pointer replay; moves=22 ruleMs=0.080
+SOAK cycle 30 PASS real screen pointer replay; moves=22 ruleMs=0.038
+SOAK cycle 31 PASS real screen pointer replay; moves=25 ruleMs=0.045
+SOAK cycle 32 PASS real screen pointer replay; moves=22 ruleMs=0.084
+SOAK cycle 33 PASS real screen pointer replay; moves=25 ruleMs=0.091
+SOAK cycle 34 PASS real screen pointer replay; moves=25 ruleMs=0.080
+SOAK seconds=194.1 loops=34 transforms=352 audioSources=7 unityAllocated=59513098 managed=3407872 errors=0
+SOAK cycle 35 PASS real screen pointer replay; moves=22 ruleMs=0.081
+SOAK cycle 36 PASS real screen pointer replay; moves=16 ruleMs=0.062
+SOAK cycle 37 PASS real screen pointer replay; moves=25 ruleMs=0.068
+SOAK cycle 38 PASS real screen pointer replay; moves=22 ruleMs=0.078
+SOAK cycle 39 PASS real screen pointer replay; moves=13 ruleMs=0.039
+SOAK cycle 40 PASS real screen pointer replay; moves=25 ruleMs=0.057
+SOAK cycle 41 PASS real screen pointer replay; moves=22 ruleMs=0.062
+SOAK cycle 42 PASS real screen pointer replay; moves=16 ruleMs=0.073
+SOAK cycle 43 PASS real screen pointer replay; moves=25 ruleMs=0.088
+SOAK cycle 44 PASS real screen pointer replay; moves=22 ruleMs=0.117
+SOAK cycle 45 PASS real screen pointer replay; moves=19 ruleMs=0.058
+SOAK cycle 46 PASS real screen pointer replay; moves=25 ruleMs=0.080
+SOAK seconds=260.4 loops=46 transforms=352 audioSources=7 unityAllocated=59513526 managed=3407872 errors=0
+SOAK cycle 47 PASS real screen pointer replay; moves=22 ruleMs=0.065
+SOAK cycle 48 PASS real screen pointer replay; moves=22 ruleMs=0.062
+SOAK cycle 49 PASS real screen pointer replay; moves=25 ruleMs=0.047
+SOAK cycle 50 PASS real screen pointer replay; moves=22 ruleMs=0.044
+SOAK cycle 51 PASS real screen pointer replay; moves=25 ruleMs=0.059
+SOAK cycle 52 PASS real screen pointer replay; moves=25 ruleMs=0.082
+SOAK cycle 53 PASS real screen pointer replay; moves=22 ruleMs=0.114
+SOAK cycle 54 PASS real screen pointer replay; moves=16 ruleMs=0.088
+SOAK cycle 55 PASS real screen pointer replay; moves=25 ruleMs=0.073
+SOAK cycle 56 PASS real screen pointer replay; moves=22 ruleMs=0.109
+SOAK cycle 57 PASS real screen pointer replay; moves=13 ruleMs=0.062
+SOAK seconds=322.2 loops=57 transforms=352 audioSources=7 unityAllocated=59514006 managed=3342336 errors=0
+SOAK cycle 58 PASS real screen pointer replay; moves=25 ruleMs=0.087
+SOAK cycle 59 PASS real screen pointer replay; moves=22 ruleMs=0.091
+SOAK cycle 60 PASS real screen pointer replay; moves=16 ruleMs=0.946
+SOAK cycle 61 PASS real screen pointer replay; moves=25 ruleMs=0.072
+SOAK cycle 62 PASS real screen pointer replay; moves=22 ruleMs=0.063
+SOAK cycle 63 PASS real screen pointer replay; moves=19 ruleMs=0.070
+SOAK cycle 64 PASS real screen pointer replay; moves=25 ruleMs=0.087
+SOAK cycle 65 PASS real screen pointer replay; moves=22 ruleMs=0.075
+SOAK cycle 66 PASS real screen pointer replay; moves=22 ruleMs=0.066
+SOAK cycle 67 PASS real screen pointer replay; moves=25 ruleMs=0.063
+SOAK cycle 68 PASS real screen pointer replay; moves=22 ruleMs=0.086
+SOAK seconds=386.0 loops=68 transforms=352 audioSources=7 unityAllocated=59514737 managed=3383296 errors=0
+SOAK cycle 69 PASS real screen pointer replay; moves=25 ruleMs=0.077
+SOAK cycle 70 PASS real screen pointer replay; moves=25 ruleMs=0.065
+SOAK cycle 71 PASS real screen pointer replay; moves=22 ruleMs=0.060
+SOAK cycle 72 PASS real screen pointer replay; moves=16 ruleMs=0.057
+SOAK cycle 73 PASS real screen pointer replay; moves=25 ruleMs=0.064
+SOAK cycle 74 PASS real screen pointer replay; moves=22 ruleMs=0.073
+SOAK cycle 75 PASS real screen pointer replay; moves=13 ruleMs=0.062
+SOAK cycle 76 PASS real screen pointer replay; moves=25 ruleMs=0.086
+SOAK cycle 77 PASS real screen pointer replay; moves=22 ruleMs=0.073
+SOAK cycle 78 PASS real screen pointer replay; moves=16 ruleMs=0.074
+SOAK cycle 79 PASS real screen pointer replay; moves=25 ruleMs=0.073
+SOAK seconds=447.2 loops=79 transforms=352 audioSources=7 unityAllocated=59514842 managed=3403776 errors=0
+SOAK cycle 80 PASS real screen pointer replay; moves=22 ruleMs=0.093
+SOAK cycle 81 PASS real screen pointer replay; moves=19 ruleMs=0.073
+SOAK cycle 82 PASS real screen pointer replay; moves=25 ruleMs=0.057
+SOAK cycle 83 PASS real screen pointer replay; moves=22 ruleMs=0.082
+SOAK cycle 84 PASS real screen pointer replay; moves=22 ruleMs=0.077
+SOAK cycle 85 PASS real screen pointer replay; moves=25 ruleMs=0.057
+SOAK cycle 86 PASS real screen pointer replay; moves=22 ruleMs=0.072
+SOAK cycle 87 PASS real screen pointer replay; moves=25 ruleMs=0.074
+SOAK cycle 88 PASS real screen pointer replay; moves=25 ruleMs=0.069
+SOAK cycle 89 PASS real screen pointer replay; moves=22 ruleMs=0.065
+SOAK cycle 90 PASS real screen pointer replay; moves=16 ruleMs=0.035
+SOAK seconds=510.0 loops=90 transforms=352 audioSources=7 unityAllocated=59515778 managed=3403776 errors=0
+SOAK cycle 91 PASS real screen pointer replay; moves=25 ruleMs=0.052
+SOAK cycle 92 PASS real screen pointer replay; moves=22 ruleMs=0.085
+SOAK cycle 93 PASS real screen pointer replay; moves=13 ruleMs=0.085
+SOAK cycle 94 PASS real screen pointer replay; moves=25 ruleMs=0.090
+SOAK cycle 95 PASS real screen pointer replay; moves=22 ruleMs=0.084
+SOAK cycle 96 PASS real screen pointer replay; moves=16 ruleMs=0.085
+SOAK cycle 97 PASS real screen pointer replay; moves=25 ruleMs=0.041
+SOAK cycle 98 PASS real screen pointer replay; moves=22 ruleMs=0.084
+SOAK cycle 99 PASS real screen pointer replay; moves=19 ruleMs=0.075
+SOAK cycle 100 PASS real screen pointer replay; moves=25 ruleMs=0.077
+SOAK cycle 101 PASS real screen pointer replay; moves=22 ruleMs=0.096
+SOAK seconds=572.4 loops=101 transforms=352 audioSources=7 unityAllocated=59515917 managed=3383296 errors=0
+SOAK cycle 102 PASS real screen pointer replay; moves=22 ruleMs=0.094
+SOAK cycle 103 PASS real screen pointer replay; moves=25 ruleMs=0.080
+SOAK cycle 104 PASS real screen pointer replay; moves=22 ruleMs=0.072
+SOAK cycle 105 PASS real screen pointer replay; moves=25 ruleMs=0.088
+SOAK cycle 106 PASS real screen pointer replay; moves=25 ruleMs=0.037
+SOAK seconds=602.1 loops=106 transforms=352 audioSources=7 unityAllocated=59518898 managed=3420160 errors=0
+SOAK PASS elapsed=602.1s loops=106 transforms=352 audioSources=7 warmedUnityDelta=5096 errors=0; current Mac only, memory samples retained
+RESULT PASS

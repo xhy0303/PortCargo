@@ -1,0 +1,26 @@
+{
+  "artifactFingerprint": "7c1b74f4acdae07e5a829dfc5cefe2489409a4c1ea476b981312fe5aa321c962",
+  "appId": "wx19e83e7294013864",
+  "compileType": "game",
+  "orientation": "portrait",
+  "plugins": {
+    "UnityPlugin": {
+      "version": "1.3.14",
+      "provider": "wxe5a48f1ed5f544b7",
+      "contexts": [
+        {
+          "type": "isolatedContext"
+        }
+      ]
+    }
+  },
+  "totalBytes": 26754353,
+  "subpackages": {
+    "wasmcode": 5742093,
+    "data-package": 11649552
+  },
+  "runtimeTests": "pending",
+  "realDeviceTests": "not run",
+  "adsEnabled": false,
+  "sourceHashMeaning": "source files at inspection time; not proof these files were compiled"
+}

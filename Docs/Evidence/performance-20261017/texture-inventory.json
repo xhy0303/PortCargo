@@ -1,0 +1,443 @@
+[
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Harbor/bg_gameplay_harbor.png",
+    "width": 1024,
+    "height": 1536,
+    "rgbaBytes": 6291456,
+    "fileBytes": 1844668
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Harbor/bg_home_harbor.png",
+    "width": 1536,
+    "height": 1024,
+    "rgbaBytes": 6291456,
+    "fileBytes": 1847255
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Harbor/spr_dock_foreground.png",
+    "width": 1944,
+    "height": 809,
+    "rgbaBytes": 6290784,
+    "fileBytes": 595293
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Harbor/spr_crane.png",
+    "width": 1254,
+    "height": 1254,
+    "rgbaBytes": 6290064,
+    "fileBytes": 739228
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Harbor/app_icon_master.png",
+    "width": 1254,
+    "height": 1254,
+    "rgbaBytes": 6290064,
+    "fileBytes": 1659446
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Harbor/spr_ship_empty.png",
+    "width": 512,
+    "height": 256,
+    "rgbaBytes": 524288,
+    "fileBytes": 1456
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Tutorial/tutorial_other_to_buffer.png",
+    "width": 384,
+    "height": 256,
+    "rgbaBytes": 393216,
+    "fileBytes": 1110
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Tutorial/tutorial_only_top.png",
+    "width": 384,
+    "height": 256,
+    "rgbaBytes": 393216,
+    "fileBytes": 1330
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Tutorial/tutorial_match_to_ship.png",
+    "width": 384,
+    "height": 256,
+    "rgbaBytes": 393216,
+    "fileBytes": 1202
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/UI/panel_common.png",
+    "width": 256,
+    "height": 192,
+    "rgbaBytes": 196608,
+    "fileBytes": 667
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/UI/panel_warning.png",
+    "width": 256,
+    "height": 192,
+    "rgbaBytes": 196608,
+    "fileBytes": 666
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/UI/toast.png",
+    "width": 256,
+    "height": 64,
+    "rgbaBytes": 65536,
+    "fileBytes": 324
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/FX/completion_badge.png",
+    "width": 128,
+    "height": 128,
+    "rgbaBytes": 65536,
+    "fileBytes": 491
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Cargo/cargo_highlight.png",
+    "width": 128,
+    "height": 128,
+    "rgbaBytes": 65536,
+    "fileBytes": 309
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Cargo/cargo_Y.png",
+    "width": 128,
+    "height": 128,
+    "rgbaBytes": 65536,
+    "fileBytes": 482
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Cargo/cargo_B.png",
+    "width": 128,
+    "height": 128,
+    "rgbaBytes": 65536,
+    "fileBytes": 488
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Cargo/buffer_slot.png",
+    "width": 128,
+    "height": 128,
+    "rgbaBytes": 65536,
+    "fileBytes": 373
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Cargo/cargo_G.png",
+    "width": 128,
+    "height": 128,
+    "rgbaBytes": 65536,
+    "fileBytes": 574
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Cargo/cargo_R.png",
+    "width": 128,
+    "height": 128,
+    "rgbaBytes": 65536,
+    "fileBytes": 457
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/UI/button_primary_normal.png",
+    "width": 192,
+    "height": 64,
+    "rgbaBytes": 49152,
+    "fileBytes": 292
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/UI/button_secondary_normal.png",
+    "width": 192,
+    "height": 64,
+    "rgbaBytes": 49152,
+    "fileBytes": 294
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/UI/button_secondary_disabled.png",
+    "width": 192,
+    "height": 64,
+    "rgbaBytes": 49152,
+    "fileBytes": 293
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/UI/button_secondary_pressed.png",
+    "width": 192,
+    "height": 64,
+    "rgbaBytes": 49152,
+    "fileBytes": 293
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/UI/button_primary_pressed.png",
+    "width": 192,
+    "height": 64,
+    "rgbaBytes": 49152,
+    "fileBytes": 290
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/UI/button_primary_disabled.png",
+    "width": 192,
+    "height": 64,
+    "rgbaBytes": 49152,
+    "fileBytes": 293
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/UI/level_tile_locked.png",
+    "width": 96,
+    "height": 96,
+    "rgbaBytes": 36864,
+    "fileBytes": 343
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/UI/level_tile_normal.png",
+    "width": 96,
+    "height": 96,
+    "rgbaBytes": 36864,
+    "fileBytes": 308
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/UI/level_tile_completed.png",
+    "width": 96,
+    "height": 96,
+    "rgbaBytes": 36864,
+    "fileBytes": 334
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/UI/level_tile_current.png",
+    "width": 96,
+    "height": 96,
+    "rgbaBytes": 36864,
+    "fileBytes": 311
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/UI/toggle_track_off.png",
+    "width": 96,
+    "height": 48,
+    "rgbaBytes": 18432,
+    "fileBytes": 207
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/UI/toggle_track_on.png",
+    "width": 96,
+    "height": 48,
+    "rgbaBytes": 18432,
+    "fileBytes": 207
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Cargo/cargo_icon_Y.png",
+    "width": 64,
+    "height": 64,
+    "rgbaBytes": 16384,
+    "fileBytes": 247
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Cargo/cargo_icon_G.png",
+    "width": 64,
+    "height": 64,
+    "rgbaBytes": 16384,
+    "fileBytes": 308
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Cargo/cargo_icon_R.png",
+    "width": 64,
+    "height": 64,
+    "rgbaBytes": 16384,
+    "fileBytes": 230
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Cargo/cargo_icon_B.png",
+    "width": 64,
+    "height": 64,
+    "rgbaBytes": 16384,
+    "fileBytes": 246
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Cargo/stack_base.png",
+    "width": 128,
+    "height": 32,
+    "rgbaBytes": 16384,
+    "fileBytes": 216
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Icons/icon_next.png",
+    "width": 64,
+    "height": 64,
+    "rgbaBytes": 16384,
+    "fileBytes": 180
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Icons/icon_reduced_motion.png",
+    "width": 64,
+    "height": 64,
+    "rgbaBytes": 16384,
+    "fileBytes": 182
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Icons/icon_back.png",
+    "width": 64,
+    "height": 64,
+    "rgbaBytes": 16384,
+    "fileBytes": 187
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Icons/icon_play.png",
+    "width": 64,
+    "height": 64,
+    "rgbaBytes": 16384,
+    "fileBytes": 200
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Icons/icon_settings.png",
+    "width": 64,
+    "height": 64,
+    "rgbaBytes": 16384,
+    "fileBytes": 206
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Icons/icon_privacy.png",
+    "width": 64,
+    "height": 64,
+    "rgbaBytes": 16384,
+    "fileBytes": 213
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Icons/icon_help.png",
+    "width": 64,
+    "height": 64,
+    "rgbaBytes": 16384,
+    "fileBytes": 202
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Icons/icon_mode_campaign.png",
+    "width": 64,
+    "height": 64,
+    "rgbaBytes": 16384,
+    "fileBytes": 203
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Icons/icon_hint.png",
+    "width": 64,
+    "height": 64,
+    "rgbaBytes": 16384,
+    "fileBytes": 236
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Icons/icon_retry_save.png",
+    "width": 64,
+    "height": 64,
+    "rgbaBytes": 16384,
+    "fileBytes": 217
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Icons/icon_level_select.png",
+    "width": 64,
+    "height": 64,
+    "rgbaBytes": 16384,
+    "fileBytes": 171
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Icons/icon_undo.png",
+    "width": 64,
+    "height": 64,
+    "rgbaBytes": 16384,
+    "fileBytes": 196
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Icons/icon_exit.png",
+    "width": 64,
+    "height": 64,
+    "rgbaBytes": 16384,
+    "fileBytes": 197
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Icons/icon_pause.png",
+    "width": 64,
+    "height": 64,
+    "rgbaBytes": 16384,
+    "fileBytes": 169
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Icons/icon_mode_endless.png",
+    "width": 64,
+    "height": 64,
+    "rgbaBytes": 16384,
+    "fileBytes": 191
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Icons/icon_queue.png",
+    "width": 64,
+    "height": 64,
+    "rgbaBytes": 16384,
+    "fileBytes": 186
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Icons/icon_sound.png",
+    "width": 64,
+    "height": 64,
+    "rgbaBytes": 16384,
+    "fileBytes": 197
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Icons/icon_home.png",
+    "width": 64,
+    "height": 64,
+    "rgbaBytes": 16384,
+    "fileBytes": 193
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Icons/icon_music.png",
+    "width": 64,
+    "height": 64,
+    "rgbaBytes": 16384,
+    "fileBytes": 208
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Icons/icon_restart.png",
+    "width": 64,
+    "height": 64,
+    "rgbaBytes": 16384,
+    "fileBytes": 226
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Icons/icon_info.png",
+    "width": 64,
+    "height": 64,
+    "rgbaBytes": 16384,
+    "fileBytes": 185
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/Icons/icon_previous.png",
+    "width": 64,
+    "height": 64,
+    "rgbaBytes": 16384,
+    "fileBytes": 175
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/UI/toggle_knob.png",
+    "width": 32,
+    "height": 32,
+    "rgbaBytes": 4096,
+    "fileBytes": 155
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/FX/confetti_square.png",
+    "width": 16,
+    "height": 16,
+    "rgbaBytes": 1024,
+    "fileBytes": 106
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/FX/confetti_star.png",
+    "width": 16,
+    "height": 16,
+    "rgbaBytes": 1024,
+    "fileBytes": 121
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/FX/confetti_diamond.png",
+    "width": 16,
+    "height": 16,
+    "rgbaBytes": 1024,
+    "fileBytes": 121
+  },
+  {
+    "file": "Assets/PortCargo/Art/Sprites/UI/scrim.png",
+    "width": 8,
+    "height": 8,
+    "rgbaBytes": 256,
+    "fileBytes": 96
+  }
+]

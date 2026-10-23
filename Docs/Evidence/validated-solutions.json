@@ -1,0 +1,174 @@
+[
+  {
+    "levelId": "L01",
+    "status": "Found",
+    "nodes": 3,
+    "solutionBoxIds": [
+      "L01-S1-B1",
+      "L01-S2-B1",
+      "L01-S3-B1"
+    ]
+  },
+  {
+    "levelId": "L02",
+    "status": "Found",
+    "nodes": 4,
+    "solutionBoxIds": [
+      "L02-S1-B1",
+      "L02-S2-B1",
+      "L02-S3-B1",
+      "L02-S4-B1"
+    ]
+  },
+  {
+    "levelId": "L03",
+    "status": "Found",
+    "nodes": 4,
+    "solutionBoxIds": [
+      "L03-S1-B2",
+      "L03-S1-B1",
+      "L03-S2-B2",
+      "L03-S2-B1"
+    ]
+  },
+  {
+    "levelId": "L04",
+    "status": "Found",
+    "nodes": 4,
+    "solutionBoxIds": [
+      "L04-S1-B2",
+      "L04-S1-B1",
+      "L04-S2-B2",
+      "L04-S2-B1"
+    ]
+  },
+  {
+    "levelId": "L05",
+    "status": "Found",
+    "nodes": 6,
+    "solutionBoxIds": [
+      "L05-S1-B2",
+      "L05-S1-B1",
+      "L05-S2-B2",
+      "L05-S2-B1",
+      "L05-S3-B2",
+      "L05-S3-B1"
+    ]
+  },
+  {
+    "levelId": "L06",
+    "status": "Found",
+    "nodes": 9,
+    "solutionBoxIds": [
+      "L06-S1-B3",
+      "L06-S1-B2",
+      "L06-S1-B1",
+      "L06-S2-B3",
+      "L06-S2-B2",
+      "L06-S2-B1",
+      "L06-S3-B3",
+      "L06-S3-B2",
+      "L06-S3-B1"
+    ]
+  },
+  {
+    "levelId": "L07",
+    "status": "Found",
+    "nodes": 12,
+    "solutionBoxIds": [
+      "L07-S1-B3",
+      "L07-S1-B2",
+      "L07-S1-B1",
+      "L07-S2-B3",
+      "L07-S2-B2",
+      "L07-S2-B1",
+      "L07-S3-B3",
+      "L07-S3-B2",
+      "L07-S3-B1",
+      "L07-S4-B3",
+      "L07-S4-B2",
+      "L07-S4-B1"
+    ]
+  },
+  {
+    "levelId": "L08",
+    "status": "Found",
+    "nodes": 21,
+    "solutionBoxIds": [
+      "L08-S1-B4",
+      "L08-S1-B3",
+      "L08-S1-B2",
+      "L08-S2-B4",
+      "L08-S2-B3",
+      "L08-S2-B2",
+      "L08-S4-B4",
+      "L08-S1-B1",
+      "L08-S3-B4",
+      "L08-S4-B3",
+      "L08-S4-B2",
+      "L08-S2-B1",
+      "L08-S3-B3",
+      "L08-S3-B2",
+      "L08-S3-B1",
+      "L08-S4-B1"
+    ]
+  },
+  {
+    "levelId": "L09",
+    "status": "Found",
+    "nodes": 497,
+    "solutionBoxIds": [
+      "L09-S1-B4",
+      "L09-S3-B4",
+      "L09-S3-B3",
+      "L09-S4-B4",
+      "L09-S4-B3",
+      "L09-S4-B2",
+      "L09-S5-B4",
+      "L09-S1-B3",
+      "L09-S1-B2",
+      "L09-S2-B4",
+      "L09-S2-B3",
+      "L09-S2-B2",
+      "L09-S2-B1",
+      "L09-S3-B2",
+      "L09-S4-B1",
+      "L09-S1-B1",
+      "L09-S5-B3",
+      "L09-S5-B2",
+      "L09-S5-B1",
+      "L09-S3-B1"
+    ]
+  },
+  {
+    "levelId": "L10",
+    "status": "Found",
+    "nodes": 253,
+    "solutionBoxIds": [
+      "L10-S1-B4",
+      "L10-S1-B3",
+      "L10-S2-B4",
+      "L10-S2-B3",
+      "L10-S2-B2",
+      "L10-S2-B1",
+      "L10-S4-B4",
+      "L10-S1-B2",
+      "L10-S3-B4",
+      "L10-S3-B3",
+      "L10-S5-B4",
+      "L10-S3-B2",
+      "L10-S4-B3",
+      "L10-S6-B4",
+      "L10-S6-B3",
+      "L10-S5-B3",
+      "L10-S5-B2",
+      "L10-S6-B2",
+      "L10-S6-B1",
+      "L10-S1-B1",
+      "L10-S3-B1",
+      "L10-S4-B2",
+      "L10-S4-B1",
+      "L10-S5-B1"
+    ]
+  }
+]

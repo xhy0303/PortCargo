@@ -1,0 +1,6 @@
+U01 PASS InputSystem two-finger overlap accepts only first gesture
+U01/R07 PASS covered click, drag cancellation, one move per gesture, undo, current-state hint
+U04/U05 PASS muted reduced-motion L04; next level 499ms including test gesture frames
+U06 partial PASS 50 UI restarts; scene transform count stable=164; ten-minute device memory test not run
+U02 PASS viewport=320x568 six-stack top targets min=47.6x48.0 screen px
+RESULT PASS

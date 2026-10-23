@@ -1,0 +1,52 @@
+{
+  "pid": 41950,
+  "durationSeconds": 634.33,
+  "samples": [
+    {
+      "elapsedSeconds": 0.0,
+      "rssKiB": 32
+    },
+    {
+      "elapsedSeconds": 60.21,
+      "rssKiB": 327424
+    },
+    {
+      "elapsedSeconds": 120.42,
+      "rssKiB": 329312
+    },
+    {
+      "elapsedSeconds": 180.67,
+      "rssKiB": 329200
+    },
+    {
+      "elapsedSeconds": 240.89,
+      "rssKiB": 335136
+    },
+    {
+      "elapsedSeconds": 301.11,
+      "rssKiB": 334912
+    },
+    {
+      "elapsedSeconds": 361.34,
+      "rssKiB": 335088
+    },
+    {
+      "elapsedSeconds": 421.56,
+      "rssKiB": 335248
+    },
+    {
+      "elapsedSeconds": 481.77,
+      "rssKiB": 335040
+    },
+    {
+      "elapsedSeconds": 542.0,
+      "rssKiB": 335248
+    },
+    {
+      "elapsedSeconds": 602.21,
+      "rssKiB": 335072
+    }
+  ],
+  "complete": true,
+  "exitCode": 0
+}
