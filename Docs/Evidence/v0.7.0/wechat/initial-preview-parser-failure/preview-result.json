@@ -1,0 +1,18 @@
+{
+  "ok": false,
+  "errorType": "MCP_TOOL_ERROR",
+  "message": "错误 Error: invalid file: webgl.wasm.framework.unityweb.js, 1:292\nSyntaxError: Unexpected token .\nvar OriginalAudioContext = window.AudioContext || window.webkitAudioContext;window.AudioContext = function() {if (this instanceof window.AudioContext) {return wx.createWebAudioContext();} else {return new OriginalAudioContext();}};var unityFramework=(()=>{var _scriptName=globalThis.document?.currentScript?.src;return async function(moduleArg={}){var moduleRtn;var Module=moduleArg;var ENVIRONMENT_IS_WEB=true;var ENVIRONMENT_IS_WORKER=false;var ENVIRONMENT_IS_NODE=false;\n    at Y.parseError (/Applications/wechatwebdevtools.app/Contents/Resources/app.asar/js/527609dda0ad86da09fa2e9c04f60db9.js:2:15462)\n    at Y.run (/Applications/wechatwebdevtools.app/Contents/Resources/app.asar/js/527609dda0ad86da09fa2e9c04f60db9.js:2:14624)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Y.run (/Applications/wechatwebdevtools.app/Contents/Resources/app.asar/js/527609dda0ad86da09fa2e9c04f60db9.js:2:17523)\n    at async s.lazyRun (/Applications/wechatwebdevtools.app/Contents/Resources/app.asar/js/c082f07fdaffce7bfae7c321aa6b86a4.js:2:628) (code 10)",
+  "source": "mcp_business",
+  "code": "10",
+  "detail": {
+    "rawResult": {
+      "success": false,
+      "error": "错误 Error: invalid file: webgl.wasm.framework.unityweb.js, 1:292\nSyntaxError: Unexpected token .\nvar OriginalAudioContext = window.AudioContext || window.webkitAudioContext;window.AudioContext = function() {if (this instanceof window.AudioContext) {return wx.createWebAudioContext();} else {return new OriginalAudioContext();}};var unityFramework=(()=>{var _scriptName=globalThis.document?.currentScript?.src;return async function(moduleArg={}){var moduleRtn;var Module=moduleArg;var ENVIRONMENT_IS_WEB=true;var ENVIRONMENT_IS_WORKER=false;var ENVIRONMENT_IS_NODE=false;\n    at Y.parseError (/Applications/wechatwebdevtools.app/Contents/Resources/app.asar/js/527609dda0ad86da09fa2e9c04f60db9.js:2:15462)\n    at Y.run (/Applications/wechatwebdevtools.app/Contents/Resources/app.asar/js/527609dda0ad86da09fa2e9c04f60db9.js:2:14624)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Y.run (/Applications/wechatwebdevtools.app/Contents/Resources/app.asar/js/527609dda0ad86da09fa2e9c04f60db9.js:2:17523)\n    at async s.lazyRun (/Applications/wechatwebdevtools.app/Contents/Resources/app.asar/js/c082f07fdaffce7bfae7c321aa6b86a4.js:2:628) (code 10)",
+      "code": "10"
+    }
+  },
+  "reason": "10",
+  "tool": "create_preview_qrcode",
+  "clientName": "Codex",
+  "suggestions": "查看该工具完整参数, wechatide -c Codex create_preview_qrcode -h"
+}

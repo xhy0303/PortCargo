@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "count": 1,
+  "borderOrder": [
+    "left",
+    "bottom",
+    "right",
+    "top"
+  ],
+  "units": "exported PNG pixels",
+  "assets": [
+    {
+      "id": "spr_ship_empty",
+      "file": "01_可交付/Sprites/Harbor/spr_ship_empty.png",
+      "source": "02_可编辑源文件/Harbor/spr_ship_empty.svg",
+      "width": 512,
+      "height": 256,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Harbor",
+      "purpose": "通用空甲板船身与船舱；当前船和离港影像复用",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "左驾驶舱、右船头。无货物、文字、水波、阴影或光晕；仅 0/255 alpha。甲板上沿在导出图 y=156；可用货物区域 x=160..464, y<156。堆放货箱另叠 Cargo，需求图标和装载量另放 UI。不可 9-slice；整数倍缩放。",
+      "anchors": {
+        "coordinateOrigin": "top-left",
+        "deckTopY": 156,
+        "cargoSafeRect": {
+          "x": 160,
+          "y": 32,
+          "width": 304,
+          "height": 124
+        },
+        "hullBaseY": 232
+      },
+      "verification": {
+        "dimensions": true,
+        "alphaValues": [
+          0,
+          255
+        ],
+        "logicalGrid": [
+          128,
+          64
+        ],
+        "exportScale": 4
+      }
+    }
+  ]
+}

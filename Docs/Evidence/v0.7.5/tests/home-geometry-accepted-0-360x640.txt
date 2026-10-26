@@ -1,0 +1,1 @@
+PASS native=True hero=(x:0.00, y:327.70, width:360.00, height:172.30) screen=360x640

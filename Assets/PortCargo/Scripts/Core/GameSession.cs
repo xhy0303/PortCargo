@@ -109,10 +109,11 @@ namespace PortCargo.Core
         public bool UseHint(string expectedRunId, long expectedVersion, string boxId, bool rewarded)
         {
             if (Guard(expectedRunId, expectedVersion) != RejectReason.None || Status == BoardStatus.Completed) return false;
-            if (rewarded ? data.adHintUsed : data.freeHintUsed) return false;
+            // Keep adHintUsed in saves as a historical flag, not a rewarded-hint quota.
+            if (!rewarded && data.freeHintUsed) return false;
             if (GameRules.CanMove(Level, data.board, Capacity, boxId) != RejectReason.None) return false;
             if (rewarded) data.adHintUsed = true; else data.freeHintUsed = true;
-            data.hintCount++;
+            if (data.hintCount < int.MaxValue) data.hintCount++;
             return true;
         }
 

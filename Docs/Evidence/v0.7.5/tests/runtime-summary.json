@@ -1,0 +1,18 @@
+{
+  "result": "PASS",
+  "viewports": 4,
+  "pointerClicks": 156,
+  "files": [
+    "verified-360x800.json",
+    "verified-360x640.json",
+    "verified-390x844-safe.json",
+    "verified-768x1024-safe.json"
+  ],
+  "scope": "Real Unity pointer navigation on four release viewports, plus six home-specific real-frame geometry checks. Native ad availability is a test fixture, not an impression.",
+  "homeGeometry": "home-geometry-summary.json",
+  "extraExploratoryCase": {
+    "file": "verified-360x640-safe.json",
+    "result": "FAIL",
+    "reason": "Existing Settings card cannot fit a 522 CSS safe area; generic mandatory-ad assertion failed after Settings navigation. Not counted as a passing run; Home retains its ad and separately passes exact-layout checks."
+  }
+}

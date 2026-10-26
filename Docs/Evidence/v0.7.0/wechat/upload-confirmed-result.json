@@ -1,0 +1,40 @@
+{
+  "ok": true,
+  "tool": "polling_task_result",
+  "clientName": "Codex",
+  "result": {
+    "success": true,
+    "taskId": "confirmation_upload_209d18da-54b0-4446-9e6b-7f158f8d85e5",
+    "taskType": "confirmation_upload",
+    "status": "success",
+    "createdAt": 1792815523678,
+    "updatedAt": 1792815544952,
+    "detail": "execution_success",
+    "result": {
+      "info": {
+        "size": {
+          "total": 18828291,
+          "packages": [
+            {
+              "name": "TOTAL",
+              "size": 18828291
+            },
+            {
+              "name": "main",
+              "size": 1229897
+            },
+            {
+              "name": "/data-package/",
+              "size": 11650022
+            },
+            {
+              "name": "/wasmcode/",
+              "size": 5948372
+            }
+          ]
+        }
+      },
+      "success": true
+    }
+  }
+}

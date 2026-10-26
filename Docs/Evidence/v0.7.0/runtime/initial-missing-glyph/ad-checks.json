@@ -1,0 +1,16 @@
+{
+    "result": "FAIL",
+    "failure": "System.InvalidOperationException: Missing visible glyph: 额\n  at PortCargo.Runtime.DevelopmentAdChecks+<Capture>d__53.MoveNext () [0x001e3] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Runtime/DevelopmentAdChecks.cs:407 \n  at PortCargo.Runtime.DevelopmentAdChecks+<Guarded>d__39.MoveNext () [0x00044] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Runtime/DevelopmentAdChecks.cs:106 ",
+    "startedUtc": "2026-10-24T03:28:57.0240320Z",
+    "finishedUtc": "2026-10-24T03:28:57.5352960Z",
+    "scope": "Unity UI and reward transaction checks with injected fake providers; not WeChat SDK/device verification",
+    "saveIsolation": "All fixture writes use in-memory repositories; original repository is retained untouched",
+    "pointerClicks": 3,
+    "hintAdRequests": 0,
+    "skipAdRequests": 0,
+    "originalStateRestored": true,
+    "checks": [
+        "A01 PASS First real HUD hint click grants the original free hint without requesting an ad"
+    ],
+    "screenshots": []
+}

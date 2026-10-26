@@ -98,7 +98,8 @@ namespace PortCargo.Tests
             TestEndlessGeneration(codec, result);
             TestRandomEndless(catalog, codec, result);
             TestHardExpansion(catalog, levels, codec, result);
-            TestRewardedHint(l4, result);
+            TestRewardedHint(l4, codec, result);
+            TestRewardedSkip(l4, codec, result);
             return result;
         }
 
@@ -350,7 +351,7 @@ namespace PortCargo.Tests
             Throws(()=>LevelValidator.Load(invalid),"reject L201");
             result.Add("HARD PASS 150 campaign puzzles require buffer 3; 150 random endless layouts solved/replayed, worstNodes="+worstNodes+" maxMs="+slowest.ToString("F2")+"; L50/L100/L200 saves and ID bounds");
         }
-        private static void TestRewardedHint(LevelDefinition level,List<string> result)
+        private static void TestRewardedHint(LevelDefinition level,IJsonCodec codec,List<string> result)
         {
             var session=new GameSession(level,"reward");var box=GameRules.Top(level,session.Board,0);
             foreach(var outcome in new[]{RewardedVideoResult.Cancelled,RewardedVideoResult.Failed,RewardedVideoResult.Unavailable})
@@ -367,7 +368,84 @@ namespace PortCargo.Tests
             Check(complete.Resolve(session,RewardedVideoResult.Completed)&&!complete.Resolve(session,RewardedVideoResult.Completed)&&session.AdHintUsed,"exactly once completed reward");
             Check(GameSession.Restore(level,session.Export()).AdHintUsed,"reward saved");
             Check(session.TryUndo(session.RunId,session.Version)&&session.AdHintUsed,"reward survives undo");
-            result.Add("REWARD PASS completed-only, exactly once, stale/replaced run rejection, saved entitlement and undo");
+            box=GameRules.Top(level,session.Board,0);
+            var boardBefore=session.Board.ExactKey();var versionBefore=session.Version;
+            var firstAdditional=new RewardedHintTicket(session,box);
+            var secondAdditional=new RewardedHintTicket(session,box);
+            Check(firstAdditional.Resolve(session,RewardedVideoResult.Completed)
+                &&secondAdditional.Resolve(session,RewardedVideoResult.Completed)&&session.Export().hintCount==3,
+                "independent completed videos grant unlimited hints on same board");
+            Check(!session.FreeHintUsed&&session.Board.ExactKey()==boardBefore&&session.Version==versionBefore,
+                "rewarded hints preserve free hint and board");
+            Check(session.UseHint(session.RunId,session.Version,box,false)
+                &&!session.UseHint(session.RunId,session.Version,box,false),"free hint remains once per run");
+
+            // Existing saves already contain this flag. It must not retain the former one-video limit.
+            var legacy=codec.Decode<RunData>(codec.Encode(session.Export()));
+            Check(legacy.adHintUsed&&legacy.freeHintUsed,"existing reward flags serialize");
+            var restored=GameSession.Restore(level,legacy);
+            Check(new RewardedHintTicket(restored,box).Resolve(restored,RewardedVideoResult.Completed)
+                &&restored.Export().hintCount==5&&!restored.UseHint(restored.RunId,restored.Version,box,false),
+                "old adHintUsed save permits more ads without restoring free quota");
+
+            var saturated=restored.Export();saturated.hintCount=int.MaxValue-1;
+            restored=GameSession.Restore(level,saturated);
+            Check(new RewardedHintTicket(restored,box).Resolve(restored,RewardedVideoResult.Completed)
+                &&new RewardedHintTicket(restored,box).Resolve(restored,RewardedVideoResult.Completed)
+                &&restored.Export().hintCount==int.MaxValue,"unlimited hint counter saturates");
+            Check(GameSession.Restore(level,codec.Decode<RunData>(codec.Encode(restored.Export()))).Export().hintCount==int.MaxValue,
+                "saturated hint count remains a valid persisted run");
+
+            var restarted=new RewardedHintTicket(restored,box);restored.Restart("reward-restarted");
+            Check(!restarted.Resolve(restored,RewardedVideoResult.Completed)&&!restored.FreeHintUsed&&!restored.AdHintUsed,
+                "same session restart invalidates reward and resets free hint");
+            result.Add("REWARD PASS unlimited completed hints, once-only free hint, old saves, saturated counts, duplicate/stale/restarted callbacks");
+        }
+
+        private static void TestRewardedSkip(LevelDefinition level,IJsonCodec codec,List<string> result)
+        {
+            var session=new GameSession(level,"skip");const int round=20;
+            foreach(var outcome in new[]{RewardedVideoResult.Cancelled,RewardedVideoResult.Failed,RewardedVideoResult.Unavailable})
+            {
+                var rejected=new RewardedSkipTicket(session,round);
+                Check(!rejected.TryResolve(session,true,round,outcome)
+                    &&!rejected.TryResolve(session,true,round,RewardedVideoResult.Completed),"failed skip ticket consumes late callback");
+            }
+            var wrongMode=new RewardedSkipTicket(session,round);
+            Check(!wrongMode.TryResolve(session,false,round,RewardedVideoResult.Completed)
+                &&!wrongMode.TryResolve(session,true,round,RewardedVideoResult.Completed),"skip rejects campaign and consumes ticket");
+            var wrongRound=new RewardedSkipTicket(session,round);
+            Check(!wrongRound.TryResolve(session,true,round+1,RewardedVideoResult.Completed)
+                &&!wrongRound.TryResolve(session,true,round,RewardedVideoResult.Completed),"skip rejects changed round");
+            var replaced=new RewardedSkipTicket(session,round);
+            Check(!replaced.TryResolve(new GameSession(level,session.RunId),true,round,RewardedVideoResult.Completed),
+                "skip rejects replacement session even with same run id");
+            var stale=new RewardedSkipTicket(session,round);MoveStack(session,0);
+            Check(!stale.TryResolve(session,true,round,RewardedVideoResult.Completed),"skip rejects changed board version");
+            var undone=new RewardedSkipTicket(session,round);Check(session.TryUndo(session.RunId,session.Version),"skip test undo");
+            Check(!undone.TryResolve(session,true,round,RewardedVideoResult.Completed),"skip rejects undo version");
+            var restarted=new RewardedSkipTicket(session,round);session.Restart("skip-restarted");
+            Check(!restarted.TryResolve(session,true,round,RewardedVideoResult.Completed),"skip rejects same session restarted run");
+            Check(!new RewardedSkipTicket(session,int.MaxValue).TryResolve(session,true,int.MaxValue,RewardedVideoResult.Completed),
+                "maximum endless round cannot skip");
+            Check(!new RewardedSkipTicket(session,0).TryResolve(session,true,0,RewardedVideoResult.Completed),"invalid round cannot skip");
+
+            session.Busy=true; // The reward confirmation pauses gameplay while the platform video is shown.
+            var before=codec.Encode(session.Export());var accepted=new RewardedSkipTicket(session,round);
+            Check(accepted.TryResolve(session,true,round,RewardedVideoResult.Completed)
+                &&!accepted.TryResolve(session,true,round,RewardedVideoResult.Completed),"skip accepts completed video exactly once");
+            Check(codec.Encode(session.Export())==before&&session.Busy,"skip proof itself never changes board, counters or pause state");
+            session.Busy=false;
+            using(var solver=new Solver(level,session.Board,session.Capacity,session.Version,new SearchBudget(200000,3000)))
+            {
+                while(solver.Step(100)==SearchStatus.Searching){}
+                Check(solver.Status==SearchStatus.Found,"skip completion fixture solvable");
+                foreach(var id in solver.Solution)Check(session.TryMove(id,session.RunId,session.Version).Accepted,"skip completion fixture move");
+            }
+            Check(session.Status==BoardStatus.Completed
+                &&!new RewardedSkipTicket(session,round).TryResolve(session,true,round,RewardedVideoResult.Completed),
+                "completed round does not offer rewarded skip");
+            result.Add("SKIP PASS completed-only one-use proof, mode/run/version/round binding, restart/undo rejection, maximum round and no state mutation");
         }
 
         private static void TestStorage(LevelDefinition level, IJsonCodec codec, List<string> result)

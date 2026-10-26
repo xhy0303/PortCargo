@@ -1,0 +1,38 @@
+[
+  {
+    "id": "harbor_home_backdrop",
+    "file": "bg_home_harbor.png",
+    "alpha": false,
+    "result": "/Users/xhy/.codex/generated_images/01a14040-1c46-76a0-bef9-894b8b6e8b6d/exec-18994d53-63db-4710-a33b-601a1108a9c3.png"
+  },
+  {
+    "id": "harbor_gameplay_backdrop",
+    "file": "bg_gameplay_harbor.png",
+    "alpha": false,
+    "result": "/Users/xhy/.codex/generated_images/01a14040-1c46-76a0-bef9-894b8b6e8b6d/exec-997f383a-7630-490c-ada5-acf665bbc0c1.png"
+  },
+  {
+    "id": "harbor_ship",
+    "file": "spr_ship_empty.png",
+    "alpha": true,
+    "result": "/Users/xhy/.codex/generated_images/01a14040-1c46-76a0-bef9-894b8b6e8b6d/exec-0f9b30dc-dc88-4f7e-b9e5-41c725a0e53a.png"
+  },
+  {
+    "id": "harbor_crane",
+    "file": "spr_crane.png",
+    "alpha": true,
+    "result": "/Users/xhy/.codex/generated_images/01a14040-1c46-76a0-bef9-894b8b6e8b6d/exec-a70aa9a2-d4ad-4546-91bd-0f6dbb233047.png"
+  },
+  {
+    "id": "harbor_dock",
+    "file": "spr_dock_foreground.png",
+    "alpha": true,
+    "result": "/Users/xhy/.codex/generated_images/01a14040-1c46-76a0-bef9-894b8b6e8b6d/exec-76fc2f52-f651-43a6-81fe-fdf8f6d0ebad.png"
+  },
+  {
+    "id": "app_icon_master",
+    "file": "app_icon_master.png",
+    "alpha": false,
+    "result": "/Users/xhy/.codex/generated_images/01a14040-1c46-76a0-bef9-894b8b6e8b6d/exec-fb5ceb24-9307-43ef-a581-eff1b127f886.png"
+  }
+]

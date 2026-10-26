@@ -1,0 +1,10 @@
+生成工具：内置 image_gen。交付尺寸压缩与视频编码：FFmpeg。
+
+主视觉提示词：ads-marketing; landscape 16:9; Chinese pixel-art cargo sorting puzzle 港口装箱; navy/cobalt sunset harbor, amber crane lifting one blue container; red blue green yellow shipping containers; cargo ship; exactly three empty holding slots on foreground dock; full bleed; no text/logo/watermark; central composition adaptable to 2.66:1.
+
+竖版提示词：ads-marketing; vertical 9:16; crisp pixel sunset harbor, navy/coral/gold/cyan; ship, crane, four-color containers, exactly three empty dock slots; large simplified Chinese headline 三格暂存 / 装完一船; footer 200关挑战 · 随机无尽; generous safe margins; no invented UI/buttons/logo/watermark.
+
+分享图提示词：ads-marketing; horizontal 5:4; pixel sunset harbor; close-up three stacks of colorful containers and small cargo ship; blue container suspended by crane; exactly three empty holding slots; headline 下一箱，先拿哪个？; footer 200关挑战 · 随机无尽; no hand/arrows/fake UI/logo/watermark.
+
+
+新增四张使用内置image_gen生成。横版取箱顺序：16:9夜港，左侧高低箱堆，右侧货船与吊机，前景三格暂存，文字“先取顶部，同类装船”“每一步，都要想一想”。横版随机无尽：16:9拂晓港口，左侧驶离货船、右侧折线码头，文字“200关挑战”“随机无尽，继续开船”。竖版取箱顺序：9:16夜港俯视货堆、斜停货船、前景三格暂存，文字“先取顶部”“同类装船”“每一步，都要想一想”。竖版随机无尽：9:16晨曦航道、背向出港货船、两岸箱堆，文字“200关挑战”“随机无尽”“这一船之后，还有下一船”。均为海军蓝/青蓝/珊瑚/金色像素风，无按钮、假UI或水印。

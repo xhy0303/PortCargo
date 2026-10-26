@@ -1,0 +1,18 @@
+Command: /usr/local/share/dotnet/dotnet run --no-restore --project Tools/NativeAdsChecks/NativeAdsChecks.csproj -p:WeChatPlayer=true -p:WeChatEditor=false
+Working directory: /Users/xhy/UnityEditorProj/Projects/PortCargo
+Compilation / harness: UNITY_WEBGL;PORT_WECHAT
+Exit code: 0
+Scope: Local contract test against production source with mocked external boundary. This is not a real WeChat device, ad delivery, or revenue verification.
+
+PASS CSS mapping and invalid geometry checks=10
+PASS placement ownership and cleanup checks=11
+PASS failed loads and no request storm checks=15
+PASS dismissed visit and resizing checks=8
+PASS hidden/background/rewarded gates checks=10
+PASS load and show deadlines checks=6
+PASS native size containment checks=13
+PASS configuration and lifecycle checks=11
+PASS lease-release reentrancy checks=3
+PASS presenter visibility visit preservation checks=4
+NATIVE_ADAPTER_PLAYER_CONTRACT_PASS checks=91
+

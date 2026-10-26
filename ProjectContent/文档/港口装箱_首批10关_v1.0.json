@@ -1,0 +1,848 @@
+{
+  "catalogVersion": 1,
+  "levels": [
+    {
+      "schemaVersion": 1,
+      "id": "L01",
+      "revision": 1,
+      "bufferCapacity": 3,
+      "stacks": [
+        {
+          "id": "S1",
+          "boxes": [
+            {
+              "id": "L01-S1-B1",
+              "type": "R"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "boxes": [
+            {
+              "id": "L01-S2-B1",
+              "type": "R"
+            }
+          ]
+        },
+        {
+          "id": "S3",
+          "boxes": [
+            {
+              "id": "L01-S3-B1",
+              "type": "R"
+            }
+          ]
+        }
+      ],
+      "ships": [
+        {
+          "id": "L01-V1",
+          "type": "R",
+          "capacity": 3
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "L02",
+      "revision": 1,
+      "bufferCapacity": 3,
+      "stacks": [
+        {
+          "id": "S1",
+          "boxes": [
+            {
+              "id": "L02-S1-B1",
+              "type": "R"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "boxes": [
+            {
+              "id": "L02-S2-B1",
+              "type": "R"
+            }
+          ]
+        },
+        {
+          "id": "S3",
+          "boxes": [
+            {
+              "id": "L02-S3-B1",
+              "type": "B"
+            }
+          ]
+        },
+        {
+          "id": "S4",
+          "boxes": [
+            {
+              "id": "L02-S4-B1",
+              "type": "B"
+            }
+          ]
+        }
+      ],
+      "ships": [
+        {
+          "id": "L02-V1",
+          "type": "R",
+          "capacity": 2
+        },
+        {
+          "id": "L02-V2",
+          "type": "B",
+          "capacity": 2
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "L03",
+      "revision": 1,
+      "bufferCapacity": 3,
+      "stacks": [
+        {
+          "id": "S1",
+          "boxes": [
+            {
+              "id": "L03-S1-B1",
+              "type": "R"
+            },
+            {
+              "id": "L03-S1-B2",
+              "type": "R"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "boxes": [
+            {
+              "id": "L03-S2-B1",
+              "type": "B"
+            },
+            {
+              "id": "L03-S2-B2",
+              "type": "B"
+            }
+          ]
+        }
+      ],
+      "ships": [
+        {
+          "id": "L03-V1",
+          "type": "R",
+          "capacity": 2
+        },
+        {
+          "id": "L03-V2",
+          "type": "B",
+          "capacity": 2
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "L04",
+      "revision": 1,
+      "bufferCapacity": 3,
+      "stacks": [
+        {
+          "id": "S1",
+          "boxes": [
+            {
+              "id": "L04-S1-B1",
+              "type": "R"
+            },
+            {
+              "id": "L04-S1-B2",
+              "type": "B"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "boxes": [
+            {
+              "id": "L04-S2-B1",
+              "type": "R"
+            },
+            {
+              "id": "L04-S2-B2",
+              "type": "B"
+            }
+          ]
+        }
+      ],
+      "ships": [
+        {
+          "id": "L04-V1",
+          "type": "R",
+          "capacity": 2
+        },
+        {
+          "id": "L04-V2",
+          "type": "B",
+          "capacity": 2
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "L05",
+      "revision": 1,
+      "bufferCapacity": 3,
+      "stacks": [
+        {
+          "id": "S1",
+          "boxes": [
+            {
+              "id": "L05-S1-B1",
+              "type": "R"
+            },
+            {
+              "id": "L05-S1-B2",
+              "type": "B"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "boxes": [
+            {
+              "id": "L05-S2-B1",
+              "type": "R"
+            },
+            {
+              "id": "L05-S2-B2",
+              "type": "B"
+            }
+          ]
+        },
+        {
+          "id": "S3",
+          "boxes": [
+            {
+              "id": "L05-S3-B1",
+              "type": "B"
+            },
+            {
+              "id": "L05-S3-B2",
+              "type": "R"
+            }
+          ]
+        }
+      ],
+      "ships": [
+        {
+          "id": "L05-V1",
+          "type": "R",
+          "capacity": 3
+        },
+        {
+          "id": "L05-V2",
+          "type": "B",
+          "capacity": 3
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "L06",
+      "revision": 1,
+      "bufferCapacity": 3,
+      "stacks": [
+        {
+          "id": "S1",
+          "boxes": [
+            {
+              "id": "L06-S1-B1",
+              "type": "R"
+            },
+            {
+              "id": "L06-S1-B2",
+              "type": "R"
+            },
+            {
+              "id": "L06-S1-B3",
+              "type": "B"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "boxes": [
+            {
+              "id": "L06-S2-B1",
+              "type": "B"
+            },
+            {
+              "id": "L06-S2-B2",
+              "type": "R"
+            },
+            {
+              "id": "L06-S2-B3",
+              "type": "G"
+            }
+          ]
+        },
+        {
+          "id": "S3",
+          "boxes": [
+            {
+              "id": "L06-S3-B1",
+              "type": "G"
+            },
+            {
+              "id": "L06-S3-B2",
+              "type": "G"
+            },
+            {
+              "id": "L06-S3-B3",
+              "type": "B"
+            }
+          ]
+        }
+      ],
+      "ships": [
+        {
+          "id": "L06-V1",
+          "type": "R",
+          "capacity": 3
+        },
+        {
+          "id": "L06-V2",
+          "type": "B",
+          "capacity": 3
+        },
+        {
+          "id": "L06-V3",
+          "type": "G",
+          "capacity": 3
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "L07",
+      "revision": 1,
+      "bufferCapacity": 3,
+      "stacks": [
+        {
+          "id": "S1",
+          "boxes": [
+            {
+              "id": "L07-S1-B1",
+              "type": "B"
+            },
+            {
+              "id": "L07-S1-B2",
+              "type": "B"
+            },
+            {
+              "id": "L07-S1-B3",
+              "type": "R"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "boxes": [
+            {
+              "id": "L07-S2-B1",
+              "type": "R"
+            },
+            {
+              "id": "L07-S2-B2",
+              "type": "R"
+            },
+            {
+              "id": "L07-S2-B3",
+              "type": "G"
+            }
+          ]
+        },
+        {
+          "id": "S3",
+          "boxes": [
+            {
+              "id": "L07-S3-B1",
+              "type": "R"
+            },
+            {
+              "id": "L07-S3-B2",
+              "type": "B"
+            },
+            {
+              "id": "L07-S3-B3",
+              "type": "R"
+            }
+          ]
+        },
+        {
+          "id": "S4",
+          "boxes": [
+            {
+              "id": "L07-S4-B1",
+              "type": "R"
+            },
+            {
+              "id": "L07-S4-B2",
+              "type": "G"
+            },
+            {
+              "id": "L07-S4-B3",
+              "type": "G"
+            }
+          ]
+        }
+      ],
+      "ships": [
+        {
+          "id": "L07-V1",
+          "type": "R",
+          "capacity": 3
+        },
+        {
+          "id": "L07-V2",
+          "type": "B",
+          "capacity": 3
+        },
+        {
+          "id": "L07-V3",
+          "type": "G",
+          "capacity": 3
+        },
+        {
+          "id": "L07-V4",
+          "type": "R",
+          "capacity": 3
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "L08",
+      "revision": 1,
+      "bufferCapacity": 3,
+      "stacks": [
+        {
+          "id": "S1",
+          "boxes": [
+            {
+              "id": "L08-S1-B1",
+              "type": "G"
+            },
+            {
+              "id": "L08-S1-B2",
+              "type": "B"
+            },
+            {
+              "id": "L08-S1-B3",
+              "type": "R"
+            },
+            {
+              "id": "L08-S1-B4",
+              "type": "G"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "boxes": [
+            {
+              "id": "L08-S2-B1",
+              "type": "G"
+            },
+            {
+              "id": "L08-S2-B2",
+              "type": "R"
+            },
+            {
+              "id": "L08-S2-B3",
+              "type": "R"
+            },
+            {
+              "id": "L08-S2-B4",
+              "type": "B"
+            }
+          ]
+        },
+        {
+          "id": "S3",
+          "boxes": [
+            {
+              "id": "L08-S3-B1",
+              "type": "R"
+            },
+            {
+              "id": "L08-S3-B2",
+              "type": "R"
+            },
+            {
+              "id": "L08-S3-B3",
+              "type": "R"
+            },
+            {
+              "id": "L08-S3-B4",
+              "type": "B"
+            }
+          ]
+        },
+        {
+          "id": "S4",
+          "boxes": [
+            {
+              "id": "L08-S4-B1",
+              "type": "R"
+            },
+            {
+              "id": "L08-S4-B2",
+              "type": "B"
+            },
+            {
+              "id": "L08-S4-B3",
+              "type": "G"
+            },
+            {
+              "id": "L08-S4-B4",
+              "type": "R"
+            }
+          ]
+        }
+      ],
+      "ships": [
+        {
+          "id": "L08-V1",
+          "type": "R",
+          "capacity": 4
+        },
+        {
+          "id": "L08-V2",
+          "type": "B",
+          "capacity": 4
+        },
+        {
+          "id": "L08-V3",
+          "type": "G",
+          "capacity": 4
+        },
+        {
+          "id": "L08-V4",
+          "type": "R",
+          "capacity": 4
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "L09",
+      "revision": 1,
+      "bufferCapacity": 3,
+      "stacks": [
+        {
+          "id": "S1",
+          "boxes": [
+            {
+              "id": "L09-S1-B1",
+              "type": "R"
+            },
+            {
+              "id": "L09-S1-B2",
+              "type": "B"
+            },
+            {
+              "id": "L09-S1-B3",
+              "type": "B"
+            },
+            {
+              "id": "L09-S1-B4",
+              "type": "G"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "boxes": [
+            {
+              "id": "L09-S2-B1",
+              "type": "G"
+            },
+            {
+              "id": "L09-S2-B2",
+              "type": "R"
+            },
+            {
+              "id": "L09-S2-B3",
+              "type": "B"
+            },
+            {
+              "id": "L09-S2-B4",
+              "type": "B"
+            }
+          ]
+        },
+        {
+          "id": "S3",
+          "boxes": [
+            {
+              "id": "L09-S3-B1",
+              "type": "B"
+            },
+            {
+              "id": "L09-S3-B2",
+              "type": "G"
+            },
+            {
+              "id": "L09-S3-B3",
+              "type": "R"
+            },
+            {
+              "id": "L09-S3-B4",
+              "type": "B"
+            }
+          ]
+        },
+        {
+          "id": "S4",
+          "boxes": [
+            {
+              "id": "L09-S4-B1",
+              "type": "G"
+            },
+            {
+              "id": "L09-S4-B2",
+              "type": "R"
+            },
+            {
+              "id": "L09-S4-B3",
+              "type": "B"
+            },
+            {
+              "id": "L09-S4-B4",
+              "type": "R"
+            }
+          ]
+        },
+        {
+          "id": "S5",
+          "boxes": [
+            {
+              "id": "L09-S5-B1",
+              "type": "R"
+            },
+            {
+              "id": "L09-S5-B2",
+              "type": "R"
+            },
+            {
+              "id": "L09-S5-B3",
+              "type": "B"
+            },
+            {
+              "id": "L09-S5-B4",
+              "type": "R"
+            }
+          ]
+        }
+      ],
+      "ships": [
+        {
+          "id": "L09-V1",
+          "type": "R",
+          "capacity": 4
+        },
+        {
+          "id": "L09-V2",
+          "type": "B",
+          "capacity": 4
+        },
+        {
+          "id": "L09-V3",
+          "type": "G",
+          "capacity": 4
+        },
+        {
+          "id": "L09-V4",
+          "type": "R",
+          "capacity": 4
+        },
+        {
+          "id": "L09-V5",
+          "type": "B",
+          "capacity": 4
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "id": "L10",
+      "revision": 1,
+      "bufferCapacity": 3,
+      "stacks": [
+        {
+          "id": "S1",
+          "boxes": [
+            {
+              "id": "L10-S1-B1",
+              "type": "G"
+            },
+            {
+              "id": "L10-S1-B2",
+              "type": "G"
+            },
+            {
+              "id": "L10-S1-B3",
+              "type": "B"
+            },
+            {
+              "id": "L10-S1-B4",
+              "type": "R"
+            }
+          ]
+        },
+        {
+          "id": "S2",
+          "boxes": [
+            {
+              "id": "L10-S2-B1",
+              "type": "R"
+            },
+            {
+              "id": "L10-S2-B2",
+              "type": "R"
+            },
+            {
+              "id": "L10-S2-B3",
+              "type": "G"
+            },
+            {
+              "id": "L10-S2-B4",
+              "type": "G"
+            }
+          ]
+        },
+        {
+          "id": "S3",
+          "boxes": [
+            {
+              "id": "L10-S3-B1",
+              "type": "G"
+            },
+            {
+              "id": "L10-S3-B2",
+              "type": "R"
+            },
+            {
+              "id": "L10-S3-B3",
+              "type": "B"
+            },
+            {
+              "id": "L10-S3-B4",
+              "type": "B"
+            }
+          ]
+        },
+        {
+          "id": "S4",
+          "boxes": [
+            {
+              "id": "L10-S4-B1",
+              "type": "G"
+            },
+            {
+              "id": "L10-S4-B2",
+              "type": "B"
+            },
+            {
+              "id": "L10-S4-B3",
+              "type": "R"
+            },
+            {
+              "id": "L10-S4-B4",
+              "type": "R"
+            }
+          ]
+        },
+        {
+          "id": "S5",
+          "boxes": [
+            {
+              "id": "L10-S5-B1",
+              "type": "G"
+            },
+            {
+              "id": "L10-S5-B2",
+              "type": "R"
+            },
+            {
+              "id": "L10-S5-B3",
+              "type": "B"
+            },
+            {
+              "id": "L10-S5-B4",
+              "type": "B"
+            }
+          ]
+        },
+        {
+          "id": "S6",
+          "boxes": [
+            {
+              "id": "L10-S6-B1",
+              "type": "R"
+            },
+            {
+              "id": "L10-S6-B2",
+              "type": "B"
+            },
+            {
+              "id": "L10-S6-B3",
+              "type": "G"
+            },
+            {
+              "id": "L10-S6-B4",
+              "type": "B"
+            }
+          ]
+        }
+      ],
+      "ships": [
+        {
+          "id": "L10-V1",
+          "type": "R",
+          "capacity": 4
+        },
+        {
+          "id": "L10-V2",
+          "type": "B",
+          "capacity": 4
+        },
+        {
+          "id": "L10-V3",
+          "type": "G",
+          "capacity": 4
+        },
+        {
+          "id": "L10-V4",
+          "type": "R",
+          "capacity": 4
+        },
+        {
+          "id": "L10-V5",
+          "type": "B",
+          "capacity": 4
+        },
+        {
+          "id": "L10-V6",
+          "type": "G",
+          "capacity": 4
+        }
+      ]
+    }
+  ]
+}

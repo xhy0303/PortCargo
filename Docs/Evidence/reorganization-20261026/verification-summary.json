@@ -1,0 +1,30 @@
+{
+  "result": "PASS",
+  "movedFiles": 292,
+  "movedHashFailures": [],
+  "previewHtmlFiles": 4,
+  "localHtmlLinksChecked": 60,
+  "brokenHtmlLinks": [],
+  "originalArtChecksumsVerified": 193,
+  "originalArtChecksumFailures": [],
+  "candidateFilesAtLeast50MiB": [],
+  "credentialPatternMatches": [],
+  "remainingPortfolioFiles": [
+    ".DS_Store",
+    "README.md",
+    "微信小游戏三款方案产品与开发设计文档.docx"
+  ],
+  "sourceRootsMoved": true,
+  "regressionChecks": {
+    "coreGroups": 213,
+    "rewardedPlayerChecks": 165,
+    "nativePlayerChecks": 160,
+    "nativeJavaScriptChecks": 90,
+    "storageJavaScriptChecks": 7,
+    "result": "PASS",
+    "scope": "Existing standalone production C# and simulated host bridge checks; no fresh Unity Play Mode or physical device test performed during this directory migration."
+  },
+  "stagedOriginalFilesHashVerified": 289,
+  "activeCodeAndDocsWhitespaceCheck": "PASS",
+  "archiveWhitespaceNote": "Original archived runtime logs, CSV CRLF and font license text retain historical whitespace to preserve evidence and source bytes."
+}

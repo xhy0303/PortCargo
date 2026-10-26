@@ -1,0 +1,61 @@
+{
+  "gallery": {
+    "images": 73,
+    "broken": [],
+    "cards": 72,
+    "width": 1440,
+    "scrollWidth": 1440
+  },
+  "filteredCargoCount": 12,
+  "saveSearchCount": 5,
+  "backgroundToggle": true,
+  "audio": [
+    {
+      "file": "01_可交付/Audio/SFX/pick.wav",
+      "duration": 0.18,
+      "readyState": 4,
+      "error": null
+    },
+    {
+      "file": "01_可交付/Audio/SFX/depart.wav",
+      "duration": 0.82,
+      "readyState": 4,
+      "error": null
+    },
+    {
+      "file": "01_可交付/Audio/SFX/complete.wav",
+      "duration": 1.65,
+      "readyState": 4,
+      "error": null
+    },
+    {
+      "file": "01_可交付/Audio/SFX/reject.wav",
+      "duration": 0.28,
+      "readyState": 4,
+      "error": null
+    },
+    {
+      "file": "01_可交付/Audio/SFX/menu.wav",
+      "duration": 0.13,
+      "readyState": 4,
+      "error": null
+    },
+    {
+      "file": "01_可交付/Audio/BGM/night_harbor_loop.wav",
+      "duration": 24,
+      "readyState": 4,
+      "error": null
+    }
+  ],
+  "narrow": {
+    "width": 390,
+    "scrollWidth": 390
+  },
+  "assembled": {
+    "images": 35,
+    "tiles": 8,
+    "broken": [],
+    "toggleChanged": true
+  },
+  "pageErrors": []
+}

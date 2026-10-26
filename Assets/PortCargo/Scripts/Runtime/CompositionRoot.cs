@@ -52,7 +52,42 @@ namespace PortCargo.Runtime
                 storage=new FileStoragePort(directory);
 #endif
                 var repository=new SaveRepository(storage,codec,value=>ValidateSave(value,levels));
+                var nativePresenter=GetComponent<NativeAdsPresenter>();
+                if(nativePresenter)nativePresenter.Bind(presenter.Flow,null);
+                presenter.BindRewardedAds(null,null);
+#if UNITY_WEBGL && PORT_WECHAT && !UNITY_EDITOR
+                if(tuning.AdsEnabled)
+                {
+                    var ads=GetComponent<WeChatRewardedAds>();
+                    if(!ads)ads=gameObject.AddComponent<WeChatRewardedAds>();
+                    ads.Configure(tuning.RewardedHintAdUnitId,tuning.EndlessSkipAdUnitId);
+                    presenter.BindRewardedAds(ads.Hints,ads.EndlessSkip);
+                }
+#endif
                 presenter.Initialize(levels,tuning,repository,repository.Load());
+#if UNITY_WEBGL && PORT_WECHAT && !UNITY_EDITOR
+                if(tuning.NativeAdsEnabled)
+                {
+                    // Native cards are optional; an unavailable ad API must not become a boot failure.
+                    try
+                    {
+                        var nativeAds=GetComponent<WeChatNativeAds>();
+                        if(!nativeAds)nativeAds=gameObject.AddComponent<WeChatNativeAds>();
+                        // This single-grid template does not emit size events. The conservative
+                        // envelope includes its ad/close label; evidence: v0.7.3 grid-size-probe.jpg.
+                        // Bind it to the verified unit so changing IDs cannot silently reuse it.
+                        nativeAds.Configure(tuning.HomeNativeAdUnitId,tuning.CompletedNativeAdUnitId,tuning.GameplayGridAdUnitId,
+                            new NativeAdTemplateSize("adunit-2060c1fccf2ceecf",80,120));
+                        if(!nativePresenter)nativePresenter=gameObject.AddComponent<NativeAdsPresenter>();
+                        nativePresenter.Bind(presenter.Flow,nativeAds);
+                    }
+                    catch(Exception ex)
+                    {
+                        if(nativePresenter)nativePresenter.Bind(presenter.Flow,null);
+                        Debug.LogWarning("PORTCARGO_NATIVE_ADS_UNAVAILABLE "+ex.GetType().Name);
+                    }
+                }
+#endif
 #if UNITY_EDITOR || DEVELOPMENT_BUILD
                 var launch=Environment.GetCommandLineArgs();
                 for(var i=0;i<launch.Length-1;i++)

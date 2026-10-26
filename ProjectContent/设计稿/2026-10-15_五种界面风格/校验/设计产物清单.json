@@ -1,0 +1,71 @@
+{
+  "completed": "2026-10-16",
+  "generator": "built-in image_gen",
+  "variants": [
+    {
+      "id": "01",
+      "name": "软陶积木港湾",
+      "file": "images/01-clay-harbor.png",
+      "source": "/Users/xhy/.codex/generated_images/01a14040-1c46-76a0-bef9-894b8b6e8b6d/exec-02473589-7c05-446c-8e0c-07c15e7a1cac.png",
+      "scope": [
+        "全局入口",
+        "局内",
+        "选关",
+        "UI组件"
+      ],
+      "type": "raster concept art"
+    },
+    {
+      "id": "02",
+      "name": "深海调度终端",
+      "file": "images/02-dispatch-terminal.png",
+      "source": "/Users/xhy/.codex/generated_images/01a14040-1c46-76a0-bef9-894b8b6e8b6d/exec-913b3158-b4e9-4e5a-93d7-2327387f8650.png",
+      "scope": [
+        "全局入口",
+        "局内",
+        "选关",
+        "UI组件"
+      ],
+      "type": "raster concept art"
+    },
+    {
+      "id": "03",
+      "name": "复古航运票据",
+      "file": "images/03-printed-manifest.png",
+      "source": "/Users/xhy/.codex/generated_images/01a14040-1c46-76a0-bef9-894b8b6e8b6d/exec-b53ef279-7a4e-4a7d-9a7b-89379a546c6c.png",
+      "scope": [
+        "全局入口",
+        "局内",
+        "选关",
+        "UI组件"
+      ],
+      "type": "raster concept art"
+    },
+    {
+      "id": "04",
+      "name": "潮汐留白",
+      "file": "images/04-tidal-modernism.png",
+      "source": "/Users/xhy/.codex/generated_images/01a14040-1c46-76a0-bef9-894b8b6e8b6d/exec-0af46759-7ee8-4653-9d34-afc54d1ca753.png",
+      "scope": [
+        "全局入口",
+        "局内",
+        "选关",
+        "UI组件"
+      ],
+      "type": "raster concept art"
+    },
+    {
+      "id": "05",
+      "name": "像素夜港",
+      "file": "images/05-pixel-night-port.png",
+      "source": "/Users/xhy/.codex/generated_images/01a14040-1c46-76a0-bef9-894b8b6e8b6d/exec-b2e6721e-33b0-493e-93b3-a1e5192a7b05.png",
+      "scope": [
+        "全局入口",
+        "局内",
+        "选关",
+        "UI组件"
+      ],
+      "type": "raster concept art"
+    }
+  ]
+}

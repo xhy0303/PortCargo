@@ -1,0 +1,2 @@
+UnityEditor.Build.BuildFailedException: BUILD_WEBGL_FAILED
+  at PortCargo.Editor.WeChatBuildTools.Process () [0x000fa] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Editor/WeChatBuildTools.cs:87 

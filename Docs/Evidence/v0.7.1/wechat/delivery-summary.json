@@ -1,0 +1,85 @@
+{
+  "artifactFingerprint": "b775ddaf8bfdcd840a60770b48cd2e6b027b7f3eff996c7a620be21900f01f58",
+  "appId": "wx19e83e7294013864",
+  "compileType": "game",
+  "orientation": "portrait",
+  "plugins": {
+    "UnityPlugin": {
+      "version": "1.3.14",
+      "provider": "wxe5a48f1ed5f544b7",
+      "contexts": [
+        {
+          "type": "isolatedContext"
+        }
+      ]
+    }
+  },
+  "totalBytes": 26641893,
+  "subpackages": {
+    "wasmcode": 5958995,
+    "data-package": 11644117
+  },
+  "runtimeTests": "Preload adapter: 165 WeChat player, 165 development, 3 non-WeChat, 3 editor contract assertions passed; WeChat simulator home startup passed after explicit refresh and observation beyond 35 seconds; no new real-device latency measurement",
+  "realDeviceTests": "not run for 0.7.1; awaiting user comparison",
+  "adsEnabled": true,
+  "adConfiguration": {
+    "version": "0.7.1",
+    "unity": "6000.5.10f1",
+    "hintAdUnitId": "adunit-d04702ad95d16c3c",
+    "endlessSkipAdUnitId": "adunit-eac16355a06f9b4f",
+    "adsEnabled": true,
+    "realDeviceAdsValidated": false
+  },
+  "wasmExportChecks": [
+    {
+      "file": "webgl.wasm",
+      "bytes": 25230527,
+      "sha256": "34661e7c39faab354135be2186e3ad6a43b40282ffc2657d530554c4471a0a79",
+      "exportCount": 465,
+      "functionExportCount": 463,
+      "entryPointExported": true,
+      "entryPointName": "__main_argc_argv",
+      "entryPointFunctionIndex": 64071,
+      "framework": "webgl.framework.js",
+      "frameworkSha256": "39657521e4f011554e268f44c12b315296228415841349baac4c0c93be66268c",
+      "frameworkMainBindingVerified": true
+    }
+  ],
+  "sourceHashMeaning": "source files at inspection time; not proof these files were compiled",
+  "wasmExportCheckMeaning": "raw WASM exports a main or __main_argc_argv function and the matching framework binds Module._main to it; not proof of minigame startup or device acceptance",
+  "acceptanceEvidence": {
+    "adapter": "Docs/Evidence/v0.7.1/tests/adapter-wechat.txt",
+    "wechatConsole": "Docs/Evidence/v0.7.1/wechat/simulator-console.json",
+    "wechatScreenshot": "Docs/Evidence/v0.7.1/wechat/simulator-home.jpg",
+    "upload": "Docs/Evidence/v0.7.1/wechat/upload-confirmed-result.json"
+  },
+  "upload": {
+    "version": "0.7.1",
+    "status": "success",
+    "taskId": "confirmation_upload_2540f9ac-86dd-47c9-9ef1-27d84367708b",
+    "updatedAtUtc": "2026-10-24T05:08:38.845000+00:00",
+    "packageBytes": {
+      "total": 18833035,
+      "packages": [
+        {
+          "name": "TOTAL",
+          "size": 18833035
+        },
+        {
+          "name": "main",
+          "size": 1229897
+        },
+        {
+          "name": "/data-package/",
+          "size": 11644130
+        },
+        {
+          "name": "/wasmcode/",
+          "size": 5959008
+        }
+      ]
+    },
+    "reviewSubmitted": false,
+    "productionReleased": false
+  }
+}

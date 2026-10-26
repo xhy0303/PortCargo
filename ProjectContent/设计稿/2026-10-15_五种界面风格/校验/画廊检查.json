@@ -1,0 +1,46 @@
+{
+  "checkedAt": "2026-10-15T16:12:40.693Z",
+  "checks": [
+    {
+      "src": "images/01-clay-harbor.png",
+      "complete": true,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "src": "images/02-dispatch-terminal.png",
+      "complete": true,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "src": "images/03-printed-manifest.png",
+      "complete": true,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "src": "images/04-tidal-modernism.png",
+      "complete": true,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "src": "images/05-pixel-night-port.png",
+      "complete": true,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "compareVisible": true,
+      "compareCount": 5
+    },
+    {
+      "viewport": 390,
+      "documentWidth": 390,
+      "horizontalOverflow": false
+    }
+  ],
+  "scriptErrors": [],
+  "brokenLocalLinks": []
+}

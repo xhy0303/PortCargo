@@ -1,6 +1,6 @@
 from pathlib import Path
 import json,hashlib
-p=Path('/Users/xhy/UnityEditorProj/Projects/PortCargo');e=p/'Docs/Evidence/v0.4';a=Path('/Users/xhy/CodexProj/微信小游戏/美术资产/2026-10-16_像素夜港轻扁平')
+p=Path(__file__).resolve().parents[4];e=p/'Docs/Evidence/v0.4';a=p/'ProjectContent/美术资产/2026-10-16_像素夜港轻扁平'
 before=json.loads((e/'before-source-hashes.json').read_text());assets=json.loads((e/'art-source-hashes.json').read_text())
 protected=[rel for rel in before if rel.startswith(('Assets/PortCargo/Scripts/Core/','Assets/PortCargo/Scripts/Platform/','Assets/PortCargo/Data/','Assets/PortCargo/Art/Fonts/','Packages/')) or rel=='Assets/PortCargo/Scripts/Runtime/GamePresenter.cs']
 assert all(hashlib.sha256((p/rel).read_bytes()).hexdigest()==before[rel] for rel in protected)

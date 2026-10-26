@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-16T03:06:05.522Z",
+  "modes": [
+    {
+      "mode": "flat",
+      "originalVisible": false,
+      "flatVisible": true
+    },
+    {
+      "mode": "original",
+      "originalVisible": true,
+      "flatVisible": false
+    },
+    {
+      "mode": "compare",
+      "originalVisible": true,
+      "flatVisible": true
+    }
+  ],
+  "scriptErrors": [],
+  "brokenLinks": [],
+  "mobileOverflow": false
+}

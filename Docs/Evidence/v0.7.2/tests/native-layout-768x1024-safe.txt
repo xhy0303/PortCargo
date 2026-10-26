@@ -1,0 +1,12 @@
+Real Unity UI pointer/navigation and reserved-slot geometry; no WeChat ad/network verification
+GEOMETRY home original harbor=(x:0.00, y:446.23, width:768.00, height:308.04) visible=True unchanged across availability toggles
+GEOMETRY home no slot: original game UI retained at 768x1024
+N01 PASS Home preserves original harbor and every button; native slot stays below all buttons or is omitted
+N02 PASS Background hide invalidates placement immediately; foreground preserves original harbor layout
+N03 PASS Real pointer navigation excludes levels, settings, help, quit, active play, and pause from native placements
+GEOMETRY completed-three-actions slot=(x:0.00, y:76.21, width:768.00, height:279.89) at 768x1024
+N04 PASS Normal completed page retains three usable actions and a separate native slot
+GEOMETRY completed-four-actions no slot: original game UI retained at 768x1024
+N05 PASS Validated precompleted final-level fixture keeps all four result actions; cramped layouts omit ad safely
+N06 PASS Real Unity geometry helper maps DPR3 pixels to CSS coordinates and flips Y correctly
+RESULT PASS

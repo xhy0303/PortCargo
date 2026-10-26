@@ -17,7 +17,13 @@ namespace PortCargo.Runtime
         private bool levelGrid;
         private int levelCount;
         private float illustrationHeight;
+        private bool nativeAdAvailable,relayoutActive;
+        private RectTransform nativeAdSlot;
         public bool Visible => panel.activeSelf;
+        public RectTransform NativeAdSlot => nativeAdSlot;
+        public bool NativeAdReserved {get;private set;}
+        public void SetNativeAdAvailable(bool available)
+        {if(nativeAdAvailable==available)return;nativeAdAvailable=available;Relayout();}
         public void Show(string heading, string message, string[] options, Action<int> selected,bool[] enabled=null)
         {
             if(options.Length>buttons.Length)throw new ArgumentException("Too many dialog options; paginate the list.",nameof(options));
@@ -44,7 +50,10 @@ namespace PortCargo.Runtime
         }
         public void Relayout()
         {
-            if(!Visible)return;
+            if(!panel||!Visible||relayoutActive)return;
+            relayoutActive=true;
+            try
+            {
             Canvas.ForceUpdateCanvases();
             var card=(RectTransform)panel.transform.Find("Card");
             var available=((RectTransform)panel.transform).rect;
@@ -58,15 +67,35 @@ namespace PortCargo.Runtime
             var rows=levelGrid?2:(optionCount+columns-1)/columns;
             var actionsHeight=levelGrid?rows*(tileSide+12)+108:rows*108;
             var height=Mathf.Min(available.height*.92f,150+bodyHeight+illustrationHeight+actionsHeight);
+            var shownIllustrationHeight=illustrationHeight;
+            var cardFits=NativeAdPlacementLayout.TryGetCardSize((RectTransform)panel.transform,out var adWidth,out var adHeight);
+            var completion=title.text=="装船完成"||title.text=="本程完成"||title.text=="全部通关";
+            var nativePage=completion||title.text=="休息一下"||title.text=="设置";
+            var nativeCardHeight=150+bodyHeight+actionsHeight;
+            var nativeHeight=nativeCardHeight+adHeight+NativeAdPlacementLayout.Gap;
+            NativeAdReserved=nativeAdAvailable&&nativePage&&cardFits&&nativeHeight<=available.height*.92f;
+            if(NativeAdReserved)
+            {
+                // Replace only the decorative completion badge, preserving full-sized action buttons.
+                shownIllustrationHeight=0;height=nativeCardHeight;
+                nativeAdSlot=NativeAdPlacementLayout.EnsureSlot((RectTransform)panel.transform,nativeAdSlot);
+                nativeAdSlot.gameObject.SetActive(true);
+                nativeAdSlot.anchorMin=nativeAdSlot.anchorMax=nativeAdSlot.pivot=new Vector2(.5f,.5f);
+                nativeAdSlot.anchoredPosition=new Vector2(0,-(nativeCardHeight+NativeAdPlacementLayout.Gap)*.5f);
+                nativeAdSlot.sizeDelta=new Vector2(adWidth,adHeight);
+            }
+            if(nativeAdSlot)nativeAdSlot.gameObject.SetActive(NativeAdReserved);
+            if(illustration)illustration.gameObject.SetActive(shownIllustrationHeight>0);
             card.anchorMin=card.anchorMax=card.pivot=new Vector2(.5f,.5f);
-            card.anchoredPosition=Vector2.zero;card.sizeDelta=new Vector2(width,height);
-            if(illustrationHeight>0&&illustration)
+            card.anchoredPosition=NativeAdReserved?new Vector2(0,(adHeight+NativeAdPlacementLayout.Gap)*.5f):Vector2.zero;
+            card.sizeDelta=new Vector2(width,height);
+            if(shownIllustrationHeight>0&&illustration)
             {
                 var r=illustration.rectTransform;r.anchorMin=r.anchorMax=new Vector2(.5f,1);r.pivot=new Vector2(.5f,1);
-                r.anchoredPosition=new Vector2(0,-115-bodyHeight);r.sizeDelta=new Vector2(width-80,illustrationHeight-12);
+                r.anchoredPosition=new Vector2(0,-115-bodyHeight);r.sizeDelta=new Vector2(width-80,shownIllustrationHeight-12);
             }
-            var top=-130-bodyHeight-illustrationHeight;
-            var buttonHeight=Mathf.Min(100,(height-150-bodyHeight-illustrationHeight)/Mathf.Max(1,rows)-8);
+            var top=-130-bodyHeight-shownIllustrationHeight;
+            var buttonHeight=Mathf.Min(100,(height-150-bodyHeight-shownIllustrationHeight)/Mathf.Max(1,rows)-8);
             var buttonWidth=columns==1?width-60:(width-80)/2;
             for(var i=0;i<optionCount;i++)
             {
@@ -84,7 +113,10 @@ namespace PortCargo.Runtime
                 var skin=buttons[i].GetComponent<HarborButton>();
                 if(skin){skin.levelTile=levelGrid&&i<levelCount;skin.currentLevel=skin.levelTile&&labels[i].text.StartsWith("第 "+CurrentLevel+" 关");skin.primary=!levelGrid&&i==0&&title.text!="设置";skin.Refresh();}
             }
+            }
+            finally{relayoutActive=false;}
         }
-        public void Hide(){panel.SetActive(false);foreach(var button in buttons)button.onClick.RemoveAllListeners();}
+        private void OnRectTransformDimensionsChange(){if(title&&panel)Relayout();}
+        public void Hide(){NativeAdReserved=false;panel.SetActive(false);foreach(var button in buttons)button.onClick.RemoveAllListeners();}
     }
 }

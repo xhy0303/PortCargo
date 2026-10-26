@@ -1,0 +1,25 @@
+{
+    "result": "PASS",
+    "failure": "",
+    "scope": "Real Unity UI pointer/navigation and reserved-slot geometry; no WeChat ad/network verification",
+    "screenWidth": 768,
+    "screenHeight": 1024,
+    "pointerClicks": 17,
+    "originalStateRestored": true,
+    "checks": [
+        "GEOMETRY home no slot: original game UI retained at 768x1024",
+        "N01 PASS Home reservation stays inside safe area and clear of every existing button",
+        "N02 PASS Background hide invalidates placement immediately; foreground layout recovers",
+        "N03 PASS Real pointer navigation excludes levels, settings, help, quit, active play, and pause from native placements",
+        "GEOMETRY completed-three-actions slot=(x:0.00, y:76.21, width:768.00, height:279.89) at 768x1024",
+        "N04 PASS Normal completed page retains three usable actions and a separate native slot",
+        "GEOMETRY completed-four-actions no slot: original game UI retained at 768x1024",
+        "N05 PASS Validated precompleted final-level fixture keeps all four result actions; cramped layouts omit ad safely",
+        "N06 PASS Real Unity geometry helper maps DPR3 pixels to CSS coordinates and flips Y correctly"
+    ],
+    "screenshots": [
+        "/Users/xhy/UnityEditorProj/Projects/PortCargo/Docs/Evidence/v0.7.2/tests/native-layout-768x1024-safe.home.png",
+        "/Users/xhy/UnityEditorProj/Projects/PortCargo/Docs/Evidence/v0.7.2/tests/native-layout-768x1024-safe.completed-three-actions.png",
+        "/Users/xhy/UnityEditorProj/Projects/PortCargo/Docs/Evidence/v0.7.2/tests/native-layout-768x1024-safe.completed-four-actions.png"
+    ]
+}

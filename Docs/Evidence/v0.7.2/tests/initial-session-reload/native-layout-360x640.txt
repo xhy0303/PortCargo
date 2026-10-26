@@ -1,0 +1,5 @@
+Real Unity UI pointer/navigation and reserved-slot geometry; no WeChat ad/network verification
+RESULT FAIL
+System.InvalidOperationException: Initialized presenter required
+  at PortCargo.Runtime.DevelopmentNativeAdChecks+<Run>d__38.MoveNext () [0x008df] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Runtime/DevelopmentNativeAdChecks.cs:108 
+  at PortCargo.Runtime.DevelopmentNativeAdChecks+<Guarded>d__37.MoveNext () [0x00044] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Runtime/DevelopmentNativeAdChecks.cs:53 

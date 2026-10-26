@@ -1,0 +1,8 @@
+{
+  "Assets/PortCargo/Scripts/Runtime/HomeView.cs": "5775f3f2ecdbe1ff92f0be8cc77ab5c107b6889d0c3063fcd91a0bb3257db787",
+  "Assets/PortCargo/Scripts/Runtime/HarborButton.cs": "1beded9d65d382dfd2759572aa9dc9382aae15368e937e68c7807fa2a0ee3710",
+  "Assets/PortCargo/Scripts/Editor/WeChatBuildTools.cs": "a599c4257ac274d18e627f0e01b0811a49187c78e54041ac3f006e14ada3957d",
+  "Assets/PortCargo/Scripts/Platform/WeChatNativeAds.cs": "41a93ed6a40567b5eb449098f177f4b3ab89141c77151b7d8a68a372e9979c40",
+  "Assets/PortCargo/Scripts/Platform/WeChatNativeAds.jslib": "c77189d10452f794749d17b695e7b658d802676284995aac28a10e91cd60f5b2",
+  "Assets/PortCargo/Scripts/Platform/WeChatRewardedAds.cs": "0f61ad41494c083fb562c2a32b067fd26148c0da41da83e842cf823981579c8c"
+}

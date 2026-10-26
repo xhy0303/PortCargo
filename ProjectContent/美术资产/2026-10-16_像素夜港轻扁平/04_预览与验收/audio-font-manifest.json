@@ -1,0 +1,322 @@
+{
+  "schema_version": 2,
+  "audio_original_composition": true,
+  "audio_third_party_samples": false,
+  "deterministic_seed": 20261016,
+  "audio": [
+    {
+      "path": "01_可交付/Audio/SFX/pick.wav",
+      "purpose": "取箱：短促清脆，轻音两级上行",
+      "format": "WAV PCM16 signed little-endian",
+      "sample_rate_hz": 44100,
+      "channels": 1,
+      "bit_depth": 16,
+      "sample_frames": 7938,
+      "duration_seconds": 0.18,
+      "peak_dbfs": -8.0001,
+      "rms_dbfs": -17.8319,
+      "clipped_sample_count": 0,
+      "first_sample_pcm16": [
+        0
+      ],
+      "last_sample_pcm16": [
+        0
+      ],
+      "first_minus_last_pcm16": [
+        0
+      ],
+      "seam_step_linear_fs": [
+        0.0
+      ],
+      "max_internal_step_linear_fs": 0.04278564453125,
+      "loop": false,
+      "loop_start_sample": null,
+      "loop_end_exclusive_sample": null,
+      "bytes": 15920,
+      "sha256": "cb558a7b6826df1e7481a4c29831eda17d625ca2edc4f9a87b275b6c5a15f33f",
+      "source": "02_可编辑源文件/Audio/generate_audio_and_font_manifest.py"
+    },
+    {
+      "path": "01_可交付/Audio/SFX/depart.wav",
+      "purpose": "出港：柔和三音上行，低音作短支撑",
+      "format": "WAV PCM16 signed little-endian",
+      "sample_rate_hz": 44100,
+      "channels": 1,
+      "bit_depth": 16,
+      "sample_frames": 36162,
+      "duration_seconds": 0.82,
+      "peak_dbfs": -9.0004,
+      "rms_dbfs": -19.96,
+      "clipped_sample_count": 0,
+      "first_sample_pcm16": [
+        0
+      ],
+      "last_sample_pcm16": [
+        0
+      ],
+      "first_minus_last_pcm16": [
+        0
+      ],
+      "seam_step_linear_fs": [
+        0.0
+      ],
+      "max_internal_step_linear_fs": 0.02374267578125,
+      "loop": false,
+      "loop_start_sample": null,
+      "loop_end_exclusive_sample": null,
+      "bytes": 72368,
+      "sha256": "c50babf29969163d6273c5d18c21cd0e93a8aa9fceb834c75b8a01bc7e9e4b40",
+      "source": "02_可编辑源文件/Audio/generate_audio_and_font_manifest.py"
+    },
+    {
+      "path": "01_可交付/Audio/SFX/complete.wav",
+      "purpose": "通关：明亮但克制的原创短旋律",
+      "format": "WAV PCM16 signed little-endian",
+      "sample_rate_hz": 44100,
+      "channels": 1,
+      "bit_depth": 16,
+      "sample_frames": 72765,
+      "duration_seconds": 1.65,
+      "peak_dbfs": -8.0001,
+      "rms_dbfs": -19.0533,
+      "clipped_sample_count": 0,
+      "first_sample_pcm16": [
+        0
+      ],
+      "last_sample_pcm16": [
+        0
+      ],
+      "first_minus_last_pcm16": [
+        0
+      ],
+      "seam_step_linear_fs": [
+        0.0
+      ],
+      "max_internal_step_linear_fs": 0.05517578125,
+      "loop": false,
+      "loop_start_sample": null,
+      "loop_end_exclusive_sample": null,
+      "bytes": 145574,
+      "sha256": "2338c562b47d353485b626ee7c94859db7e462a6fb2a80e4a766f7e667159d0a",
+      "source": "02_可编辑源文件/Audio/generate_audio_and_font_manifest.py"
+    },
+    {
+      "path": "01_可交付/Audio/SFX/reject.wav",
+      "purpose": "无效操作：低音量柔和下行，不使用蜂鸣惩罚感",
+      "format": "WAV PCM16 signed little-endian",
+      "sample_rate_hz": 44100,
+      "channels": 1,
+      "bit_depth": 16,
+      "sample_frames": 12348,
+      "duration_seconds": 0.28,
+      "peak_dbfs": -11.9999,
+      "rms_dbfs": -21.102,
+      "clipped_sample_count": 0,
+      "first_sample_pcm16": [
+        0
+      ],
+      "last_sample_pcm16": [
+        0
+      ],
+      "first_minus_last_pcm16": [
+        0
+      ],
+      "seam_step_linear_fs": [
+        0.0
+      ],
+      "max_internal_step_linear_fs": 0.00726318359375,
+      "loop": false,
+      "loop_start_sample": null,
+      "loop_end_exclusive_sample": null,
+      "bytes": 24740,
+      "sha256": "284ac36e2c4893aeff1b9fd6200b0313a3f7a73281058087fc9f97e1fe8a937c",
+      "source": "02_可编辑源文件/Audio/generate_audio_and_font_manifest.py"
+    },
+    {
+      "path": "01_可交付/Audio/SFX/menu.wav",
+      "purpose": "菜单确认：可选短提示音",
+      "format": "WAV PCM16 signed little-endian",
+      "sample_rate_hz": 44100,
+      "channels": 1,
+      "bit_depth": 16,
+      "sample_frames": 5733,
+      "duration_seconds": 0.13,
+      "peak_dbfs": -11.0003,
+      "rms_dbfs": -17.53,
+      "clipped_sample_count": 0,
+      "first_sample_pcm16": [
+        0
+      ],
+      "last_sample_pcm16": [
+        0
+      ],
+      "first_minus_last_pcm16": [
+        0
+      ],
+      "seam_step_linear_fs": [
+        0.0
+      ],
+      "max_internal_step_linear_fs": 0.039306640625,
+      "loop": false,
+      "loop_start_sample": null,
+      "loop_end_exclusive_sample": null,
+      "bytes": 11510,
+      "sha256": "444430f87bce45fcf125744c743b464a822ce20fce229c72896180a5f3455020",
+      "source": "02_可编辑源文件/Audio/generate_audio_and_font_manifest.py"
+    },
+    {
+      "path": "01_可交付/Audio/BGM/night_harbor_loop.wav",
+      "purpose": "像素夜港：80 BPM、4/4、8 小节、原创宁静循环",
+      "format": "WAV PCM16 signed little-endian",
+      "sample_rate_hz": 44100,
+      "channels": 2,
+      "bit_depth": 16,
+      "sample_frames": 1058400,
+      "duration_seconds": 24.0,
+      "peak_dbfs": -17.0011,
+      "rms_dbfs": -27.9104,
+      "clipped_sample_count": 0,
+      "first_sample_pcm16": [
+        -78,
+        -80
+      ],
+      "last_sample_pcm16": [
+        -130,
+        -144
+      ],
+      "first_minus_last_pcm16": [
+        52,
+        64
+      ],
+      "seam_step_linear_fs": [
+        0.0015869140625,
+        0.001953125
+      ],
+      "max_internal_step_linear_fs": 0.00836181640625,
+      "loop": true,
+      "loop_start_sample": 0,
+      "loop_end_exclusive_sample": 1058400,
+      "bytes": 4233644,
+      "sha256": "46e4637f6ead26fcfa5bba2c08f06c10174b1d3d7111c37d17f41924790089f9",
+      "source": "02_可编辑源文件/Audio/generate_audio_and_font_manifest.py",
+      "bpm": 80,
+      "meter": "4/4",
+      "bars": 8,
+      "loop_construction": "periodic event accumulation + circular stereo delays",
+      "fade_in_out_baked": false
+    }
+  ],
+  "fonts": {
+    "font_family": "PortCargoUI",
+    "font_style": "Regular",
+    "provenance": "Existing renamed Noto Sans SC UI subset from the read-only project",
+    "license": "SIL Open Font License 1.1; full original OFL.txt copied unchanged",
+    "cmap_codepoint_count": 330,
+    "cmap_chinese_codepoint_count": 224,
+    "glyph_count": 362,
+    "complete_chinese_font": false,
+    "copy_hashes": [
+      {
+        "path": "01_可交付/Fonts/PortCargoUI.ttf",
+        "source": "/Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Art/Fonts/PortCargoUI.ttf",
+        "bytes": 78452,
+        "sha256": "41c57f1b3ea3bc94fa2676cd932bb4c5a775d515b05fbb3f96a5e0cf3947b2a3",
+        "source_sha256": "41c57f1b3ea3bc94fa2676cd932bb4c5a775d515b05fbb3f96a5e0cf3947b2a3",
+        "source_verified_this_run": true,
+        "matches_source_hash": true
+      },
+      {
+        "path": "01_可交付/Fonts/OFL.txt",
+        "source": "/Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Art/Fonts/OFL.txt",
+        "bytes": 4388,
+        "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+        "source_sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+        "source_verified_this_run": true,
+        "matches_source_hash": true
+      },
+      {
+        "path": "01_可交付/Fonts/ui-characters.txt",
+        "source": "/Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Art/Fonts/ui-characters.txt",
+        "bytes": 798,
+        "sha256": "16f36004633d084697ccddb80f1051ac7304a823dc868bf2b32b8eb043de901e",
+        "source_sha256": "16f36004633d084697ccddb80f1051ac7304a823dc868bf2b32b8eb043de901e",
+        "source_verified_this_run": true,
+        "matches_source_hash": true
+      }
+    ],
+    "bundled_font_check_status": "completed",
+    "runtime_scan_status": "completed",
+    "runtime_scan_root": "/Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Runtime",
+    "runtime_csharp_file_count": 15,
+    "runtime_files_scanned": [
+      {
+        "path": "Assets/PortCargo/Scripts/Runtime/BoardView.cs",
+        "sha256": "9a63cc69783fa502c209b091922ad3edf1395a5d0cb6829e194ac75ce3d420a0"
+      },
+      {
+        "path": "Assets/PortCargo/Scripts/Runtime/BoxView.cs",
+        "sha256": "1a7119e2179ff927dbbddd1c4c58bf40fea66e91b143dfa8631609df3349c1e7"
+      },
+      {
+        "path": "Assets/PortCargo/Scripts/Runtime/CargoGraphic.cs",
+        "sha256": "54a13640acea53b9add6b8c0d4a64bc382e58ba98506eafddc8e36720f6017d3"
+      },
+      {
+        "path": "Assets/PortCargo/Scripts/Runtime/CompositionRoot.cs",
+        "sha256": "e943bcc5f677e91d7e884dd8a51d3b1dcc4dffa0662be078d0feeda81cb80da0"
+      },
+      {
+        "path": "Assets/PortCargo/Scripts/Runtime/DevelopmentChecks.cs",
+        "sha256": "344a1ff004405e1cc625c0083b6abd79369d920b498c2e1262c1ae5a1ed2cad9"
+      },
+      {
+        "path": "Assets/PortCargo/Scripts/Runtime/DevelopmentFlowChecks.cs",
+        "sha256": "cd3ffcc08a8d3166a9dc60f1566c9de1c203f326db855fbcd47ade5e5e7892a9"
+      },
+      {
+        "path": "Assets/PortCargo/Scripts/Runtime/DevelopmentTechnicalChecks.cs",
+        "sha256": "2af0bf57883e49974c7ecd029e03982b0d1819c5002a087f735fd275e4cf3bf9"
+      },
+      {
+        "path": "Assets/PortCargo/Scripts/Runtime/DialogView.cs",
+        "sha256": "961d7a6b17d8e8a2f3d78f7f71b95181ddf5302e0dd77af64162286f79fc2143"
+      },
+      {
+        "path": "Assets/PortCargo/Scripts/Runtime/FeedbackPlayer.cs",
+        "sha256": "eb0b64b5f9754573f03c8163fc7edfda415e6adf8a7849929422733880fefb99"
+      },
+      {
+        "path": "Assets/PortCargo/Scripts/Runtime/GameFlowController.cs",
+        "sha256": "aa209ea81445e49a36449da7000a4372af02b5719a0916fee0d1f184d4c6b03f"
+      },
+      {
+        "path": "Assets/PortCargo/Scripts/Runtime/GamePresenter.cs",
+        "sha256": "a63d8548b01ced057df84d925b6d26b25e924cdc564212db447132f2fd233ceb"
+      },
+      {
+        "path": "Assets/PortCargo/Scripts/Runtime/GameTuning.cs",
+        "sha256": "ff4ccd60be52f3ab5092f5a6de4626ebf989846bc9769d80bbcaf83311e026e4"
+      },
+      {
+        "path": "Assets/PortCargo/Scripts/Runtime/HomeView.cs",
+        "sha256": "9298d6d80fed005148d76deaf7d8647c757e7fab96cc11f3a774f9d672d583a5"
+      },
+      {
+        "path": "Assets/PortCargo/Scripts/Runtime/HudView.cs",
+        "sha256": "9f139c8dca11e59bc6a82c2a2ab6f52d2fc9efae5bbf0d43b9073b495d8d9be2"
+      },
+      {
+        "path": "Assets/PortCargo/Scripts/Runtime/SafeAreaLayout.cs",
+        "sha256": "ae81a7c8516674f1b75bb1f5252a697578598aa66560a19b4e74cb2ebc92a2e6"
+      }
+    ],
+    "runtime_string_chinese_count": 200,
+    "runtime_string_chinese": "一三上下与丢两个乐亮人仅仍从以件休会住余作保停先入全关其减出击切到前功动十卡反发取口可号同后启告和回圆在堆声复失头始子字存完将少尽局已广序度开式当录恢息戏成或才找择换接提撤操放效数文斜新方无时明暂替最有未本机条来查样格模次此步每没法清港游满点然版玩用留的目直相看码示私种移程稍空第等箱类纹线给统继续网置联能自船艘被装要解计记设试说请读负责败账走起载过近返这进退选通遇部重销锁闯队随隐面音页顶项顺馈首骤",
+    "missing_runtime_chinese_count": 0,
+    "missing_runtime_chinese": "",
+    "missing_by_file": [],
+    "scan_limit": "Runtime C# string literals only; excludes dynamic external data, future text, Editor strings and TMP atlas contents",
+    "unity_tmp_rebuilt": false
+  },
+  "validation_scope": "PCM format, duration, peak, RMS, clipping, loop seam, font cmap and Runtime text coverage; no Unity import, runtime playback or target-device listening performed"
+}

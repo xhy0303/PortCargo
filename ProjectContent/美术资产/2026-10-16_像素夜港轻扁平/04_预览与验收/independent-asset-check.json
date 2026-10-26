@@ -1,0 +1,1944 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-16",
+  "reviewer": "native_pixel_components independent package pass",
+  "scope": "Read-only file validation; only this report was written. No Unity/editor/runtime test.",
+  "status": "pass",
+  "checks": {
+    "pngCountExpected": 72,
+    "pngCountObserved": 72,
+    "allPngDimensionsAlphaAndSourcesValid": true,
+    "allBordersInsideDimensions": true,
+    "requiredIconsCount": 18,
+    "requiredIconsCovered": 18,
+    "requiredIconsMissing": [],
+    "cargoSilhouettesIdentical": true,
+    "cargoAlphaMaskSha256": {
+      "cargo_R": "0514d0ae09287812b62fb702619cb828d0de7a900e35dc7e12e50eab2dad2ec1",
+      "cargo_B": "0514d0ae09287812b62fb702619cb828d0de7a900e35dc7e12e50eab2dad2ec1",
+      "cargo_G": "0514d0ae09287812b62fb702619cb828d0de7a900e35dc7e12e50eab2dad2ec1",
+      "cargo_Y": "0514d0ae09287812b62fb702619cb828d0de7a900e35dc7e12e50eab2dad2ec1"
+    },
+    "cargoPatternsDifferentInGrayscale": true,
+    "cargoWhitePatternPixelDifferences": {
+      "cargo_R vs cargo_B": 2960,
+      "cargo_R vs cargo_G": 2578,
+      "cargo_R vs cargo_Y": 2816,
+      "cargo_B vs cargo_G": 2694,
+      "cargo_B vs cargo_Y": 3312,
+      "cargo_G vs cargo_Y": 2514
+    },
+    "cargoPatternVisualNotes": "R vertical bars; B 3x3 round pixel dots; G diagonal bands; Y 2x2 plus signs. Distinct shapes and spacing remain visible without hue.",
+    "assetDataMatchesManifest": true,
+    "previewReferencesChecked": 67,
+    "missingPreviewLinks": [],
+    "cargoGrayscaleVisualReview": "Viewed combined grayscale contact strip at native 128px: four patterns visibly distinct; no hue required."
+  },
+  "portableBuildReview": [
+    {
+      "file": "02_可编辑源文件/build-components.cjs",
+      "usesPackageResolution": true,
+      "supportsSharpModuleEnv": true,
+      "hasMachineSpecificFallback": false,
+      "outputRelativeToScript": true,
+      "risk": "No machine-specific fallback. Requires installed sharp or an explicit SHARP_MODULE path."
+    },
+    {
+      "file": "02_可编辑源文件/build-ship.cjs",
+      "usesPackageResolution": true,
+      "supportsSharpModuleEnv": true,
+      "hasMachineSpecificFallback": false,
+      "outputRelativeToScript": true,
+      "risk": "No machine-specific fallback. Requires installed sharp or an explicit SHARP_MODULE path."
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "assets": [
+    {
+      "id": "cargo_R",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 128,
+      "height": 128,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 3904,
+        "opaquePixels": 12480,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          8,
+          8,
+          120,
+          120
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "cargo_icon_R",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 976,
+        "opaquePixels": 3120,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          4,
+          4,
+          60,
+          60
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "cargo_B",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 128,
+      "height": 128,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 3904,
+        "opaquePixels": 12480,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          8,
+          8,
+          120,
+          120
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "cargo_icon_B",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 976,
+        "opaquePixels": 3120,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          4,
+          4,
+          60,
+          60
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "cargo_G",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 128,
+      "height": 128,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 3904,
+        "opaquePixels": 12480,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          8,
+          8,
+          120,
+          120
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "cargo_icon_G",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 976,
+        "opaquePixels": 3120,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          4,
+          4,
+          60,
+          60
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "cargo_Y",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 128,
+      "height": 128,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 3904,
+        "opaquePixels": 12480,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          8,
+          8,
+          120,
+          120
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "cargo_icon_Y",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 976,
+        "opaquePixels": 3120,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          4,
+          4,
+          60,
+          60
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "cargo_highlight",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 128,
+      "height": 128,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 14592,
+        "opaquePixels": 1792,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          0,
+          0,
+          128,
+          128
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "cargo_hint",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 128,
+      "height": 128,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 14528,
+        "opaquePixels": 1856,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          0,
+          0,
+          128,
+          128
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "stack_base",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 128,
+      "height": 32,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 1760,
+        "opaquePixels": 2336,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          4,
+          8,
+          124,
+          28
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "buffer_slot",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 128,
+      "height": 128,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 15040,
+        "opaquePixels": 1344,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          8,
+          8,
+          120,
+          120
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "button_primary_normal",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 192,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 1152,
+        "opaquePixels": 11136,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          2,
+          2,
+          190,
+          62
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "button_primary_pressed",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 192,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 1152,
+        "opaquePixels": 11136,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          2,
+          2,
+          190,
+          62
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "button_primary_disabled",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 192,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 1152,
+        "opaquePixels": 11136,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          2,
+          2,
+          190,
+          62
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "button_secondary_normal",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 192,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 1152,
+        "opaquePixels": 11136,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          2,
+          2,
+          190,
+          62
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "button_secondary_pressed",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 192,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 1152,
+        "opaquePixels": 11136,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          2,
+          2,
+          190,
+          62
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "button_secondary_disabled",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 192,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 1152,
+        "opaquePixels": 11136,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          2,
+          2,
+          190,
+          62
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "panel_common",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 256,
+      "height": 192,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 576,
+        "opaquePixels": 48576,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          0,
+          0,
+          256,
+          192
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "panel_warning",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 256,
+      "height": 192,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 576,
+        "opaquePixels": 48576,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          0,
+          0,
+          256,
+          192
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "toast",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 256,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 144,
+        "opaquePixels": 16240,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          0,
+          0,
+          256,
+          64
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "scrim",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 8,
+      "height": 8,
+      "alpha": {
+        "min": 184,
+        "max": 184,
+        "transparentPixels": 0,
+        "opaquePixels": 0,
+        "partialAlphaPixels": 64,
+        "nonzeroBoundsTopLeftExclusive": [
+          0,
+          0,
+          8,
+          8
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "level_tile_normal",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 96,
+      "height": 96,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 1260,
+        "opaquePixels": 7956,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          3,
+          3,
+          93,
+          93
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "level_tile_current",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 96,
+      "height": 96,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 1260,
+        "opaquePixels": 7956,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          3,
+          3,
+          93,
+          93
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "level_tile_completed",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 96,
+      "height": 96,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 1260,
+        "opaquePixels": 7956,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          3,
+          3,
+          93,
+          93
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "level_tile_locked",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 96,
+      "height": 96,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 1260,
+        "opaquePixels": 7956,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          3,
+          3,
+          93,
+          93
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "toggle_track_on",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 96,
+      "height": 48,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 992,
+        "opaquePixels": 3616,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          2,
+          4,
+          94,
+          44
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "toggle_track_off",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 96,
+      "height": 48,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 992,
+        "opaquePixels": 3616,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          2,
+          4,
+          94,
+          44
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "toggle_knob",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 32,
+      "height": 32,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 64,
+        "opaquePixels": 960,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          0,
+          0,
+          32,
+          32
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_pause",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 3296,
+        "opaquePixels": 800,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          16,
+          12,
+          48,
+          52
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_undo",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 3364,
+        "opaquePixels": 732,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          8,
+          14,
+          54,
+          52
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_hint",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 3064,
+        "opaquePixels": 1032,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          12,
+          6,
+          52,
+          60
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_queue",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 2624,
+        "opaquePixels": 1472,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          4,
+          8,
+          60,
+          56
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_home",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 2552,
+        "opaquePixels": 1544,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          4,
+          6,
+          60,
+          56
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_settings",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 2688,
+        "opaquePixels": 1408,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          6,
+          6,
+          58,
+          58
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_sound",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 3160,
+        "opaquePixels": 936,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          8,
+          12,
+          60,
+          52
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_music",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 2940,
+        "opaquePixels": 1156,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          8,
+          10,
+          54,
+          58
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_reduced_motion",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 3200,
+        "opaquePixels": 896,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          4,
+          12,
+          58,
+          52
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_help",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 3400,
+        "opaquePixels": 696,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          10,
+          6,
+          54,
+          60
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_lock",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 2800,
+        "opaquePixels": 1296,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          12,
+          10,
+          52,
+          56
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_complete",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 3616,
+        "opaquePixels": 480,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          12,
+          16,
+          52,
+          52
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_previous",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 3712,
+        "opaquePixels": 384,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          12,
+          10,
+          44,
+          54
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_next",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 3712,
+        "opaquePixels": 384,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          20,
+          10,
+          52,
+          54
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_retry_save",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 2948,
+        "opaquePixels": 1148,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          10,
+          6,
+          56,
+          58
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_exit",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 2912,
+        "opaquePixels": 1184,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          8,
+          8,
+          60,
+          56
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_back",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 3124,
+        "opaquePixels": 972,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          10,
+          10,
+          56,
+          54
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_close",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 3520,
+        "opaquePixels": 576,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          12,
+          12,
+          52,
+          52
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_toggle_on",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 3616,
+        "opaquePixels": 480,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          12,
+          16,
+          52,
+          52
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_toggle_off",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 3520,
+        "opaquePixels": 576,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          12,
+          12,
+          52,
+          52
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_mode_campaign",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 2860,
+        "opaquePixels": 1236,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          10,
+          6,
+          56,
+          58
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_mode_endless",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 3152,
+        "opaquePixels": 944,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          4,
+          18,
+          60,
+          46
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_warning",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 2624,
+        "opaquePixels": 1472,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          4,
+          4,
+          60,
+          58
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_play",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 3044,
+        "opaquePixels": 1052,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          18,
+          8,
+          56,
+          58
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_restart",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 3124,
+        "opaquePixels": 972,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          10,
+          6,
+          58,
+          56
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_level_select",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 2800,
+        "opaquePixels": 1296,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          8,
+          8,
+          56,
+          56
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_privacy",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 2488,
+        "opaquePixels": 1608,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          8,
+          4,
+          56,
+          60
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_feedback",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 2824,
+        "opaquePixels": 1272,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          8,
+          10,
+          56,
+          56
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_save",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 2568,
+        "opaquePixels": 1528,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          10,
+          6,
+          54,
+          58
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "icon_info",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 64,
+      "height": 64,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 3392,
+        "opaquePixels": 704,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          18,
+          6,
+          46,
+          58
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "confetti_square",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 16,
+      "height": 16,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 220,
+        "opaquePixels": 36,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          5,
+          5,
+          11,
+          11
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "confetti_star",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 16,
+      "height": 16,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 196,
+        "opaquePixels": 60,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          2,
+          2,
+          14,
+          14
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "confetti_diamond",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 16,
+      "height": 16,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 184,
+        "opaquePixels": 72,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          3,
+          2,
+          13,
+          14
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "completion_badge",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 128,
+      "height": 128,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 5440,
+        "opaquePixels": 10944,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          8,
+          8,
+          120,
+          120
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "tutorial_only_top",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 384,
+      "height": 256,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 87680,
+        "opaquePixels": 10624,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          154,
+          2,
+          218,
+          244
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "tutorial_match_to_ship",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 384,
+      "height": 256,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 84100,
+        "opaquePixels": 14204,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          34,
+          64,
+          370,
+          186
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "tutorial_other_to_buffer",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 384,
+      "height": 256,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 90576,
+        "opaquePixels": 7728,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          20,
+          100,
+          378,
+          156
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "spr_ship_empty",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 512,
+      "height": 256,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 91552,
+        "opaquePixels": 39520,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          24,
+          28,
+          480,
+          232
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "bg_home_harbor",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 1536,
+      "height": 1024,
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "transparentPixels": 0,
+        "opaquePixels": 1572864,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          0,
+          0,
+          1536,
+          1024
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true,
+      "alphaNote": "Original PNG is RGB without alpha; manifest alpha=null is correct. Opaque alpha statistics above were calculated after read-only ensureAlpha conversion."
+    },
+    {
+      "id": "bg_gameplay_harbor",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 1024,
+      "height": 1536,
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "transparentPixels": 0,
+        "opaquePixels": 1572864,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          0,
+          0,
+          1024,
+          1536
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true,
+      "alphaNote": "Original PNG is RGB without alpha; manifest alpha=null is correct. Opaque alpha statistics above were calculated after read-only ensureAlpha conversion."
+    },
+    {
+      "id": "spr_crane",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 1254,
+      "height": 1254,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 1075562,
+        "opaquePixels": 4739,
+        "partialAlphaPixels": 492215,
+        "nonzeroBoundsTopLeftExclusive": [
+          69,
+          23,
+          1232,
+          1218
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "spr_dock_foreground",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 1944,
+      "height": 809,
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 1096982,
+        "opaquePixels": 2575,
+        "partialAlphaPixels": 473139,
+        "nonzeroBoundsTopLeftExclusive": [
+          29,
+          134,
+          1915,
+          809
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true
+    },
+    {
+      "id": "app_icon_master",
+      "fileExists": true,
+      "sourceExists": true,
+      "width": 1254,
+      "height": 1254,
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "transparentPixels": 0,
+        "opaquePixels": 1572516,
+        "partialAlphaPixels": 0,
+        "nonzeroBoundsTopLeftExclusive": [
+          0,
+          0,
+          1254,
+          1254
+        ]
+      },
+      "dimensionMatches": true,
+      "transparentFlagMatches": true,
+      "alphaMetadataMatches": true,
+      "pngHashMatches": true,
+      "sourceHashMatches": true,
+      "borderValid": true,
+      "alphaNote": "Original PNG is RGB without alpha; manifest alpha=null is correct. Opaque alpha statistics above were calculated after read-only ensureAlpha conversion."
+    }
+  ],
+  "followUp": {
+    "checkedAtUtc": "2026-10-16T04:33:17.936Z",
+    "scope": "Only previous missing acceptance report and two build-script dependency fallbacks were rechecked. Earlier 72-PNG dimensions/alpha/source/hash/grayscale results are retained from the initial 2026-10-16 inspection, not rerun or re-timestamped.",
+    "acceptanceReportNowExists": true,
+    "buildScriptsNowUseOnlySharpPackageOrExplicitEnvironment": true,
+    "resolvedFindings": [
+      "Missing acceptance-report link",
+      "Machine-specific optional sharp fallback"
+    ]
+  }
+}

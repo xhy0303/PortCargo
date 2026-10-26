@@ -1,0 +1,11 @@
+{
+    "result": "FAIL",
+    "failure": "System.InvalidOperationException: Initialized presenter required\n  at PortCargo.Runtime.DevelopmentNativeAdChecks+<Run>d__38.MoveNext () [0x008df] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Runtime/DevelopmentNativeAdChecks.cs:108 \n  at PortCargo.Runtime.DevelopmentNativeAdChecks+<Guarded>d__37.MoveNext () [0x00044] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Runtime/DevelopmentNativeAdChecks.cs:53 ",
+    "scope": "Real Unity UI pointer/navigation and reserved-slot geometry; no WeChat ad/network verification",
+    "screenWidth": 0,
+    "screenHeight": 0,
+    "pointerClicks": 0,
+    "originalStateRestored": false,
+    "checks": [],
+    "screenshots": []
+}

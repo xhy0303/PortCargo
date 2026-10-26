@@ -1,0 +1,9 @@
+Working directory: /Users/xhy/UnityEditorProj/Projects/PortCargo
+Command: /usr/local/share/dotnet/dotnet run --no-restore --project Tools/RewardedAdsChecks/RewardedAdsChecks.csproj -p:WeChatPlayer=true -p:WeChatEditor=true
+Relevant preprocessor symbols: UNITY_WEBGL;PORT_WECHAT;UNITY_EDITOR
+Exit code: 0
+Evidence: previously captured successful tool output (chunk ae7ca1), saved without rerunning.
+Scope: production adapter source compiled unchanged against deterministic SDK/Unity boundary stubs; no real WeChat network or device latency measured.
+
+REWARDED_ADAPTER_NONPLAYER_PASS checks=3
+

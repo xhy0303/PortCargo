@@ -1,0 +1,42 @@
+{
+  "canvas": [
+    1536,
+    1024
+  ],
+  "coordinateOrigin": "top-left",
+  "notes": "Art layout only. Grouped raster components, not internal vector layers. Runtime labels and actions are separate.",
+  "layers": [
+    {
+      "name": "water_and_sky",
+      "asset": "bg_home_harbor",
+      "x": 0,
+      "y": 0,
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "name": "crane",
+      "asset": "spr_crane",
+      "x": 48,
+      "y": 170,
+      "width": 450,
+      "height": 450
+    },
+    {
+      "name": "empty_ship",
+      "asset": "spr_ship_empty",
+      "x": 560,
+      "y": 390,
+      "width": 850,
+      "height": 425
+    },
+    {
+      "name": "foreground_dock",
+      "asset": "spr_dock_foreground",
+      "x": 0,
+      "y": 710,
+      "width": 1536,
+      "height": 639
+    }
+  ]
+}

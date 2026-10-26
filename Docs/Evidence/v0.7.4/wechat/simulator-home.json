@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "tool": "simulator_screenshot",
+  "clientName": "Codex",
+  "result": {
+    "success": true,
+    "path": "/Users/xhy/UnityEditorProj/Projects/PortCargo/Docs/Evidence/v0.7.4/wechat/simulator-home.jpg",
+    "imageWidth": 592,
+    "imageHeight": 1280
+  }
+}

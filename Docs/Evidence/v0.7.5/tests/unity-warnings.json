@@ -1,0 +1,150 @@
+{
+  "success": true,
+  "command": "command console",
+  "data": {
+    "command": "console",
+    "parameters": {
+      "tail": "12",
+      "level": "warn"
+    },
+    "result": {
+      "entries": [
+        {
+          "seq": 1009,
+          "timestampUtc": "2026-10-25T06:38:54.313607Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets/PortCargo/Scripts/Runtime/DevelopmentTechnicalChecks.cs(196,28): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 1010,
+          "timestampUtc": "2026-10-25T06:38:54.313617Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets/PortCargo/Scripts/Runtime/DevelopmentTechnicalChecks.cs(197,82): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 1011,
+          "timestampUtc": "2026-10-25T06:38:54.313669Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets/PortCargo/Scripts/Runtime/DevelopmentTechnicalChecks.cs(197,23): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 1012,
+          "timestampUtc": "2026-10-25T06:38:54.313683Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets/PortCargo/Scripts/Runtime/DevelopmentTechnicalChecks.cs(220,86): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 1013,
+          "timestampUtc": "2026-10-25T06:38:54.313693Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets/PortCargo/Scripts/Runtime/DevelopmentTechnicalChecks.cs(220,29): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 1014,
+          "timestampUtc": "2026-10-25T06:38:54.313734Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets/PortCargo/Scripts/Runtime/DevelopmentTechnicalChecks.cs(221,88): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 1015,
+          "timestampUtc": "2026-10-25T06:38:54.313752Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets/PortCargo/Scripts/Runtime/DevelopmentTechnicalChecks.cs(221,29): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 1016,
+          "timestampUtc": "2026-10-25T06:38:54.313766Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets/PortCargo/Scripts/Platform/WeChatPlatform.cs(45,42): warning CS0067: The event 'WeChatPlatform.VisibilityChanged' is never used",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 1017,
+          "timestampUtc": "2026-10-25T06:38:54.313778Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets/PortCargo/Scripts/Platform/WeChatNativeAds.cs(15,78): warning CS0414: The field 'WeChatNativeAds.attempted' is assigned but its value is never used",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 1018,
+          "timestampUtc": "2026-10-25T06:38:54.313784Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets/PortCargo/Scripts/Platform/WeChatNativeAds.cs(15,70): warning CS0414: The field 'WeChatNativeAds.blocked' is assigned but its value is never used",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 1019,
+          "timestampUtc": "2026-10-25T06:38:54.31379Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets/PortCargo/Scripts/Platform/WeChatNativeAds.cs(15,56): warning CS0414: The field 'WeChatNativeAds.ownerDisabled' is assigned but its value is never used",
+          "stackTrace": "",
+          "seeded": false
+        },
+        {
+          "seq": 1020,
+          "timestampUtc": "2026-10-25T06:38:54.313798Z",
+          "level": "warn",
+          "logType": "Warning",
+          "message": "Assets/PortCargo/Scripts/Platform/WeChatNativeAds.cs(15,88): warning CS0414: The field 'WeChatNativeAds.resumeDeferred' is assigned but its value is never used",
+          "stackTrace": "",
+          "seeded": false
+        }
+      ],
+      "cursor": 1022,
+      "session": "1c4870eef165479b9a33837a95d654ab",
+      "returned": 12,
+      "dropped": false,
+      "reset": false,
+      "counts": {
+        "error": 7,
+        "warn": 758,
+        "log": 257
+      },
+      "groundTruth": {
+        "sampledUtc": "2026-10-25T06:43:36.073067Z",
+        "ageMs": 207,
+        "compilationFailed": false,
+        "compiling": false,
+        "consoleErrors": 0,
+        "consoleWarnings": 2,
+        "consoleLogs": 2,
+        "seeded": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Users/xhy/UnityEditorProj/Projects/PortCargo"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

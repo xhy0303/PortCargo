@@ -1,0 +1,14 @@
+PASS CSS mapping and invalid geometry checks=10
+PASS placement ownership and cleanup checks=11
+PASS failed loads and no request storm checks=15
+PASS dismissed visit and resizing checks=8
+PASS hidden/background/rewarded gates checks=10
+PASS load and show deadlines checks=6
+PASS native size containment checks=13
+PASS configuration and lifecycle checks=11
+PASS lease-release reentrancy checks=3
+PASS presenter visibility visit preservation checks=4
+PASS expanded page visits and shared card ID checks=27
+PASS grid and compact home require real size checks=21
+PASS verified single-grid template envelope checks=21
+NATIVE_ADAPTER_PLAYER_CONTRACT_PASS checks=160

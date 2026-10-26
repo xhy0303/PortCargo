@@ -943,7 +943,7 @@ namespace WeChatWASM
 
         private static void CompressAssemblyBrotli()
         {
-            GetWeixinMiniGameFilePath("assembly").ToList().ForEach(assembly => UnityUtil.brotli(assembly, assembly + ".br", "8"));
+            GetWeixinMiniGameFilePath("assembly").ToList().ForEach(assembly => CompressBrotliFile(assembly, assembly + ".br", "8"));
         }
 
         private static void ConvertDotnetFrameworkCode()
@@ -999,7 +999,18 @@ namespace WeChatWASM
                 "_JS_MobileKeyboard_",
                 "_JS_MobileKeybard_"
             };
+#if UNITY_6000_5_OR_NEWER
+            // Emscripten now emits some imports (notably _JS_Sound_Init) as
+            // anonymous function assignments. Normalize them for the SDK replacement pass.
+            text = Regex.Replace(text, @"\bvar\s+((?:" + string.Join("|", replacePrefixes.Select(Regex.Escape))
+                + @")\w*)\s*=\s*function\s*\(", "function $1(");
+#endif
             text = ReplaceOrRemoveFunctionsWithPrefix(text, removePrefixes, replacePrefixes);
+#if UNITY_6000_5_OR_NEWER
+            // EXPORT_ALL also emits aliases for the browser audio helpers removed above.
+            // Their WeChat replacements do not use those helpers; remove the dangling aliases.
+            text = Regex.Replace(text, @"Module\[""(jsAudio\w+)""\]\s*=\s*\1\s*;", "");
+#endif
             int i;
             for (i = 0; i < ReplaceRules.rules.Length; i++)
             {
@@ -1023,6 +1034,23 @@ namespace WeChatWASM
                 UnityEngine.Debug.Log("[WX] EnableRenderThread=false, skipping MainThreadRules");
             }
             EditorUtility.ClearProgressBar();
+
+#if UNITY_6000_5_OR_NEWER
+            // The plugin removes these dependencies when WASM and the data package are ready.
+            // Emscripten's new async createWasm no longer matches the SDK's legacy rules.
+            const string asyncWasmStart = "async function createWasm(){function receiveInstance";
+            const string asyncWasmReady = "wasmExports=instance.exports;assignWasmExports(wasmExports);updateMemoryViews();return wasmExports";
+            if (!text.Contains(asyncWasmStart) || !text.Contains(asyncWasmReady))
+                throw new InvalidOperationException("Unsupported Unity async WASM initialization; update the WeChat lifecycle adapter.");
+            text = text.Replace(asyncWasmStart,
+                "async function createWasm(){addRunDependency(\"wasm-instantiate\");addRunDependency(\"wasm-preloadAssets\");GameGlobal.manager.TimeLogger.timeStart(\"wasm编译耗时\");function receiveInstance");
+            text = text.Replace(asyncWasmReady,
+                "wasmExports=instance.exports;Module[\"asm\"]=wasmExports;assignWasmExports(wasmExports);updateMemoryViews();if(Module.wasmInstantiated){Module.wasmInstantiated();removeRunDependency(\"wasm-instantiate\");}return wasmExports");
+            // WXWebAssembly does not expose the browser RuntimeError constructor.
+            // Avoid masking the original exception in Emscripten's stack diagnostics.
+            text = text.Replace("e instanceof WebAssembly.RuntimeError",
+                "typeof WebAssembly.RuntimeError === 'function' && e instanceof WebAssembly.RuntimeError");
+#endif
 
 #if PLATFORM_WEIXINMINIGAME
             if (PlayerSettings.WeixinMiniGame.exceptionSupport == WeixinMiniGameExceptionSupport.None)
@@ -1153,8 +1181,13 @@ namespace WeChatWASM
                 {
                     PlayerSettings.WebGL.emscriptenArgs += ",_WxPerfFrameIntervalCallback";
                 }
-#if UNITY_2021_2_5
+#if UNITY_2021_2_5 || UNITY_6000_5_OR_NEWER
+                // Explicit exports replace Emscripten's default main export in Unity 6.5.
+                // Without this the player can link successfully with its entry point stripped.
                 PlayerSettings.WebGL.emscriptenArgs += ",_main";
+#if UNITY_6000_5_OR_NEWER
+                PlayerSettings.WebGL.emscriptenArgs += ",_malloc,_free";
+#endif
 #endif
                 PlayerSettings.WebGL.emscriptenArgs += " -s ERROR_ON_UNDEFINED_SYMBOLS=0";
             }
@@ -1207,6 +1240,13 @@ namespace WeChatWASM
             UnityEngine.Debug.Log("PlayerSettings.WeixinMiniGame.emscriptenArgs : " + PlayerSettings.WeixinMiniGame.emscriptenArgs);
 #else
             PlayerSettings.WebGL.emscriptenArgs += " -s EXPORTED_RUNTIME_METHODS='[" + original_EXPORTED_RUNTIME_METHODS + additional_EXPORTED_RUNTIME_METHODS + "]'";
+#if UNITY_6000_5_OR_NEWER
+            // Newer Emscripten only exposes the SDK's stack-cookie runtime exports
+            // when stack checking is enabled. Keep the exports and their checks.
+            // The JS SDK/plugin consumes Module heap views, malloc/free and dynCall_*.
+            // EXPORT_ALL exposes existing JS symbols without retaining unused compiled code.
+            PlayerSettings.WebGL.emscriptenArgs += " -s STACK_OVERFLOW_CHECK=1 -s EXPORT_ALL=1";
+#endif
 
             if (config.CompileOptions.ProfilingMemory)
             {
@@ -1772,6 +1812,30 @@ namespace WeChatWASM
             Debug.LogWarning("[WeChat Preview] InsertPreviewCode End");
         }
 
+        private static void CompressBrotliFile(string sourcePath, string targetPath, string quality = "11")
+        {
+#if UNITY_EDITOR_OSX && UNITY_6000_5_OR_NEWER && !PLATFORM_WEIXINMINIGAME
+            // Resolve the installed module; Unity 6.5 can keep PlaybackEngines beside Unity.app.
+            var executable = Path.Combine(BuildPipeline.GetPlaybackEngineDirectory(BuildTarget.WebGL, BuildOptions.None),
+                "BuildTools", "Brotli", "macos", "brotli");
+            if (!File.Exists(executable)) throw new FileNotFoundException("Unity Brotli executable was not found", executable);
+            var start = new System.Diagnostics.ProcessStartInfo(executable) {
+                Arguments = "--force --quality " + quality + " --input \"" + sourcePath.Replace("\"", "\\\"")
+                    + "\" --output \"" + targetPath.Replace("\"", "\\\"") + "\"",
+                UseShellExecute = false, RedirectStandardError = true, CreateNoWindow = true
+            };
+            using (var process = System.Diagnostics.Process.Start(start))
+            {
+                var error = process.StandardError.ReadToEnd();
+                process.WaitForExit();
+                if (process.ExitCode != 0) throw new IOException("Unity Brotli failed: " + error);
+            }
+#else
+            if (!UnityUtil.brotli(sourcePath, targetPath, quality)) throw new IOException("Unity Brotli failed: " + sourcePath);
+#endif
+            if (!File.Exists(targetPath)) throw new FileNotFoundException("Brotli output was not generated", targetPath);
+        }
+
         private static int Brotlib(string filename, string sourcePath, string targetPath)
         {
             UnityEngine.Debug.LogFormat("[Converter] Starting to generate Brotlib file");
@@ -1802,7 +1866,7 @@ namespace WeChatWASM
             }
             else
             {
-                UnityUtil.brotli(sourcePath, targetPath);
+                CompressBrotliFile(sourcePath, targetPath);
             }
 
             if (targetPath != cachePath)

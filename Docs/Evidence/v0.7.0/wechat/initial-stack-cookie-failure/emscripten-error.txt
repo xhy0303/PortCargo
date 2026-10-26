@@ -1,0 +1,12 @@
+error: /Users/xhy/UnityEditorProj/Editors/6000.5.10f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/src/postlibrary.js: undefined exported symbol: "writeStackCookie" in EXPORTED_RUNTIME_METHODS
+error: /Users/xhy/UnityEditorProj/Editors/6000.5.10f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/src/postlibrary.js: undefined exported symbol: "checkStackCookie" in EXPORTED_RUNTIME_METHODS
+Error: Aborting compilation due to previous errors
+    at finalCombiner (file:///Users/xhy/UnityEditorProj/Editors/6000.5.10f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/src/jsifier.mjs:887:13)
+    at Module.runJSify (file:///Users/xhy/UnityEditorProj/Editors/6000.5.10f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/src/jsifier.mjs:923:5)
+    at file:///Users/xhy/UnityEditorProj/Editors/6000.5.10f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/tools/compiler.mjs:108:17
+emcc: error: '/Users/xhy/UnityEditorProj/Editors/6000.5.10f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node /Users/xhy/UnityEditorProj/Editors/6000.5.10f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/tools/compiler.mjs -' failed (returned 1)
+*** Tundra build failed (12.23 seconds), 228 items updated, 244 evaluated
+/Users/xhy/UnityEditorProj/Projects/PortCargo/Library/Bee/artifacts/WebGL/il2cppOutput/cpp: [Unity.TextMeshPro] - System.Void TMPro.TMP_TextParsingUtilities::.cctor() - Method was given it's own cpp file because it is large and costly to compile
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,U

@@ -1,0 +1,54 @@
+{
+  "artifactFingerprint": "94990f513afc5415b5a384fcc6c7aabe61f810d40e965fcb8a2a8d6b3baa6a3d",
+  "appId": "wx19e83e7294013864",
+  "compileType": "game",
+  "orientation": "portrait",
+  "plugins": {
+    "UnityPlugin": {
+      "version": "1.3.14",
+      "provider": "wxe5a48f1ed5f544b7",
+      "contexts": [
+        {
+          "type": "isolatedContext"
+        }
+      ]
+    }
+  },
+  "totalBytes": 26675209,
+  "subpackages": {
+    "wasmcode": 5967615,
+    "data-package": 11650651
+  },
+  "runtimeTests": "PASS: final Unity Play Mode four layouts / 68 pointer clicks; WeChat simulator startup and final home screenshot observed beyond 35 seconds; native mobile ads not validated",
+  "realDeviceTests": "not run",
+  "adsEnabled": true,
+  "adConfiguration": {
+    "version": "0.7.2",
+    "unity": "6000.5.10f1",
+    "hintAdUnitId": "adunit-d04702ad95d16c3c",
+    "endlessSkipAdUnitId": "adunit-eac16355a06f9b4f",
+    "homeNativeAdUnitId": "adunit-01b778c6152d4eb5",
+    "completedNativeAdUnitId": "adunit-019b3134e49d8311",
+    "nativeTemplate": "20:7 horizontal card",
+    "adsEnabled": true,
+    "nativeAdsEnabled": true,
+    "realDeviceAdsValidated": false
+  },
+  "wasmExportChecks": [
+    {
+      "file": "webgl.wasm",
+      "bytes": 25264889,
+      "sha256": "70b2cfe8b3d205e17c0116960f820c278858f3592bff24a8673bfad10b585478",
+      "exportCount": 467,
+      "functionExportCount": 465,
+      "entryPointExported": true,
+      "entryPointName": "__main_argc_argv",
+      "entryPointFunctionIndex": 64164,
+      "framework": "webgl.framework.js",
+      "frameworkSha256": "fe9a496e243f69143d95102eff169cb0badf101cf3552ee61fd66db4729216e9",
+      "frameworkMainBindingVerified": true
+    }
+  ],
+  "sourceHashMeaning": "source files at inspection time; not proof these files were compiled",
+  "wasmExportCheckMeaning": "raw WASM exports a main or __main_argc_argv function and the matching framework binds Module._main to it; not proof of minigame startup or device acceptance"
+}

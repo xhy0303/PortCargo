@@ -1,0 +1,22 @@
+{
+  "version": "0.7.2",
+  "project": "/Users/xhy/UnityEditorProj/Projects/PortCargo/Builds/WeChat/20261024-v0.7.2-native-ads/minigame",
+  "artifactFingerprint": "94990f513afc5415b5a384fcc6c7aabe61f810d40e965fcb8a2a8d6b3baa6a3d",
+  "uploadStatus": "success",
+  "taskId": "confirmation_upload_5c41420b-c9db-490d-aaef-777dabfd60b6",
+  "uploadedAtBeijing": "2026-10-24T20:57:36.605+08:00",
+  "uploadedBytes": 18852589,
+  "pendingTask": null,
+  "runtimeTests": "PASS: final Unity Play Mode four layouts / 68 pointer clicks; WeChat simulator startup and final home screenshot observed beyond 35 seconds; native mobile ads not validated",
+  "homePolicy": "Original harbor/buttons preserved; footer-only native placement; omitted at every tested phone/tablet size",
+  "completedPolicy": "Native card in reserved space; omitted if insufficient",
+  "submittedForReview": false,
+  "published": false,
+  "realDeviceAdsValidated": false,
+  "simulatorNotes": [
+    "Final captured console had no error/exception and 5 warning entries; not a zero-warning validation.",
+    "Earlier first layout captured a real home native card; that home placement is superseded.",
+    "Background capture initially missed game layer; foreground final screenshot verified full game UI.",
+    "No successful simulator canvas automated input claimed; 68 pointer clicks were in Unity Play Mode."
+  ]
+}

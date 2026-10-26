@@ -1,0 +1,47 @@
+[
+  {
+    "file": "images/01-clay-harbor.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "bytes": 2160217,
+    "sha256": "4f1822782ceae3fe6d867f879f15014c0d6913dc3a006a2bd523bc7f6e2c1a53"
+  },
+  {
+    "file": "images/02-dispatch-terminal.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "bytes": 2331255,
+    "sha256": "2704ff2a23fc63ee0d2ed3b290329555bd838bc52409275461c315147ac437bd"
+  },
+  {
+    "file": "images/03-printed-manifest.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "bytes": 3202743,
+    "sha256": "d8858e4bba9c2771d947944ccce50f270a26a73c89d971ae0addf39f9f6a41da"
+  },
+  {
+    "file": "images/04-tidal-modernism.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "bytes": 1522536,
+    "sha256": "d57ff6ca15d6cfe1c32df1e5674c11cc733a4b61d2d662a0baf51b68bf2106f3"
+  },
+  {
+    "file": "images/05-pixel-night-port.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "bytes": 2342924,
+    "sha256": "a46a7b2894d62a67cef2d69b593eccd803bf73714064be2f0fe10d85ea994dc1"
+  }
+]

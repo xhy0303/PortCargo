@@ -1,0 +1,1533 @@
+{
+  "schemaVersion": 1,
+  "title": "Flat Pixel Night Harbor — precise components",
+  "count": 66,
+  "borderOrder": [
+    "left",
+    "bottom",
+    "right",
+    "top"
+  ],
+  "units": "exported PNG pixels",
+  "pixelGrid": "32 px for cargo and icons; integer coordinates and scale per source",
+  "assets": [
+    {
+      "id": "cargo_R",
+      "file": "01_可交付/Sprites/Cargo/cargo_R.png",
+      "source": "02_可编辑源文件/Cargo/cargo_R.svg",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Cargo",
+      "purpose": "R 类货箱：竖条",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "4 类使用完全相同的 28×28 基格轮廓；外侧各留 8 导出像素。纹样不依赖颜色。"
+    },
+    {
+      "id": "cargo_icon_R",
+      "file": "01_可交付/Sprites/Cargo/cargo_icon_R.png",
+      "source": "02_可编辑源文件/Cargo/cargo_icon_R.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Cargo",
+      "purpose": "R 类小图标：当前需求、船队预告、飞行与首页示意",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "与对应 cargo_* 共用同一 SVG 图形函数，只有导出倍率不同。"
+    },
+    {
+      "id": "cargo_B",
+      "file": "01_可交付/Sprites/Cargo/cargo_B.png",
+      "source": "02_可编辑源文件/Cargo/cargo_B.svg",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Cargo",
+      "purpose": "B 类货箱：圆点",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "4 类使用完全相同的 28×28 基格轮廓；外侧各留 8 导出像素。纹样不依赖颜色。"
+    },
+    {
+      "id": "cargo_icon_B",
+      "file": "01_可交付/Sprites/Cargo/cargo_icon_B.png",
+      "source": "02_可编辑源文件/Cargo/cargo_icon_B.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Cargo",
+      "purpose": "B 类小图标：当前需求、船队预告、飞行与首页示意",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "与对应 cargo_* 共用同一 SVG 图形函数，只有导出倍率不同。"
+    },
+    {
+      "id": "cargo_G",
+      "file": "01_可交付/Sprites/Cargo/cargo_G.png",
+      "source": "02_可编辑源文件/Cargo/cargo_G.svg",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Cargo",
+      "purpose": "G 类货箱：斜线",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "4 类使用完全相同的 28×28 基格轮廓；外侧各留 8 导出像素。纹样不依赖颜色。"
+    },
+    {
+      "id": "cargo_icon_G",
+      "file": "01_可交付/Sprites/Cargo/cargo_icon_G.png",
+      "source": "02_可编辑源文件/Cargo/cargo_icon_G.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Cargo",
+      "purpose": "G 类小图标：当前需求、船队预告、飞行与首页示意",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "与对应 cargo_* 共用同一 SVG 图形函数，只有导出倍率不同。"
+    },
+    {
+      "id": "cargo_Y",
+      "file": "01_可交付/Sprites/Cargo/cargo_Y.png",
+      "source": "02_可编辑源文件/Cargo/cargo_Y.svg",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Cargo",
+      "purpose": "Y 类货箱：十字",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "4 类使用完全相同的 28×28 基格轮廓；外侧各留 8 导出像素。纹样不依赖颜色。"
+    },
+    {
+      "id": "cargo_icon_Y",
+      "file": "01_可交付/Sprites/Cargo/cargo_icon_Y.png",
+      "source": "02_可编辑源文件/Cargo/cargo_icon_Y.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Cargo",
+      "purpose": "Y 类小图标：当前需求、船队预告、飞行与首页示意",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "与对应 cargo_* 共用同一 SVG 图形函数，只有导出倍率不同。"
+    },
+    {
+      "id": "cargo_highlight",
+      "file": "01_可交付/Sprites/Cargo/cargo_highlight.png",
+      "source": "02_可编辑源文件/Cargo/cargo_highlight.svg",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Cargo",
+      "purpose": "顶部可交互箱高亮角框",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "中心透明，叠在真实货箱上；不覆盖纹样。"
+    },
+    {
+      "id": "cargo_hint",
+      "file": "01_可交付/Sprites/Cargo/cargo_hint.png",
+      "source": "02_可编辑源文件/Cargo/cargo_hint.svg",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Cargo",
+      "purpose": "提示角框",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "中心透明，减少动效模式直接静态显示。"
+    },
+    {
+      "id": "stack_base",
+      "file": "01_可交付/Sprites/Cargo/stack_base.png",
+      "source": "02_可编辑源文件/Cargo/stack_base.svg",
+      "width": 128,
+      "height": 32,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Cargo",
+      "purpose": "箱堆底座，最多六堆复用",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "置于最底箱下方，不遮纹样。整图等比缩放，不作 9-slice。"
+    },
+    {
+      "id": "buffer_slot",
+      "file": "01_可交付/Sprites/Cargo/buffer_slot.png",
+      "source": "02_可编辑源文件/Cargo/buffer_slot.svg",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Cargo",
+      "purpose": "暂存空槽，一样式复用三次",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明空心虚线框；已有货箱直接叠入，未来第四格继续复用。"
+    },
+    {
+      "id": "button_primary_normal",
+      "file": "01_可交付/Sprites/UI/button_primary_normal.png",
+      "source": "02_可编辑源文件/UI/button_primary_normal.svg",
+      "width": 192,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "category": "UI",
+      "purpose": "主按钮 / normal",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "纯底板，无文案；文字、图标与点击热区由 UI 层独立控制。按下需同时有位置或缩放反馈。"
+    },
+    {
+      "id": "button_primary_pressed",
+      "file": "01_可交付/Sprites/UI/button_primary_pressed.png",
+      "source": "02_可编辑源文件/UI/button_primary_pressed.svg",
+      "width": 192,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "category": "UI",
+      "purpose": "主按钮 / pressed",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "纯底板，无文案；文字、图标与点击热区由 UI 层独立控制。按下需同时有位置或缩放反馈。"
+    },
+    {
+      "id": "button_primary_disabled",
+      "file": "01_可交付/Sprites/UI/button_primary_disabled.png",
+      "source": "02_可编辑源文件/UI/button_primary_disabled.svg",
+      "width": 192,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "category": "UI",
+      "purpose": "主按钮 / disabled",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "纯底板，无文案；文字、图标与点击热区由 UI 层独立控制。按下需同时有位置或缩放反馈。"
+    },
+    {
+      "id": "button_secondary_normal",
+      "file": "01_可交付/Sprites/UI/button_secondary_normal.png",
+      "source": "02_可编辑源文件/UI/button_secondary_normal.svg",
+      "width": 192,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "category": "UI",
+      "purpose": "次按钮 / normal",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "纯底板，无文案；文字、图标与点击热区由 UI 层独立控制。按下需同时有位置或缩放反馈。"
+    },
+    {
+      "id": "button_secondary_pressed",
+      "file": "01_可交付/Sprites/UI/button_secondary_pressed.png",
+      "source": "02_可编辑源文件/UI/button_secondary_pressed.svg",
+      "width": 192,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "category": "UI",
+      "purpose": "次按钮 / pressed",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "纯底板，无文案；文字、图标与点击热区由 UI 层独立控制。按下需同时有位置或缩放反馈。"
+    },
+    {
+      "id": "button_secondary_disabled",
+      "file": "01_可交付/Sprites/UI/button_secondary_disabled.png",
+      "source": "02_可编辑源文件/UI/button_secondary_disabled.svg",
+      "width": 192,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "category": "UI",
+      "purpose": "次按钮 / disabled",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "纯底板，无文案；文字、图标与点击热区由 UI 层独立控制。按下需同时有位置或缩放反馈。"
+    },
+    {
+      "id": "panel_common",
+      "file": "01_可交付/Sprites/UI/panel_common.png",
+      "source": "02_可编辑源文件/UI/panel_common.svg",
+      "width": 256,
+      "height": 192,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "category": "UI",
+      "purpose": "通用对话框、设置、结果、选关和说明面板",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "中心平色可 9-slice；装饰不承接点击。"
+    },
+    {
+      "id": "panel_warning",
+      "file": "01_可交付/Sprites/UI/panel_warning.png",
+      "source": "02_可编辑源文件/UI/panel_warning.svg",
+      "width": 256,
+      "height": 192,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        16,
+        16,
+        16,
+        16
+      ],
+      "category": "UI",
+      "purpose": "受阻、退出与保存异常面板",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "需要叠加 warning 图标和明确文案，不只靠红色。"
+    },
+    {
+      "id": "toast",
+      "file": "01_可交付/Sprites/UI/toast.png",
+      "source": "02_可编辑源文件/UI/toast.svg",
+      "width": 256,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "category": "UI",
+      "purpose": "短提示与保存失败通知底板",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "可点击重试时保留独立重试控件与足够热区。"
+    },
+    {
+      "id": "scrim",
+      "file": "01_可交付/Sprites/UI/scrim.png",
+      "source": "02_可编辑源文件/UI/scrim.svg",
+      "width": 8,
+      "height": 8,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "UI",
+      "purpose": "模态遮罩",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "唯一半透明填充资产，Alpha 约 184/255；可按需修改 UI 层 alpha，但不要叠乘造成过暗。遮罩阻挡点击由程序设置。"
+    },
+    {
+      "id": "level_tile_normal",
+      "file": "01_可交付/Sprites/UI/level_tile_normal.png",
+      "source": "02_可编辑源文件/UI/level_tile_normal.svg",
+      "width": 96,
+      "height": 96,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "UI",
+      "purpose": "选关格 / normal",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "不含数字；统一动态叠加 1–50。状态角标已内置，避免重复叠加。整图整数倍缩放，不作 9-slice。"
+    },
+    {
+      "id": "level_tile_current",
+      "file": "01_可交付/Sprites/UI/level_tile_current.png",
+      "source": "02_可编辑源文件/UI/level_tile_current.svg",
+      "width": 96,
+      "height": 96,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "UI",
+      "purpose": "选关格 / current",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "不含数字；统一动态叠加 1–50。状态角标已内置，避免重复叠加。整图整数倍缩放，不作 9-slice。"
+    },
+    {
+      "id": "level_tile_completed",
+      "file": "01_可交付/Sprites/UI/level_tile_completed.png",
+      "source": "02_可编辑源文件/UI/level_tile_completed.svg",
+      "width": 96,
+      "height": 96,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "UI",
+      "purpose": "选关格 / completed",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "不含数字；统一动态叠加 1–50。状态角标已内置，避免重复叠加。整图整数倍缩放，不作 9-slice。"
+    },
+    {
+      "id": "level_tile_locked",
+      "file": "01_可交付/Sprites/UI/level_tile_locked.png",
+      "source": "02_可编辑源文件/UI/level_tile_locked.svg",
+      "width": 96,
+      "height": 96,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "UI",
+      "purpose": "选关格 / locked",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "不含数字；统一动态叠加 1–50。状态角标已内置，避免重复叠加。整图整数倍缩放，不作 9-slice。"
+    },
+    {
+      "id": "toggle_track_on",
+      "file": "01_可交付/Sprites/UI/toggle_track_on.png",
+      "source": "02_可编辑源文件/UI/toggle_track_on.svg",
+      "width": 96,
+      "height": 48,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "category": "UI",
+      "purpose": "设置开关开启底轨",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "无文字；滑块移右，并配独立“开”文字或 toggle_on 图标。"
+    },
+    {
+      "id": "toggle_track_off",
+      "file": "01_可交付/Sprites/UI/toggle_track_off.png",
+      "source": "02_可编辑源文件/UI/toggle_track_off.svg",
+      "width": 96,
+      "height": 48,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        8,
+        8,
+        8,
+        8
+      ],
+      "category": "UI",
+      "purpose": "设置开关关闭底轨",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "无文字；滑块移左，并配独立“关”文字或 toggle_off 图标。"
+    },
+    {
+      "id": "toggle_knob",
+      "file": "01_可交付/Sprites/UI/toggle_knob.png",
+      "source": "02_可编辑源文件/UI/toggle_knob.svg",
+      "width": 32,
+      "height": 32,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "UI",
+      "purpose": "设置开关共用滑块",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "同一滑块左右移动。无需分别制作带字开关。"
+    },
+    {
+      "id": "icon_pause",
+      "file": "01_可交付/Sprites/Icons/icon_pause.png",
+      "source": "02_可编辑源文件/Icons/icon_pause.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "暂停",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_undo",
+      "file": "01_可交付/Sprites/Icons/icon_undo.png",
+      "source": "02_可编辑源文件/Icons/icon_undo.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "撤销",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_hint",
+      "file": "01_可交付/Sprites/Icons/icon_hint.png",
+      "source": "02_可编辑源文件/Icons/icon_hint.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "提示",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_queue",
+      "file": "01_可交付/Sprites/Icons/icon_queue.png",
+      "source": "02_可编辑源文件/Icons/icon_queue.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "只读船队",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_home",
+      "file": "01_可交付/Sprites/Icons/icon_home.png",
+      "source": "02_可编辑源文件/Icons/icon_home.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "首页",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_settings",
+      "file": "01_可交付/Sprites/Icons/icon_settings.png",
+      "source": "02_可编辑源文件/Icons/icon_settings.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "设置",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_sound",
+      "file": "01_可交付/Sprites/Icons/icon_sound.png",
+      "source": "02_可编辑源文件/Icons/icon_sound.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "音效",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_music",
+      "file": "01_可交付/Sprites/Icons/icon_music.png",
+      "source": "02_可编辑源文件/Icons/icon_music.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "音乐",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_reduced_motion",
+      "file": "01_可交付/Sprites/Icons/icon_reduced_motion.png",
+      "source": "02_可编辑源文件/Icons/icon_reduced_motion.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "减少动效",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_help",
+      "file": "01_可交付/Sprites/Icons/icon_help.png",
+      "source": "02_可编辑源文件/Icons/icon_help.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "帮助",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_lock",
+      "file": "01_可交付/Sprites/Icons/icon_lock.png",
+      "source": "02_可编辑源文件/Icons/icon_lock.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "锁定",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_complete",
+      "file": "01_可交付/Sprites/Icons/icon_complete.png",
+      "source": "02_可编辑源文件/Icons/icon_complete.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "完成",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_previous",
+      "file": "01_可交付/Sprites/Icons/icon_previous.png",
+      "source": "02_可编辑源文件/Icons/icon_previous.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "上一页",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_next",
+      "file": "01_可交付/Sprites/Icons/icon_next.png",
+      "source": "02_可编辑源文件/Icons/icon_next.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "下一页",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_retry_save",
+      "file": "01_可交付/Sprites/Icons/icon_retry_save.png",
+      "source": "02_可编辑源文件/Icons/icon_retry_save.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "保存重试",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_exit",
+      "file": "01_可交付/Sprites/Icons/icon_exit.png",
+      "source": "02_可编辑源文件/Icons/icon_exit.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "退出",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_back",
+      "file": "01_可交付/Sprites/Icons/icon_back.png",
+      "source": "02_可编辑源文件/Icons/icon_back.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "返回",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_close",
+      "file": "01_可交付/Sprites/Icons/icon_close.png",
+      "source": "02_可编辑源文件/Icons/icon_close.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "关闭",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_toggle_on",
+      "file": "01_可交付/Sprites/Icons/icon_toggle_on.png",
+      "source": "02_可编辑源文件/Icons/icon_toggle_on.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "开启语义",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_toggle_off",
+      "file": "01_可交付/Sprites/Icons/icon_toggle_off.png",
+      "source": "02_可编辑源文件/Icons/icon_toggle_off.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "关闭语义",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_mode_campaign",
+      "file": "01_可交付/Sprites/Icons/icon_mode_campaign.png",
+      "source": "02_可编辑源文件/Icons/icon_mode_campaign.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "闯关模式",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_mode_endless",
+      "file": "01_可交付/Sprites/Icons/icon_mode_endless.png",
+      "source": "02_可编辑源文件/Icons/icon_mode_endless.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "无尽模式",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_warning",
+      "file": "01_可交付/Sprites/Icons/icon_warning.png",
+      "source": "02_可编辑源文件/Icons/icon_warning.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "警告或受阻",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_play",
+      "file": "01_可交付/Sprites/Icons/icon_play.png",
+      "source": "02_可编辑源文件/Icons/icon_play.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "开始或继续",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_restart",
+      "file": "01_可交付/Sprites/Icons/icon_restart.png",
+      "source": "02_可编辑源文件/Icons/icon_restart.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "重开",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_level_select",
+      "file": "01_可交付/Sprites/Icons/icon_level_select.png",
+      "source": "02_可编辑源文件/Icons/icon_level_select.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "选关",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_privacy",
+      "file": "01_可交付/Sprites/Icons/icon_privacy.png",
+      "source": "02_可编辑源文件/Icons/icon_privacy.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "隐私与本机保存",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_feedback",
+      "file": "01_可交付/Sprites/Icons/icon_feedback.png",
+      "source": "02_可编辑源文件/Icons/icon_feedback.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "反馈",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_save",
+      "file": "01_可交付/Sprites/Icons/icon_save.png",
+      "source": "02_可编辑源文件/Icons/icon_save.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "保存状态",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "icon_info",
+      "file": "01_可交付/Sprites/Icons/icon_info.png",
+      "source": "02_可编辑源文件/Icons/icon_info.svg",
+      "width": 64,
+      "height": 64,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Icons",
+      "purpose": "信息与版本",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底、单色 #eef5ff，可 tint；不含文字。图片大小不等于热区大小。"
+    },
+    {
+      "id": "confetti_square",
+      "file": "01_可交付/Sprites/FX/confetti_square.png",
+      "source": "02_可编辑源文件/FX/confetti_square.svg",
+      "width": 16,
+      "height": 16,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "FX",
+      "purpose": "庆祝方形碎片",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "可 tint；运行时位移旋转，不需要序列帧。"
+    },
+    {
+      "id": "confetti_star",
+      "file": "01_可交付/Sprites/FX/confetti_star.png",
+      "source": "02_可编辑源文件/FX/confetti_star.svg",
+      "width": 16,
+      "height": 16,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "FX",
+      "purpose": "庆祝四角星碎片",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "可 tint；减少动效时不播放。"
+    },
+    {
+      "id": "confetti_diamond",
+      "file": "01_可交付/Sprites/FX/confetti_diamond.png",
+      "source": "02_可编辑源文件/FX/confetti_diamond.svg",
+      "width": 16,
+      "height": 16,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "FX",
+      "purpose": "庆祝菱形碎片",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "可 tint；减少动效时不播放。"
+    },
+    {
+      "id": "completion_badge",
+      "file": "01_可交付/Sprites/FX/completion_badge.png",
+      "source": "02_可编辑源文件/FX/completion_badge.svg",
+      "width": 128,
+      "height": 128,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "FX",
+      "purpose": "通关完成徽记",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "无文字，通关标题动态叠加；减少动效时仍静态呈现。"
+    },
+    {
+      "id": "tutorial_only_top",
+      "file": "01_可交付/Sprites/Tutorial/tutorial_only_top.png",
+      "source": "02_可编辑源文件/Tutorial/tutorial_only_top.svg",
+      "width": 384,
+      "height": 256,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Tutorial",
+      "purpose": "教学 1：只取堆顶",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "透明底。黄色箭头只标出堆顶，不表示拖动手势。说明文案由独立 TMP 绘制。"
+    },
+    {
+      "id": "tutorial_match_to_ship",
+      "file": "01_可交付/Sprites/Tutorial/tutorial_match_to_ship.png",
+      "source": "02_可编辑源文件/Tutorial/tutorial_match_to_ship.svg",
+      "width": 384,
+      "height": 256,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Tutorial",
+      "purpose": "教学 2：同类自动装船",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "R 箱与船需求保持同类；箭头表示点击后的自动流向，不表示拖动。船为专用极简示意。"
+    },
+    {
+      "id": "tutorial_other_to_buffer",
+      "file": "01_可交付/Sprites/Tutorial/tutorial_other_to_buffer.png",
+      "source": "02_可编辑源文件/Tutorial/tutorial_other_to_buffer.svg",
+      "width": 384,
+      "height": 256,
+      "transparent": true,
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "border": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "category": "Tutorial",
+      "purpose": "教学 3：其余货箱进入三格暂存",
+      "origin": "original_svg",
+      "recommendedFilter": "Point",
+      "notes": "第一格放 B 箱，后两格空；箭头只表示自动流向。三格必须保持清楚可数。"
+    }
+  ]
+}

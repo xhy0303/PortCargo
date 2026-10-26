@@ -1,0 +1,52 @@
+[
+  {
+    "id": "harbor_home_backdrop",
+    "file": "bg_home_harbor.png",
+    "alpha": false,
+    "result": "/Users/xhy/.codex/generated_images/01a14040-1c46-76a0-bef9-894b8b6e8b6d/exec-18994d53-63db-4710-a33b-601a1108a9c3.png",
+    "delivery": "01_可交付/Sprites/Harbor/bg_home_harbor.png",
+    "originalPreserved": true,
+    "identicalToGenerated": true,
+    "sha256": "da17d3170fb0f3f136c242bc7120791c9691e9cfdbee8378dfd1d1c5ac0b3ce4"
+  },
+  {
+    "id": "harbor_gameplay_backdrop",
+    "file": "bg_gameplay_harbor.png",
+    "alpha": false,
+    "result": "/Users/xhy/.codex/generated_images/01a14040-1c46-76a0-bef9-894b8b6e8b6d/exec-997f383a-7630-490c-ada5-acf665bbc0c1.png",
+    "delivery": "01_可交付/Sprites/Harbor/bg_gameplay_harbor.png",
+    "originalPreserved": true,
+    "identicalToGenerated": true,
+    "sha256": "7275dd70363a2efca4bcc5963e5c1e40fc4e08e607cfd6273ee6a3b0f52687be"
+  },
+  {
+    "id": "harbor_crane",
+    "file": "spr_crane.png",
+    "alpha": true,
+    "result": "/Users/xhy/.codex/generated_images/01a14040-1c46-76a0-bef9-894b8b6e8b6d/exec-a70aa9a2-d4ad-4546-91bd-0f6dbb233047.png",
+    "delivery": "01_可交付/Sprites/Harbor/spr_crane.png",
+    "originalPreserved": true,
+    "identicalToGenerated": true,
+    "sha256": "408c1ba264bc705f823850981db05b8fa3b80f14bdec6acc3ff46cdf91c5119e"
+  },
+  {
+    "id": "harbor_dock",
+    "file": "spr_dock_foreground.png",
+    "alpha": true,
+    "result": "/Users/xhy/.codex/generated_images/01a14040-1c46-76a0-bef9-894b8b6e8b6d/exec-97d5b02a-9a27-4726-9a6e-7bfc7f007386.png",
+    "delivery": "01_可交付/Sprites/Harbor/spr_dock_foreground.png",
+    "originalPreserved": true,
+    "identicalToGenerated": true,
+    "sha256": "35a032bd2d39227f4ec688531d428c5deae738b06d6ef426996e6b103505c473"
+  },
+  {
+    "id": "app_icon_master",
+    "file": "app_icon_master.png",
+    "alpha": false,
+    "result": "/Users/xhy/.codex/generated_images/01a14040-1c46-76a0-bef9-894b8b6e8b6d/exec-fb5ceb24-9307-43ef-a581-eff1b127f886.png",
+    "delivery": "01_可交付/Sprites/Harbor/app_icon_master.png",
+    "originalPreserved": true,
+    "identicalToGenerated": true,
+    "sha256": "9ebde3a6e53f1db99fc7f79ca0ac00672c10835bfab39697dec7586d9611999a"
+  }
+]

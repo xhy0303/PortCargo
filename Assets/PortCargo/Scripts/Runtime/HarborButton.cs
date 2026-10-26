@@ -13,9 +13,10 @@ namespace PortCargo.Runtime
         public Image icon;
         public Image toggle;
         public bool primary,compact,levelTile,currentLevel;
+        public bool quiet;
         public FeedbackPlayer menuFeedback;
         private string lastText;
-        private bool lastEnabled,lastPrimary,lastTile,lastCurrent;
+        private bool lastEnabled,lastPrimary,lastTile,lastCurrent,lastQuiet;
         private void OnEnable(){lastText=null;Refresh();BindFeedback();}
         private void OnDisable(){if(button)button.onClick.RemoveListener(MenuSound);}
         public void BindFeedback(){if(button){button.onClick.RemoveListener(MenuSound);button.onClick.AddListener(MenuSound);}}
@@ -25,8 +26,8 @@ namespace PortCargo.Runtime
         {
             if(!theme||!button||!label)return;
             var text=label.text;
-            if(text==lastText&&lastEnabled==button.interactable&&lastPrimary==primary&&lastTile==levelTile&&lastCurrent==currentLevel)return;
-            lastText=text;lastEnabled=button.interactable;lastPrimary=primary;lastTile=levelTile;lastCurrent=currentLevel;
+            if(text==lastText&&lastEnabled==button.interactable&&lastPrimary==primary&&lastTile==levelTile&&lastCurrent==currentLevel&&lastQuiet==quiet)return;
+            lastText=text;lastEnabled=button.interactable;lastPrimary=primary;lastTile=levelTile;lastCurrent=currentLevel;lastQuiet=quiet;
             var image=(Image)button.targetGraphic;
             var family=primary?"button_primary_":"button_secondary_";
             var normal=theme.Find(family+"normal");
@@ -34,6 +35,13 @@ namespace PortCargo.Runtime
             image.sprite=normal;image.type=levelTile?Image.Type.Simple:Image.Type.Sliced;image.color=Color.white;
             button.transition=Selectable.Transition.SpriteSwap;
             button.spriteState=new SpriteState{highlightedSprite=normal,selectedSprite=normal,pressedSprite=levelTile?normal:theme.Find(family+"pressed"),disabledSprite=levelTile?normal:theme.Find(family+"disabled")};
+            if(quiet)
+            {
+                image.sprite=null;image.type=Image.Type.Simple;
+                image.color=compact?new Color32(29,44,67,255):new Color32(39,59,87,255);
+                button.transition=Selectable.Transition.ColorTint;
+                var colors=ColorBlock.defaultColorBlock;colors.pressedColor=new Color(.65f,.75f,.9f,1);button.colors=colors;
+            }
             label.color=primary&&!levelTile&&button.interactable?HarborTheme.Dark:HarborTheme.Ink;
             var toggleLabel=text.StartsWith("音效：")||text.StartsWith("音乐：")||text.StartsWith("减少动效：");
             if(toggle)

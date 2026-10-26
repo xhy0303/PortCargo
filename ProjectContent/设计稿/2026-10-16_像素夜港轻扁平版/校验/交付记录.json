@@ -1,0 +1,11 @@
+{
+  "file": "images/05-pixel-night-port-flat-v2.png",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "sha256": "4b8789e4f806f249422f7d56e31ee03da539a328ac81338fe01531b599e98c77",
+  "originalUnchanged": true,
+  "generator": "built-in image_gen",
+  "manualReview": "Reviewed full output: flatter crate and button surfaces, simplified scene pixel clusters, three screens plus UI components retained. L06 stack types and three-slot buffer retained. This remains concept artwork, not an implemented game interface."
+}

@@ -1,0 +1,2066 @@
+{
+  "date": "2026-10-26",
+  "sourceRoot": "/Users/xhy/CodexProj/微信小游戏",
+  "repositoryRoot": "/Users/xhy/UnityEditorProj/Projects/PortCargo",
+  "folders": [
+    "文档",
+    "设计稿",
+    "美术资产",
+    "实机游戏截图",
+    "推广素材"
+  ],
+  "files": [
+    {
+      "source": "文档/港口装箱_MVP完整开发参考规格_v1.0.docx",
+      "destination": "ProjectContent/文档/港口装箱_MVP完整开发参考规格_v1.0.docx",
+      "bytes": 78438,
+      "sha256": "2cc19d8f32be883b25388c8ad46737e82d9927f975ca9bfd7d5c8cf2fb1fff45",
+      "tracked": true
+    },
+    {
+      "source": "文档/港口装箱_MVP完整开发参考规格_v1.1.docx",
+      "destination": "ProjectContent/文档/港口装箱_MVP完整开发参考规格_v1.1.docx",
+      "bytes": 79607,
+      "sha256": "7834b04370a9cad9936c5be2fecd3ba4e920e08b323884781ef7c46931dd45bf",
+      "tracked": true
+    },
+    {
+      "source": "文档/港口装箱_首批10关_v1.0.json",
+      "destination": "ProjectContent/文档/港口装箱_首批10关_v1.0.json",
+      "bytes": 16194,
+      "sha256": "ea7abe6c39785e94c4df78d53cd8aca0e0404e55388675cc17c3f16da1287aa2",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-15_五种界面风格/.DS_Store",
+      "destination": "ProjectContent/设计稿/2026-10-15_五种界面风格/.DS_Store",
+      "bytes": 8196,
+      "sha256": "675e25bb5b4146b5f4e89fcb0756298d3f4515b4373e5f2bb4aec0fe9f3c6e66",
+      "tracked": false
+    },
+    {
+      "source": "设计稿/2026-10-15_五种界面风格/README.md",
+      "destination": "ProjectContent/设计稿/2026-10-15_五种界面风格/README.md",
+      "bytes": 1905,
+      "sha256": "5039e1e877662763cf2b1606fb72e1885012fc9eae553783a0a09ab44d91a9a5",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-15_五种界面风格/images/01-clay-harbor.png",
+      "destination": "ProjectContent/设计稿/2026-10-15_五种界面风格/images/01-clay-harbor.png",
+      "bytes": 2160217,
+      "sha256": "4f1822782ceae3fe6d867f879f15014c0d6913dc3a006a2bd523bc7f6e2c1a53",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-15_五种界面风格/images/02-dispatch-terminal.png",
+      "destination": "ProjectContent/设计稿/2026-10-15_五种界面风格/images/02-dispatch-terminal.png",
+      "bytes": 2331255,
+      "sha256": "2704ff2a23fc63ee0d2ed3b290329555bd838bc52409275461c315147ac437bd",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-15_五种界面风格/images/03-printed-manifest.png",
+      "destination": "ProjectContent/设计稿/2026-10-15_五种界面风格/images/03-printed-manifest.png",
+      "bytes": 3202743,
+      "sha256": "d8858e4bba9c2771d947944ccce50f270a26a73c89d971ae0addf39f9f6a41da",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-15_五种界面风格/images/04-tidal-modernism.png",
+      "destination": "ProjectContent/设计稿/2026-10-15_五种界面风格/images/04-tidal-modernism.png",
+      "bytes": 1522536,
+      "sha256": "d57ff6ca15d6cfe1c32df1e5674c11cc733a4b61d2d662a0baf51b68bf2106f3",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-15_五种界面风格/images/05-pixel-night-port.png",
+      "destination": "ProjectContent/设计稿/2026-10-15_五种界面风格/images/05-pixel-night-port.png",
+      "bytes": 2342924,
+      "sha256": "a46a7b2894d62a67cef2d69b593eccd803bf73714064be2f0fe10d85ea994dc1",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-15_五种界面风格/index.html",
+      "destination": "ProjectContent/设计稿/2026-10-15_五种界面风格/index.html",
+      "bytes": 13139,
+      "sha256": "65cb193e2249693ed06485e0f30d8ccfcfd946c51b71dead6d09876a2d9e21b8",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-15_五种界面风格/校验/交付核对.md",
+      "destination": "ProjectContent/设计稿/2026-10-15_五种界面风格/校验/交付核对.md",
+      "bytes": 2613,
+      "sha256": "a1f046d876e781be8cdaed6bac16bd871bf3a3b760c08461cde884f89c9376ab",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-15_五种界面风格/校验/原始资料_校验结果.json",
+      "destination": "ProjectContent/设计稿/2026-10-15_五种界面风格/校验/原始资料_校验结果.json",
+      "bytes": 109,
+      "sha256": "80bd9ce824148bad75aeeab6801af64914fbf0740852f1188437bf78181e11b7",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-15_五种界面风格/校验/原始资料_生成前.json",
+      "destination": "ProjectContent/设计稿/2026-10-15_五种界面风格/校验/原始资料_生成前.json",
+      "bytes": 595,
+      "sha256": "95232f2dc8a4700870a67a9464a38914ff3a56049b9b7281d6dc3fdfbf37b324",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-15_五种界面风格/校验/工程只读_生成前.json",
+      "destination": "ProjectContent/设计稿/2026-10-15_五种界面风格/校验/工程只读_生成前.json",
+      "bytes": 33821,
+      "sha256": "0105d71b8f64c753ef6d5432199a999fe5e24ec72ee2e08c3727b48d756703a2",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-15_五种界面风格/校验/工程快照差异.json",
+      "destination": "ProjectContent/设计稿/2026-10-15_五种界面风格/校验/工程快照差异.json",
+      "bytes": 2721,
+      "sha256": "a938fdd2a8f10bc23023dfc6f1d3b9ca3dd1bcda1bc30376f8f3cf432ce5ba70",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-15_五种界面风格/校验/最终图稿哈希.json",
+      "destination": "ProjectContent/设计稿/2026-10-15_五种界面风格/校验/最终图稿哈希.json",
+      "bytes": 1037,
+      "sha256": "9bc67833795281c26195160b4cccb6c2ac5387fc94fae23d6db1a80ad367b34e",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-15_五种界面风格/校验/画廊五套对比.png",
+      "destination": "ProjectContent/设计稿/2026-10-15_五种界面风格/校验/画廊五套对比.png",
+      "bytes": 2722262,
+      "sha256": "89e998b9c4138b0ac2b37228cd50055bee88de39bad01fac160b5872b2679c40",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-15_五种界面风格/校验/画廊手机.png",
+      "destination": "ProjectContent/设计稿/2026-10-15_五种界面风格/校验/画廊手机.png",
+      "bytes": 364230,
+      "sha256": "59af7eb4a4a71eaafc00c95f0d126ae8afb622fddd7c64069d8574372a14beca",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-15_五种界面风格/校验/画廊桌面.png",
+      "destination": "ProjectContent/设计稿/2026-10-15_五种界面风格/校验/画廊桌面.png",
+      "bytes": 1924013,
+      "sha256": "d2705da5fe03616badedc8bd5e0093eeebe6158a005a19cc93468b72e8241f4c",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-15_五种界面风格/校验/画廊检查.json",
+      "destination": "ProjectContent/设计稿/2026-10-15_五种界面风格/校验/画廊检查.json",
+      "bytes": 901,
+      "sha256": "39b54362aca4f3fc3ee15ee97154b7c6deebe92b44abf510a9a7010826d7c3ad",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-15_五种界面风格/校验/设计产物清单.json",
+      "destination": "ProjectContent/设计稿/2026-10-15_五种界面风格/校验/设计产物清单.json",
+      "bytes": 2032,
+      "sha256": "366692bc0489c2319acc0b735c2b8f1f6d37d9b6ccfcebd5a27ab12051f713e2",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-15_五种界面风格/设计说明/correction-prompts.json",
+      "destination": "ProjectContent/设计稿/2026-10-15_五种界面风格/设计说明/correction-prompts.json",
+      "bytes": 8742,
+      "sha256": "8a0d9c1525d6219fd951a9d9d1c425fe12740568c5eb49601a39e224cf7b2ba9",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-15_五种界面风格/设计说明/prompts.json",
+      "destination": "ProjectContent/设计稿/2026-10-15_五种界面风格/设计说明/prompts.json",
+      "bytes": 31542,
+      "sha256": "d06b8d718e1dc6b63a4e804735fb3d0554b74feab4ddd63699844022c8fda759",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-15_五种界面风格/设计说明/五套界面设计说明.md",
+      "destination": "ProjectContent/设计稿/2026-10-15_五种界面风格/设计说明/五套界面设计说明.md",
+      "bytes": 15416,
+      "sha256": "00199539f03ae9297d7303609cd8e34130c03a93501561c45e587b110c4edd7a",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-15_五种界面风格/设计说明/生成方式.txt",
+      "destination": "ProjectContent/设计稿/2026-10-15_五种界面风格/设计说明/生成方式.txt",
+      "bytes": 166,
+      "sha256": "0ddac254e4e4376cd20b720ca497f7675cc0654f34148e3f40dab9863c862082",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-16_像素夜港轻扁平版/README.md",
+      "destination": "ProjectContent/设计稿/2026-10-16_像素夜港轻扁平版/README.md",
+      "bytes": 1349,
+      "sha256": "cda74fe7d90b4c30fe3fac3b12609a7c17070d5bf250af4c5442af602f35bb85",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-16_像素夜港轻扁平版/images/05-pixel-night-port-flat-v2.png",
+      "destination": "ProjectContent/设计稿/2026-10-16_像素夜港轻扁平版/images/05-pixel-night-port-flat-v2.png",
+      "bytes": 2157422,
+      "sha256": "4b8789e4f806f249422f7d56e31ee03da539a328ac81338fe01531b599e98c77",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-16_像素夜港轻扁平版/index.html",
+      "destination": "ProjectContent/设计稿/2026-10-16_像素夜港轻扁平版/index.html",
+      "bytes": 8265,
+      "sha256": "24b9a437748bb3217b603f0337ebc8b17fe2c92147c718207e91ae3901f6ec9d",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-16_像素夜港轻扁平版/prompt.json",
+      "destination": "ProjectContent/设计稿/2026-10-16_像素夜港轻扁平版/prompt.json",
+      "bytes": 4013,
+      "sha256": "53b4a416c5ea5364ab30c0154a6be6a80e8b2710ca25602a73a8d6bbaf45260c",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-16_像素夜港轻扁平版/校验/交付记录.json",
+      "destination": "ProjectContent/设计稿/2026-10-16_像素夜港轻扁平版/校验/交付记录.json",
+      "bytes": 509,
+      "sha256": "8e2cfa981d1ae3ed2f9a7bdce9f5431f7e808d9c86f956cf6229fa09217f11c5",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-16_像素夜港轻扁平版/校验/原图记录.json",
+      "destination": "ProjectContent/设计稿/2026-10-16_像素夜港轻扁平版/校验/原图记录.json",
+      "bytes": 385,
+      "sha256": "eeb820c0da14c199f355973f966c8fe3eeb78269ea35c2b7500f0992cb71ddaf",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-16_像素夜港轻扁平版/校验/手机预览.png",
+      "destination": "ProjectContent/设计稿/2026-10-16_像素夜港轻扁平版/校验/手机预览.png",
+      "bytes": 266667,
+      "sha256": "55d4258a0a1f740a4cc71eb180a90f3eeabe2b215c7744aab38903003dc73ed6",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-16_像素夜港轻扁平版/校验/桌面预览.png",
+      "destination": "ProjectContent/设计稿/2026-10-16_像素夜港轻扁平版/校验/桌面预览.png",
+      "bytes": 1853059,
+      "sha256": "3c0b143c7b508f1b46e9f9be96c444742f9b86f95c7354ea7d719b9e93f4c8b0",
+      "tracked": true
+    },
+    {
+      "source": "设计稿/2026-10-16_像素夜港轻扁平版/校验/预览检查.json",
+      "destination": "ProjectContent/设计稿/2026-10-16_像素夜港轻扁平版/校验/预览检查.json",
+      "bytes": 412,
+      "sha256": "1eacac7d00e9afc965e2f55878781af47bd76ee80e8469f641c6eb0960c5d74b",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Audio/BGM/night_harbor_loop.wav",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Audio/BGM/night_harbor_loop.wav",
+      "bytes": 4233644,
+      "sha256": "46e4637f6ead26fcfa5bba2c08f06c10174b1d3d7111c37d17f41924790089f9",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Audio/SFX/complete.wav",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Audio/SFX/complete.wav",
+      "bytes": 145574,
+      "sha256": "2338c562b47d353485b626ee7c94859db7e462a6fb2a80e4a766f7e667159d0a",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Audio/SFX/depart.wav",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Audio/SFX/depart.wav",
+      "bytes": 72368,
+      "sha256": "c50babf29969163d6273c5d18c21cd0e93a8aa9fceb834c75b8a01bc7e9e4b40",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Audio/SFX/menu.wav",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Audio/SFX/menu.wav",
+      "bytes": 11510,
+      "sha256": "444430f87bce45fcf125744c743b464a822ce20fce229c72896180a5f3455020",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Audio/SFX/pick.wav",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Audio/SFX/pick.wav",
+      "bytes": 15920,
+      "sha256": "cb558a7b6826df1e7481a4c29831eda17d625ca2edc4f9a87b275b6c5a15f33f",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Audio/SFX/reject.wav",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Audio/SFX/reject.wav",
+      "bytes": 24740,
+      "sha256": "284ac36e2c4893aeff1b9fd6200b0313a3f7a73281058087fc9f97e1fe8a937c",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Fonts/OFL.txt",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Fonts/OFL.txt",
+      "bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Fonts/PortCargoUI.ttf",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Fonts/PortCargoUI.ttf",
+      "bytes": 78452,
+      "sha256": "41c57f1b3ea3bc94fa2676cd932bb4c5a775d515b05fbb3f96a5e0cf3947b2a3",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Fonts/cmap-actual-characters.txt",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Fonts/cmap-actual-characters.txt",
+      "bytes": 799,
+      "sha256": "3799fa90aee77d540ff8b290c3991049427e0da0f3fb2ae8b72ccd904440740c",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Fonts/font-coverage.json",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Fonts/font-coverage.json",
+      "bytes": 5334,
+      "sha256": "c8148505ea3df13ed8d9a9cf4d96c2187686ce5a5c5e3b253579c578404a872d",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Fonts/ui-characters.txt",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Fonts/ui-characters.txt",
+      "bytes": 798,
+      "sha256": "16f36004633d084697ccddb80f1051ac7304a823dc868bf2b32b8eb043de901e",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Cargo/buffer_slot.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Cargo/buffer_slot.png",
+      "bytes": 373,
+      "sha256": "cad474d82aa6a5c99b22672bed652e3bd81323af11c8f99fe61d1cd2bce34219",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Cargo/cargo_B.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Cargo/cargo_B.png",
+      "bytes": 488,
+      "sha256": "3afa3c48af874e908bb2dc648503c210a5550c1545f81b34d876dc534ffdc302",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Cargo/cargo_G.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Cargo/cargo_G.png",
+      "bytes": 574,
+      "sha256": "50fbd51cee210417653c93749c5758918bfd4a9c5c96f904a3e2eb901b82a3f0",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Cargo/cargo_R.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Cargo/cargo_R.png",
+      "bytes": 457,
+      "sha256": "0e434ef4842e544b681772084294ea1b44149fe8a3e1b5308557132f607acd3c",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Cargo/cargo_Y.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Cargo/cargo_Y.png",
+      "bytes": 482,
+      "sha256": "2371f814dffb74835d076af9dd97a46b7cf0204f4647c42776901eeb34b9d565",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Cargo/cargo_highlight.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Cargo/cargo_highlight.png",
+      "bytes": 309,
+      "sha256": "441dc5c45d717fd3060b2f0a539afa23a84d42d5c17a1c89bff52679ea6992e1",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Cargo/cargo_hint.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Cargo/cargo_hint.png",
+      "bytes": 316,
+      "sha256": "cf735914541b90298c48db83302fed4e7b7e8a4dff4e590cd6bf301e607d1681",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Cargo/cargo_icon_B.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Cargo/cargo_icon_B.png",
+      "bytes": 246,
+      "sha256": "4cf7d701571cc5c5c77f4381be0a3bcb9251bfe1f3fcfd195d83b5a3cd6ab1ea",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Cargo/cargo_icon_G.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Cargo/cargo_icon_G.png",
+      "bytes": 308,
+      "sha256": "d8d823d83413db4ee976a3a9ce840916c4d2e4866ec08388c9fb603b010dd320",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Cargo/cargo_icon_R.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Cargo/cargo_icon_R.png",
+      "bytes": 230,
+      "sha256": "289dcdaace044be0427e5a89b278cd1dba0510a85a8c6f126d5ebf1291b1c441",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Cargo/cargo_icon_Y.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Cargo/cargo_icon_Y.png",
+      "bytes": 247,
+      "sha256": "4e998ad1d0c6df97a2168e77dfe548d43d3265b70dfaed613d39e04a97f9e565",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Cargo/stack_base.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Cargo/stack_base.png",
+      "bytes": 216,
+      "sha256": "d837757980301f51a965753973b4f8fcbecf380639f1f6104bccb12e2ec9f295",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/FX/completion_badge.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/FX/completion_badge.png",
+      "bytes": 491,
+      "sha256": "df429f7a7c27bcc236661a8b59044f268f712ab68a95707a271f7335ddef4296",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/FX/confetti_diamond.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/FX/confetti_diamond.png",
+      "bytes": 121,
+      "sha256": "0158876283dd7e9f1898a5a280127ba99891436926a2f08a9f421ee33d9a0d68",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/FX/confetti_square.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/FX/confetti_square.png",
+      "bytes": 106,
+      "sha256": "2a2ecf3a6db4fd07417e0af4b23e0cf604a1fa8196d0075073dabafe5c2c5021",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/FX/confetti_star.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/FX/confetti_star.png",
+      "bytes": 121,
+      "sha256": "269afb7a91664721302ae11e7e03a1b8227b6c2429694db0f92be10767a07cc0",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Harbor/app_icon_master.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Harbor/app_icon_master.png",
+      "bytes": 1659446,
+      "sha256": "9ebde3a6e53f1db99fc7f79ca0ac00672c10835bfab39697dec7586d9611999a",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Harbor/bg_gameplay_harbor.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Harbor/bg_gameplay_harbor.png",
+      "bytes": 1844668,
+      "sha256": "7275dd70363a2efca4bcc5963e5c1e40fc4e08e607cfd6273ee6a3b0f52687be",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Harbor/bg_home_harbor.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Harbor/bg_home_harbor.png",
+      "bytes": 1847255,
+      "sha256": "da17d3170fb0f3f136c242bc7120791c9691e9cfdbee8378dfd1d1c5ac0b3ce4",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Harbor/spr_crane.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Harbor/spr_crane.png",
+      "bytes": 739228,
+      "sha256": "408c1ba264bc705f823850981db05b8fa3b80f14bdec6acc3ff46cdf91c5119e",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Harbor/spr_dock_foreground.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Harbor/spr_dock_foreground.png",
+      "bytes": 595293,
+      "sha256": "35a032bd2d39227f4ec688531d428c5deae738b06d6ef426996e6b103505c473",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Harbor/spr_ship_empty.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Harbor/spr_ship_empty.png",
+      "bytes": 1456,
+      "sha256": "388a4e19ba807078b0387d60b548771fd6cfa8b0f5230826a52565bb593f1f6a",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_back.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_back.png",
+      "bytes": 187,
+      "sha256": "befebf3e360126260f885703c1fb65038fe8d5556e0dfbf3aa94892fce106036",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_close.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_close.png",
+      "bytes": 181,
+      "sha256": "35a09d3be2ace43502875d8c35ac5d475a622172516d682d09801a6cb5b0023a",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_complete.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_complete.png",
+      "bytes": 182,
+      "sha256": "18c21c0fc0df649ee896caf2fe7bdf186ba10c1d94b07b1e8d12be76bc3acdbd",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_exit.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_exit.png",
+      "bytes": 197,
+      "sha256": "cf041b45fdde77e646810e639578ad1c24d37236bfdde9668ae148dc80d72a78",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_feedback.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_feedback.png",
+      "bytes": 195,
+      "sha256": "62300243d2714e6f3490a9f7a2dd02a2e17907d6cf738c6951db9d883f5d0e5c",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_help.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_help.png",
+      "bytes": 202,
+      "sha256": "ed6521418e667f3a31c57d4d29262e50c510e7d5cfec97c78e2063feb259c0c5",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_hint.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_hint.png",
+      "bytes": 236,
+      "sha256": "41f618d0530a537235f94c651d0671bda579f29777d8a10fc6de39f82b09385a",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_home.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_home.png",
+      "bytes": 193,
+      "sha256": "2c9e90f90846fba65bf1c3bb93ac3a2c782902271686e890eafff8c0619d0329",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_info.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_info.png",
+      "bytes": 185,
+      "sha256": "b23640ede300f8f73523e2bd1ea89449e54aec933f04e013eb79a3a34be81b34",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_level_select.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_level_select.png",
+      "bytes": 171,
+      "sha256": "98718d13f707d8ddbc2e8228c630284bb287c810e72de708e2e0c1a0bcf2a4f8",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_lock.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_lock.png",
+      "bytes": 191,
+      "sha256": "c2b5d6a5468b8844fc1614686322a434f6d4b9dedce29d521476c921fc124f68",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_mode_campaign.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_mode_campaign.png",
+      "bytes": 203,
+      "sha256": "bd1b8565d179dc35e8eedc048b64017d7ca5cc9b2b7807d70288138109a544af",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_mode_endless.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_mode_endless.png",
+      "bytes": 191,
+      "sha256": "0c15e6335dbe9d6ef54024fc23a734836a21ee95a7a5d745a814e2dcff5b1fc1",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_music.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_music.png",
+      "bytes": 208,
+      "sha256": "53f2fd6d7d9868b5df771f46b3d31a1528e82270086489229457e1e658b608b0",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_next.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_next.png",
+      "bytes": 180,
+      "sha256": "ee58c662429fe06c328a191d83674d29330c8c0fa9c5f9d31dd4a082efa28b5a",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_pause.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_pause.png",
+      "bytes": 169,
+      "sha256": "5055b08afe9485d66c4146c1115e580ee24f99da10c1e36e697c62ca0df8b398",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_play.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_play.png",
+      "bytes": 200,
+      "sha256": "0341a2bbd5ae17210c8fa60dea34abf224d685900567cb7768d222ceb98e88db",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_previous.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_previous.png",
+      "bytes": 175,
+      "sha256": "ecd8ef43968d82e399ac68ebe701797779ec27b8bf629336f237f882edb3f403",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_privacy.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_privacy.png",
+      "bytes": 213,
+      "sha256": "4769c205c69ef511c991a2491650cc944b82d424340b42a478c6cab3f137d36b",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_queue.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_queue.png",
+      "bytes": 186,
+      "sha256": "7de12f82d7893fbf58422efd82dabd2ce51754d894f1b3a55e782ca53509d758",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_reduced_motion.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_reduced_motion.png",
+      "bytes": 182,
+      "sha256": "f5206b68a8de4a60d2d63dc7d3739c4289cf948aaf0db0dd8ef65ce4735985b2",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_restart.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_restart.png",
+      "bytes": 226,
+      "sha256": "db8ef989d904209b47dc01d3717b4e6cdf242ddf3b8a7b0d35c50696708e8c80",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_retry_save.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_retry_save.png",
+      "bytes": 217,
+      "sha256": "990195d0d6b89398b14186132a6ff9971c0250da01ca6a1a8b329f84ba8138d7",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_save.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_save.png",
+      "bytes": 196,
+      "sha256": "79d9d76b6470759d0b0ac490c420989089853da3f76e5c6d4507cbef5130f1cc",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_settings.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_settings.png",
+      "bytes": 206,
+      "sha256": "b251ffc6a2e10e1d28f94b4cda0f9795bb7c780bb3823d2100bf5af32424be4c",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_sound.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_sound.png",
+      "bytes": 197,
+      "sha256": "62c2743bb87e0f6b40bfc715467d70f2e4e46c1d1859e7f93df453de4e5a0f9d",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_toggle_off.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_toggle_off.png",
+      "bytes": 181,
+      "sha256": "35a09d3be2ace43502875d8c35ac5d475a622172516d682d09801a6cb5b0023a",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_toggle_on.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_toggle_on.png",
+      "bytes": 182,
+      "sha256": "18c21c0fc0df649ee896caf2fe7bdf186ba10c1d94b07b1e8d12be76bc3acdbd",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_undo.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_undo.png",
+      "bytes": 196,
+      "sha256": "05637daac9319bdb1d7420423716513ae6bc40fe81a1a9eee3e1c4eafed12b80",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_warning.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Icons/icon_warning.png",
+      "bytes": 223,
+      "sha256": "2afb1facc9fdf92786400dfc18a8cc77356054affa7546598d07024c9f3b1124",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Tutorial/tutorial_match_to_ship.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Tutorial/tutorial_match_to_ship.png",
+      "bytes": 1202,
+      "sha256": "809ff4d32e4faa7bd0467c8b100ee4814447c52fcf4b5ad29c5b6be16e50da63",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Tutorial/tutorial_only_top.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Tutorial/tutorial_only_top.png",
+      "bytes": 1330,
+      "sha256": "619308d4245967e81c2cc895bb609bb85550e03d47d737572de1213f0ff8b79b",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Tutorial/tutorial_other_to_buffer.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/Tutorial/tutorial_other_to_buffer.png",
+      "bytes": 1110,
+      "sha256": "f8c1e5114168fb224aebcbe65ee4ed8fa79949ee255b0dcb76b4b625e32bf668",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/button_primary_disabled.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/button_primary_disabled.png",
+      "bytes": 293,
+      "sha256": "d89c98b4ad394ba0dda78fe6125e580115683e8d6132220e5da8489d783947d9",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/button_primary_normal.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/button_primary_normal.png",
+      "bytes": 292,
+      "sha256": "d0f07bb5fc8e3f156823f1db8aaf68f0d2997c291dce96af1394b647b3fce6a9",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/button_primary_pressed.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/button_primary_pressed.png",
+      "bytes": 290,
+      "sha256": "15c65ff63e3333607a915ca05a9333bc6c56ae3da0c967f321cfc0a2fc21583c",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/button_secondary_disabled.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/button_secondary_disabled.png",
+      "bytes": 293,
+      "sha256": "d89c98b4ad394ba0dda78fe6125e580115683e8d6132220e5da8489d783947d9",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/button_secondary_normal.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/button_secondary_normal.png",
+      "bytes": 294,
+      "sha256": "2ea14e95acabddbb5806c3f31263007517e9315be09e7e14db5508e6120325ad",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/button_secondary_pressed.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/button_secondary_pressed.png",
+      "bytes": 293,
+      "sha256": "addeb41b3f7606d00b26c1a5a59d4be0dcaa5b6b34eba40a676038215ad57fc9",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/level_tile_completed.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/level_tile_completed.png",
+      "bytes": 334,
+      "sha256": "db1b4279007b233b2d255a7d8002f3370e47e347768d35e85e2b86620e14014c",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/level_tile_current.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/level_tile_current.png",
+      "bytes": 311,
+      "sha256": "c4797f9c180300e3d225c947a53d57582032735de0d0f6bf2f0795abd7d5bd3b",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/level_tile_locked.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/level_tile_locked.png",
+      "bytes": 343,
+      "sha256": "ed207f10a15e03b32d776697402152d332d752197f5663a046d0d8b89a2abcf3",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/level_tile_normal.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/level_tile_normal.png",
+      "bytes": 308,
+      "sha256": "98d0a19bea08df700ac876aa34e3e49da0e3729406579d3cc00f498e478a8a94",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/panel_common.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/panel_common.png",
+      "bytes": 667,
+      "sha256": "befdebdc07506ddb3367f072aa7ea27c937229ce68d997e3eb7ec7e845fc4172",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/panel_warning.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/panel_warning.png",
+      "bytes": 666,
+      "sha256": "396f79d913a053f1e92f967ba3bada2323e6392a9efec1345783fa33854c19dc",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/scrim.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/scrim.png",
+      "bytes": 96,
+      "sha256": "047a9adea54f6a77953ae743551d450167b9efa4ffe69e573b93b318b104e05f",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/toast.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/toast.png",
+      "bytes": 324,
+      "sha256": "e21a25e010becc714325145ad6cc2d74d5c2ed5499f3305fe918f3036395525b",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/toggle_knob.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/toggle_knob.png",
+      "bytes": 155,
+      "sha256": "7debc5b05deb4ab75e89e6b6b759374eafe7298b2b14e80b7ccbd7981a6a5035",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/toggle_track_off.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/toggle_track_off.png",
+      "bytes": 207,
+      "sha256": "780403d3cc81224284f84362c2a29546cbddf3ecd7e198a6ad9afb6018b9a5be",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/toggle_track_on.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/01_可交付/Sprites/UI/toggle_track_on.png",
+      "bytes": 207,
+      "sha256": "51d2a948b9dcaec2cb4fdc2a592ae21edb207cfca590823035dd7392b4db8561",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Audio/generate_audio_and_font_manifest.py",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Audio/generate_audio_and_font_manifest.py",
+      "bytes": 19537,
+      "sha256": "ee8da031c15d53621e8ed40d228562b994e096e6d2c58ea381e798b078707829",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Audio/requirements.txt",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Audio/requirements.txt",
+      "bytes": 171,
+      "sha256": "78fa1870a7c18758c8ec41bd3afaee611ff18654d7e5d0c063940c4ec1132554",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Cargo/buffer_slot.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Cargo/buffer_slot.svg",
+      "bytes": 1202,
+      "sha256": "e4e0bfcbf2db2c1b5b62332a95f05ab82eac6f09805dffac98df4ee881abd620",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Cargo/cargo_B.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Cargo/cargo_B.svg",
+      "bytes": 1473,
+      "sha256": "4ed53ae4292914357e16254dd58a346da20895b165c581d37c9b2b3ff3101016",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Cargo/cargo_G.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Cargo/cargo_G.svg",
+      "bytes": 962,
+      "sha256": "57ddee24c8ef68efe3e1a859a247b408d04672e0559c826a63979395d5cea50c",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Cargo/cargo_R.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Cargo/cargo_R.svg",
+      "bytes": 672,
+      "sha256": "8818a70de5db418eb3da705e63fbbbcb981cf4f83ce179b14115fa4464ce7a35",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Cargo/cargo_Y.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Cargo/cargo_Y.svg",
+      "bytes": 901,
+      "sha256": "7e3034a5069a09b30630784710635e9f3b9e713eb2ecc2148a27278591fc77a6",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Cargo/cargo_highlight.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Cargo/cargo_highlight.svg",
+      "bytes": 621,
+      "sha256": "ac2ade547ee55faa554d1bd119f905229292bdafdd1ec9ec52a6404f998f42e6",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Cargo/cargo_hint.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Cargo/cargo_hint.svg",
+      "bytes": 678,
+      "sha256": "fa865b543018ba75d8e7557f9e653ea72df73c27257151b5711a1645db98f560",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Cargo/cargo_icon_B.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Cargo/cargo_icon_B.svg",
+      "bytes": 1471,
+      "sha256": "a9fda1229affda374a28e2dc1583a84683fafa23639e716d21fcea42ae41adc5",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Cargo/cargo_icon_G.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Cargo/cargo_icon_G.svg",
+      "bytes": 960,
+      "sha256": "2adda49f53bf98659df10c7fc0a991cecd83ad08016f105cd3f58472b20d8fa3",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Cargo/cargo_icon_R.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Cargo/cargo_icon_R.svg",
+      "bytes": 670,
+      "sha256": "3663765ff8b7019920cf224604a0ee7a63c3d48faa9d6e12491db4c9e42f871b",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Cargo/cargo_icon_Y.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Cargo/cargo_icon_Y.svg",
+      "bytes": 899,
+      "sha256": "6944675bd953b568daa7945a6f9ef831cf52b31e15df39aded9bfbd6510046d9",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Cargo/stack_base.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Cargo/stack_base.svg",
+      "bytes": 410,
+      "sha256": "e7ee124252aa0a98e1ff028eee5b284f2a516060125cec40670a95272685e6b2",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/FX/completion_badge.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/FX/completion_badge.svg",
+      "bytes": 513,
+      "sha256": "3a5868f8e706772ecc7d18b0e885cdbb34774b35d8840786d41af9f9845511ed",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/FX/confetti_diamond.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/FX/confetti_diamond.svg",
+      "bytes": 261,
+      "sha256": "14e37faa7d1068020be368d160a31b669c7bd5b80bef7c0ca29f9eb3e0a13085",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/FX/confetti_square.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/FX/confetti_square.svg",
+      "bytes": 219,
+      "sha256": "c860eaa73f4488edfabf41afc1e05894634bd924c75904c94947e9d1475fa0ec",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/FX/confetti_star.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/FX/confetti_star.svg",
+      "bytes": 259,
+      "sha256": "972cd8e22f7d3c849e67130997bc635e40d7f5229b246b3667adf4addfb1afe0",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Harbor/PNG母版/app_icon_master.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Harbor/PNG母版/app_icon_master.png",
+      "bytes": 1659446,
+      "sha256": "9ebde3a6e53f1db99fc7f79ca0ac00672c10835bfab39697dec7586d9611999a",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Harbor/PNG母版/bg_gameplay_harbor.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Harbor/PNG母版/bg_gameplay_harbor.png",
+      "bytes": 1844668,
+      "sha256": "7275dd70363a2efca4bcc5963e5c1e40fc4e08e607cfd6273ee6a3b0f52687be",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Harbor/PNG母版/bg_home_harbor.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Harbor/PNG母版/bg_home_harbor.png",
+      "bytes": 1847255,
+      "sha256": "da17d3170fb0f3f136c242bc7120791c9691e9cfdbee8378dfd1d1c5ac0b3ce4",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Harbor/PNG母版/spr_crane.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Harbor/PNG母版/spr_crane.png",
+      "bytes": 739228,
+      "sha256": "408c1ba264bc705f823850981db05b8fa3b80f14bdec6acc3ff46cdf91c5119e",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Harbor/PNG母版/spr_dock_foreground.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Harbor/PNG母版/spr_dock_foreground.png",
+      "bytes": 595293,
+      "sha256": "35a032bd2d39227f4ec688531d428c5deae738b06d6ef426996e6b103505c473",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Harbor/home-layout.json",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Harbor/home-layout.json",
+      "bytes": 803,
+      "sha256": "4d3732a4c1a51ede7218c6be3cc1f76b694f4936ecfd208795c1104157532413",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Harbor/home_harbor_layers.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Harbor/home_harbor_layers.svg",
+      "bytes": 4245158,
+      "sha256": "9d3cb4944f8ec2bab235d6ab6dc5ef5c93d90b6dba2f1c745f9509b7a988eaf1",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Harbor/spr_ship_empty.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Harbor/spr_ship_empty.svg",
+      "bytes": 1360,
+      "sha256": "6ef57f8189d2295951c1052b9eca4acab995dd56539f4d1ec5ecb79978e2ad61",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_back.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_back.svg",
+      "bytes": 263,
+      "sha256": "59a307e507f2c098db550835c407adb05c231c357701181c5cea2c3eb2ef1fa2",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_close.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_close.svg",
+      "bytes": 317,
+      "sha256": "cb370c95d17aeb1677f2d329105512c14a5a64a8f436020a1253cc8a9af3b76b",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_complete.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_complete.svg",
+      "bytes": 271,
+      "sha256": "979ea0172805f59798a28aa69d89b1559ead42418faee00f3a0e824ffae66055",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_exit.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_exit.svg",
+      "bytes": 331,
+      "sha256": "778426bb2f37a72f8e9fc3325782c318c7d0c56bc9cd7ccd209a4309c5dce75d",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_feedback.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_feedback.svg",
+      "bytes": 301,
+      "sha256": "2225686810b7912d55fb7d964f410fa0f10a04d677d80216ae2beb108da2cd0e",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_help.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_help.svg",
+      "bytes": 315,
+      "sha256": "b8138b6d579211476a230ddc0a7ca812204a2ddcdab94c3910fe5a028ae364e4",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_hint.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_hint.svg",
+      "bytes": 342,
+      "sha256": "4a7dad60a94ead42159efd6cbb1258611e845cc40ba31188be9116a6b17eae1f",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_home.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_home.svg",
+      "bytes": 279,
+      "sha256": "06664b9453ea9fdbdd9b5773f376b09f242b73bf7e43d10fe8e9c753de658b41",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_info.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_info.svg",
+      "bytes": 257,
+      "sha256": "cba29a3d1b5e1c3697e2b0f30770ee6875d851a439c616944f125f8c31492114",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_level_select.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_level_select.svg",
+      "bytes": 391,
+      "sha256": "74d45bcfc55b9591a6a869e5e52cd3d36b1c556257991c7d1c68b6864a31254f",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_lock.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_lock.svg",
+      "bytes": 275,
+      "sha256": "ee2171c772b467630f3b3e5d06af8164c5e2322101d2409bfd5a15a6033b854c",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_mode_campaign.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_mode_campaign.svg",
+      "bytes": 288,
+      "sha256": "6b53c3b9142b42515a2e6d39e9ddcb233bd7bec431243a9ac3555008c5af20b8",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_mode_endless.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_mode_endless.svg",
+      "bytes": 347,
+      "sha256": "7af96851376dd90c3a58f8f9cce453d49a99d37428564cee199eebe2e73d65c8",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_music.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_music.svg",
+      "bytes": 282,
+      "sha256": "b5f1114c972c5eff06e8f59ebdf5ddbffd899f4a7f392f447d2529ae3ee94abc",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_next.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_next.svg",
+      "bytes": 283,
+      "sha256": "bd32b57d8c663dcaf01f2c321ed1fbb650ae275dad762cc56f0d16c17fc1c405",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_pause.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_pause.svg",
+      "bytes": 278,
+      "sha256": "b42a4e48e03851f49281851566ba5aad6ac0f752abc800bd86713022f5d74588",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_play.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_play.svg",
+      "bytes": 270,
+      "sha256": "fe782715b70bdd7bf2d6ed6bdc229b31e87df6d477a9796e5d558d5671d330e4",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_previous.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_previous.svg",
+      "bytes": 282,
+      "sha256": "ea7358314886dc324c682f0ca25699fa29a6dc4fdcfb8eb6e1c5ba8459994966",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_privacy.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_privacy.svg",
+      "bytes": 317,
+      "sha256": "64cefa5860491a5fc5d6fa25d8cb8beeb8d4ac33b2c542371edc24cc1f2fd298",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_queue.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_queue.svg",
+      "bytes": 323,
+      "sha256": "ce8d0e43525103378d1793647ff22e3b6a4f6aa2bb9fe0c7df502f9055804a66",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_reduced_motion.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_reduced_motion.svg",
+      "bytes": 282,
+      "sha256": "aeb4a337daf7bb326087ee40d3a7c82c8e86587e2b044dd1ed0459f8987c9514",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_restart.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_restart.svg",
+      "bytes": 320,
+      "sha256": "52b7cec5df6b240efe7e54c7f1ca9c34b140c79e1e7ee7bd1ce51ff24d68707e",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_retry_save.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_retry_save.svg",
+      "bytes": 344,
+      "sha256": "1a45f5e0f76007b2713f5de0bd32682195839510566cc0349748509f5e104812",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_save.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_save.svg",
+      "bytes": 272,
+      "sha256": "d131e4621dd1424415940bfe147ccb4448cc3ec2fed527521b1f23fd3cedc9e7",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_settings.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_settings.svg",
+      "bytes": 328,
+      "sha256": "5938434db4c0fc6d99d35dd222f84945d57ae3e1c0cabdee64bc932e54047b6f",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_sound.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_sound.svg",
+      "bytes": 325,
+      "sha256": "9b5daeb7854449a6c4c44909640697df388436a0dfbbd025b3c8d821657663c3",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_toggle_off.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_toggle_off.svg",
+      "bytes": 317,
+      "sha256": "cb370c95d17aeb1677f2d329105512c14a5a64a8f436020a1253cc8a9af3b76b",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_toggle_on.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_toggle_on.svg",
+      "bytes": 271,
+      "sha256": "979ea0172805f59798a28aa69d89b1559ead42418faee00f3a0e824ffae66055",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_undo.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_undo.svg",
+      "bytes": 293,
+      "sha256": "9c069a4fb6b562ee7a102e4c39d336400f1ad7de9336016739e9592772477c36",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_warning.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Icons/icon_warning.svg",
+      "bytes": 323,
+      "sha256": "40c36e3e5416ffde14bd5e9b60f6ee9189b9bda60530b63305bde9eb219fa5b4",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Tutorial/tutorial_match_to_ship.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Tutorial/tutorial_match_to_ship.svg",
+      "bytes": 2005,
+      "sha256": "f30f9255f775a84ba5bc1d8c53926e0890005cf457baf6d7ea373a9a30e022b1",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Tutorial/tutorial_only_top.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Tutorial/tutorial_only_top.svg",
+      "bytes": 3557,
+      "sha256": "8024ebc965bf2b8a2c3a7243c185aca013110dfc486969f9c1dfef64d29aab9d",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Tutorial/tutorial_other_to_buffer.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/Tutorial/tutorial_other_to_buffer.svg",
+      "bytes": 6261,
+      "sha256": "209c801b07a59ea1a12da336e5619ae4499b9d0bd35ab0c17c2b5858cbae92e2",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/button_primary_disabled.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/button_primary_disabled.svg",
+      "bytes": 404,
+      "sha256": "2c524a4398a080695d181833117151567e993899b4ee74989ca060595a3f740f",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/button_primary_normal.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/button_primary_normal.svg",
+      "bytes": 404,
+      "sha256": "8fadb286090e00f6a293b4260b2903b0318c05a89475122f6e79b89fc1bea767",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/button_primary_pressed.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/button_primary_pressed.svg",
+      "bytes": 404,
+      "sha256": "ff3ef75706bb68e90a53544f2f6b6f72e9b1fd8375e4cc4c94d5003fb5a5cc79",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/button_secondary_disabled.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/button_secondary_disabled.svg",
+      "bytes": 404,
+      "sha256": "2c524a4398a080695d181833117151567e993899b4ee74989ca060595a3f740f",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/button_secondary_normal.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/button_secondary_normal.svg",
+      "bytes": 404,
+      "sha256": "c9516cf0c55ea0ae00430faa9de3ffb63369d39f91e28d0b1f52e686d1be277b",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/button_secondary_pressed.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/button_secondary_pressed.svg",
+      "bytes": 404,
+      "sha256": "828eb3507b337462a11e4cb77f891bb4761acd000b9567a1ad19969f57ed6969",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/level_tile_completed.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/level_tile_completed.svg",
+      "bytes": 495,
+      "sha256": "eb6654311bf68da52145223cefc91ed81a3831d4e023f7b5c227b750c49f5dbd",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/level_tile_current.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/level_tile_current.svg",
+      "bytes": 462,
+      "sha256": "8d152f73f13ae5eb1ca7469392dbdc9304de1e3eb92a8f4a184c7dff160e24ea",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/level_tile_locked.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/level_tile_locked.svg",
+      "bytes": 512,
+      "sha256": "95f7127c28624b25e1eeac2bf9329b5916df35a354ab1127e0a4102953ae568f",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/level_tile_normal.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/level_tile_normal.svg",
+      "bytes": 403,
+      "sha256": "815897f85ad34c187634f7cbd2c28e2e4c2c87c9817b527ea105e740e5717eb7",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/panel_common.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/panel_common.svg",
+      "bytes": 405,
+      "sha256": "c0972865fa267e05a5cf07916afefee3295700a8d2404bd6e679455a151016f4",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/panel_warning.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/panel_warning.svg",
+      "bytes": 405,
+      "sha256": "0f77d79d92318f816a99b8a49c5db2a2c0e2ef53ab722817d61e394ba1a585db",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/scrim.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/scrim.svg",
+      "bytes": 234,
+      "sha256": "ddddb8ca54ba5275ad0db46745eef2dafc0c62411f74bd42f2d70341da8fb7fe",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/toast.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/toast.svg",
+      "bytes": 414,
+      "sha256": "2efadfbb66efc24a4cb205a5e5c431029e120b76e49c7fe39a0d5c80ebef3fa2",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/toggle_knob.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/toggle_knob.svg",
+      "bytes": 323,
+      "sha256": "b24314941dc539eceb7054d31c730165a7403af1e14b7aa824b631f12dfa591f",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/toggle_track_off.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/toggle_track_off.svg",
+      "bytes": 323,
+      "sha256": "b42f5b8e200b302a7884fb86dc97b91dfc08c04e87db54c53b5f4a0f215f8013",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/toggle_track_on.svg",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/UI/toggle_track_on.svg",
+      "bytes": 323,
+      "sha256": "e188ad7f8ed685c90e8fea0529e14bd9bca5d7e474e491fec5ea3142395fc535",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/build-components.cjs",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/build-components.cjs",
+      "bytes": 15128,
+      "sha256": "c920218e3a78a6c18a3203da2b8e7041019ce20ada2a9d7ad847006b04d84057",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/build-delivery.py",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/build-delivery.py",
+      "bytes": 27001,
+      "sha256": "bea50ebfef2374cfa16de765b957c389be758da4f6685d3f7801a0c0c30ff56a",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/build-ship.cjs",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/02_可编辑源文件/build-ship.cjs",
+      "bytes": 3504,
+      "sha256": "9c301bd8fb811aee738f7aa6870a91c9d7676695972a510c0548cb48f03c5385",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/03_交接文档/接入与使用说明.md",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/03_交接文档/接入与使用说明.md",
+      "bytes": 27736,
+      "sha256": "bf4941a38df368ce6606c70c26231431a932177eb58bdb03d06a2aaa793d20c2",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/03_交接文档/美术规范与源文件说明.md",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/03_交接文档/美术规范与源文件说明.md",
+      "bytes": 5997,
+      "sha256": "9c2bc825e8afe98250b6849ab278dad376f5365dd75c1d60b30a5b6cb9941f2e",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/03_交接文档/需求逐项对照.md",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/03_交接文档/需求逐项对照.md",
+      "bytes": 18384,
+      "sha256": "eaaebdb9a9474a89f096b206dafde7c3a91fc25999ab762464b49e0f21a07d13",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/UI组件_联系图.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/UI组件_联系图.png",
+      "bytes": 133496,
+      "sha256": "a58739ed05b38f6b5de5ec72f8ce932a5d24d70b895aeb6f914ae051a159c67b",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/audio-font-manifest.json",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/audio-font-manifest.json",
+      "bytes": 11856,
+      "sha256": "4bc6788d9c8739f51b3fa035fe2dd552865616af2c894099497e2fd6753c6e2d",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/browser-check.json",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/browser-check.json",
+      "bytes": 1188,
+      "sha256": "b4c24732a3f929e53a06b54693877be7b10ded279f042b9197143cdced72d5d6",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/components-manifest.json",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/components-manifest.json",
+      "bytes": 39958,
+      "sha256": "2fbc583ec81e1fdcc2ef2b3ee2c3a03bb273f025dd710394b59392aba503c9ff",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/delivery-file-check.json",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/delivery-file-check.json",
+      "bytes": 46063,
+      "sha256": "3a9085d38f677f7aeec19ed029c254c73e8295b9422de1b4da68f4b80fd20b64",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/independent-asset-check.json",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/independent-asset-check.json",
+      "bytes": 46702,
+      "sha256": "26678c7d6d33bc14e4f11472a19c34244b3370b0ca51275e9dd8d0a4fd5526e4",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/ship-manifest.json",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/ship-manifest.json",
+      "bytes": 1444,
+      "sha256": "b9bd7e82d46f8c362f1189e235aa87745c1909375c9f66360d4905c7256170b1",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/工程保护检查.json",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/工程保护检查.json",
+      "bytes": 190,
+      "sha256": "ac4f7255568eaaf93fcaf6b18bd352ec121201d7176de3c792af8aeec64ee0c2",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/工程生成前哈希.json",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/工程生成前哈希.json",
+      "bytes": 28089,
+      "sha256": "e6dd3059579b897dae168126caf5be8c9d46772a8551c146279953d62691ee15",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/教程_联系图.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/教程_联系图.png",
+      "bytes": 29031,
+      "sha256": "e34ad754ec4ff02642128ef94f230336a5dfe119d7beb44c3c7abfae64fae8d1",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/界面组装_四屏.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/界面组装_四屏.png",
+      "bytes": 558560,
+      "sha256": "322345ba2de789327d30e482fedc116453b138aef57334169bd289e2442bea54",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/组装预览.html",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/组装预览.html",
+      "bytes": 13298,
+      "sha256": "a78043e4b14f0b93510b480250192e81f29106be617f7f73b00b40af3a34305b",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/资产库_桌面.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/资产库_桌面.png",
+      "bytes": 552396,
+      "sha256": "2181b0ed27afa5e1581c29d2df384e16a290a9a9c3a998373adf99e19aa5a318",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/资产库_窄屏.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/资产库_窄屏.png",
+      "bytes": 174424,
+      "sha256": "a82fbd636898994867ac0e548d03382fe2556800d740b53b99d39a46789789e0",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/验收报告.md",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/04_预览与验收/验收报告.md",
+      "bytes": 4705,
+      "sha256": "a9849844f9228560b20af22d3117c0b0fd5a45ff41c77f2d3583d9015238561b",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/05_来源与许可/final-generated-files.json",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/05_来源与许可/final-generated-files.json",
+      "bytes": 2213,
+      "sha256": "04480c3ea21d029b8eb4a513c27be46bf28608eaa2c6747e9b7eec04d9bb00f3",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/05_来源与许可/generated-files.json",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/05_来源与许可/generated-files.json",
+      "bytes": 1364,
+      "sha256": "f7fd548d47e5a9fdd0f73e4efc4bfc97ad2a6cfd24bb59cfccab53d5a70c572d",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/05_来源与许可/illustration-fix-prompts.json",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/05_来源与许可/illustration-fix-prompts.json",
+      "bytes": 2016,
+      "sha256": "d84423b557c877bfc69f0292b0a9d960463d4bb1f4e15d48c9e94de679da778a",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/05_来源与许可/illustration-prompts.json",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/05_来源与许可/illustration-prompts.json",
+      "bytes": 10461,
+      "sha256": "ae7c0368edb1792522593046b73529fe2b1fa68ef0af610816edf5a8b6f52d0e",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/05_来源与许可/ship-clean-prompt.txt",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/05_来源与许可/ship-clean-prompt.txt",
+      "bytes": 1490,
+      "sha256": "a66e78217d34916039820e1ac1aa8c7ec889fde5350b200b4a2331e4400e8309",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/05_来源与许可/原始需求清单_只读副本.md",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/05_来源与许可/原始需求清单_只读副本.md",
+      "bytes": 10714,
+      "sha256": "cf7a0aa36c5e6beb0d574bea6c960d864d07e40647b2c2b697253452bb820075",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/05_来源与许可/字体与音频来源.md",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/05_来源与许可/字体与音频来源.md",
+      "bytes": 10373,
+      "sha256": "51e21c531f6039d2b6318293d2bad03404ca72939c1fee47ef930fd64b85f8a5",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/05_来源与许可/来源总表.md",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/05_来源与许可/来源总表.md",
+      "bytes": 2169,
+      "sha256": "62348bcd907792ffb48a0bb6b0a7d40fd0e0fbf094c64cf196270c544f6dd248",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/05_来源与许可/风格依据_轻扁平版.png",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/05_来源与许可/风格依据_轻扁平版.png",
+      "bytes": 2157422,
+      "sha256": "4b8789e4f806f249422f7d56e31ee03da539a328ac81338fe01531b599e98c77",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/README.md",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/README.md",
+      "bytes": 2521,
+      "sha256": "630f25f5bee1ca63a195060d80c787e0129e3de20b3ad89a15dfdf4690bd4e7d",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/SHA256SUMS.txt",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/SHA256SUMS.txt",
+      "bytes": 21250,
+      "sha256": "180297208c431630f4dd841166bda55afeac3b0b223702046249d4e6374fb028",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/asset-data.js",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/asset-data.js",
+      "bytes": 87174,
+      "sha256": "be848a475ecb965676bbf8be57c5258715ab645652a499b56944e6f53dcc09ed",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/asset-manifest.json",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/asset-manifest.json",
+      "bytes": 116095,
+      "sha256": "f793f5bc33ed0aa92001dd7b5b11cf4098bb272b92e42ee42b42afbd432022de",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/2026-10-16_像素夜港轻扁平/index.html",
+      "destination": "ProjectContent/美术资产/2026-10-16_像素夜港轻扁平/index.html",
+      "bytes": 11822,
+      "sha256": "f550615749da88888051dd6555651e613f331e76d55f0795dd0f99395f6eb4c3",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/PortCargo-FlatPixel-ArtPack-v1.zip",
+      "destination": "ProjectContent/美术资产/PortCargo-FlatPixel-ArtPack-v1.zip",
+      "bytes": 22779275,
+      "sha256": "93b4c2cfc860838b0d5412030657767523580baf751d131c3784f83c4119ab27",
+      "tracked": true
+    },
+    {
+      "source": "美术资产/PortCargo-FlatPixel-ArtPack-v1.zip.verify.json",
+      "destination": "ProjectContent/美术资产/PortCargo-FlatPixel-ArtPack-v1.zip.verify.json",
+      "bytes": 331,
+      "sha256": "36ebb99aa7ec469fc0a042908450efdf9a6b87fa1c16898b0e46fb41fe8e22d3",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/.DS_Store",
+      "destination": "ProjectContent/实机游戏截图/.DS_Store",
+      "bytes": 6148,
+      "sha256": "c64f4c3c430c6d8dfa30fa5de32d9a786a531e671c025dc2b00c5ce4eb7cca23",
+      "tracked": false
+    },
+    {
+      "source": "实机游戏截图/04559d0ceb704eaca46c94514872e67d.jpg",
+      "destination": "ProjectContent/实机游戏截图/04559d0ceb704eaca46c94514872e67d.jpg",
+      "bytes": 290459,
+      "sha256": "1328cf2a0ae9e55dd675b57978255c69cf6c33c440275d51682d7129f0e4538f",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/06543c632ce0fbb8eb499c018818a007.jpg",
+      "destination": "ProjectContent/实机游戏截图/06543c632ce0fbb8eb499c018818a007.jpg",
+      "bytes": 315465,
+      "sha256": "27c77b01dbe12374ad3dd1bbd62d5d947cbe54115aa5ba009cda07f2b0ce00e5",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/225add93f75475b14b9b86c8273e9752.jpg",
+      "destination": "ProjectContent/实机游戏截图/225add93f75475b14b9b86c8273e9752.jpg",
+      "bytes": 455157,
+      "sha256": "7094c0559501fd01a15e191e337536839d6f8b51e6170a58537ff0c185a6b6bb",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/47d1364ceeb6df31baace10dbcf67230.jpg",
+      "destination": "ProjectContent/实机游戏截图/47d1364ceeb6df31baace10dbcf67230.jpg",
+      "bytes": 298962,
+      "sha256": "51fe6754037bca331bf67919f327c288f34daeaf9b0dfc7ddedf4f6dbf3dd2da",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/5a7fa098f69947489ed962f33a22b2a8.jpg",
+      "destination": "ProjectContent/实机游戏截图/5a7fa098f69947489ed962f33a22b2a8.jpg",
+      "bytes": 297243,
+      "sha256": "a5fef04cc1eab56ff16bb382851ee33e51a8ef8954f2ab6563353aa8b084b6bd",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/7db93cbafed350e26ddabb4f923cb158.jpg",
+      "destination": "ProjectContent/实机游戏截图/7db93cbafed350e26ddabb4f923cb158.jpg",
+      "bytes": 278661,
+      "sha256": "bfb3f70645a0fc18954c921b2e0e23c8ce3c8f734bae6d62afcabe3ce29e65c6",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/85a42335e407e03248192b7b5c7d4891.jpg",
+      "destination": "ProjectContent/实机游戏截图/85a42335e407e03248192b7b5c7d4891.jpg",
+      "bytes": 442100,
+      "sha256": "1bf334b5fde8d6b1e23aed3d864a47fb6ef8f4d71c5a5c80200900a5ebf8e498",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/8edafba2cc592b5de402fe1604f1d1b3.jpg",
+      "destination": "ProjectContent/实机游戏截图/8edafba2cc592b5de402fe1604f1d1b3.jpg",
+      "bytes": 240671,
+      "sha256": "f792f637d9ac6f83472e897706993e5b3def7276b80731ebecda5f7eda94ac42",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/9e484af6ae03b498c76a14ea67f27cff.jpg",
+      "destination": "ProjectContent/实机游戏截图/9e484af6ae03b498c76a14ea67f27cff.jpg",
+      "bytes": 290188,
+      "sha256": "005b2351fed7f4345a83ccfcea44ea9e4b2368203ad03b4626816d7950fb2542",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/a3755c60aecd363cbafb60219ae4f189.jpg",
+      "destination": "ProjectContent/实机游戏截图/a3755c60aecd363cbafb60219ae4f189.jpg",
+      "bytes": 304979,
+      "sha256": "0925e43b016a96f66018170ad12d1e9900a207c0017b228857041ea513555718",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/00_全部图片_按内容命名/01_首页_闯关与无尽进度.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/00_全部图片_按内容命名/01_首页_闯关与无尽进度.jpg",
+      "bytes": 290459,
+      "sha256": "1328cf2a0ae9e55dd675b57978255c69cf6c33c440275d51682d7129f0e4538f",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/00_全部图片_按内容命名/02_闯关第10关_初始局面.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/00_全部图片_按内容命名/02_闯关第10关_初始局面.jpg",
+      "bytes": 315465,
+      "sha256": "27c77b01dbe12374ad3dd1bbd62d5d947cbe54115aa5ba009cda07f2b0ce00e5",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/00_全部图片_按内容命名/03_选关_第1至8关已完成.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/00_全部图片_按内容命名/03_选关_第1至8关已完成.jpg",
+      "bytes": 298962,
+      "sha256": "51fe6754037bca331bf67919f327c288f34daeaf9b0dfc7ddedf4f6dbf3dd2da",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/00_全部图片_按内容命名/04_选关_第9至16关解锁状态.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/00_全部图片_按内容命名/04_选关_第9至16关解锁状态.jpg",
+      "bytes": 297243,
+      "sha256": "a5fef04cc1eab56ff16bb382851ee33e51a8ef8954f2ab6563353aa8b084b6bd",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/00_全部图片_按内容命名/05_选关_第49至50关末页.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/00_全部图片_按内容命名/05_选关_第49至50关末页.jpg",
+      "bytes": 240671,
+      "sha256": "f792f637d9ac6f83472e897706993e5b3def7276b80731ebecda5f7eda94ac42",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/00_全部图片_按内容命名/06_无尽第4程_完整局面.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/00_全部图片_按内容命名/06_无尽第4程_完整局面.jpg",
+      "bytes": 304979,
+      "sha256": "0925e43b016a96f66018170ad12d1e9900a207c0017b228857041ea513555718",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/00_全部图片_按内容命名/07_无尽第4程_完成结算.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/00_全部图片_按内容命名/07_无尽第4程_完成结算.jpg",
+      "bytes": 278661,
+      "sha256": "bfb3f70645a0fc18954c921b2e0e23c8ce3c8f734bae6d62afcabe3ce29e65c6",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/00_全部图片_按内容命名/08_无尽第6程_提示高亮.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/00_全部图片_按内容命名/08_无尽第6程_提示高亮.jpg",
+      "bytes": 442100,
+      "sha256": "1bf334b5fde8d6b1e23aed3d864a47fb6ef8f4d71c5a5c80200900a5ebf8e498",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/00_全部图片_按内容命名/09_无尽第6程_提示次数用尽.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/00_全部图片_按内容命名/09_无尽第6程_提示次数用尽.jpg",
+      "bytes": 455157,
+      "sha256": "7094c0559501fd01a15e191e337536839d6f8b51e6170a58537ff0c185a6b6bb",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/00_全部图片_按内容命名/10_暂停菜单_继续重开与自动保存说明.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/00_全部图片_按内容命名/10_暂停菜单_继续重开与自动保存说明.jpg",
+      "bytes": 290188,
+      "sha256": "005b2351fed7f4345a83ccfcea44ea9e4b2368203ad03b4626816d7950fb2542",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/01_场景/01_首页_闯关与无尽进度.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/01_场景/01_首页_闯关与无尽进度.jpg",
+      "bytes": 290459,
+      "sha256": "1328cf2a0ae9e55dd675b57978255c69cf6c33c440275d51682d7129f0e4538f",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/01_场景/02_闯关第10关_初始局面.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/01_场景/02_闯关第10关_初始局面.jpg",
+      "bytes": 315465,
+      "sha256": "27c77b01dbe12374ad3dd1bbd62d5d947cbe54115aa5ba009cda07f2b0ce00e5",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/01_场景/04_选关_第9至16关解锁状态.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/01_场景/04_选关_第9至16关解锁状态.jpg",
+      "bytes": 297243,
+      "sha256": "a5fef04cc1eab56ff16bb382851ee33e51a8ef8954f2ab6563353aa8b084b6bd",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/02_玩法/02_闯关第10关_初始局面.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/02_玩法/02_闯关第10关_初始局面.jpg",
+      "bytes": 315465,
+      "sha256": "27c77b01dbe12374ad3dd1bbd62d5d947cbe54115aa5ba009cda07f2b0ce00e5",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/02_玩法/06_无尽第4程_完整局面.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/02_玩法/06_无尽第4程_完整局面.jpg",
+      "bytes": 304979,
+      "sha256": "0925e43b016a96f66018170ad12d1e9900a207c0017b228857041ea513555718",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/02_玩法/07_无尽第4程_完成结算.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/02_玩法/07_无尽第4程_完成结算.jpg",
+      "bytes": 278661,
+      "sha256": "bfb3f70645a0fc18954c921b2e0e23c8ce3c8f734bae6d62afcabe3ce29e65c6",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/02_玩法/08_无尽第6程_提示高亮.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/02_玩法/08_无尽第6程_提示高亮.jpg",
+      "bytes": 442100,
+      "sha256": "1bf334b5fde8d6b1e23aed3d864a47fb6ef8f4d71c5a5c80200900a5ebf8e498",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/03_系统功能/01_关卡与进度/01_首页_闯关与无尽进度.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/03_系统功能/01_关卡与进度/01_首页_闯关与无尽进度.jpg",
+      "bytes": 290459,
+      "sha256": "1328cf2a0ae9e55dd675b57978255c69cf6c33c440275d51682d7129f0e4538f",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/03_系统功能/01_关卡与进度/02_闯关第10关_初始局面.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/03_系统功能/01_关卡与进度/02_闯关第10关_初始局面.jpg",
+      "bytes": 315465,
+      "sha256": "27c77b01dbe12374ad3dd1bbd62d5d947cbe54115aa5ba009cda07f2b0ce00e5",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/03_系统功能/01_关卡与进度/03_选关_第1至8关已完成.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/03_系统功能/01_关卡与进度/03_选关_第1至8关已完成.jpg",
+      "bytes": 298962,
+      "sha256": "51fe6754037bca331bf67919f327c288f34daeaf9b0dfc7ddedf4f6dbf3dd2da",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/03_系统功能/01_关卡与进度/04_选关_第9至16关解锁状态.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/03_系统功能/01_关卡与进度/04_选关_第9至16关解锁状态.jpg",
+      "bytes": 297243,
+      "sha256": "a5fef04cc1eab56ff16bb382851ee33e51a8ef8954f2ab6563353aa8b084b6bd",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/03_系统功能/01_关卡与进度/05_选关_第49至50关末页.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/03_系统功能/01_关卡与进度/05_选关_第49至50关末页.jpg",
+      "bytes": 240671,
+      "sha256": "f792f637d9ac6f83472e897706993e5b3def7276b80731ebecda5f7eda94ac42",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/03_系统功能/02_无尽模式/01_首页_闯关与无尽进度.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/03_系统功能/02_无尽模式/01_首页_闯关与无尽进度.jpg",
+      "bytes": 290459,
+      "sha256": "1328cf2a0ae9e55dd675b57978255c69cf6c33c440275d51682d7129f0e4538f",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/03_系统功能/02_无尽模式/06_无尽第4程_完整局面.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/03_系统功能/02_无尽模式/06_无尽第4程_完整局面.jpg",
+      "bytes": 304979,
+      "sha256": "0925e43b016a96f66018170ad12d1e9900a207c0017b228857041ea513555718",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/03_系统功能/02_无尽模式/07_无尽第4程_完成结算.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/03_系统功能/02_无尽模式/07_无尽第4程_完成结算.jpg",
+      "bytes": 278661,
+      "sha256": "bfb3f70645a0fc18954c921b2e0e23c8ce3c8f734bae6d62afcabe3ce29e65c6",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/03_系统功能/02_无尽模式/08_无尽第6程_提示高亮.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/03_系统功能/02_无尽模式/08_无尽第6程_提示高亮.jpg",
+      "bytes": 442100,
+      "sha256": "1bf334b5fde8d6b1e23aed3d864a47fb6ef8f4d71c5a5c80200900a5ebf8e498",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/03_系统功能/03_提示辅助/08_无尽第6程_提示高亮.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/03_系统功能/03_提示辅助/08_无尽第6程_提示高亮.jpg",
+      "bytes": 442100,
+      "sha256": "1bf334b5fde8d6b1e23aed3d864a47fb6ef8f4d71c5a5c80200900a5ebf8e498",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/03_系统功能/03_提示辅助/09_无尽第6程_提示次数用尽.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/03_系统功能/03_提示辅助/09_无尽第6程_提示次数用尽.jpg",
+      "bytes": 455157,
+      "sha256": "7094c0559501fd01a15e191e337536839d6f8b51e6170a58537ff0c185a6b6bb",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/03_系统功能/04_暂停与继续/10_暂停菜单_继续重开与自动保存说明.jpg",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/03_系统功能/04_暂停与继续/10_暂停菜单_继续重开与自动保存说明.jpg",
+      "bytes": 290188,
+      "sha256": "005b2351fed7f4345a83ccfcea44ea9e4b2368203ad03b4626816d7950fb2542",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/先看这里_上传对应说明.txt",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/先看这里_上传对应说明.txt",
+      "bytes": 2798,
+      "sha256": "55033c7812e900c23ca4e3683aa1c2a14548bb6dbc3b2c2caa44cca218459693",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/图片对应表.csv",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/图片对应表.csv",
+      "bytes": 3378,
+      "sha256": "aea9086c65fb1daf6b4b06e8577ce1d3ee55765fbe999eb85b2dbe8dc5a5f721",
+      "tracked": true
+    },
+    {
+      "source": "实机游戏截图/备案分类_2026-10-17/文件校验.json",
+      "destination": "ProjectContent/实机游戏截图/备案分类_2026-10-17/文件校验.json",
+      "bytes": 4687,
+      "sha256": "912d2f44b40b66f66e1bf5c597bd2552f3f0a284b6811ea19757a2aef93ee1c3",
+      "tracked": true
+    },
+    {
+      "source": "推广素材/.DS_Store",
+      "destination": "ProjectContent/推广素材/.DS_Store",
+      "bytes": 8196,
+      "sha256": "3803d8b375b6960418d82d01beabaf991ecfc475a855119f4d6b417958cfc73b",
+      "tracked": false
+    },
+    {
+      "source": "推广素材/2026-10-21_上线素材/.DS_Store",
+      "destination": "ProjectContent/推广素材/2026-10-21_上线素材/.DS_Store",
+      "bytes": 8196,
+      "sha256": "22453cc11a7a044a6d20d5132e079016bfdbc72fbc4119efc205f881751e2c0d",
+      "tracked": false
+    },
+    {
+      "source": "推广素材/2026-10-21_上线素材/交付/01_通用封面_650x250.jpg",
+      "destination": "ProjectContent/推广素材/2026-10-21_上线素材/交付/01_通用封面_650x250.jpg",
+      "bytes": 65967,
+      "sha256": "b554eee1a5a68fea2b4935d87ae6764a7767dee18db834539304406c3d75a60d",
+      "tracked": true
+    },
+    {
+      "source": "推广素材/2026-10-21_上线素材/交付/02A_横版推广图_港口装箱_1280x720.jpg",
+      "destination": "ProjectContent/推广素材/2026-10-21_上线素材/交付/02A_横版推广图_港口装箱_1280x720.jpg",
+      "bytes": 187883,
+      "sha256": "3c940660f41836960c0c9a5f6e7a3b49e1b307f1a12eb53c18632bae6dd3a53b",
+      "tracked": true
+    },
+    {
+      "source": "推广素材/2026-10-21_上线素材/交付/02B_横版推广图_取箱顺序_1280x720.jpg",
+      "destination": "ProjectContent/推广素材/2026-10-21_上线素材/交付/02B_横版推广图_取箱顺序_1280x720.jpg",
+      "bytes": 180688,
+      "sha256": "ce5bcd2c265c73589840a6060cbb2bd050ebf2cecc699f60fa74dca3fecaafc2",
+      "tracked": true
+    },
+    {
+      "source": "推广素材/2026-10-21_上线素材/交付/02C_横版推广图_随机无尽_1280x720.jpg",
+      "destination": "ProjectContent/推广素材/2026-10-21_上线素材/交付/02C_横版推广图_随机无尽_1280x720.jpg",
+      "bytes": 190969,
+      "sha256": "6f696f9593a24279882c76065305b0e4f04778d3279d78d74605df818917202b",
+      "tracked": true
+    },
+    {
+      "source": "推广素材/2026-10-21_上线素材/交付/03A_竖版推广图_三格暂存_720x1280.jpg",
+      "destination": "ProjectContent/推广素材/2026-10-21_上线素材/交付/03A_竖版推广图_三格暂存_720x1280.jpg",
+      "bytes": 188264,
+      "sha256": "33cc2535a90111d2193c26c148cd015caa0a70a1fc8195c7994909850c4f16d7",
+      "tracked": true
+    },
+    {
+      "source": "推广素材/2026-10-21_上线素材/交付/03B_竖版推广图_取箱顺序_720x1280.jpg",
+      "destination": "ProjectContent/推广素材/2026-10-21_上线素材/交付/03B_竖版推广图_取箱顺序_720x1280.jpg",
+      "bytes": 173644,
+      "sha256": "8c039ba4e312b8e9ad50e6825a94bd69fd885584a21a5e5fbfd541be0516b7c4",
+      "tracked": true
+    },
+    {
+      "source": "推广素材/2026-10-21_上线素材/交付/03C_竖版推广图_随机无尽_720x1280.jpg",
+      "destination": "ProjectContent/推广素材/2026-10-21_上线素材/交付/03C_竖版推广图_随机无尽_720x1280.jpg",
+      "bytes": 166753,
+      "sha256": "28a1e371a198300c7375628e5fef4dc63ff2ffa95a3019d61ce3c2065165e497",
+      "tracked": true
+    },
+    {
+      "source": "推广素材/2026-10-21_上线素材/交付/04_分享图_500x400.jpg",
+      "destination": "ProjectContent/推广素材/2026-10-21_上线素材/交付/04_分享图_500x400.jpg",
+      "bytes": 115018,
+      "sha256": "6524165fa1ca02a75bca1a625ea0d4728aeb3e851b171875a1509b62908e591e",
+      "tracked": true
+    },
+    {
+      "source": "推广素材/2026-10-21_上线素材/交付/05_横版宣传视频_1280x720.mp4",
+      "destination": "ProjectContent/推广素材/2026-10-21_上线素材/交付/05_横版宣传视频_1280x720.mp4",
+      "bytes": 6316724,
+      "sha256": "6c7a3bddfb0c0291ac7492b61ada040ed35fcd930bbf49c4209efbb818aa3f6e",
+      "tracked": true
+    },
+    {
+      "source": "推广素材/2026-10-21_上线素材/交付/06_竖版宣传视频_720x1280.mp4",
+      "destination": "ProjectContent/推广素材/2026-10-21_上线素材/交付/06_竖版宣传视频_720x1280.mp4",
+      "bytes": 3847014,
+      "sha256": "daba82b3cd65c56b5d2f7997acd9a6acf669ea9a2261c2b7b9556b31a363d6c6",
+      "tracked": true
+    },
+    {
+      "source": "推广素材/2026-10-21_上线素材/交付/07_横版视频封面_1280x720.jpg",
+      "destination": "ProjectContent/推广素材/2026-10-21_上线素材/交付/07_横版视频封面_1280x720.jpg",
+      "bytes": 218767,
+      "sha256": "3eaaa980544335b012899d9b36d41abcfd786d1928b5b0de7a365a016d9f6aa5",
+      "tracked": true
+    },
+    {
+      "source": "推广素材/2026-10-21_上线素材/交付/08_竖版视频封面_720x1280.jpg",
+      "destination": "ProjectContent/推广素材/2026-10-21_上线素材/交付/08_竖版视频封面_720x1280.jpg",
+      "bytes": 208482,
+      "sha256": "f21e88048939dbb4c4572929ea8866e7d4acf978484809149995708083050da4",
+      "tracked": true
+    },
+    {
+      "source": "推广素材/2026-10-21_上线素材/交付/填写文案与使用说明.txt",
+      "destination": "ProjectContent/推广素材/2026-10-21_上线素材/交付/填写文案与使用说明.txt",
+      "bytes": 894,
+      "sha256": "0ccfcee9efd9f3cd6e5583aca980ed6fc5760a6dcd2e40c760aa6b5b859a1ea2",
+      "tracked": true
+    },
+    {
+      "source": "推广素材/2026-10-21_上线素材/交付/规格核验.json",
+      "destination": "ProjectContent/推广素材/2026-10-21_上线素材/交付/规格核验.json",
+      "bytes": 2066,
+      "sha256": "be0a4e18501cb940591efe1997deee2b6242c3ad8fe66b80ce6e4ef8b9df1fe5",
+      "tracked": true
+    },
+    {
+      "source": "推广素材/2026-10-21_上线素材/港口装箱_推广素材.zip",
+      "destination": "ProjectContent/推广素材/2026-10-21_上线素材/港口装箱_推广素材.zip",
+      "bytes": 11826360,
+      "sha256": "14d7b31e62159ec0bad3decaa96eded6b34680fc3a5eb3163f110bd676e13dab",
+      "tracked": true
+    },
+    {
+      "source": "推广素材/2026-10-21_上线素材/生成提示词.txt",
+      "destination": "ProjectContent/推广素材/2026-10-21_上线素材/生成提示词.txt",
+      "bytes": 1851,
+      "sha256": "9b72aa3933b5be504d77fa4f94decbab902e69fe079e1aa4f77aec3267f419ca",
+      "tracked": true
+    }
+  ],
+  "result": "PASS",
+  "allMovedFileHashesMatch": true,
+  "sharedPlanningSnapshot": {
+    "source": "/Users/xhy/CodexProj/微信小游戏/微信小游戏三款方案产品与开发设计文档.docx",
+    "destination": "ProjectContent/文档/立项参考_三款小游戏总体方案_2026-09.docx",
+    "sha256": "41dc52439c07eab010398ffd93ecb66ba7610d12294190c816e18ce1391178cc",
+    "note": "Original shared multi-game plan remains in the portfolio directory. This is the unchanged historical inception reference."
+  }
+}

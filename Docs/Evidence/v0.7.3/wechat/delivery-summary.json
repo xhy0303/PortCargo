@@ -1,0 +1,21 @@
+{
+  "version": "0.7.3",
+  "uploaded": true,
+  "uploadTaskId": "confirmation_upload_1a8d2e51-97c6-4730-a665-28cabfb1e6d9",
+  "uploadCompletedAt": "2026-10-25T13:56:40.765000+08:00",
+  "uploadedBytes": 18846296,
+  "artifactFingerprint": "838f651f239ce6e67a6b5acd0b23aea684b66324fdb74c0718c89faa881ebe0a",
+  "buildSucceeded": true,
+  "wasmEntryVerified": true,
+  "unityPointerClicks": 156,
+  "unityViewports": 4,
+  "simulatorHomeNativeAdVerified": true,
+  "simulatorOtherPagesInputVerified": false,
+  "simulatorInputBlocker": "automation_game_action returned canvas not found",
+  "consoleErrorLines": 1,
+  "consoleWarningLines": 8,
+  "realDeviceAdsValidated": false,
+  "formalReviewSubmitted": false,
+  "followup": "0.7.4 corrects privacy wording without ad or gameplay changes and was uploaded successfully at 2026-10-25T14:06:21.468000+08:00",
+  "consoleErrorClassification": "One SDK development-stage WX.ReportGameStart guidance message; text explicitly says it does not affect online versions. No application exception observed in captured console."
+}

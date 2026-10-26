@@ -1,0 +1,11 @@
+Real Unity UI pointer/navigation and reserved-slot geometry; no WeChat ad/network verification
+GEOMETRY home slot=(x:0.00, y:303.70, width:360.00, height:132.00) at 360x640
+N01 PASS Home reservation stays inside safe area and clear of every existing button
+N02 PASS Background hide invalidates placement immediately; foreground layout recovers
+N03 PASS Real pointer navigation excludes levels, settings, help, quit, active play, and pause from native placements
+GEOMETRY completed-three-actions slot=(x:0.00, y:107.40, width:360.00, height:132.00) at 360x640
+N04 PASS Normal completed page retains three usable actions and a separate native slot
+GEOMETRY completed-four-actions slot=(x:0.00, y:80.40, width:360.00, height:132.00) at 360x640
+N05 PASS Validated precompleted final-level fixture keeps all four result actions; cramped layouts omit ad safely
+N06 PASS Real Unity geometry helper maps DPR3 pixels to CSS coordinates and flips Y correctly
+RESULT PASS

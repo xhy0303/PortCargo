@@ -1,0 +1,12 @@
+System.IO.FileNotFoundException: Could not find file "/Users/xhy/UnityEditorProj/Projects/PortCargo/Builds/WeChat/20261024-v0.7.0-ads/minigame/webgl.wasm.symbols.unityweb.br"
+File name: '/Users/xhy/UnityEditorProj/Projects/PortCargo/Builds/WeChat/20261024-v0.7.0-ads/minigame/webgl.wasm.symbols.unityweb.br'
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <52dc19907c3246f3bba74a85740591e7>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <52dc19907c3246f3bba74a85740591e7>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.FileSystem.CopyFile (System.String sourceFullPath, System.String destFullPath, System.Boolean overwrite) [0x00028] in <52dc19907c3246f3bba74a85740591e7>:0 
+  at System.IO.File.Copy (System.String sourceFileName, System.String destFileName, System.Boolean overwrite) [0x00062] in <52dc19907c3246f3bba74a85740591e7>:0 
+  at WeChatWASM.WXConvertCore.Brotlib (System.String filename, System.String sourcePath, System.String targetPath) [0x00119] in ./Packages/com.qq.weixin.minigame/Editor/WXConvertCore.cs:1815 
+  at WeChatWASM.WXConvertCore.GenerateBinFile (System.Boolean isFromConvert) [0x000fe] in ./Packages/com.qq.weixin.minigame/Editor/WXConvertCore.cs:1657 
+  at WeChatWASM.WXConvertCore.finishExport () [0x00005] in ./Packages/com.qq.weixin.minigame/Editor/WXConvertCore.cs:1410 
+  at WeChatWASM.WXConvertCore.DoExport (System.Boolean buildWebGL) [0x00298] in ./Packages/com.qq.weixin.minigame/Editor/WXConvertCore.cs:333 
+  at PortCargo.Editor.WeChatBuildTools.Process () [0x000bd] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Editor/WeChatBuildTools.cs:85 

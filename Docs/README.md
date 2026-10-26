@@ -1,4 +1,19 @@
-# 港口装箱 · 本机 v0.3.0
+# 港口装箱开发文档
+
+## 当前入口（2026-10-26 整理）
+
+当前工程：Unity 6000.5.10f1 / URP 17.5.0 / v0.7.5，200 个固定关卡与随机无尽。下面列出的专项记录是当前查阅入口；本页后半部分保留 v0.3 历史说明，不作为最新功能与发布状态。
+
+- [v0.7.5 首页视觉整理与验收边界](Home-Layout-v0.7.5.md)
+- [v0.7.5 开发版交付回执](Evidence/v0.7.5/wechat/delivery-summary.json)
+- [原生广告实现与验证](Native-Ads-v0.7.3.md)、[广告文案修正](Native-Ads-v0.7.4.md)、[广告后续验收](Ads-Followups-20261024.md)
+- [激励广告实现](Rewarded-Ads-v0.7.md)、[提示与撤销权益调整](Rewarded-Ads-v0.7.1.md)
+- [200 关](Expansion-v0.6.md)、[随机无尽](Random-Endless-v0.6.1.md)、[微信接入](WeChat-Integration.md)
+- [Unity 6.5 兼容](Unity-6.5-Compatibility.md)、[URP 迁移](URP-Migration.md)、[构建说明](Build.md)
+- [策划、美术、截图与推广资料](../ProjectContent/README.md)、[资源来源](AssetSources.md)
+- [2026-10-26 资料迁移逐文件清单](Evidence/reorganization-20261026/migration-manifest.json)
+
+## 历史说明：本机 v0.3.0
 
 2026-10-16。执行依据为原始《港口装箱_MVP完整开发参考规格_v1.1.docx》和附带首批 10 关 JSON。原始文档与关卡资料不改写。
 

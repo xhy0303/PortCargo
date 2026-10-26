@@ -1,0 +1,7 @@
+{
+  "changedSourceFiles": [
+    "Assets/PortCargo/Scripts/Editor/WeChatBuildTools.cs",
+    "Assets/PortCargo/Scripts/Runtime/GameFlowController.cs"
+  ],
+  "meaning": "Only privacy wording and release build metadata changed from the tested 0.7.3 sources"
+}

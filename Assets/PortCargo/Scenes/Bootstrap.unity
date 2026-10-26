@@ -3245,7 +3245,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u95EF\u5173\u8FDB\u5EA6  0 / 50"
+  m_text: "\u95EF\u5173\u8FDB\u5EA6  0 / 200"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 023cc825a4e8947f8b384f009a51dd5f, type: 2}
   m_sharedMaterial: {fileID: 1784069768697309355, guid: 023cc825a4e8947f8b384f009a51dd5f, type: 2}

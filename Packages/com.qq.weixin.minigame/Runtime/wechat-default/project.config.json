@@ -22,7 +22,7 @@
     "useApiHook": false,
     "disableUseStrict": false,
     "babelSetting": {
-      "ignore": ["$GAME_NAME.wasm.framework.unityweb.js"],
+      "ignore": [],
       "disablePlugins": [],
       "outputPath": ""
     },

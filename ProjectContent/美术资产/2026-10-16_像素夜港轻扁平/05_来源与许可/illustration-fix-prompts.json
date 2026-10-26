@@ -1,0 +1,12 @@
+[
+  {
+    "id": "harbor_ship",
+    "path": "/Users/xhy/.codex/generated_images/01a14040-1c46-76a0-bef9-894b8b6e8b6d/exec-0f9b30dc-dc88-4f7e-b9e5-41c725a0e53a.png",
+    "prompt": "Edit this game sprite ONLY to clean its transparency and flatten shading. Preserve EXACT empty side-on cargo ship design, colors, cabin left, bow right, entire outline. REMOVE ALL soft light glows, black/navy halo, red under-hull aura, cast shadow, background and fog outside ship. All pixels outside solid vessel geometry must be fully alpha0. Ship body, cabin, railings and lamps must be opaque alpha255, with crisp stepped pixel edges and no semi-transparent painted face. No glow/bloom anywhere. A lamp is a small solid amber pixel block, no blur. No water, no text, no cargo. Ensure all parts fully contained with clean empty transparent margins on four sides at least32pixels. The result is a usable transparent PNG sprite, not a scene. Keep the same landscape canvas composition, matte flat blue hull and red stripe, reduce mottled shading slightly. True alpha transparency."
+  },
+  {
+    "id": "harbor_dock",
+    "path": "/Users/xhy/.codex/generated_images/01a14040-1c46-76a0-bef9-894b8b6e8b6d/exec-76fc2f52-f651-43a6-81fe-fdf8f6d0ebad.png",
+    "prompt": "Edit this reusable pixel-art dock sprite. Preserve dock, paving, two bollards, rope and right lamp. Clean game-production cutout: completely REMOVE glow, residual background pixels or shadow outside the solid dock shape. True transparent alpha0 background. Solid dock/rope/bollards/lamp opaque alpha255, sharp stepped pixel contours. All four canvas edges must have CLEAR EMPTY transparent padding of at least32 pixels; no object or artifact touching edges. Make platform front face about20%shallower and reduce mottled texture for a slightly flatter matte pixel style. Lamp solid small amber colors, no blurred bloom. No water, scene, text, crates. Entire wide platform and rope fully visible centered within landscape canvas. Keep colors and shallow perspective."
+  }
+]

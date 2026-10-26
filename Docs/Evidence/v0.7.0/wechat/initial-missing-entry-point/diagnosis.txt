@@ -1,0 +1,1 @@
+First successful conversion had webgl.wasm 134173 bytes, but WebAssembly.Module.exports contained no main entry point. That package is not accepted despite SDK SUCCEED. Add explicit _main to Unity 6.5 EXPORTED_FUNCTIONS and rebuild.

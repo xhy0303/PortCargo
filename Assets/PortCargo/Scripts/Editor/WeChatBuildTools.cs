@@ -11,14 +11,23 @@ namespace PortCargo.Editor
     public static class WeChatBuildTools
     {
         public const string AppId="wx19e83e7294013864";
-        public const string Output="Builds/WeChat/20261018-v0.6.1";
-        public const string Evidence="Docs/Evidence/v0.6.1/wechat";
+        public const string Version="0.7.5";
+        public const string Output="Builds/WeChat/20261025-v0.7.5-home-layout";
+        public const string Evidence="Docs/Evidence/v0.7.5/wechat";
         private const string Request="Temp/portcargo-wechat-request.txt";
+        [Serializable] private sealed class AdBuildConfiguration
+        {
+            public string version,unity,hintAdUnitId,endlessSkipAdUnitId,homeNativeAdUnitId,completedNativeAdUnitId,gameplayGridAdUnitId;
+            public string nativeTemplate="20:7 horizontal cards; independent custom gameplay grid";
+            public string menuAdUnitMapping="Pause and Settings reuse completedNativeAdUnitId";
+            public bool adsEnabled,nativeAdsEnabled,realDeviceAdsValidated;
+        }
         static WeChatBuildTools(){EditorApplication.update+=Process;}
         [MenuItem("PortCargo/Configure WeChat Preview")]
         public static void Configure()
         {
             Directory.CreateDirectory(Evidence);
+            PlayerSettings.bundleVersion=Version;
             var c=WXConvertCore.config;
             c.ProjectConf.Appid=AppId;c.ProjectConf.projectName="港口装箱";
             c.ProjectConf.relativeDST=Output;c.ProjectConf.DST=Path.GetFullPath(Output);
@@ -46,11 +55,26 @@ namespace PortCargo.Editor
         }
         [MenuItem("PortCargo/Build WeChat Preview")]
         public static void Queue()=>File.WriteAllText(Request,"export");
+        // Retry SDK conversion only when player code/assets have not changed since BuildPlayer.
+        public static void QueueConversion()=>File.WriteAllText(Request,"convert");
         public static void ValidateConfiguration()
         {
             if(WXConvertCore.config.ProjectConf.Appid!=AppId)throw new BuildFailedException("WeChat AppID mismatch");
             if(!PlayerSettings.GetScriptingDefineSymbols(UnityEditor.Build.NamedBuildTarget.WebGL).Contains("PORT_WECHAT"))throw new BuildFailedException("Missing PORT_WECHAT");
             if(!File.Exists("Assets/PortCargo/Plugins/WebGL/PortCargoStorage.jslib"))throw new BuildFailedException("Missing native storage adapter");
+            var tuning=AssetDatabase.LoadAssetAtPath<PortCargo.Runtime.GameTuning>("Assets/PortCargo/Data/GameTuning.asset");
+            if(tuning.AdsEnabled)
+            {
+                foreach(var id in new[]{tuning.RewardedHintAdUnitId,tuning.EndlessSkipAdUnitId})
+                    if(!System.Text.RegularExpressions.Regex.IsMatch(id??"","^adunit-[0-9a-fA-F]{16}$"))
+                        throw new BuildFailedException("Configure both rewarded ad unit IDs before exporting with ads enabled.");
+            }
+            if(tuning.NativeAdsEnabled)
+            {
+                foreach(var id in new[]{tuning.HomeNativeAdUnitId,tuning.CompletedNativeAdUnitId,tuning.GameplayGridAdUnitId})
+                    if(!System.Text.RegularExpressions.Regex.IsMatch(id??"","^adunit-[0-9a-fA-F]{16}$"))
+                        throw new BuildFailedException("Configure home, completed/menu and gameplay grid ad unit IDs before exporting with native ads enabled.");
+            }
             BuildTools.ValidationEvidence=Evidence;
         }
         private static void Process()
@@ -60,11 +84,23 @@ namespace PortCargo.Editor
             {
                 EditorUserBuildSettings.SwitchActiveBuildTarget(BuildTargetGroup.WebGL,BuildTarget.WebGL);return;
             }
+            var buildWebGL=File.ReadAllText(Request)!="convert";
             File.Delete(Request);
+            File.Delete(Evidence+"/export-result.txt");
+            File.Delete(Evidence+"/export-failure.txt");
             try
             {
                 ValidateConfiguration();BuildTools.ValidateContent();
-                var result=WXConvertCore.DoExport();
+                var tuning=AssetDatabase.LoadAssetAtPath<PortCargo.Runtime.GameTuning>("Assets/PortCargo/Data/GameTuning.asset");
+                Directory.CreateDirectory(Output);
+                File.WriteAllText(Output+"/RewardedAdsConfig.json",JsonUtility.ToJson(new AdBuildConfiguration{
+                    version=PlayerSettings.bundleVersion,unity=Application.unityVersion,adsEnabled=tuning.AdsEnabled,
+                    hintAdUnitId=tuning.RewardedHintAdUnitId,endlessSkipAdUnitId=tuning.EndlessSkipAdUnitId,
+                    nativeAdsEnabled=tuning.NativeAdsEnabled,homeNativeAdUnitId=tuning.HomeNativeAdUnitId,
+                    completedNativeAdUnitId=tuning.CompletedNativeAdUnitId,
+                    gameplayGridAdUnitId=tuning.GameplayGridAdUnitId,
+                    realDeviceAdsValidated=false},true));
+                var result=WXConvertCore.DoExport(buildWebGL);
                 File.WriteAllText(Evidence+"/export-result.txt",DateTime.UtcNow.ToString("o")+" "+result);
                 if(result!=WXConvertCore.WXExportError.SUCCEED)throw new BuildFailedException(result.ToString());
                 Debug.Log("PORTCARGO_WECHAT_EXPORT_PASS");

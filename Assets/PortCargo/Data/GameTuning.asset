@@ -17,4 +17,10 @@ MonoBehaviour:
   shipDepartSeconds: 0.22
   solverNodes: 200000
   solverWallMilliseconds: 3000
-  adsEnabled: 0
+  adsEnabled: 1
+  rewardedHintAdUnitId: adunit-d04702ad95d16c3c
+  endlessSkipAdUnitId: adunit-eac16355a06f9b4f
+  nativeAdsEnabled: 1
+  homeNativeAdUnitId: adunit-01b778c6152d4eb5
+  completedNativeAdUnitId: adunit-019b3134e49d8311
+  gameplayGridAdUnitId: adunit-2060c1fccf2ceecf

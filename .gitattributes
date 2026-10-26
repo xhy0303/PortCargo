@@ -1,3 +1,6 @@
 # Normalize project text on checkout while preserving vendored SDK bytes.
 * text=auto
 /Packages/com.qq.weixin.minigame/** -text
+
+# Preserve original delivery bytes and their recorded SHA-256 values.
+/ProjectContent/** -text

@@ -1,0 +1,12 @@
+PASS supported creation and isolated handles checks=9
+PASS load proof and bounded native show checks=8
+PASS retired show-promise races checks=6
+PASS user close and hide remain dismissed checks=6
+PASS native background gate checks=5
+PASS real size events and missing-size fallback checks=13
+PASS offline errors exceptions and failed cleanup checks=9
+PASS invalid and overflowing native reservations checks=6
+PASS strict compact and grid size policy checks=13
+PASS same ad unit across independent page visits checks=3
+PASS verified fixed grid envelope without native resize checks=12
+NATIVE_AD_JSLIB_CONTRACT_PASS checks=90

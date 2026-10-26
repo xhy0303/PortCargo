@@ -1,0 +1,2 @@
+五套图稿通过内置 image_gen 生成，类型为 ui-mockup。生成提示词另存为 prompts.json。
+五套均为设计提案，未接入 Unity 游戏工程。

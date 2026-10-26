@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "command": "command console_status",
+  "data": {
+    "command": "console_status",
+    "parameters": {},
+    "result": {
+      "entries": [],
+      "cursor": 1025,
+      "session": "1c4870eef165479b9a33837a95d654ab",
+      "returned": 0,
+      "dropped": false,
+      "reset": false,
+      "counts": {
+        "error": 7,
+        "warn": 758,
+        "log": 260
+      },
+      "groundTruth": {
+        "sampledUtc": "2026-10-25T06:46:25.223666Z",
+        "ageMs": 93,
+        "compilationFailed": false,
+        "compiling": false,
+        "consoleErrors": 0,
+        "consoleWarnings": 2,
+        "consoleLogs": 5,
+        "seeded": true
+      }
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "/Users/xhy/UnityEditorProj/Projects/PortCargo"
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

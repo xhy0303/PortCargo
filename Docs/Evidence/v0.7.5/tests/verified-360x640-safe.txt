@@ -1,0 +1,8 @@
+Real Unity UI pointer/navigation and reserved-slot geometry with explicit availability and in-memory failure fixtures; no WeChat ad/network/impression verification
+GEOMETRY home slot=(x:29.00, y:42.00, width:302.00, height:111.70) at 360x640
+N01 PASS Home offers a separate small card on ordinary portrait phones, full harbor artwork and usable actions
+N02 PASS Availability loss retains full artwork; restoring availability and foreground returns the same ad-enabled layout
+RESULT FAIL
+System.InvalidOperationException: Normal phone portrait must reserve the configured native slot: settings-home
+  at PortCargo.Runtime.DevelopmentNativeAdChecks+<Capture>d__56.MoveNext () [0x00514] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Runtime/DevelopmentNativeAdChecks.cs:280 
+  at PortCargo.Runtime.DevelopmentNativeAdChecks+<Guarded>d__46.MoveNext () [0x00044] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Runtime/DevelopmentNativeAdChecks.cs:66 

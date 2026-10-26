@@ -1,0 +1,47 @@
+{
+  "scope": "Final footer-only home policy. Real Unity pointer input and geometry; no real WeChat ads in Editor.",
+  "layouts": 4,
+  "pointerClicks": 68,
+  "checksPerLayout": 6,
+  "safeAreaFixtures": {
+    "390x844": {
+      "top": 84,
+      "bottom": 34
+    },
+    "768x1024": {
+      "top": 84,
+      "bottom": 34
+    }
+  },
+  "homeAdSlots": "omitted in all tested layouts; original harbor rect and visibility unchanged",
+  "results": [
+    {
+      "screenWidth": 360,
+      "screenHeight": 640,
+      "result": "PASS",
+      "pointerClicks": 17,
+      "originalStateRestored": true
+    },
+    {
+      "screenWidth": 360,
+      "screenHeight": 800,
+      "result": "PASS",
+      "pointerClicks": 17,
+      "originalStateRestored": true
+    },
+    {
+      "screenWidth": 390,
+      "screenHeight": 844,
+      "result": "PASS",
+      "pointerClicks": 17,
+      "originalStateRestored": true
+    },
+    {
+      "screenWidth": 768,
+      "screenHeight": 1024,
+      "result": "PASS",
+      "pointerClicks": 17,
+      "originalStateRestored": true
+    }
+  ]
+}

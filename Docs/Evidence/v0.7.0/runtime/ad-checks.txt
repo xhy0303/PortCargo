@@ -1,0 +1,17 @@
+Unity UI and reward transaction checks with injected fake providers; not WeChat SDK/device verification
+All fixture writes use in-memory repositories; original repository is retained untouched
+A01 PASS First real HUD hint click grants the original free hint without requesting an ad
+A02 PASS Declining the optional hint confirmation leaves the board and reward count unchanged
+A03 PASS Two real pointer clicks on the blocked HUD during ad wait do not request or grant twice
+A04 PASS Five rewarded hints work in the same run; each duplicate callback is ignored; no one-ad quota remains
+A05 PASS Cancelled, failed, and unavailable provider results grant nothing and restore playable UI
+A06 PASS Unavailable-before/after-confirmation and synchronous adapter exceptions preserve free play
+A07 PASS Simulated platform hide/show while pending preserves transaction; completed callback resumes play once
+A07b PASS Native-stage fake rejects game return cancellation and system quit overlay; later completion still grants the reward
+A08 PASS Close and reopen through real buttons: stale completion cannot grant or close a newer ad request
+A09 PASS Declined, cancelled, and failed endless skips preserve the current round and exact run
+A10 PASS Two completed endless skips advance one round each, duplicate callbacks do nothing, and campaign save/unlocks remain identical
+A12 PASS Copied serialized save-slot JSON to a fresh repository, reloaded, reinitialized presenter and clicked Continue Endless; exact round 3 board/run/history and campaign restored (same process)
+A11 PASS With both ad providers unavailable, campaign return, real box move, free undo, free restart and first free hint all work
+A13 PASS Generated endless seed=1701 reaches deadlock via 16 real box clicks; optional skip decline/cancel preserve board, complete advances one round, and free undo/restart remain available
+RESULT PASS; pointerClicks=88; hints=12; skips=6; originalStateRestored=True

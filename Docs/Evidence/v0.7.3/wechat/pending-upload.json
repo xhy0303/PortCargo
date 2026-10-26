@@ -1,0 +1,10 @@
+{
+  "taskId": "confirmation_upload_1a8d2e51-97c6-4730-a665-28cabfb1e6d9",
+  "tool": "upload",
+  "status": "success",
+  "reason": "Superseded before confirmation: fix two missing characters in static UI font by rewording privacy copy",
+  "version": "0.7.3",
+  "project": "/Users/xhy/UnityEditorProj/Projects/PortCargo/Builds/WeChat/20261025-v0.7.3-ad-layouts/minigame",
+  "completedAt": "2026-10-25T13:56:40.765000+08:00",
+  "followup": "User confirmed before cancellation request; privacy wording will be corrected in 0.7.4"
+}

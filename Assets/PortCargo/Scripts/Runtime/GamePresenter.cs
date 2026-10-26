@@ -25,8 +25,16 @@ namespace PortCargo.Runtime
         private Coroutine hintRoutine;
         private Solver search;
         private float highlightUntil;
-        private IRewardedHintProvider rewardedHints;
-        public void BindRewardedHints(IRewardedHintProvider provider) => rewardedHints=provider;
+        private IRewardedVideoProvider rewardedHints, rewardedSkip;
+        private IRewardedVideoProvider activeAdProvider;
+        private long adRequest;
+        private bool adActive, appHidden;
+        public void BindRewardedAds(IRewardedVideoProvider hints,IRewardedVideoProvider skip)
+        { CancelRewardedRequest();rewardedHints=hints;rewardedSkip=skip; }
+        public bool RewardedRequestActive => adActive;
+        public bool CanOfferEndlessSkip => isEndless&&session!=null&&session.Status!=BoardStatus.Completed
+            &&endless.round<int.MaxValue&&!adActive&&rewardedSkip!=null&&rewardedSkip.IsAvailable;
+        public bool HasRewardedAds => rewardedHints!=null||rewardedSkip!=null;
         public bool IsEndless => isEndless;
         public int EndlessRound => endless?.round ?? 0;
         public GameSession Session => session;
@@ -42,7 +50,7 @@ namespace PortCargo.Runtime
 
         public void Initialize(LevelDefinition[] catalog,GameTuning settings,SaveRepository repository,LoadResult loaded)
         {
-            CancelTransient();isEndless=false;
+            CancelRewardedRequest();CancelTransient();isEndless=false;
             levels=catalog;tuning=settings;saves=repository;profile=loaded.Value?.profile??new PlayerProfile();
             profile.completed.RemoveAll(id=>Array.FindIndex(levels,l=>l.Id==id)<0);
             profile.unlockedCount=Math.Min(levels.Length,Math.Max(1,profile.unlockedCount));
@@ -72,7 +80,7 @@ namespace PortCargo.Runtime
         {
             board.MoveRequested-=Move;board.CoveredRequested-=Covered;
             hud.Undo-=Undo;hud.Hint-=Hint;hud.Settings-=OpenPause;hud.Queue-=OpenQueue;hud.RetrySave-=RetrySave;
-            layout.Changed-=Render;CancelTransient();
+            layout.Changed-=Render;CancelRewardedRequest();CancelTransient();
         }
         private void OpenPause()=>flow.OpenPause();
         private void OpenQueue()=>flow.OpenQueue();
@@ -103,9 +111,9 @@ namespace PortCargo.Runtime
         }
         private void Hint()
         {
-            if(session==null||session.Busy||flow.Screen!=FlowScreen.Playing||hintRoutine!=null)return;
-            if(session.FreeHintUsed&&(session.AdHintUsed||rewardedHints==null||!rewardedHints.IsAvailable))
-            {hud.Toast("本局提示已用完，可撤销或重开");return;}
+            if(session==null||session.Busy||adActive||flow.Screen!=FlowScreen.Playing||hintRoutine!=null)return;
+            if(session.FreeHintUsed&&(rewardedHints==null||!rewardedHints.IsAvailable))
+            {hud.Toast("免费提示已用，广告暂不可用；可撤销或重开");return;}
             hintRoutine=StartCoroutine(FindHint(session.FreeHintUsed));
         }
         private IEnumerator FindHint(bool rewarded)
@@ -131,23 +139,58 @@ namespace PortCargo.Runtime
         {
             var ticket=new RewardedHintTicket(session,boxId);
             flow.ConfirmRewardedHint(()=>{
-                var provider=rewardedHints;
-                if(provider==null||!provider.IsAvailable){flow.ShowBoardState();hud.Toast("广告暂不可用");return;}
-                var handled=false;
-                Action<RewardedVideoResult> done=result=>{
-                    if(handled)return;handled=true;
-                    if(!this||flow.Screen!=FlowScreen.Confirm)return;
+                ShowRewarded(rewardedHints,result=>{
                     flow.ShowBoardState();
                     if(ticket.Resolve(session,result))ShowHint(boxId);
                     else hud.Toast(result==RewardedVideoResult.Cancelled?"未完成播放，未消耗提示":"暂未获得提示，可稍后重试");
-                };
-                try{provider.Show(done);}catch(Exception){done(RewardedVideoResult.Failed);}
+                });
             });
+        }
+        public void RequestEndlessSkip()
+        {
+            if(!CanOfferEndlessSkip)return;
+            var ticket=new RewardedSkipTicket(session,endless.round);
+            flow.ConfirmRewardedSkip(()=>ShowRewarded(rewardedSkip,result=>{
+                if(ticket.TryResolve(session,isEndless,endless.round,result))
+                {
+                    try { CancelTransient();CreateEndless(endless.round+1);Render();Persist();flow.ShowBoardState();hud.Toast("已跳过，进入下一程"); }
+                    catch(Exception ex){Debug.LogError("PORTCARGO_AD_SKIP "+ex);flow.ShowBoardState();hud.Toast("暂时无法进入下一程，请重试");}
+                }
+                else {flow.ShowBoardState();hud.Toast(result==RewardedVideoResult.Cancelled?"未完成播放，仍在当前程":"未跳过程数，可稍后重试");}
+            }));
+        }
+        private void ShowRewarded(IRewardedVideoProvider provider,Action<RewardedVideoResult> apply)
+        {
+            if(adActive)return;
+            if(provider==null||!provider.IsAvailable){flow.ShowBoardState();hud.Toast("广告暂不可用，可继续游戏");return;}
+            var request=++adRequest;adActive=true;activeAdProvider=provider;
+            flow.ShowRewardedPending(()=>{
+                // Once native Show has begun, the SDK owns closing the advertisement.
+                if(activeAdProvider is ICancellableRewardedVideoProvider cancellable&&!cancellable.CanCancel)return;
+                CancelRewardedRequest();flow.ShowBoardState();
+            });
+            feedback.PauseAudio();
+            Action<RewardedVideoResult> done=result=>{
+                if(!this||!adActive||request!=adRequest)return;
+                adActive=false;activeAdProvider=null;
+                if(!appHidden)feedback.ResumeAudio();
+                if(flow.Screen!=FlowScreen.Advertisement)return;
+                apply(result);
+                if(appHidden)feedback.PauseAudio();
+            };
+            try {provider.Show(done);}catch(Exception){done(RewardedVideoResult.Failed);}
+        }
+        public void CancelRewardedRequest()
+        {
+            ++adRequest;var wasActive=adActive;adActive=false;
+            var provider=activeAdProvider;activeAdProvider=null;
+            if(provider is ICancellableRewardedVideoProvider cancellable)cancellable.Cancel();
+            if(wasActive&&!appHidden&&feedback)feedback.ResumeAudio();
         }
         public bool IsLevelCompleted(int number)=>number>=0&&number<levels.Length&&profile.completed.Contains(levels[number].Id);
         public void ContinueCampaign(bool advanceCompleted=true)
         {
-            RememberRun();CancelTransient();isEndless=false;
+            CancelRewardedRequest();RememberRun();CancelTransient();isEndless=false;
             session=GameSession.Restore(levels[index],campaignRun);
             if(advanceCompleted&&session.Status==BoardStatus.Completed&&index+1<levels.Length&&index+1<profile.unlockedCount)
             {index++;session=NewSession(levels[index]);}
@@ -157,15 +200,15 @@ namespace PortCargo.Runtime
         {
             if(next<0||next>=levels.Length||next>=profile.unlockedCount)return false;
             if(next==index){ContinueCampaign(false);return true;}
-            RememberRun();CancelTransient();isEndless=false;index=next;session=NewSession(levels[index]);Render();Persist();return true;
+            CancelRewardedRequest();RememberRun();CancelTransient();isEndless=false;index=next;session=NewSession(levels[index]);Render();Persist();return true;
         }
         public void RestartCurrent()
         {
-            CancelTransient();session=NewSession(isEndless?new LevelDefinition(endless.level):levels[index]);Render();Persist();
+            CancelRewardedRequest();CancelTransient();session=NewSession(isEndless?new LevelDefinition(endless.level):levels[index]);Render();Persist();
         }
         public void ContinueEndless(bool advanceCompleted=true)
         {
-            RememberRun();CancelTransient();
+            CancelRewardedRequest();RememberRun();CancelTransient();
             if(endless==null)CreateEndless(1);
             else session=GameSession.Restore(new LevelDefinition(endless.level),endless.run);
             isEndless=true;
@@ -221,8 +264,8 @@ namespace PortCargo.Runtime
         }
         private void Update(){if(highlightUntil>0&&Time.unscaledTime>=highlightUntil){board.ClearHighlights();highlightUntil=0;}}
         public void HandleHidden()
-        {if(session!=null){CancelTransient();Persist();flow.HandleHidden();feedback.PauseAudio();}}
-        public void HandleShown(){if(session!=null){feedback.ResumeAudio();Render();}}
+        {appHidden=true;if(session!=null){CancelTransient();Persist();flow.HandleHidden();feedback.PauseAudio();}}
+        public void HandleShown(){appHidden=false;if(session!=null){if(!adActive)feedback.ResumeAudio();Render();}}
         private void OnApplicationPause(bool hidden){if(hidden)HandleHidden();else HandleShown();}
         private void OnApplicationQuit(){CancelTransient();Persist();}
     }

@@ -41,6 +41,8 @@ namespace PortCargo.Platform
     public sealed class WeChatPlatform : MonoBehaviour
     {
         public static bool Ready {get; private set;}
+        public static bool Hidden {get; private set;}
+        public static event Action<bool> VisibilityChanged;
         private GamePresenter presenter;
         private Action initialized;
         private Action<Exception> failed;
@@ -76,8 +78,14 @@ namespace PortCargo.Platform
             if(starting&&Time.realtimeSinceStartup>deadline){starting=false;failed(new TimeoutException("WECHAT_INIT_TIMEOUT"));}
         }
 #if UNITY_WEBGL && PORT_WECHAT && !UNITY_EDITOR
-        private void OnHide(GeneralCallbackResult _) { if(presenter)presenter.HandleHidden(); }
-        private void OnShow(OnShowListenerResult _) { RefreshSafeArea();if(presenter)presenter.HandleShown(); }
+        private void OnHide(GeneralCallbackResult _) { Hidden=true;NotifyVisibility(true);if(presenter)presenter.HandleHidden(); }
+        private void OnShow(OnShowListenerResult _) { RefreshSafeArea();Hidden=false;if(presenter)presenter.HandleShown();NotifyVisibility(false); }
+        private static void NotifyVisibility(bool hidden)
+        {
+            var listeners=VisibilityChanged;if(listeners==null)return;
+            foreach(Action<bool> listener in listeners.GetInvocationList())
+                try{listener(hidden);}catch(Exception ex){Debug.LogWarning("PORTCARGO_VISIBILITY "+ex.GetType().Name);}
+        }
         private static void RefreshSafeArea()
         {
             var info=WX.GetWindowInfo();var capsule=WX.GetMenuButtonBoundingClientRect();
@@ -112,6 +120,7 @@ namespace PortCargo.Platform
             if(subscribed){WX.OffHide(OnHide);WX.OffShow(OnShow);}
 #endif
             Ready=false;
+            Hidden=false;
         }
     }
 }

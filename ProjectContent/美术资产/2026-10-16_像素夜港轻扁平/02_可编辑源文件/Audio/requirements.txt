@@ -1,0 +1,4 @@
+# Reference run: Python 3.10, numpy 1.23.5, fontTools 4.41.1.
+# Newer versions are allowed; recheck PCM hashes after changing the environment.
+numpy>=1.23
+fonttools>=4.41

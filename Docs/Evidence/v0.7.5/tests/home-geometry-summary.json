@@ -1,0 +1,74 @@
+[
+  {
+    "case": "home-geometry-accepted-0-360x640",
+    "safeAreaInsets": {
+      "top": 84,
+      "bottom": 34
+    },
+    "savedCampaign": 17,
+    "savedEndlessRound": 4,
+    "savePending": false,
+    "notice": "",
+    "result": "PASS native=True hero=(x:0.00, y:327.70, width:360.00, height:172.30) screen=360x640"
+  },
+  {
+    "case": "home-geometry-accepted-1-320x568",
+    "safeAreaInsets": {
+      "top": 84,
+      "bottom": 34
+    },
+    "savedCampaign": 17,
+    "savedEndlessRound": 4,
+    "savePending": false,
+    "notice": "",
+    "result": "PASS native=True hero=(x:0.00, y:327.70, width:320.00, height:100.30) screen=320x568"
+  },
+  {
+    "case": "home-geometry-accepted-2-390x844",
+    "safeAreaInsets": {
+      "top": 84,
+      "bottom": 34
+    },
+    "savedCampaign": 17,
+    "savedEndlessRound": 4,
+    "savePending": false,
+    "notice": "",
+    "result": "PASS native=True hero=(x:0.00, y:401.70, width:390.00, height:270.30) screen=390x844"
+  },
+  {
+    "case": "home-geometry-accepted-3-768x1024",
+    "safeAreaInsets": {
+      "top": 84,
+      "bottom": 34
+    },
+    "savedCampaign": 17,
+    "savedEndlessRound": 4,
+    "savePending": false,
+    "notice": "",
+    "result": "PASS native=True hero=(x:0.00, y:465.70, width:768.00, height:364.30) screen=768x1024"
+  },
+  {
+    "case": "home-geometry-accepted-4-360x640",
+    "safeAreaInsets": {
+      "top": 84,
+      "bottom": 34
+    },
+    "savedCampaign": 17,
+    "savedEndlessRound": 4,
+    "savePending": false,
+    "notice": "进度已保存",
+    "result": "PASS native=True hero=(x:0.00, y:327.70, width:360.00, height:132.30) screen=360x640"
+  },
+  {
+    "case": "home-geometry-accepted-5-360x640",
+    "safeAreaInsets": {
+      "top": 84,
+      "bottom": 34
+    },
+    "savedCampaign": 17,
+    "savedEndlessRound": 4,
+    "savePending": true,
+    "notice": "保存失败，点此重试",
+    "result": "PASS native=False hero=(x:0.00, y:204.00, width:360.00, height:296.00) screen=360x640"
+  }
+]

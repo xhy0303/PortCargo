@@ -19,8 +19,8 @@ MonoBehaviour:
     assetLoadType: 1
     compressDataPackage: 1
     VideoUrl: 
-    relativeDST: Builds/WeChat/20261018-v0.6.1
-    DST: /Users/xhy/UnityEditorProj/Projects/PortCargo/Builds/WeChat/20261018-v0.6.1
+    relativeDST: Builds/WeChat/20261025-v0.7.5-home-layout
+    DST: /Users/xhy/UnityEditorProj/Projects/PortCargo/Builds/WeChat/20261025-v0.7.5-home-layout
     StreamCDN: 
     bundleHashLength: 32
     bundlePathIdentifier: StreamingAssets;

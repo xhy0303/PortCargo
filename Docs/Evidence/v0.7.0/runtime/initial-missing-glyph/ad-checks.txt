@@ -1,0 +1,7 @@
+Unity UI and reward transaction checks with injected fake providers; not WeChat SDK/device verification
+All fixture writes use in-memory repositories; original repository is retained untouched
+A01 PASS First real HUD hint click grants the original free hint without requesting an ad
+FAIL System.InvalidOperationException: Missing visible glyph: 额
+  at PortCargo.Runtime.DevelopmentAdChecks+<Capture>d__53.MoveNext () [0x001e3] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Runtime/DevelopmentAdChecks.cs:407 
+  at PortCargo.Runtime.DevelopmentAdChecks+<Guarded>d__39.MoveNext () [0x00044] in /Users/xhy/UnityEditorProj/Projects/PortCargo/Assets/PortCargo/Scripts/Runtime/DevelopmentAdChecks.cs:106 
+RESULT FAIL; pointerClicks=3; hints=0; skips=0; originalStateRestored=True

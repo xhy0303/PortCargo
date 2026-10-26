@@ -1,0 +1,53 @@
+{
+  "scope": "Real Unity runtime and InputSystem pointer tests. Native availability injected; no live WeChat impressions. Safe-area fixtures disable SafeAreaLayout temporarily and trim root anchors; not device measurements.",
+  "runs": [
+    {
+      "file": "accepted-360x640.json",
+      "result": "PASS",
+      "width": 360,
+      "height": 640,
+      "clicks": 39,
+      "restored": true,
+      "checks": 11,
+      "safeAreaFixture": null
+    },
+    {
+      "file": "accepted-360x800.json",
+      "result": "PASS",
+      "width": 360,
+      "height": 800,
+      "clicks": 39,
+      "restored": true,
+      "checks": 11,
+      "safeAreaFixture": null
+    },
+    {
+      "file": "accepted-390x844-safe.json",
+      "result": "PASS",
+      "width": 390,
+      "height": 844,
+      "clicks": 39,
+      "restored": true,
+      "checks": 11,
+      "safeAreaFixture": {
+        "top": 84,
+        "bottom": 34
+      }
+    },
+    {
+      "file": "accepted-768x1024-safe.json",
+      "result": "PASS",
+      "width": 768,
+      "height": 1024,
+      "clicks": 39,
+      "restored": true,
+      "checks": 11,
+      "safeAreaFixture": {
+        "top": 84,
+        "bottom": 34
+      }
+    }
+  ],
+  "pointerClicks": 156,
+  "allPassed": true
+}
