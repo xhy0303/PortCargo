@@ -1,0 +1,1021 @@
+{
+  "status": "COMPLETED",
+  "date": "2026-10-26",
+  "fullProjectSnapshotPushedBeforeCleanup": "e2fcb7f331f5ebf979c569ced8d17ef099f9559f",
+  "deletedLocalBuilds": [
+    {
+      "path": "Builds/macOS/20261015-50-endless-preview",
+      "fileCount": 179,
+      "bytes": 116286503,
+      "reason": "Superseded build output; latest platform output and rollback artifact retained."
+    },
+    {
+      "path": "Builds/macOS/20261015-50-endless-validation",
+      "fileCount": 298,
+      "bytes": 333863421,
+      "reason": "Superseded build output; latest platform output and rollback artifact retained."
+    },
+    {
+      "path": "Builds/macOS/20261015-mvp-preview",
+      "fileCount": 179,
+      "bytes": 116174654,
+      "reason": "Superseded build output; latest platform output and rollback artifact retained."
+    },
+    {
+      "path": "Builds/macOS/20261015-mvp-validation",
+      "fileCount": 299,
+      "bytes": 333738035,
+      "reason": "Superseded build output; latest platform output and rollback artifact retained."
+    },
+    {
+      "path": "Builds/macOS/20261016-flat-pixel-preview",
+      "fileCount": 180,
+      "bytes": 148010696,
+      "reason": "Superseded build output; latest platform output and rollback artifact retained."
+    },
+    {
+      "path": "Builds/macOS/20261016-flat-pixel-validation",
+      "fileCount": 299,
+      "bytes": 365640543,
+      "reason": "Superseded build output; latest platform output and rollback artifact retained."
+    },
+    {
+      "path": "Builds/macOS/20261016-full-flow-preview",
+      "fileCount": 179,
+      "bytes": 116328614,
+      "reason": "Superseded build output; latest platform output and rollback artifact retained."
+    },
+    {
+      "path": "Builds/macOS/20261016-full-flow-validation",
+      "fileCount": 298,
+      "bytes": 333952309,
+      "reason": "Superseded build output; latest platform output and rollback artifact retained."
+    },
+    {
+      "path": "Builds/macOS/20261016-music-preview",
+      "fileCount": 180,
+      "bytes": 146256627,
+      "reason": "Superseded build output; latest platform output and rollback artifact retained."
+    },
+    {
+      "path": "Builds/macOS/20261016-music-validation",
+      "fileCount": 299,
+      "bytes": 363894686,
+      "reason": "Superseded build output; latest platform output and rollback artifact retained."
+    },
+    {
+      "path": "Builds/macOS/20261018-v0.6-validation",
+      "fileCount": 299,
+      "bytes": 364560416,
+      "reason": "Superseded build output; latest platform output and rollback artifact retained."
+    },
+    {
+      "path": "Builds/WeChat/20261017-integration",
+      "fileCount": 90,
+      "bytes": 96584665,
+      "reason": "Superseded build output; latest platform output and rollback artifact retained."
+    },
+    {
+      "path": "Builds/WeChat/20261018-v0.6",
+      "fileCount": 90,
+      "bytes": 96735887,
+      "reason": "Superseded build output; latest platform output and rollback artifact retained."
+    },
+    {
+      "path": "Builds/WeChat/20261018-v0.6.1",
+      "fileCount": 90,
+      "bytes": 96701477,
+      "reason": "Superseded build output; latest platform output and rollback artifact retained."
+    },
+    {
+      "path": "Builds/WeChat/20261024-v0.7.0-ads",
+      "fileCount": 91,
+      "bytes": 96857190,
+      "reason": "Superseded build output; latest platform output and rollback artifact retained."
+    },
+    {
+      "path": "Builds/WeChat/20261024-v0.7.1-ads-preload",
+      "fileCount": 91,
+      "bytes": 96876651,
+      "reason": "Superseded build output; latest platform output and rollback artifact retained."
+    },
+    {
+      "path": "Builds/WeChat/20261024-v0.7.2-native-ads",
+      "fileCount": 91,
+      "bytes": 96987242,
+      "reason": "Superseded build output; latest platform output and rollback artifact retained."
+    },
+    {
+      "path": "Builds/WeChat/20261025-v0.7.3-ad-layouts",
+      "fileCount": 91,
+      "bytes": 97010156,
+      "reason": "Superseded build output; latest platform output and rollback artifact retained."
+    },
+    {
+      "path": "Builds/Delivery/PortCargo-macOS-v0.1.0",
+      "fileCount": 181,
+      "bytes": 116182432,
+      "reason": "Superseded build output; latest platform output and rollback artifact retained."
+    },
+    {
+      "path": "Builds/Delivery/PortCargo-macOS-v0.1.0.zip",
+      "fileCount": 1,
+      "bytes": 44610380,
+      "reason": "Superseded build output; latest platform output and rollback artifact retained."
+    },
+    {
+      "path": "Builds/Delivery/PortCargo-macOS-v0.2.0.zip",
+      "fileCount": 1,
+      "bytes": 44642755,
+      "reason": "Superseded build output; latest platform output and rollback artifact retained."
+    },
+    {
+      "path": "Builds/Delivery/PortCargo-macOS-v0.3.0.zip",
+      "fileCount": 1,
+      "bytes": 44755156,
+      "reason": "Superseded build output; latest platform output and rollback artifact retained."
+    },
+    {
+      "path": "Builds/Delivery/PortCargo-macOS-v0.4.0.zip",
+      "fileCount": 1,
+      "bytes": 57004658,
+      "reason": "Superseded build output; latest platform output and rollback artifact retained."
+    },
+    {
+      "path": "Builds/Delivery/PortCargo-v0.2.0",
+      "fileCount": 181,
+      "bytes": 116293753,
+      "reason": "Superseded build output; latest platform output and rollback artifact retained."
+    }
+  ],
+  "deletedLocalBuildBytes": 3839948906,
+  "buildBackup": "Backups/cleanup-20261026-obsolete-builds.tar.gz",
+  "buildBackupManifest": "Backups/cleanup-20261026-obsolete-builds.tar.gz.manifest.json",
+  "buildBackupBytes": 1765513289,
+  "buildBackupSha256": "a399897f0eae7446de834de1be9ee53038e02a88ac0e8910e4084afb46be2949",
+  "backupVerifiedEntries": 3689,
+  "deletedTrialFiles": [
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x640.completed-four-actions.png",
+      "bytes": 138928,
+      "sha256": "f0a9436f27bfb27fce3075857ce3faea4cfb1852d3897e2613afab83c7e05e54"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x640.completed-three-actions.png",
+      "bytes": 151784,
+      "sha256": "cec89cba758e1702f76ab1fdd2d095de068d621228bd1c9666ad7baa69a97bb1"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x640.home.png",
+      "bytes": 145033,
+      "sha256": "65469a6b36d96f64bcd909429585325d5d77f4cf30b39f70537347418e1980ab"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x640.json",
+      "bytes": 4474,
+      "sha256": "179d8459770afddbe280e1373834e2d8a667a09a54ff0503ed20ced7f204388d"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x640.pause-campaign.png",
+      "bytes": 152554,
+      "sha256": "03d7ad152f229e42c7cc6807e9c8a6c1c8b13b8605957c2abec0b076dd52a7cb"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x640.pause-endless-seven-actions.png",
+      "bytes": 141263,
+      "sha256": "9b368467f7f9fe4ce63d0b4eb55e20ca1ea0dad4e85fab8658e8481c69dc7f6a"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x640.playing-4-stacks.png",
+      "bytes": 276211,
+      "sha256": "85e8de1cdfc2a47ba3af588f08de8dc0630b7afeb5bac11ac176a8d93d6407f1"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x640.playing-5-stacks.png",
+      "bytes": 254971,
+      "sha256": "fd8930ea6439776d1b922c3afa62dfaa3db37022b9b8e02be72cace5d34fcd06"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x640.playing-6-stacks.png",
+      "bytes": 257701,
+      "sha256": "ce8e0c9fb6381c756b4bd7d340d8ff80ef961fa5d89b167df66d72249800c20a"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x640.playing-campaign.png",
+      "bytes": 276315,
+      "sha256": "776319d5e0cf91c854b37d81236d4b5ab390a353aab225ef2bd6a67b42ea3c46"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x640.playing-endless.png",
+      "bytes": 268509,
+      "sha256": "9f75f73a38cf4aa9d8468c59546459796d31f32d6af2e7c607ef85a303de0bc0"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x640.settings-home.png",
+      "bytes": 39348,
+      "sha256": "f4273f689fa4e38d4e0aa3d5866b302dbad911bcf23b7ce6d292705a3643b87b"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x640.settings-paused.png",
+      "bytes": 123423,
+      "sha256": "e6930d0cb0ecd36c667fbf8caaa1ef33be25c65c4686a8a8dd01239d4be4c316"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x640.txt",
+      "bytes": 2547,
+      "sha256": "38c755e77f7de2125bf92f086113d69cf7ee19e297e8c0cd9ced0361f9bf3ac5"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x800.completed-four-actions.png",
+      "bytes": 174135,
+      "sha256": "cdd13d9d586554d68b553caee123a2970f6eea042a947fc10a09105f1ed116e0"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x800.completed-three-actions.png",
+      "bytes": 187243,
+      "sha256": "f5a0eaa9252f266eff5db23da892d2cc34ce15ee5e10658197602f1dc4e92dc9"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x800.home.png",
+      "bytes": 149603,
+      "sha256": "f86b48efe33c978e56b90466911a3cdd56b114398dcc53e3ca6fe30086a24aa0"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x800.json",
+      "bytes": 4478,
+      "sha256": "1d1b92e93710a23b3312522a022ed34a9ede433ad8b14a551dc1f41ae5a8739e"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x800.pause-campaign.png",
+      "bytes": 184196,
+      "sha256": "b71883794fb890f46d2888879167a6d6fb048871d7ba9bb517363c0e62e9feca"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x800.pause-endless-seven-actions.png",
+      "bytes": 176028,
+      "sha256": "293b2c29384844ed661db8d392a86c8aa5353609d9f1950b56bfddd4fabcf445"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x800.playing-4-stacks.png",
+      "bytes": 323795,
+      "sha256": "1630db85a61cf678842f13163e31bbf740229f8b26ec0fc1141a3c5d97615d77"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x800.playing-5-stacks.png",
+      "bytes": 299395,
+      "sha256": "31ea0194220efae964311921f486c582b6547cb0c89e477fabaa5f5fba3d5143"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x800.playing-6-stacks.png",
+      "bytes": 303972,
+      "sha256": "d25aa289723fd28e0a4c3d9a48c51d727943c7d2de07e762a153afe633890de9"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x800.playing-campaign.png",
+      "bytes": 324610,
+      "sha256": "b962f39166846ddb252af39c40646b16c671f86943c1908eea41581113439e6e"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x800.playing-endless.png",
+      "bytes": 310379,
+      "sha256": "3aeefe62817b7a01d189e95e7ffda58009c5592cc4d1d90d6a55dbba94ad0bf6"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x800.settings-home.png",
+      "bytes": 43697,
+      "sha256": "aa382c00f143503282ce58cbed506dc95d567366524153a0d1f14f01de5f8d3e"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x800.settings-paused.png",
+      "bytes": 159845,
+      "sha256": "4aa0cbce00e33c4e42d478186463b3b86d7b1b11f7fedf435668e17a6f04f68f"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-360x800.txt",
+      "bytes": 2551,
+      "sha256": "043eb4768a5cfd1a4302c24010887167bd6ff3ed06dbb3d4c45a6ad23b18c978"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-390x844-safe.completed-four-actions.png",
+      "bytes": 219862,
+      "sha256": "8f15f3e63bcb47735e9c47b3f0182265d397e86eb4dee5536146880e39492237"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-390x844-safe.completed-three-actions.png",
+      "bytes": 233815,
+      "sha256": "d47534470e22df135338f1ad1fb290d0c396cd292f3529c127e07a6450f0add5"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-390x844-safe.home.png",
+      "bytes": 150711,
+      "sha256": "31ac1c22e2ae8482de001ce99b5ac4b8f6fa6bd89dfff1d406544c29cf6977f8"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-390x844-safe.json",
+      "bytes": 4453,
+      "sha256": "d5abff4c6e966d114ed699bcc81e5b25ad102ddf2c842eac43e0e8ce111f8b87"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-390x844-safe.pause-campaign.png",
+      "bytes": 236940,
+      "sha256": "2fab8684e32cfd60851387982857c9c9d34daa460e542f8009c34160e0b15a3b"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-390x844-safe.pause-endless-seven-actions.png",
+      "bytes": 223784,
+      "sha256": "420a920b77ffa153b79ba763403ee003b1c0a976895dbbe93635d1a1d1fa2768"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-390x844-safe.playing-4-stacks.png",
+      "bytes": 368032,
+      "sha256": "8f8251c697cd8b7d9ef094ba2c1e3c132f218a1c9147bdf7ae4de5001a05b604"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-390x844-safe.playing-5-stacks.png",
+      "bytes": 345757,
+      "sha256": "78bb37aac380ed0ace9f8621a6550e876e904da9c9435969274441cef3ffc330"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-390x844-safe.playing-6-stacks.png",
+      "bytes": 349835,
+      "sha256": "526862f7de6b6d1d64d083641e9ebd8eefda6d6182c933eeeae7db98f50fff16"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-390x844-safe.playing-campaign.png",
+      "bytes": 369320,
+      "sha256": "f37f892c2f47c020f0584dd7b4b344696fa5b2f73acbc959cac092b75fbe5654"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-390x844-safe.playing-endless.png",
+      "bytes": 359724,
+      "sha256": "7ba8d2bc3e0eb881646c66d14d9ef52053c6d2270489dc11cb39422c659a7518"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-390x844-safe.settings-home.png",
+      "bytes": 41237,
+      "sha256": "8f75b7bf63458bc8db7be3e2e27cb6fbadfecc754a7e5a2e179b686c72b26573"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-390x844-safe.settings-paused.png",
+      "bytes": 198807,
+      "sha256": "05a1cd669d5812be8edf62a1bb37155296da316324e43eac167b685411a4d1a6"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-390x844-safe.txt",
+      "bytes": 2466,
+      "sha256": "d0a90111fb5ea2e4b65059d48845d1891d4bd6b3209eefec927142c22b8b5d36"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-768x1024-safe.completed-four-actions.png",
+      "bytes": 456093,
+      "sha256": "d7c3264b13c61b7e25ebd1c7b3409ee2f37a7600b2138c76987c755531fe8083"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-768x1024-safe.completed-three-actions.png",
+      "bytes": 494510,
+      "sha256": "430d0f629a0defcdb5dcd58f3a180398d0bf72ddaa65eb42d136fa5f3a54ef14"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-768x1024-safe.home.png",
+      "bytes": 231195,
+      "sha256": "0e9cd171065d2e3ddbddf8dbf73d5a4d894f9a4210551369f61aa925e6108972"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-768x1024-safe.json",
+      "bytes": 4530,
+      "sha256": "83f70d8963f38afdda099cbfe1da6a4784925924fe0da5faf7eab1aca367d976"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-768x1024-safe.pause-campaign.png",
+      "bytes": 505545,
+      "sha256": "a478355f0e8da40bcf39f0ce9308db99182c1dd31fe98f6b99ef80ea7556a560"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-768x1024-safe.pause-endless-seven-actions.png",
+      "bytes": 461831,
+      "sha256": "6cfdb9a1a6e59e668afd4eca69ed67dc238a4c6be67002d9822e0b1f75ce5eb8"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-768x1024-safe.playing-4-stacks.png",
+      "bytes": 833001,
+      "sha256": "98201e45217f9244112fd9847f47fa33e4062422bd9a048032565309043a374c"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-768x1024-safe.playing-5-stacks.png",
+      "bytes": 773380,
+      "sha256": "61d8f0868cc1edcc776ca86b87c57354f4c0eda947b689918d049f3b9afb4bc5"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-768x1024-safe.playing-6-stacks.png",
+      "bytes": 772561,
+      "sha256": "5853ad81a2caa61d68b9bc7cdd55aaa0182108b63a8c975efe5366765e1a7086"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-768x1024-safe.playing-campaign.png",
+      "bytes": 833673,
+      "sha256": "a857b9e3b74e58d409ea879a3750769fd83e6bf6337b8f43a5c37b336fcd9d60"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-768x1024-safe.playing-endless.png",
+      "bytes": 824846,
+      "sha256": "65e7f44d2b161ccc7a818e69e00925565aee24fcd7596e0a3d1561882f4b63ec"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-768x1024-safe.settings-home.png",
+      "bytes": 59338,
+      "sha256": "cf999e304b1a1d7002f241a1fc018032becc2048f2b7f38abccf352fa43e664f"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-768x1024-safe.settings-paused.png",
+      "bytes": 434477,
+      "sha256": "047efcb8207d170717d3f6b456dbe33269702b0d8971df0030955c917f29f615"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/accepted-768x1024-safe.txt",
+      "bytes": 2530,
+      "sha256": "eb514425d0633dc6abc1e1af9dfb632f583a2c7fdbc576801783903b8dd2eb19"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x640.completed-four-actions.png",
+      "bytes": 138928,
+      "sha256": "f0a9436f27bfb27fce3075857ce3faea4cfb1852d3897e2613afab83c7e05e54"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x640.completed-three-actions.png",
+      "bytes": 151784,
+      "sha256": "cec89cba758e1702f76ab1fdd2d095de068d621228bd1c9666ad7baa69a97bb1"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x640.home.png",
+      "bytes": 160384,
+      "sha256": "eaeb0caf9ff12548d1965810bddb64e22a39e59404e72de8cba514a0a5152aa5"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x640.json",
+      "bytes": 4486,
+      "sha256": "b77ecfb80137dc0e5eb8e9389dd2b62e1bc9f7489f1d9873abbc0a58b2794dd1"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x640.pause-campaign.png",
+      "bytes": 152554,
+      "sha256": "03d7ad152f229e42c7cc6807e9c8a6c1c8b13b8605957c2abec0b076dd52a7cb"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x640.pause-endless-seven-actions.png",
+      "bytes": 141263,
+      "sha256": "9b368467f7f9fe4ce63d0b4eb55e20ca1ea0dad4e85fab8658e8481c69dc7f6a"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x640.playing-4-stacks.png",
+      "bytes": 276211,
+      "sha256": "85e8de1cdfc2a47ba3af588f08de8dc0630b7afeb5bac11ac176a8d93d6407f1"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x640.playing-5-stacks.png",
+      "bytes": 254971,
+      "sha256": "fd8930ea6439776d1b922c3afa62dfaa3db37022b9b8e02be72cace5d34fcd06"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x640.playing-6-stacks.png",
+      "bytes": 257701,
+      "sha256": "ce8e0c9fb6381c756b4bd7d340d8ff80ef961fa5d89b167df66d72249800c20a"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x640.playing-campaign.png",
+      "bytes": 276315,
+      "sha256": "776319d5e0cf91c854b37d81236d4b5ab390a353aab225ef2bd6a67b42ea3c46"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x640.playing-endless.png",
+      "bytes": 268760,
+      "sha256": "49f7b2fd5b9196e9d6857780810af2f5a44c58a425eb26b39f7b88f6fba33272"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x640.settings-home.png",
+      "bytes": 59541,
+      "sha256": "766f2558031767755627a008a159d9dbd85081e1be622b45e65680689e7ac43a"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x640.settings-paused.png",
+      "bytes": 123423,
+      "sha256": "e6930d0cb0ecd36c667fbf8caaa1ef33be25c65c4686a8a8dd01239d4be4c316"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x640.txt",
+      "bytes": 2547,
+      "sha256": "38c755e77f7de2125bf92f086113d69cf7ee19e297e8c0cd9ced0361f9bf3ac5"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x800.completed-four-actions.png",
+      "bytes": 174135,
+      "sha256": "cdd13d9d586554d68b553caee123a2970f6eea042a947fc10a09105f1ed116e0"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x800.completed-three-actions.png",
+      "bytes": 187243,
+      "sha256": "f5a0eaa9252f266eff5db23da892d2cc34ce15ee5e10658197602f1dc4e92dc9"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x800.home.png",
+      "bytes": 235361,
+      "sha256": "72f7e203ff6263c56e97a1379e50c9fe49b3e6901c370b9977e8a4f53c08af1c"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x800.json",
+      "bytes": 4490,
+      "sha256": "e457f741b29b3fec93ef69caa2e90b802b87ab07cc5d23e2dd38512f8ebdd2b5"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x800.pause-campaign.png",
+      "bytes": 184196,
+      "sha256": "b71883794fb890f46d2888879167a6d6fb048871d7ba9bb517363c0e62e9feca"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x800.pause-endless-seven-actions.png",
+      "bytes": 176037,
+      "sha256": "9f285f464dadcf5085000b8cc70310174f693ec6f5ca7723c67b5b222269f306"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x800.playing-4-stacks.png",
+      "bytes": 323795,
+      "sha256": "1630db85a61cf678842f13163e31bbf740229f8b26ec0fc1141a3c5d97615d77"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x800.playing-5-stacks.png",
+      "bytes": 299395,
+      "sha256": "31ea0194220efae964311921f486c582b6547cb0c89e477fabaa5f5fba3d5143"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x800.playing-6-stacks.png",
+      "bytes": 303972,
+      "sha256": "d25aa289723fd28e0a4c3d9a48c51d727943c7d2de07e762a153afe633890de9"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x800.playing-campaign.png",
+      "bytes": 324610,
+      "sha256": "b962f39166846ddb252af39c40646b16c671f86943c1908eea41581113439e6e"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x800.playing-endless.png",
+      "bytes": 311149,
+      "sha256": "caa6a69e6082f6aac7ada83c0aef1d67fa9a0dd5e4ce22b9728baa713fbf753b"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x800.settings-home.png",
+      "bytes": 91724,
+      "sha256": "1d8f0b95d14a08f118ab51f66c3313cdf86ad91f801c7117a6dd274212c57f05"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x800.settings-paused.png",
+      "bytes": 159845,
+      "sha256": "4aa0cbce00e33c4e42d478186463b3b86d7b1b11f7fedf435668e17a6f04f68f"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-360x800.txt",
+      "bytes": 2551,
+      "sha256": "043eb4768a5cfd1a4302c24010887167bd6ff3ed06dbb3d4c45a6ad23b18c978"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-390x844-safe.completed-four-actions.png",
+      "bytes": 219862,
+      "sha256": "8f15f3e63bcb47735e9c47b3f0182265d397e86eb4dee5536146880e39492237"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-390x844-safe.completed-three-actions.png",
+      "bytes": 233815,
+      "sha256": "d47534470e22df135338f1ad1fb290d0c396cd292f3529c127e07a6450f0add5"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-390x844-safe.home.png",
+      "bytes": 216528,
+      "sha256": "6b12b747114b7531052bff932c5cd0865310483bd50659b529fb0b9ad253dcbd"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-390x844-safe.json",
+      "bytes": 4465,
+      "sha256": "fcd72e58053fcd92f760ca8d19c8a44afe6e63d0fcc40dbed38db7b5b395630f"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-390x844-safe.pause-campaign.png",
+      "bytes": 236940,
+      "sha256": "2fab8684e32cfd60851387982857c9c9d34daa460e542f8009c34160e0b15a3b"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-390x844-safe.pause-endless-seven-actions.png",
+      "bytes": 223784,
+      "sha256": "420a920b77ffa153b79ba763403ee003b1c0a976895dbbe93635d1a1d1fa2768"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-390x844-safe.playing-4-stacks.png",
+      "bytes": 368032,
+      "sha256": "8f8251c697cd8b7d9ef094ba2c1e3c132f218a1c9147bdf7ae4de5001a05b604"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-390x844-safe.playing-5-stacks.png",
+      "bytes": 345757,
+      "sha256": "78bb37aac380ed0ace9f8621a6550e876e904da9c9435969274441cef3ffc330"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-390x844-safe.playing-6-stacks.png",
+      "bytes": 349835,
+      "sha256": "526862f7de6b6d1d64d083641e9ebd8eefda6d6182c933eeeae7db98f50fff16"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-390x844-safe.playing-campaign.png",
+      "bytes": 369320,
+      "sha256": "f37f892c2f47c020f0584dd7b4b344696fa5b2f73acbc959cac092b75fbe5654"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-390x844-safe.playing-endless.png",
+      "bytes": 359786,
+      "sha256": "1d078108eb84c91be5b02dfff8c4748791ae6a91e49a097d4463c878b7507174"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-390x844-safe.settings-home.png",
+      "bytes": 69666,
+      "sha256": "1f9fef4b4fc73566606ce17021f49c11713ad1cdbce2306e0f7a28ed214d5227"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-390x844-safe.settings-paused.png",
+      "bytes": 198807,
+      "sha256": "05a1cd669d5812be8edf62a1bb37155296da316324e43eac167b685411a4d1a6"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-390x844-safe.txt",
+      "bytes": 2466,
+      "sha256": "d0a90111fb5ea2e4b65059d48845d1891d4bd6b3209eefec927142c22b8b5d36"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-768x1024-safe.completed-four-actions.png",
+      "bytes": 456093,
+      "sha256": "d7c3264b13c61b7e25ebd1c7b3409ee2f37a7600b2138c76987c755531fe8083"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-768x1024-safe.completed-three-actions.png",
+      "bytes": 494510,
+      "sha256": "430d0f629a0defcdb5dcd58f3a180398d0bf72ddaa65eb42d136fa5f3a54ef14"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-768x1024-safe.home.png",
+      "bytes": 515243,
+      "sha256": "28a29e9a34c1adb9e72bd994ba618bf8850231d070b547e77469066b734394cb"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-768x1024-safe.json",
+      "bytes": 4542,
+      "sha256": "66454dec35373a20f3c22d789ccc823e29fedc1333a327249628d6ca70a362b2"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-768x1024-safe.pause-campaign.png",
+      "bytes": 505545,
+      "sha256": "a478355f0e8da40bcf39f0ce9308db99182c1dd31fe98f6b99ef80ea7556a560"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-768x1024-safe.pause-endless-seven-actions.png",
+      "bytes": 461831,
+      "sha256": "6cfdb9a1a6e59e668afd4eca69ed67dc238a4c6be67002d9822e0b1f75ce5eb8"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-768x1024-safe.playing-4-stacks.png",
+      "bytes": 833001,
+      "sha256": "98201e45217f9244112fd9847f47fa33e4062422bd9a048032565309043a374c"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-768x1024-safe.playing-5-stacks.png",
+      "bytes": 773380,
+      "sha256": "61d8f0868cc1edcc776ca86b87c57354f4c0eda947b689918d049f3b9afb4bc5"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-768x1024-safe.playing-6-stacks.png",
+      "bytes": 772561,
+      "sha256": "5853ad81a2caa61d68b9bc7cdd55aaa0182108b63a8c975efe5366765e1a7086"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-768x1024-safe.playing-campaign.png",
+      "bytes": 833673,
+      "sha256": "a857b9e3b74e58d409ea879a3750769fd83e6bf6337b8f43a5c37b336fcd9d60"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-768x1024-safe.playing-endless.png",
+      "bytes": 825279,
+      "sha256": "9eb9e10431f54abecaa559ce98411e9e63e9bf55a849540984dfe7bebe38a678"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-768x1024-safe.settings-home.png",
+      "bytes": 180385,
+      "sha256": "48e906f86a32d8586b6ec31c0b4949ec846678403552fb29016f7a768acd511d"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-768x1024-safe.settings-paused.png",
+      "bytes": 434477,
+      "sha256": "047efcb8207d170717d3f6b456dbe33269702b0d8971df0030955c917f29f615"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/delivered-768x1024-safe.txt",
+      "bytes": 2530,
+      "sha256": "eb514425d0633dc6abc1e1af9dfb632f583a2c7fdbc576801783903b8dd2eb19"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x640.completed-four-actions.png",
+      "bytes": 138928,
+      "sha256": "f0a9436f27bfb27fce3075857ce3faea4cfb1852d3897e2613afab83c7e05e54"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x640.completed-three-actions.png",
+      "bytes": 151784,
+      "sha256": "cec89cba758e1702f76ab1fdd2d095de068d621228bd1c9666ad7baa69a97bb1"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x640.home.png",
+      "bytes": 160594,
+      "sha256": "370ac548ac391533fce1b5b8bcf578bf7647413774c034d39d3a458aa314a85a"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x640.json",
+      "bytes": 4438,
+      "sha256": "124f92f444b030bfa9801b1acd4f4a86d8557d9e9e28cffa8ba6b16a4349487b"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x640.pause-campaign.png",
+      "bytes": 152554,
+      "sha256": "03d7ad152f229e42c7cc6807e9c8a6c1c8b13b8605957c2abec0b076dd52a7cb"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x640.pause-endless-seven-actions.png",
+      "bytes": 141263,
+      "sha256": "9b368467f7f9fe4ce63d0b4eb55e20ca1ea0dad4e85fab8658e8481c69dc7f6a"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x640.playing-4-stacks.png",
+      "bytes": 276211,
+      "sha256": "85e8de1cdfc2a47ba3af588f08de8dc0630b7afeb5bac11ac176a8d93d6407f1"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x640.playing-5-stacks.png",
+      "bytes": 254971,
+      "sha256": "fd8930ea6439776d1b922c3afa62dfaa3db37022b9b8e02be72cace5d34fcd06"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x640.playing-6-stacks.png",
+      "bytes": 257701,
+      "sha256": "ce8e0c9fb6381c756b4bd7d340d8ff80ef961fa5d89b167df66d72249800c20a"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x640.playing-campaign.png",
+      "bytes": 276315,
+      "sha256": "776319d5e0cf91c854b37d81236d4b5ab390a353aab225ef2bd6a67b42ea3c46"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x640.playing-endless.png",
+      "bytes": 267727,
+      "sha256": "66f949f38b177e9b67fecf4fa3d95df61b063484f660147b972069872901f2e5"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x640.settings-home.png",
+      "bytes": 59541,
+      "sha256": "766f2558031767755627a008a159d9dbd85081e1be622b45e65680689e7ac43a"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x640.settings-paused.png",
+      "bytes": 123423,
+      "sha256": "e6930d0cb0ecd36c667fbf8caaa1ef33be25c65c4686a8a8dd01239d4be4c316"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x640.txt",
+      "bytes": 2547,
+      "sha256": "38c755e77f7de2125bf92f086113d69cf7ee19e297e8c0cd9ced0361f9bf3ac5"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x800.completed-four-actions.png",
+      "bytes": 174135,
+      "sha256": "cdd13d9d586554d68b553caee123a2970f6eea042a947fc10a09105f1ed116e0"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x800.completed-three-actions.png",
+      "bytes": 187243,
+      "sha256": "f5a0eaa9252f266eff5db23da892d2cc34ce15ee5e10658197602f1dc4e92dc9"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x800.home.png",
+      "bytes": 235395,
+      "sha256": "9efb032ca7b145d253f2547ea34db444051c4073a98259acaca7645c4a35f089"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x800.json",
+      "bytes": 4442,
+      "sha256": "be8d9427b5e41a4a01cddb8bd2c16422d5f090ca97a2fcd375c08eed0542eb89"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x800.pause-campaign.png",
+      "bytes": 184196,
+      "sha256": "b71883794fb890f46d2888879167a6d6fb048871d7ba9bb517363c0e62e9feca"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x800.pause-endless-seven-actions.png",
+      "bytes": 176028,
+      "sha256": "293b2c29384844ed661db8d392a86c8aa5353609d9f1950b56bfddd4fabcf445"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x800.playing-4-stacks.png",
+      "bytes": 323795,
+      "sha256": "1630db85a61cf678842f13163e31bbf740229f8b26ec0fc1141a3c5d97615d77"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x800.playing-5-stacks.png",
+      "bytes": 299395,
+      "sha256": "31ea0194220efae964311921f486c582b6547cb0c89e477fabaa5f5fba3d5143"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x800.playing-6-stacks.png",
+      "bytes": 303972,
+      "sha256": "d25aa289723fd28e0a4c3d9a48c51d727943c7d2de07e762a153afe633890de9"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x800.playing-campaign.png",
+      "bytes": 324610,
+      "sha256": "b962f39166846ddb252af39c40646b16c671f86943c1908eea41581113439e6e"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x800.playing-endless.png",
+      "bytes": 310607,
+      "sha256": "06ab389549bc20e148d4f60995ac0fd0e547443ccd6e31e0f1233a0dae43d528"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x800.settings-home.png",
+      "bytes": 90937,
+      "sha256": "3ea0e5c0011a49590d58d62278e79f330071788c589bea83b8dce009509a3324"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x800.settings-paused.png",
+      "bytes": 159845,
+      "sha256": "4aa0cbce00e33c4e42d478186463b3b86d7b1b11f7fedf435668e17a6f04f68f"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-360x800.txt",
+      "bytes": 2551,
+      "sha256": "043eb4768a5cfd1a4302c24010887167bd6ff3ed06dbb3d4c45a6ad23b18c978"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-390x844-safe.completed-four-actions.png",
+      "bytes": 219862,
+      "sha256": "8f15f3e63bcb47735e9c47b3f0182265d397e86eb4dee5536146880e39492237"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-390x844-safe.completed-three-actions.png",
+      "bytes": 233815,
+      "sha256": "d47534470e22df135338f1ad1fb290d0c396cd292f3529c127e07a6450f0add5"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-390x844-safe.home.png",
+      "bytes": 216777,
+      "sha256": "eb8d856ab00a9304b5bb5462ceecf8cba67b8322c1e85fb5ecce9f10b4206ab0"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-390x844-safe.json",
+      "bytes": 4417,
+      "sha256": "ced5ef361e2308daf1935a3068ab6202276f5004569af501e3edd08240ead955"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-390x844-safe.pause-campaign.png",
+      "bytes": 236940,
+      "sha256": "2fab8684e32cfd60851387982857c9c9d34daa460e542f8009c34160e0b15a3b"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-390x844-safe.pause-endless-seven-actions.png",
+      "bytes": 223784,
+      "sha256": "420a920b77ffa153b79ba763403ee003b1c0a976895dbbe93635d1a1d1fa2768"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-390x844-safe.playing-4-stacks.png",
+      "bytes": 368032,
+      "sha256": "8f8251c697cd8b7d9ef094ba2c1e3c132f218a1c9147bdf7ae4de5001a05b604"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-390x844-safe.playing-5-stacks.png",
+      "bytes": 345757,
+      "sha256": "78bb37aac380ed0ace9f8621a6550e876e904da9c9435969274441cef3ffc330"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-390x844-safe.playing-6-stacks.png",
+      "bytes": 349835,
+      "sha256": "526862f7de6b6d1d64d083641e9ebd8eefda6d6182c933eeeae7db98f50fff16"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-390x844-safe.playing-campaign.png",
+      "bytes": 369320,
+      "sha256": "f37f892c2f47c020f0584dd7b4b344696fa5b2f73acbc959cac092b75fbe5654"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-390x844-safe.playing-endless.png",
+      "bytes": 360343,
+      "sha256": "94ab4fa64dcced21242da62aece13658697bcc461508b23b74fa727c177b024b"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-390x844-safe.settings-home.png",
+      "bytes": 69666,
+      "sha256": "1f9fef4b4fc73566606ce17021f49c11713ad1cdbce2306e0f7a28ed214d5227"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-390x844-safe.settings-paused.png",
+      "bytes": 198807,
+      "sha256": "05a1cd669d5812be8edf62a1bb37155296da316324e43eac167b685411a4d1a6"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-390x844-safe.txt",
+      "bytes": 2466,
+      "sha256": "d0a90111fb5ea2e4b65059d48845d1891d4bd6b3209eefec927142c22b8b5d36"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-768x1024-safe.completed-four-actions.png",
+      "bytes": 456093,
+      "sha256": "d7c3264b13c61b7e25ebd1c7b3409ee2f37a7600b2138c76987c755531fe8083"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-768x1024-safe.completed-three-actions.png",
+      "bytes": 494510,
+      "sha256": "430d0f629a0defcdb5dcd58f3a180398d0bf72ddaa65eb42d136fa5f3a54ef14"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-768x1024-safe.home.png",
+      "bytes": 515300,
+      "sha256": "ccc0444695009b465d35a504b0e15ad2913e14056e42d3e960df0741695b448a"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-768x1024-safe.json",
+      "bytes": 4494,
+      "sha256": "038bfd9a77520ceb066633fba42d9dee4a17ff7a2c2c821935667dba1e0915ca"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-768x1024-safe.pause-campaign.png",
+      "bytes": 505545,
+      "sha256": "a478355f0e8da40bcf39f0ce9308db99182c1dd31fe98f6b99ef80ea7556a560"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-768x1024-safe.pause-endless-seven-actions.png",
+      "bytes": 461831,
+      "sha256": "6cfdb9a1a6e59e668afd4eca69ed67dc238a4c6be67002d9822e0b1f75ce5eb8"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-768x1024-safe.playing-4-stacks.png",
+      "bytes": 833001,
+      "sha256": "98201e45217f9244112fd9847f47fa33e4062422bd9a048032565309043a374c"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-768x1024-safe.playing-5-stacks.png",
+      "bytes": 773380,
+      "sha256": "61d8f0868cc1edcc776ca86b87c57354f4c0eda947b689918d049f3b9afb4bc5"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-768x1024-safe.playing-6-stacks.png",
+      "bytes": 772561,
+      "sha256": "5853ad81a2caa61d68b9bc7cdd55aaa0182108b63a8c975efe5366765e1a7086"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-768x1024-safe.playing-campaign.png",
+      "bytes": 833673,
+      "sha256": "a857b9e3b74e58d409ea879a3750769fd83e6bf6337b8f43a5c37b336fcd9d60"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-768x1024-safe.playing-endless.png",
+      "bytes": 823346,
+      "sha256": "acb4f7acb4f4ffe19030766a10570c3d8c327dbc119d30503f4c0d7a2fa2517b"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-768x1024-safe.settings-home.png",
+      "bytes": 180385,
+      "sha256": "48e906f86a32d8586b6ec31c0b4949ec846678403552fb29016f7a768acd511d"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-768x1024-safe.settings-paused.png",
+      "bytes": 434477,
+      "sha256": "047efcb8207d170717d3f6b456dbe33269702b0d8971df0030955c917f29f615"
+    },
+    {
+      "path": "Docs/Evidence/v0.7.5/tests/final-768x1024-safe.txt",
+      "bytes": 2530,
+      "sha256": "eb514425d0633dc6abc1e1af9dfb632f583a2c7fdbc576801783903b8dd2eb19"
+    }
+  ],
+  "deletedTrialBytes": 45344820,
+  "retainedBuilds": {
+    "Builds/macOS": [
+      "20261023-urp-validation"
+    ],
+    "Builds/WeChat": [
+      "20261025-v0.7.4-ad-layouts-font",
+      "20261025-v0.7.5-home-layout"
+    ],
+    "Builds/Delivery": [
+      "PortCargo-macOS-v0.4.1.zip"
+    ]
+  },
+  "preserved": [
+    "All ProjectContent original files and licenses",
+    "All source, Unity packages and settings",
+    "Final verified-* and home-geometry-accepted-* evidence including failed exploratory cases",
+    "All version implementation documents and historic failure investigations",
+    "Library and active-process caches"
+  ],
+  "logicalFileBytesSavedAfterBackup": 2119780437,
+  "note": "Logical byte reduction excludes filesystem compression, APFS snapshots, Git object retention and small manifest/document overhead. Local build archive is ignored by Git; trial files are recoverable from the pushed snapshot."
+}

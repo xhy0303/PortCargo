@@ -12,6 +12,7 @@
 - [Unity 6.5 兼容](Unity-6.5-Compatibility.md)、[URP 迁移](URP-Migration.md)、[构建说明](Build.md)
 - [策划、美术、截图与推广资料](../ProjectContent/README.md)、[资源来源](AssetSources.md)
 - [2026-10-26 资料迁移逐文件清单](Evidence/reorganization-20261026/migration-manifest.json)
+- [2026-10-26 过时构建与试排记录清理、恢复说明](Cleanup-20261026.md)
 
 ## 历史说明：本机 v0.3.0
 

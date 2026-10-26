@@ -1,0 +1,13 @@
+{
+  "result": "PASS",
+  "deletedTrackedFiles": 168,
+  "deletedBuildItems": 24,
+  "allOriginalMigratedFilesUnchanged": 292,
+  "finalRuntimeSummaryFilesPresent": true,
+  "verifiedScreenshotReferencesPresent": 49,
+  "failureEvidencePreserved": "verified-360x640-safe.json",
+  "codeAndConfigurationUnchanged": true,
+  "diffWhitespaceCheck": "PASS",
+  "runtimeTestsRerun": false,
+  "reason": "Only obsolete artifacts and documentation changed; source/configuration unchanged from the previously verified snapshot."
+}

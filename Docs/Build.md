@@ -1,8 +1,14 @@
 # 本机构建与复现
 
+## 当前入口与历史包归档（2026-10-26）
+
+当前工程为 Unity 6000.5.10f1 / URP 17.5.0 / v0.7.5，实际关卡目录为 200 关。最新微信导出位于 `Builds/WeChat/20261025-v0.7.5-home-layout`，构建和开发版上传记录见 [v0.7.5 交付](Home-Layout-v0.7.5.md)。本页下面的 50 关、59 组回归、6000.3.25f1 和 v0.4.1 包说明均属于对应历史阶段。
+
+旧构建已按[清理清单](Cleanup-20261026.md)归档；下文旧路径不再保证实体存在。普通桌面历史交付保留 `Builds/Delivery/PortCargo-macOS-v0.4.1.zip`，最近 URP 验证包保留 `Builds/macOS/20261023-urp-validation`。当前 `BuildTools.cs` 的桌面输出目录仍使用 `20261018-v0.6-*` 固定名称，重新构建时会创建目录，不应仅凭目录名判断实际工程版本。
+
 ## 锁定环境
 
-当前 Unity **6000.5.10f1**, changeset `3bd4f66ad299`，用户于2026-10-23切换。微信 SDK 已做内嵌兼容补丁并恢复正常打开，详见 [Unity 6.5 兼容修复](Unity-6.5-Compatibility.md)。下文历史发布包使用6000.3.25f1，本轮未重新导出或验收6.5微信包。
+当前 Unity **6000.5.10f1**, changeset `3bd4f66ad299`，用户于2026-10-23切换。微信 SDK 已做内嵌兼容补丁并恢复正常打开，详见 [Unity 6.5 兼容修复](Unity-6.5-Compatibility.md)。下文历史发布包使用6000.3.25f1；2026-10-23 修复时未重新导出微信包，后续 v0.7.5 已完成微信导出与开发版上传，真实手机验证边界见最新交付说明。
 
 当前验证使用 Unity CLI `1.0.0-beta.14`；Pipeline `0.8.0-exp.1`；Input System `1.20.0`。完整依赖见 `Packages/manifest.json` 与 `packages-lock.json`。微信 SDK 保持原锁定提交加本地兼容补丁，不追随 main。
 

@@ -53,3 +53,5 @@ URP 迁移后已通过画面对比、实际点击/撤销、200 关及规则回�
 提交 `Assets`、`Packages`、`ProjectSettings`、`Tools`、`Docs`、`ProjectContent` 及项目说明。`Library`、`Temp`、`Logs`、`Builds`、`Backups`、`UserSettings`、`TextToolDatas` 和工具编译缓存仅保留在本地；远程仓库不包含可直接运行的发布包或个人存档。`ProjectContent` 中的美术和推广 ZIP 属于正式资料交付，随源文件一起保存。
 
 第三方资源与 SDK 保留原有许可；本仓库不另行改变其授权条款。
+
+2026-10-26 已在完整快照推送后清理旧构建和 v0.7.5 中间试排记录。旧构建压缩备份仅保存在本地 `Backups/`，被移除的试排资料可从 Git 历史恢复；保留范围、文件清单与恢复命令见[清理说明](Docs/Cleanup-20261026.md)。
